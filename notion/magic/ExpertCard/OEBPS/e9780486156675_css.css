@@ -1,0 +1,895 @@
+@charset "utf-8"; 
+
+/* ---------------------------------------------------------- */
+/* Page */
+
+@page {
+}
+
+body {
+}
+
+
+/* ---------------------------------------------------------- */
+/* Styles */
+
+.b {
+	font-weight: bold;
+}
+
+.i {
+	font-style: italic;
+}
+
+.u {
+	text-decoration: underline;
+}
+
+.toc .b {
+	font-weight: normal;
+}
+
+.toc .i {
+	font-style: normal;
+}
+
+.toc .u {
+	text-decoration: none;
+}
+
+.minitoc .b {
+	font-weight: normal;
+}
+
+.minitoc .i {
+	font-style: normal;
+}
+
+.minitoc .u {
+	text-decoration: none;
+}
+
+.color {
+}
+
+.toc_table, .toc_figure {
+}
+
+
+/* ---------------------------------------------------------- */
+/* Sections */
+
+.part {
+	margin: 8% 0 0 0;
+	padding: 2em 0 3em 0;
+}
+
+.chapter, .section1, .section2, .section3, .section4, .section5, .section6, .section7 {
+	padding: 0 0 0 0;
+}
+
+.pubInfo {
+	text-align: left;
+}
+
+.cover {
+	vertical-align: middle;
+	text-align: center;
+	background-color: white;
+	margin: 0em;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Headlines  */
+
+
+h1 {
+	text-align: left;
+	text-indent: 0;
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* Titles */
+
+.title, .title-frontMatter, .title-toc, .title-index, .title-acknowPage, .title-aboutAuthorPage, .title-forewordPage, .title-backMatter, .title-appendix, .title-glossary, .title-alsoby, .title-dedicationPage, .title-teaser, .title-chapter, .title-pubInfo, .title-biblio, .title-aboutPublisherPage, .title-praisePage {
+	font-size: 1.8em;
+	letter-spacing: .08em;
+	margin: 8% 0 10% 0;
+	padding: .2em 0 0 0;
+}
+
+.title-part {
+	font-size: 1.8em;
+	letter-spacing: .08em;
+	margin: 0 0 0 0;
+	padding: .8em 0 0 0;
+	text-align: center;
+}
+
+.title-section1, .title-section2, .title-section3, .title-section4, .title-section5, .title-section6, .title-section7  {
+	font-size: 1.1em;
+	letter-spacing: .08em;
+	margin: 1em 0 0 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.title-blocktext, .title-blocktext-grey, .title-box, .title-box-grey, .title-sidebar, .title-sidebar-grey, .title-sidebar-large, .title-sidebar-large-grey {
+	font-size: 1em;
+	letter-spacing: normal;
+	margin-top: 1em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+}
+
+.titlePage .tp-title {
+	font-size: 1.8em;
+	letter-spacing: .08em;
+	margin: 0 0 3em 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Subtitles */
+
+
+.subtitle, .subtitle-chapter, .subtitle-teaser, .subtitle-dedicationPage, .subtitle-index, .subtitle-glossary {
+	font-size: 1.5em;
+	letter-spacing: .08em;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 0 .4em 0;
+}
+
+.subtitle-part {
+	font-size: 1.5em;
+	letter-spacing: .08em;
+	font-style: italic;
+	margin: 0 0 0 0;
+	padding: .5em 0 0 0;
+	text-align: center;
+}
+
+.subtitle-section1, .subtitle-section2, .subtitle-section3, .subtitle-section4, .subtitle-section5, .subtitle-section6, .subtitle-section7  {
+	font-size: 1em;
+	letter-spacing: .08em;
+	font-style: normal;
+	margin: 0 0 0 0;
+	font-weight: bold;
+}
+
+.subtitle-blocktext, .subtitle-blocktext-grey, .subtitle-box, .subtitle-box-grey, .subtitle-sidebar, .subtitle-sidebar-grey, .subtitle-sidebar-large, .subtitle-sidebar-large-grey  {
+	font-size: 1em;
+	letter-spacing: normal;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+
+.titlePage .tp-subtitle {
+	font-size: 1.2em;
+	letter-spacing: .08em;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 0 4.5em 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Titlepage */
+
+.titlePage {
+	text-align: center;
+	margin: 20% 0 0 0;
+	padding: 1.7em 0 1.3em 0;
+	text-align: center;
+}
+
+.titlePage .tp-author {
+	margin: 0 0 0 0;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: normal;
+}
+
+.titlePage .embellish {
+}
+
+
+/* ---------------------------------------------------------- */
+/* Paragraphs */
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	text-indent: 0;
+}
+
+.p, .p-br {
+}
+
+.p-indent {
+	text-indent: 1em;
+}
+
+.p-indent-br {
+	text-indent: 1em;
+}
+
+.p-indent-inverse, .p-indent-inverse-br {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.p-indent-inverse-suite, .p-indent-inverse-suite-br {
+	padding-left: 1em;
+}
+
+.p-d, .p-d-br {
+	text-align: right;
+}
+
+.p-d-indent {
+	text-align: right;
+	text-indent: 1em;
+}
+
+.p-c, .p-c-br {
+	text-align: center;
+}
+
+.p-c-indent {
+	text-align: center;
+	text-indent: 1em;
+}
+
+.pubInfo p {
+	font-size: 1em;
+	text-indent: 0;
+}
+
+.pubInfo .p-c, .pubInfo .p-c-br {
+	text-align: left;
+}
+
+/* ---------------------------------------------------------- */
+/* Images */
+
+.illustype {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.margin_image_left, .margin_image_left_net {
+	text-align: left;
+	display: block;
+	margin-top: 1em;
+}
+
+.margin_image_right, .margin_image_right_net {
+	text-align: right;
+	display: block;
+	margin-top: 1em;
+}
+
+.illustype_image, .illustype_image_net, .illustype_image_tab, .illustype_image_text, .illustype_image_text_net, .illustype_image_math, .illustype_image_deco, .illustype_image_deco_net, .image_orig_tab, .illustype_image_externe, .image_sep_para {
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.illustype_fullpage_image, .illustype_fullpage_image_net, .illustype_fullpage_image_tab, .illustype_fullpage_image_text, .illustype_fullpage_image_text_net, .illustype_fullpage_image_math, .illustype_fullpage_image_deco, .illustype_fullpage_image_deco_net, .fullpage_image_orig_tab, .illustype_fullpage_image_externe {
+	text-align: center;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.image, .image_net, .image_tab, .image_text, .image_text_net, .image_math, .image_deco, .image_deco_net, .image_orig_tab, .image_externe, .image_sep_para {
+	/*    margin: auto; */
+display:inline;
+}
+
+
+.caption {
+	font-style: italic;
+	font-size: 1em;
+	margin: 1.5em 0 1.5em 0;
+	text-indent: 0;
+}
+
+.credits {
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.titlePage .illustype, .titlePage .illustype_image, .titlePage .illustype_image_net, .titlePage .illustype_image_tab, .titlePage .illustype_image_text, .titlePage .illustype_image_text_net, .titlePage .illustype_image_math, .titlePage .illustype_image_deco, .titlePage .illustype_image_deco_net, .titlePage .image_orig_tab {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.cover .illustype, .cover .illustype_image, .cover .illustype_image_net, .cover .illustype_image_tab, .cover .illustype_image_text, .cover .illustype_image_text_net, .cover .illustype_image_math, .cover .illustype_image_deco, .cover .illustype_image_deco_net, .cover .image_orig_tab {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.cover img {
+	height: 100%;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Box */
+
+.box {
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	width: 85%;
+	border: 1px solid #333333;
+}
+.p-box, .p-br-box {
+	margin: 0;
+}
+.p-d-box, .p-d-br-box  {
+	text-align: right;
+}
+.p-c-box, .p-c-br-box  {
+	text-align: center;
+}
+.p-indent-box, .p-indent-br-box {
+	text-indent: 1em;
+}
+.p-indent-inverse-box, .p-indent-inverse-br-box {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.author-box {
+	text-align: center;
+}
+.source-box, .verse-box {
+}
+
+
+/* ---------------------------------------------------------- */
+/* box-grey */
+
+.box-grey {
+	border: 1px solid #333333;
+	background-color: #CCCCCC;
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	width: 85%;
+}
+
+.p-box-grey, .p-br-box-grey {
+}
+.p-d-box-grey, .p-d-br-box-grey {
+	text-align: right;
+}
+.p-c-box-grey, .p-c-br-box-grey {
+	text-align: center;
+}
+.p-indent-box-grey, .p-indent-br-box-grey {
+	text-indent: 1em;
+}
+.p-indent-inverse-box-grey, .p-indent-inverse-br-box-grey {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+.author-box-grey {
+	text-align: center;
+}
+
+
+/* ---------------------------------------------------------- */
+/* blocktext */
+
+.blocktext {
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	width: 85%;
+}
+
+.p-blocktext, .p-br-blocktext {
+}
+
+.p-c-blocktext, .p-c-br-blocktext {
+	text-align: center;
+}
+
+.p-d-blocktext, .p-d-br-blocktext {
+	text-align: right;
+}
+
+.p-indent-blocktext, .p-indent-br-blocktext {
+	text-indent: 1em;
+}
+
+.p-indent-inverse-blocktext, .p-indent-inverse-br-blocktext {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.source-blocktext, .verse-blocktext {
+}
+
+.author-blocktext {
+	text-align: center;
+}
+
+
+/* ---------------------------------------------------------- */
+/* blocktext-grey */
+
+.blocktext-grey {
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	background-color: #CCCCCC;
+	width: 85%;
+}
+
+.p-blocktext-grey, .p-br-blocktext-grey {
+}
+
+.p-c-blocktext-grey, .p-c-br-blocktext-grey {
+	text-align: center;
+}
+
+.p-d-blocktext-grey, .p-d-br-blocktext-grey {
+	text-align: right;
+}
+
+.p-indent-blocktext-grey, .p-indent-br-blocktext-grey {
+	text-indent: 1em;
+}
+
+.p-indent-inverse-blocktext-grey, .p-indent-inverse-br-blocktext-grey {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.source-blocktext-grey, .verse-blocktext-grey {
+}
+
+.author-blocktext-grey {
+	text-align: center;
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* sidebar */
+
+.sidebar {
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	width: 85%;
+	border-top: thin solid;
+	border-bottom: thin solid;
+}
+
+.p-sidebar, .p-br-sidebar {
+}
+.p-d-sidebar, .p-d-br-sidebar {
+	text-align: right;
+}
+.p-c-sidebar, .p-c-br-sidebar {
+	text-align: center;
+}
+.p-indent-sidebar, .p-indent-br-sidebar {
+	text-indent: 1em;
+}  
+.p-indent-inverse-sidebar, .p-indent-inverse-br-sidebar {
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+
+/* ---------------------------------------------------------- */
+/* sidebar-grey */
+
+.sidebar-grey {
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	background-color: #CCCCCC;
+	width: 85%;
+	border-top: thin solid;
+	border-bottom: thin solid;
+}
+
+.sidebar-large {
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	width: 85%;
+	border-top: thin solid;
+	border-bottom: thin solid;
+}
+
+.sidebar-large-grey {
+	display: block;
+	margin: 1em 8% 1em 8%;
+	padding: 1em;
+	background-color: #CCCCCC;
+	width: 85%;
+	border-top: thin solid;
+	border-bottom: thin solid;
+}
+
+
+/* ---------------------------------------------------------- */
+/* TOC */
+
+.toc_entry {
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+.toc_entry .toc_entry {
+	margin-top: 0;
+}
+
+.toc_entry_part {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.toc_entry_part .b {
+	font-weight: bold;
+}
+
+.toc_entry_chapter {
+	margin-top: 0.5em;
+}
+
+
+/* ---------------------------------------------------------- */
+/* MINITOC */
+
+.minitoc {
+	border-top: 1px solid #555555;
+	border-bottom: 1px solid #555555;
+	margin-left: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.minitoc .toc_entry {
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+.minitoc .toc_entry_part {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.minitoc .toc_entry_part .b {
+	font-weight: bold;
+}
+
+.minitoc .toc_entry_chapter {
+	margin-top: 0.5em;
+}
+
+.title-minitoc {
+	margin-bottom: 0.5em;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 0em;
+	text-align: left;
+	margin-left: 1em;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Index */
+
+.index_section {
+	font-size: 0.9em;
+	margin-left: 2em;
+	margin-top: 1em;
+	margin-bottom: 0em;
+}
+
+.p-index_section {
+	text-indent: -1em;
+}
+
+.index p {
+	margin-top: 0em;
+}
+
+.index_section .index_section {
+	font-size: 1em;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Tables */
+
+.tableau {
+	display: block;
+	/*    margin: auto; */
+margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	padding: 0.25em;
+}
+
+
+table {
+	border-collapse:collapse;
+	/*    margin: auto; */
+text-align: left;
+}
+
+th {
+	font-weight: normal;
+	letter-spacing: .1em;
+	padding: .5em;
+}
+
+td {
+	padding: .5em;
+}
+
+.filet_l {
+	border-left: thin solid;
+}
+
+.computer .filet_l  {
+	border-left: thin dashed;
+}
+
+.filet_r {
+	border-right: thin solid;
+}
+
+.computer .filet_r {
+	border-right: thin dashed;
+}
+
+.filet_t {
+	border-top: thin solid;
+}
+
+.computer .filet_t {
+	border-top: thin dashed;
+}
+
+.filet_b {
+	border-bottom: thin solid;
+}
+
+.computer .filet_b {
+	border-bottom: thin dashed;
+}
+
+.filet_x {
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* Lists */
+
+ol, ul {
+	margin: .2em 0 1em 0;
+	padding-left: 2em;
+	list-style: none;
+	text-indent: -1em;
+}
+
+
+p ul, p ol {
+	margin-top: 0em;
+}
+
+ul.bl {
+	list-style: disc;
+	text-indent: 0;
+}
+
+ol.al {
+	list-style: lower-latin;
+	text-indent: 0;
+}
+
+ol.nl {
+	list-style: decimal;
+	text-indent: 0;
+}
+
+ul .ul, li .li {
+}
+
+/* ---------------------------------------------------------- */
+/* Footnotes */
+
+.footnote {
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+
+.footnote a {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.footnote p {
+	display: block;
+	font-size: 1em;
+	margin-left: 0.5em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+.footnote .p-inline {
+	display: inline;
+}
+
+.unused {
+	display: inline;
+}
+
+.unused {
+	margin-left: 0em;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Endnotes */
+
+.endnotes {
+	margin-left: 0em;
+	margin-bottom: 1em;
+}
+
+.endnote a {
+	font-size: 1em;
+}
+
+.endnote p {
+	font-size: 1em;
+	margin-left: 0.5em;
+	margin-top: 0em;
+}
+
+.unused {
+	display: inline;
+}
+
+.unused {
+	margin-left: 0em;
+}
+
+.endnote {
+	margin-bottom: 1em;
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* Computer & scri */
+
+.computer  {
+	margin: 1em 8% 1em 8%;
+	width: 85%;
+	text-indent: 0;
+}
+
+.scri  {
+}
+
+
+/* ---------------------------------------------------------- */
+/* Verse Source */
+
+.source, .source-blocktext{
+	text-align: left;
+	margin-bottom: 1.5em;
+	font-style: italic;
+}
+
+.verse, .verse-blocktext{
+	margin-top: 1.5em;
+	text-align: left;
+	font-style: italic;
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* Glossaire */
+
+.termdef {
+}
+
+.term {
+}
+
+.def {
+}
+
+.definition {
+}
+
+
+/* ---------------------------------------------------------- */
+/* Numeros de ligne */
+
+.numligne {
+	float: left;
+	padding-right: 1em;
+	color: #777777;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Divers */
+
+.copyrights {
+}
+
+.isbn {
+}
+
+.author {
+	text-align: center;
+}
+
+.contributor {
+}
+
+.serie {
+}
+
+.translator {
+}
+
+.publisher {
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Bibliography */
+
+.biblio p  {
+	padding-left: 1em;
+	margin-bottom: 0%;  
+text-indent: -1em;
+}
+
+
+
+
+/* empty because ignored 
+.toc_entry_titlePage, .toc_entry_pubInfo, .toc_entry_dedicationPage, .toc_entry_frontMatter, .subtitle-frontMatter, .subtitle-backMatter, .subtitle-alsoby, .subtitle-appendix, .subtitle-aboutAuthorPage, .subtitle-forewordPage {
+}
+*/
+
+
+
+
+.p-blanc, .p-blanc-box, .p-blanc-blocktext, .p-blanc-box-grey, .p-blanc-blocktext-grey, .p-blanc-sidebar, .p-blanc-sidebar-large, .p-blanc-sidebar-grey, .p-blanc-sidebar-large-grey {
+	margin:0em;
+}

@@ -1,0 +1,332 @@
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>Self-Working Coin Magic</dc:title>
+		<dc:creator opf:file-as="Fulves, Karl" opf:role="aut">Karl Fulves</dc:creator>
+		<dc:subject/>
+		<dc:description>&lt;P&gt;Money and magic &amp;#8212; a combination that never fails to attract attention! With this helpful and revealing book, even novices can astound friends and relatives with mystifying magical feats requiring little more than common coins and paper currency.&lt;BR&gt;Written by one of today's foremost authorities on self-working magic tricks (those that need no special dexterity or long hours of practice), this how-to book features an impressive array of 92 simple-to-do tricks sure to dazzle any audience.&lt;BR&gt;Clearly worded instructions and 251 illustrations show beginning as well as veteran conjurers how to pluck a seemingly endless number of coins from the air, make a coin penetrate a tabletop, and perform psychic tricks with coins and bills. "Quick Print" lets you apparently print a genuine $5 bill on blank paper, while "Bunco Bills" takes the audience behind the scenes to expose the methods of the shortchange artist. Other intriguing illusions include "Metal Bending," "Tower of Nickels,"...</dc:description>
+		<dc:publisher>Dover Publications</dc:publisher>
+		<dc:date>2012-10-11</dc:date>
+		<dc:type/>
+		<dc:format/>
+		<dc:identifier id="bookid" opf:scheme="ISBN">9780486156637</dc:identifier>
+		<dc:source/>
+		<dc:language>en</dc:language>
+		<dc:rights>Copyright © 1989 by Karl Fulves.</dc:rights>
+		<meta content="cover-image" name="cover"/>
+	</metadata>
+	<manifest>
+		<item href="e9780486156637_css.css" id="style" media-type="text/css"/>
+		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="e9780486156637_cov01.html" id="coverhtml" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_toc01.html" id="toc" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_bm01.html" id="bm01" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c01.html" id="c01" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c02.html" id="c02" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c03.html" id="c03" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c04.html" id="c04" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c05.html" id="c05" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c06.html" id="c06" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c07.html" id="c07" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c08.html" id="c08" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c09.html" id="c09" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c10.html" id="c10" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c11.html" id="c11" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_c12.html" id="c12" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_cop01.html" id="cop01" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_fm01.html" id="fm01" media-type="application/xhtml+xml"/>
+		<item href="e9780486156637_tp01.html" id="tp01" media-type="application/xhtml+xml"/>
+		<item href="images/e9780486156637_cover.jpg" id="cover-image" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0001.jpg" id="i0001" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0002.jpg" id="i0002" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0003.jpg" id="i0003" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0004.jpg" id="i0004" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0005.jpg" id="i0005" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0006.jpg" id="i0006" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0007.jpg" id="i0007" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0008.jpg" id="i0008" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0009.jpg" id="i0009" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0010.jpg" id="i0010" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0011.jpg" id="i0011" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0012.jpg" id="i0012" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0013.jpg" id="i0013" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0014.jpg" id="i0014" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0015.jpg" id="i0015" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0016.jpg" id="i0016" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0017.jpg" id="i0017" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0018.jpg" id="i0018" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0019.jpg" id="i0019" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0020.jpg" id="i0020" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0021.jpg" id="i0021" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0022.jpg" id="i0022" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0023.jpg" id="i0023" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0024.jpg" id="i0024" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0025.jpg" id="i0025" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0026.jpg" id="i0026" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0027.jpg" id="i0027" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0028.jpg" id="i0028" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0029.jpg" id="i0029" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0030.jpg" id="i0030" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0031.jpg" id="i0031" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0032.jpg" id="i0032" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0033.jpg" id="i0033" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0034.jpg" id="i0034" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0035.jpg" id="i0035" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0036.jpg" id="i0036" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0037.jpg" id="i0037" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0038.jpg" id="i0038" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0039.jpg" id="i0039" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0040.jpg" id="i0040" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0041.jpg" id="i0041" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0042.jpg" id="i0042" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0043.jpg" id="i0043" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0044.jpg" id="i0044" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0045.jpg" id="i0045" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0046.jpg" id="i0046" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0047.jpg" id="i0047" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0048.jpg" id="i0048" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0049.jpg" id="i0049" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0050.jpg" id="i0050" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0051.jpg" id="i0051" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0052.jpg" id="i0052" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0053.jpg" id="i0053" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0054.jpg" id="i0054" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0055.jpg" id="i0055" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0056.jpg" id="i0056" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0057.jpg" id="i0057" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0058.jpg" id="i0058" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0059.jpg" id="i0059" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0060.jpg" id="i0060" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0061.jpg" id="i0061" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0062.jpg" id="i0062" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0063.jpg" id="i0063" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0064.jpg" id="i0064" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0065.jpg" id="i0065" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0066.jpg" id="i0066" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0067.jpg" id="i0067" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0068.jpg" id="i0068" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0069.jpg" id="i0069" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0070.jpg" id="i0070" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0071.jpg" id="i0071" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0072.jpg" id="i0072" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0073.jpg" id="i0073" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0074.jpg" id="i0074" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0075.jpg" id="i0075" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0076.jpg" id="i0076" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0077.jpg" id="i0077" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0078.jpg" id="i0078" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0079.jpg" id="i0079" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0080.jpg" id="i0080" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0081.jpg" id="i0081" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0082.jpg" id="i0082" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0083.jpg" id="i0083" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0084.jpg" id="i0084" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0085.jpg" id="i0085" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0086.jpg" id="i0086" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0087.jpg" id="i0087" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0088.jpg" id="i0088" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0089.jpg" id="i0089" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0090.jpg" id="i0090" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0091.jpg" id="i0091" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0092.jpg" id="i0092" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0093.jpg" id="i0093" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0094.jpg" id="i0094" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0095.jpg" id="i0095" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0096.jpg" id="i0096" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0097.jpg" id="i0097" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0098.jpg" id="i0098" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0099.jpg" id="i0099" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0100.jpg" id="i0100" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0101.jpg" id="i0101" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0102.jpg" id="i0102" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0103.jpg" id="i0103" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0104.jpg" id="i0104" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0105.jpg" id="i0105" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0106.jpg" id="i0106" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0107.jpg" id="i0107" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0108.jpg" id="i0108" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0109.jpg" id="i0109" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0110.jpg" id="i0110" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0111.jpg" id="i0111" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0112.jpg" id="i0112" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0113.jpg" id="i0113" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0114.jpg" id="i0114" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0115.jpg" id="i0115" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0116.jpg" id="i0116" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0117.jpg" id="i0117" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0118.jpg" id="i0118" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0119.jpg" id="i0119" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0120.jpg" id="i0120" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0121.jpg" id="i0121" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0122.jpg" id="i0122" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0123.jpg" id="i0123" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0124.jpg" id="i0124" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0125.jpg" id="i0125" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0126.jpg" id="i0126" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0127.jpg" id="i0127" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0128.jpg" id="i0128" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0129.jpg" id="i0129" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0130.jpg" id="i0130" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0131.jpg" id="i0131" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0132.jpg" id="i0132" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0133.jpg" id="i0133" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0134.jpg" id="i0134" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0135.jpg" id="i0135" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0136.jpg" id="i0136" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0137.jpg" id="i0137" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0138.jpg" id="i0138" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0139.jpg" id="i0139" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0140.jpg" id="i0140" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0141.jpg" id="i0141" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0142.jpg" id="i0142" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0143.jpg" id="i0143" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0144.jpg" id="i0144" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0145.jpg" id="i0145" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0146.jpg" id="i0146" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0147.jpg" id="i0147" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0148.jpg" id="i0148" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0149.jpg" id="i0149" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0150.jpg" id="i0150" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0151.jpg" id="i0151" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0152.jpg" id="i0152" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0153.jpg" id="i0153" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0154.jpg" id="i0154" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0155.jpg" id="i0155" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0156.jpg" id="i0156" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0157.jpg" id="i0157" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0158.jpg" id="i0158" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0159.jpg" id="i0159" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0160.jpg" id="i0160" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0161.jpg" id="i0161" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0162.jpg" id="i0162" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0163.jpg" id="i0163" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0164.jpg" id="i0164" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0165.jpg" id="i0165" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0166.jpg" id="i0166" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0167.jpg" id="i0167" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0168.jpg" id="i0168" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0169.jpg" id="i0169" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0170.jpg" id="i0170" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0171.jpg" id="i0171" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0172.jpg" id="i0172" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0173.jpg" id="i0173" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0174.jpg" id="i0174" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0175.jpg" id="i0175" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0176.jpg" id="i0176" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0177.jpg" id="i0177" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0178.jpg" id="i0178" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0179.jpg" id="i0179" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0180.jpg" id="i0180" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0181.jpg" id="i0181" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0182.jpg" id="i0182" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0183.jpg" id="i0183" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0184.jpg" id="i0184" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0185.jpg" id="i0185" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0186.jpg" id="i0186" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0187.jpg" id="i0187" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0188.jpg" id="i0188" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0189.jpg" id="i0189" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0190.jpg" id="i0190" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0191.jpg" id="i0191" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0192.jpg" id="i0192" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0193.jpg" id="i0193" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0194.jpg" id="i0194" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0195.jpg" id="i0195" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0196.jpg" id="i0196" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0197.jpg" id="i0197" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0198.jpg" id="i0198" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0199.jpg" id="i0199" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0200.jpg" id="i0200" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0201.jpg" id="i0201" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0202.jpg" id="i0202" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0203.jpg" id="i0203" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0204.jpg" id="i0204" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0205.jpg" id="i0205" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0206.jpg" id="i0206" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0207.jpg" id="i0207" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0208.jpg" id="i0208" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0209.jpg" id="i0209" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0210.jpg" id="i0210" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0211.jpg" id="i0211" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0212.jpg" id="i0212" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0213.jpg" id="i0213" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0214.jpg" id="i0214" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0215.jpg" id="i0215" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0216.jpg" id="i0216" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0217.jpg" id="i0217" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0218.jpg" id="i0218" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0219.jpg" id="i0219" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0220.jpg" id="i0220" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0221.jpg" id="i0221" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0222.jpg" id="i0222" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0223.jpg" id="i0223" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0224.jpg" id="i0224" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0225.jpg" id="i0225" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0226.jpg" id="i0226" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0227.jpg" id="i0227" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0228.jpg" id="i0228" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0229.jpg" id="i0229" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0230.jpg" id="i0230" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0231.jpg" id="i0231" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0232.jpg" id="i0232" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0233.jpg" id="i0233" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0234.jpg" id="i0234" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0235.jpg" id="i0235" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0236.jpg" id="i0236" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0237.jpg" id="i0237" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0238.jpg" id="i0238" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0239.jpg" id="i0239" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0240.jpg" id="i0240" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0241.jpg" id="i0241" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0242.jpg" id="i0242" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0243.jpg" id="i0243" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0244.jpg" id="i0244" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0245.jpg" id="i0245" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0246.jpg" id="i0246" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0247.jpg" id="i0247" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0248.jpg" id="i0248" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0249.jpg" id="i0249" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0250.jpg" id="i0250" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0251.jpg" id="i0251" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0252.jpg" id="i0252" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0253.jpg" id="i0253" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0254.jpg" id="i0254" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0255.jpg" id="i0255" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0256.jpg" id="i0256" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0257.jpg" id="i0257" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0258.jpg" id="i0258" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0259.jpg" id="i0259" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0260.jpg" id="i0260" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0261.jpg" id="i0261" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0262.jpg" id="i0262" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_i0263.jpg" id="i0263" media-type="image/jpeg"/>
+		<item href="images/e9780486156637_img_8539.gif" id="img_8539" media-type="image/gif"/>
+		<item href="images/e9780486156637_img_8540.gif" id="img_8540" media-type="image/gif"/>
+		<item href="images/e9780486156637_img_8541.gif" id="img_8541" media-type="image/gif"/>
+		<item href="images/e9780486156637_img_8542.gif" id="img_8542" media-type="image/gif"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="coverhtml" linear="no"/>
+		<itemref idref="tp01"/>
+		<itemref idref="cop01"/>
+		<itemref idref="fm01"/>
+		<itemref idref="toc"/>
+		<itemref idref="c01"/>
+		<itemref idref="c02"/>
+		<itemref idref="c03"/>
+		<itemref idref="c04"/>
+		<itemref idref="c05"/>
+		<itemref idref="c06"/>
+		<itemref idref="c07"/>
+		<itemref idref="c08"/>
+		<itemref idref="c09"/>
+		<itemref idref="c10"/>
+		<itemref idref="c11"/>
+		<itemref idref="c12"/>
+		<itemref idref="bm01"/>
+	</spine>
+	<guide>
+		<reference href="e9780486156637_toc01.html" title="Table of Contents" type="toc"/>
+		<reference href="e9780486156637_cov01.html" title="Cover" type="cover"/>
+		<reference href="e9780486156637_cop01.html" title="Copyright Page" type="copyright"/>
+	</guide>
+</package>
