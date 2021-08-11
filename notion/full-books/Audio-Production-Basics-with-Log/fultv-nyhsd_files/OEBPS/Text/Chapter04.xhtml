@@ -1,0 +1,1437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Chapter 4 MIDI Recording Concepts</title>
+    <meta content="urn:uuid:e0000000-0000-0000-0000-000006335993" name="Adept.expected.resource"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../../stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../../page_styles.css" rel="stylesheet" type="text/css"/>
+
+  
+
+
+<link href="../../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="calibreMeta">
+  <div class="calibreMetaTitle">
+  
+  
+    
+    <h1>
+      <a href="../../../fultv-nyhsd.html">Audio Production Basics with Logic Pro X
+</a>
+    </h1>
+    
+    
+  
+  </div>
+  <div class="calibreMetaAuthor">
+    Gold, Harry; Rey, Ryan; Cook, Frank D., Harry Gold
+
+  </div>
+</div>
+
+<div class="calibreMain">
+
+  <div class="calibreEbookContent">
+    
+      <div class="calibreEbNavTop">
+        
+          <a href="Exercise03.xhtml" class="calibreAPrev">previous page
+</a>
+        
+
+        
+          <a href="Exercise04.xhtml" class="calibreANext">next page
+</a>
+        
+      </div>
+    
+
+    
+<section role="doc-chapter">
+  <p class="chnum"><span aria-label="77" id="page_77" role="doc-pagebreak"></span><a href="nav.xhtml#toc73" id="sub73" class="calibre5"><span class="textstyle12">Chapter 4</span></a></p>
+
+  <h1 class="chtitle1"><a href="nav.xhtml#toc73" class="calibre5"><span class="textstyle8">MIDI Recording Concepts</span></a></h1>
+
+  <p class="center"><span class="textstyle21">…What You Need to Record MIDI…</span></p>
+
+  <p class="noindent"><span class="textstyle11">Understanding MIDI is essential to producing music using a DAW. In this chapter, we take a look at some basic MIDI concepts that will get you started creating tracks. We begin by taking a quick look at the history of MIDI and how the MIDI protocol works. Next we check out some of the types of MIDI controllers that are currently available. Then we look at how to set up the controller to communicate with your DAW. This leads us into a discussion on the fundamental differences between MIDI and audio data. Finally, we take a quick look at how to begin working with virtual instruments.</span></p>
+
+  <p class="learn"><img alt="frn_fig_010" src="../Images/frn_fig_010.jpg" class="calibre15"/><span class="space1"></span><span class="textstyle22">Learning Targets for This Chapter</span></p>
+<ul class="ul">
+<li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand the basic history of MIDI</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Learn about the MIDI protocol</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Recognize types of MIDI controllers</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Learn how to set up your controller and DAW</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Recognize the differences between MIDI and audio</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Begin tracking with virtual instruments</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp1"><span class="textstyle20">Key topics from this chapter are illustrated in the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform. Sign up at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span aria-label="78" id="page_78" role="doc-pagebreak"></span><span class="textstyle11">The term MIDI stands for Musical Instrument Digital Interface. MIDI is a protocol for connecting electronic musical instruments, computers, and other devices, allowing them to communicate with one another.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The MIDI standard was developed in the 1980s to allow musical performance information to be shared among and between devices. The standard provides specifications for describing musical events, such as note values and durations, allowing musical performances to be represented numerically.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc74" id="sub74" class="calibre5"><span class="textstyle13">A Brief History of MIDI</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Before MIDI, there was really no standardized way to have synthesizers and other electronic musical instruments communicate with each other. Early voltage-controlled analog synthesizers by Bob Moog and Don Buchla (et al.) could send</span> <span class="textstyle31">voltage</span> <span class="textstyle11">information to each other. But they couldn’t communicate more complex musical ideas, such as a discrete note value with all of its pertinent information (pitch, amplitude, duration, etc.).</span></p>
+
+  <p class="img"><img alt="chpt_fig_064" class="scale1" src="../Images/chpt_fig_064.jpg"/></p>
+  <p class="source"><span class="textstyle44">Image courtesy of Perfect Circuit Audio</span></p>
+  <p class="caption" id="fig4.1"><span class="textstyle26">Figure 4.1</span> <span class="textstyle27">A Buchla 200e analog modular synthesizer</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc75" id="sub75" class="calibre5"><span class="textstyle14">Digital Control</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Another major drawback to analog synthesizers was that individual sound configurations could not be saved; favorite sounds had to be rebuilt by hand to be reused. Practitioners would actually make little drawings that showed where cables were patched and the position of each knob. (See <a href="#fig4.2" class="calibre5">Figure 4.2</a>.) Some would even take Polaroid pictures so they’d have a photograph of the patch. (Interestingly, this way of working is making a huge comeback with the current Eurorack synthesizer craze!)</span></p>
+
+  <p class="img"><span aria-label="79" id="page_79" role="doc-pagebreak"></span><img alt="chpt_fig_065" class="scale1" src="../Images/chpt_fig_065.jpg"/></p>
+  <p class="caption" id="fig4.2"><span class="textstyle26">Figure 4.2</span> <span class="textstyle27">A patch “sheet” from a modern Eurorack analog synth</span></p>
+
+  <p class="noindent"><span class="textstyle11">By the early 1980s, despite still using analog circuitry to generate sounds, most synthesizers had made the move to digital control for things like patch storage and recall (saving sounds and recalling them later). This created the possibility of having a common digital communication standard that would allow an electronic musical instrument to speak to any other instrument, regardless of the manufacturer.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc76" id="sub76" class="calibre5"><span class="textstyle14">The Birth of MIDI</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">In 1981, a proposal for a “Universal Synthesizer Interface” (USI) was presented at a meeting of the Audio Engineering Society (AES). This lead to the original MIDI 1.0 Specification. The specification was finalized in 1983 by a group that would become the MIDI Manufacturers’ Association. The term</span> <span class="textstyle31">MIDI</span> <span class="textstyle11">was coined, as an acronym for Musical Instrument Digital Interface.</span></p>
+
+
+  <p class="img"><img alt="chpt_fig_066" class="scale1" src="../Images/chpt_fig_066.jpg"/></p>
+  <p class="source"><span class="textstyle44">Image courtesy of Perfect Circuit Audio</span></p>
+  <p class="caption" id="fig4.3"><span class="textstyle26">Figure 4.3</span> <span class="textstyle27">Sequential Circuits Prophet 600 (1982)</span></p>
+
+  <p class="noindent"><span class="textstyle11">At the 1983 National Association of Music Merchants (NAMM) trade show, the first public unveiling of MIDI occurred. A MIDI connection was demonstrated between a Sequential Circuits Prophet 600 (shown in <a href="#fig4.3" class="calibre5">Figure 4.3</a>) and a Roland Jupiter 6. Soon, every major manufacturer had added MIDI connectivity to their synthesizers, drum machines, sequencers, and other devices.</span></p>
+
+  <p class="noindent"><span aria-label="80" id="page_80" role="doc-pagebreak"></span><span class="textstyle11">The MIDI standard also helped pave the way for computer-based music. In 1984, Passport Designs released their MIDI/4 sequencer that ran on a personal computer.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc77" id="sub77" class="calibre5"><span class="textstyle13">The MIDI Protocol</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">The complete MIDI protocol is quite complicated, but it can be informative to take a look at the basics. MIDI messages can be divided into three basic categories: MIDI notes, program changes, and controller messages.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc78" id="sub78" class="calibre5"><span class="textstyle14">MIDI Notes</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">MIDI notes are probably the most important part of the protocol. Note data is the building block for almost all the work you’ll do with MIDI.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Note Values</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">One thing to understand about MIDI messages is that almost all parameters have a range of values spanning from</span> <span class="textstyle15">0</span> <span class="textstyle11">to</span> <span class="textstyle15">127</span><span class="textstyle11">. So, for instance, the pitch of a MIDI note is represented using a range of</span> <span class="textstyle15">0</span> <span class="textstyle11">to</span> <span class="textstyle15">127</span><span class="textstyle11">. A value of</span> <span class="textstyle15">0</span> <span class="textstyle11">represents the “C” note two octaves below the lowest note of a piano. We refer to this note as</span> <span class="textstyle15">C-2</span><span class="textstyle11">.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Middle C is typically assigned a note value of</span> <span class="textstyle15">60</span> <span class="textstyle11">and referred to as</span> <span class="textstyle15">C3</span> <span class="textstyle11">(although some manufacturers use</span> <span class="textstyle15">C4</span> <span class="textstyle11">instead). <a href="#fig4.4" class="calibre5">Figure 4.4</a> provides a diagram of note values.</span></p>
+
+  <p class="img"><img alt="chpt_fig_067" class="scale" src="../Images/chpt_fig_067.jpg"/></p>
+  <p class="caption" id="fig4.4"><span class="textstyle26">Figure 4.4</span> <span class="textstyle27">A standard piano keyboard with note names and MIDI note numbers</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Note Velocities</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The other important bit of note information is the velocity, or how hard a note is played. Velocity is also represented using a range of</span> <span class="textstyle15">0-127</span><span class="textstyle11">, with the value of</span> <span class="textstyle15">64</span> <span class="textstyle11">falling right in the middle (sort of a</span> <span class="textstyle31">mezzo forte</span> <span class="textstyle11">in musical terms). Playing a note lighter will result in a lower velocity value, whereas playing harder will result in a higher value.</span></p>
+
+  <h4 class="subhead1"><span aria-label="81" id="page_81" role="doc-pagebreak"></span><span class="textstyle28">Note On and Note Off Events</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">So, a MIDI note is a combination of a note number (pitch) and a velocity number. We refer to this combination as a</span> <span class="textstyle29">N</span><span class="textstyle29">OTE</span> <span class="textstyle29">O</span><span class="textstyle29">N</span> <span class="textstyle11">command, because it activates the note in a technical sense. The Note On is eventually followed by a</span> <span class="textstyle29">N</span><span class="textstyle29">OTE</span> <span class="textstyle29">O</span><span class="textstyle29">FF</span> <span class="textstyle11">command, which tells the device to stop playing the note. The Note Off command is the same note number, paired with a velocity of zero. The Note On and Note Off events are really all we need to send a note between two MIDI devices.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Logic Pro X provides an “Event List” that shows the note information for a track. From left to right, this list displays the bar and beat location where each note starts, the status, MIDI channel, the associated note number (pitch), the attack velocity, and the note length.</span></p>
+
+  <p class="img"><img alt="chpt_fig_068" class="scale1" src="../Images/chpt_fig_068.jpg"/></p>
+  <p class="caption" id="fig4.5"><span class="textstyle26">Figure 4.5</span> <span class="textstyle27">The MIDI Event List in Logic Pro X</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc79" id="sub79" class="calibre5"><span class="textstyle14">Program Changes</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">As mentioned above, patch storage and recall was an early advantage of digital control for synthesizers. The MIDI protocol improved upon this, enabling patch change commands (also known as program changes) to be sent to and from devices.</span></p>
+
+  <p class="noindent"><span aria-label="82" id="page_82" role="doc-pagebreak"></span><span class="textstyle11">Like other MIDI messages, patch change commands use a range of values from</span> <span class="textstyle15">0</span> <span class="textstyle11">to</span> <span class="textstyle15">127</span><span class="textstyle11">. Thus, most banks of sounds on a MIDI keyboard will have 128 sounds. <a href="#tab4.1" class="calibre5">Table 4.1</a> shows an example bank of 128 sounds that many synthesizers support. This is part of the</span> <span class="textstyle31">General MIDI</span> <span class="textstyle11">standard.</span></p>
+
+<table class="tab1" id="tab4.1">
+<caption class="tabcaption"><span class="textstyle26">Table 4.1</span> <span class="textstyle27">General MIDI Instrument Families</span></caption>
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdc9" scope="col"><span class="textstyle18">Program Change #</span></th>
+<th class="tdc10" scope="col"><span class="textstyle18">Family Name</span></th>
+<th class="tdc9" scope="col"><span class="textstyle18">Program Change #</span></th>
+<th class="tdc11" scope="col"><span class="textstyle18">Family Name</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">1 – 8</span></td>
+<td class="tdc13"><span class="textstyle19">Piano</span></td>
+<td class="tdc12"><span class="textstyle19">65 – 72</span></td>
+<td class="tdc14"><span class="textstyle19">Reed</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">9 – 16</span></td>
+<td class="tdc13"><span class="textstyle19">Chromatic Percussion</span></td>
+<td class="tdc12"><span class="textstyle19">73 – 80</span></td>
+<td class="tdc14"><span class="textstyle19">Pipe</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">17 – 24</span></td>
+<td class="tdc13"><span class="textstyle19">Organ</span></td>
+<td class="tdc12"><span class="textstyle19">81 – 88</span></td>
+<td class="tdc14"><span class="textstyle19">Synth Lead</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">25 – 32</span></td>
+<td class="tdc13"><span class="textstyle19">Guitar</span></td>
+<td class="tdc12"><span class="textstyle19">89 – 96</span></td>
+<td class="tdc14"><span class="textstyle19">Synth Pad</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">33 – 40</span></td>
+<td class="tdc13"><span class="textstyle19">Bass</span></td>
+<td class="tdc12"><span class="textstyle19">97 – 104</span></td>
+<td class="tdc14"><span class="textstyle19">Synth Effects</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">41 – 48</span></td>
+<td class="tdc13"><span class="textstyle19">Strings</span></td>
+<td class="tdc12"><span class="textstyle19">105 – 112</span></td>
+<td class="tdc14"><span class="textstyle19">Ethnic</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">49 – 56</span></td>
+<td class="tdc13"><span class="textstyle19">Ensemble</span></td>
+<td class="tdc12"><span class="textstyle19">113 – 120</span></td>
+<td class="tdc14"><span class="textstyle19">Percussive</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc15"><span class="textstyle19">57 – 64</span></td>
+<td class="tdc16"><span class="textstyle19">Brass</span></td>
+<td class="tdc15"><span class="textstyle19">121 – 128</span></td>
+<td class="tdc17"><span class="textstyle19">Sound Effects</span></td>
+</tr>
+</tbody>
+</table>
+  <h3 class="subhead1"><a href="nav.xhtml#toc80" id="sub80" class="calibre5"><span class="textstyle14">Controller Messages</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">The final category of MIDI messages we’ll consider is the category of controller messages—also known as MIDI continuous control (CC) messages. These are messages that can be used for purposes such as capturing the expressiveness of a MIDI performance (pitch bend or mod wheel movements) or performing studio mixing tasks (volume or pan changes). MIDI CC data represents an essential part of how keyboardists actually</span> <span class="textstyle31">play</span> <span class="textstyle11">their instrument.</span></p>
+
+  <p class="noindent"><span class="textstyle11"><a href="#tab4.2" class="calibre5">Table 4.2</a> provides a list of standard MIDI continuous control defaults. Notice that certain controller numbers are “undefined,” leaving room to make custom assignments.</span></p>
+
+<table class="tab1" id="tab4.2">
+<caption class="tabcaption"><span aria-label="83" id="page_83" role="doc-pagebreak"></span><span class="textstyle26">Table 4.2</span> <span class="textstyle27">MIDI Controller Numbers (Excerpt)</span></caption>
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdc9" scope="col"><span class="textstyle18">Controller Number</span></th>
+<th class="tdc10" scope="col"><span class="textstyle18">Hex</span></th>
+<th class="tdc11" scope="col"><span class="textstyle18">Controller Name</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">0</span></td>
+<td class="tdc13"><span class="textstyle19">00h</span></td>
+<td class="tdl12"><span class="textstyle19">Bank Select</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">1</span></td>
+<td class="tdc13"><span class="textstyle19">01h</span></td>
+<td class="tdl12"><span class="textstyle19">Mod Wheel</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">2</span></td>
+<td class="tdc13"><span class="textstyle19">02h</span></td>
+<td class="tdl12"><span class="textstyle19">Breath Controller</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">3</span></td>
+<td class="tdc13"><span class="textstyle19">03h</span></td>
+<td class="tdl12"><span class="textstyle19">Undefined</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">4</span></td>
+<td class="tdc13"><span class="textstyle19">04h</span></td>
+<td class="tdl12"><span class="textstyle19">Foot Controller</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">5</span></td>
+<td class="tdc13"><span class="textstyle19">05h</span></td>
+<td class="tdl12"><span class="textstyle19">Portamento Time</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">6</span></td>
+<td class="tdc13"><span class="textstyle19">06h</span></td>
+<td class="tdl12"><span class="textstyle19">Data Entry MSB</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">7</span></td>
+<td class="tdc13"><span class="textstyle19">07h</span></td>
+<td class="tdl12"><span class="textstyle19">Main Volume</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">8</span></td>
+<td class="tdc13"><span class="textstyle19">08h</span></td>
+<td class="tdl12"><span class="textstyle19">Balance</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc12"><span class="textstyle19">9</span></td>
+<td class="tdc13"><span class="textstyle19">09h</span></td>
+<td class="tdl12"><span class="textstyle19">Undefined</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdc15"><span class="textstyle19">10</span></td>
+<td class="tdc15"><span class="textstyle19">0Ah</span></td>
+<td class="tdl13"><span class="textstyle19">Pan</span></td>
+</tr>
+</tbody>
+</table>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc81" id="sub81" class="calibre5"><span class="textstyle13">MIDI Controllers</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">To get started working with MIDI, it helps to have a MIDI controller. A MIDI controller is a device that generates MIDI performance data and transmits it to another device, such as a DAW, for processing. You can use a MIDI controller for recording MIDI notes and performance data into your DAW or for triggering a sound module or virtual instrument.</span></p>
+
+  <p class="noindent"><span class="textstyle11">A variety of different MIDI controllers are available today. The most common designs are based on the piano. With origins in the 18</span><sup class="calibre16">th</sup> <span class="textstyle11">century, the familiar black and white piano keyboard is a staple in the MIDI controller market. However, the last decade or so has seen an explosion in MIDI controller innovation. Today’s choices include drumpad controllers (inspired by the drum machine designs of the 1980s), grid controllers (originally introduced to augment the grid-based interface of Ableton Live), and mixer controllers (borrowing their faders and knobs from established analog and digital mixer designs).</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc82" id="sub82" class="calibre5"><span class="textstyle14">Tone-Generating Keyboards</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Many keyboard-based devices on the market can be classified as</span> <span class="textstyle31">tone-generating keyboards</span><span class="textstyle11">. These are keyboards capable of generating their own sounds. Although generally designed for stand-alone performance, most tone-generating keyboards also provide MIDI connectivity. This allows you to use the keyboard to generate MIDI performance data and record it on your DAW. It also allows the keyboard to receive MIDI data from elsewhere and use it to trigger the device’s onboard sounds.</span></p>
+
+  <p class="noindent"><span aria-label="84" id="page_84" role="doc-pagebreak"></span><span class="textstyle11">Tone-generating keyboards generally fall into two categories: digital pianos and synthesizers:</span></p>
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Digital Pianos—</span><span class="textstyle11">Digital pianos</span> <span class="textstyle11">are exactly what the name implies: they look like a scaled-down version of a real piano. Digital pianos typically feature a full 88-key keyboard (often with simulated piano action known as</span> <span class="textstyle31">hammer action</span><span class="textstyle11">). These keyboards are designed to compete head-to-head with real acoustic pianos; thus they are very simple to operate.</span>
+
+  <p class="copy"><span class="textstyle11">Digital pianos generally offer a limited range of sounds (such as piano and organ). However, more expensive models may include additional sounds and auto-accompaniment features that can generate bass lines and drum patterns. Perhaps the most distinguishing feature of a digital piano is the presence of built-in speakers, which synthesizers rarely offer. (See below.)</span></p>
+
+  <p class="img-l"><img alt="chpt_fig_069" class="scale1" src="../Images/chpt_fig_069.jpg"/></p>
+  <p class="caption" id="fig4.6"><span class="textstyle26">Figure 4.6</span> <span class="textstyle27">Yamaha Arius Digital Piano</span></p>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Synthesizers</span><span class="textstyle11">—The term “synthesizer” encompasses a wide range of vintage and modern instruments. The term was originally used to describe analog devices that employed a combination of oscillators and filters to create sounds. These devices generated approximations of acoustic instruments (such as flute or violin) as well as otherworldly sounds that didn’t bear resemblance to traditional instruments.</span>
+
+  <p class="copy"><span class="textstyle11">But synthesizers quickly evolved to encompass both analog and digital technologies, with newer incarnations capable of using older analog-style synthesis as well as modern digital techniques such as sampling, physical modeling, and frequency modulation (FM) synthesis.</span></p>
+
+  <p class="copy"><span class="textstyle11">Modern synthesizers come in a variety of sizes, ranging from small, highly-portable two-octave (25-key) models to full 88-key piano–sized models.</span></p>
+
+  <p class="img-l"><span aria-label="85" id="page_85" role="doc-pagebreak"></span><img alt="chpt_fig_070" class="scale1" src="../Images/chpt_fig_070.jpg"/></p>
+  <p class="source1"><span class="textstyle44">Image courtesy of Perfect Circuit Audio</span></p>
+  <p class="caption" id="fig4.7"><span class="textstyle26">Figure 4.7</span> <span class="textstyle27">Moog’s classic MiniMoog synthesizer (1970)</span></p>
+  </li>
+</ul>
+  <p class="noindent"><span class="textstyle11">If you already own a digital piano or synthesizer, look for a MIDI 5-pin connector or USB port for connecting it to your DAW. If you don’t already own such a device, you can consider using a keyboard controller instead.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc83" id="sub83" class="calibre5"><span class="textstyle14">Keyboard Controllers</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Keyboard controllers are essentially piano-style controllers that provide MIDI output. You can use a keyboard controller to create or record a MIDI performance. However, it will not include any onboard sound or tone-generating capabilities. This means that you cannot use the controller as a stand-alone instrument. Instead, the keyboard is designed to control other hardware synthesizers, sound modules, or virtual instruments.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The keyboard controller serves as a kind of universal MIDI input device. Using a piano keyboard as the performance interface, keyboard controllers enable any user with basic piano skills to create just about any kind of MIDI performance with little to no added learning curve.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Keyboard controllers come in a variety of sizes and price points. Users on a limited budget can consider a basic 25- to 37-key controller for under a hundred dollars. More sophisticated models with up to 88 keys can be found in the hundred-fifty to five hundred dollar range. These commonly include knobs, faders, and drumpads that can be mapped to control almost any function of the target instrument.</span></p>
+
+  <p class="img"><img alt="chpt_fig_071" class="scale1" src="../Images/chpt_fig_071.jpg"/></p>
+  <p class="caption" id="fig4.8"><span class="textstyle26">Figure 4.8</span> <span class="textstyle27">M-Audio Oxygen 49 keyboard controller</span></p>
+
+  <h3 class="subhead1"><span aria-label="86" id="page_86" role="doc-pagebreak"></span><a href="nav.xhtml#toc84" id="sub84" class="calibre5"><span class="textstyle14">Drumpad Controllers</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Most modern drumpad controllers are descended from Roger Linn’s ingenious designs from the 1980s. The most iconic of Linn’s designs was the Akai Professional MPC60, introduced in 1988. The 4 × 4 layout of pads that Linn pioneered has since become a standard pad arrangement for dozens of products.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The pads themselves are carefully designed to have a great feel that helps the player to perform dynamic drum and percussion grooves.</span></p>
+
+  <p class="img"><img alt="chpt_fig_072" class="scale1" src="../Images/chpt_fig_072.jpg"/></p>
+  <p class="caption" id="fig4.9"><span class="textstyle26">Figure 4.9</span> <span class="textstyle27">Akai Professional MPD218 drumpad controller</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc85" id="sub85" class="calibre5"><span class="textstyle14">Grid Controllers</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Today, the grid controller is probably the most popular controller type after the piano-style keyboard. Grid controllers have become popular for studio work, but they have also been embraced by live performers in a variety of genres, including EDM and hip-hop.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The grid controller design was inspired by Ableton Live’s session view, with each pad used to trigger clips, play drum sounds, and adjust controls such as volume. Some grid controllers, such as Novation’s Launchpad Pro and Ableton’s Push 1 &amp; 2, can be used to enter notes as well. These include options for restricting notes to a musical scale so that no wrong notes can be played! And, while grid controllers are generally optimized to work with Ableton Live, they can be used with an increasing number of DAWs.</span></p>
+
+  <p class="img"><img alt="chpt_fig_073" class="scale1" src="../Images/chpt_fig_073.jpg"/></p>
+  <p class="caption" id="fig4.10"><span class="textstyle26">Figure 4.10</span> <span class="textstyle27">Novation Launchpad Pro grid controller</span></p>
+
+  <h3 class="subhead1"><span aria-label="87" id="page_87" role="doc-pagebreak"></span><a href="nav.xhtml#toc86" id="sub86" class="calibre5"><span class="textstyle14">Alternate Controllers</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">You can also find some very innovative new controller styles on the market these days, offering alternatives to the standard keyboard, pad controller, or grid controller.</span></p>
+
+  <p class="noindent"><span class="textstyle11">A primary focus of such alternative controllers currently is MIDI Polyphonic Expression (MPE). MPE is a new industry-wide standard that uses a separate MIDI channel for each touch. This channel-per-note configuration permits the controller to transmit discrete vibrato, glissando (pitch slides), note pressure, and other expressive information for each note that is played.</span></p>
+
+  <p class="img"><img alt="chpt_fig_074" class="scale1" src="../Images/chpt_fig_074.jpg"/></p>
+  <p class="source"><span class="textstyle44">Image courtesy of Perfect Circuit Audio</span></p>
+  <p class="caption" id="fig4.11"><span class="textstyle26">Figure 4.11</span> <span class="textstyle27">Roger Linn’s Linnstrument is one example of an alternate controller</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc87" id="sub87" class="calibre5"><span class="textstyle14">What to Look for in a MIDI Controller</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Deciding which controller or controllers to purchase can be an overwhelming task! The most important thing is to determine which activities you will be performing frequently, which you’ll be doing only occasionally, and which you won’t be doing at all. Here are some suggestions based on the strength of various controller types for typical music production tasks:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Entering Notes:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Keyboard (best choice)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Grid (good alternative)</span></li>
+</ul>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Playing Beats:</span>
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Drumpad (best choice)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Grid (good alternative)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Keyboard (also good)</span></li>
+</ul>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Arranging:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Grid</span></li>
+</ul>
+  </li>
+</ul>
+
+  <h3 class="subhead1"><span aria-label="88" id="page_88" role="doc-pagebreak"></span><a href="nav.xhtml#toc88" id="sub88" class="calibre5"><span class="textstyle14">Purchasing a Keyboard Controller</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">If you decide to purchase a keyboard controller, you’ll need to decide on a few other attributes. The most important is probably the number of keys (note range). Your needs here will generally be determined by your proficiency as a keyboard player.</span></p>
+
+  <p class="noindent"><span class="textstyle11">If you are an accomplished keyboardist who plays with two hands simultaneously, you will probably feel most comfortable with a keyboard featuring 61 keys or more. A full-sized, 88-key controller will offer the widest note range and the best feel. On the other hand, if you play using just one hand at a time, you may be satisfied with a smaller 25-key model.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Aside from note range, you’ll also want to consider a device’s support for velocity sensitivity, aftertouch, pitch and mod wheel controls, and other mappable controls like knobs and sliders.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Velocity Sensitivity</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">As mentioned previously, representing how hard each note is played is often a key ingredient to the expressiveness of a performance. Most moderately sophisticated keyboard controllers will be velocity sensitive, meaning they measure how hard each key is struck. However, some budget models may not include this capability, which can be a significant limitation for many types of MIDI recording.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Aftertouch</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Aftertouch lets a performer add expressive inflections to a sustained note or chord. Aftertouch can be used to add vibrato, pitch bends, and swells by varying the pressure on the held keys. When using a virtual instrument that supports it, aftertouch can be essential to making the instrument sound realistic. (Think of guitar solos and horn parts, for example: how often are sustained notes completely static?) Here again, budget keyboard controllers often do not include support for this parameter. Be prepared to do some comparison-shopping when trying to get the best value for your buck.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Pitch and Mod Wheel Controls</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">These are additional options for adding expressiveness to a performance. Pitch bend and mod wheel controls are common on synthesizers but may not be included on some MIDI controllers. A traditional pitch wheel adds pitch bend (portamento) control, allowing the player to bend a note (or chord) up or down in a continuously variable manner. Pitch bend controls are sometimes included in non-wheel format, such as in a joystick, knob, or ribbon format.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Modulation wheels (or mod wheels for short) are typically used to set a vibrato amount. However, the mod wheel can also be mapped to other parameters, such as volume swells, tremolo, and filter sweeps.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Other Mappable Controls</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Additional buttons, knobs, and sliders may be included on mid-sized and full-sized keyboard controllers. These controls can be mapped to plug-in parameters and other MIDI controls. In some cases, they can even operate functions in your DAW, such as transport controls and volume faders.</span></p>
+
+  <h2 class="subhead"><span aria-label="89" id="page_89" role="doc-pagebreak"></span><a href="nav.xhtml#toc89" id="sub89" class="calibre5"><span class="textstyle13">Setup and Signal Flow</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Once you’ve selected a MIDI controller, you’ll need to establish communication between the controller and your computer. Almost all modern MIDI controllers use USB cables rather than MIDI cables to communicate. Configuring such a device can be as simple as plug-and-play, if the device is USB class-compliant. However, some devices require that you install specific drivers built for your computer and operating system.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc90" id="sub90" class="calibre5"><span class="textstyle14">Plug-and-Play Setup</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">For “class-compliant” USB devices, no drivers are required to communicate with your computer. You can verify that a device is class-compliant by checking the specifications on the manufacturer’s website. Alternatively, you can connect the device to your computer and launch the appropriate software utility to verify communication.</span></p>
+
+  <p class="img"><img alt="chpt_fig_075" class="scale1" src="../Images/chpt_fig_075.jpg"/></p>
+  <p class="caption" id="fig4.12"><span class="textstyle26">Figure 4.12</span> <span class="textstyle27">An example MIDI setup in Apple’s Audio MIDI Setup utility; class-compliant devices will appear here automatically</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc91" id="sub91" class="calibre5"><span class="textstyle14">MIDI Cables and Jacks</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">If you are using a device that has regular MIDI connections (not USB), you will have to deal with MIDI cables and jacks. A MIDI cable is technically called a 5-pin DIN cable and has connectors as shown in <a href="#fig4.13" class="calibre5">Figure 4.13</a>.</span></p>
+
+  <p class="img"><img alt="chpt_fig_076" class="scale1" src="../Images/chpt_fig_076.jpg"/></p>
+  <p class="caption" id="fig4.13"><span class="textstyle26">Figure 4.13</span> <span class="textstyle27">A pair of MIDI cables</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span aria-label="90" id="page_90" role="doc-pagebreak"></span><span class="textstyle20">MIDI data is actually transmitted using only two pins on the 5-pin connector.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">An important aspect of a MIDI cable is that it can carry</span> <span class="textstyle31">16 channels</span> <span class="textstyle11">of information. That means you could have up to 16 patches playing on one synthesizer, and they could all be addressed individually using a single MIDI cable.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The jacks that MIDI cables plug into are typically called</span> <span class="textstyle31">ports</span><span class="textstyle11">. These can include an input, an output, and sometimes a “thru” connection.</span></p>
+
+  <p class="img"><img alt="chpt_fig_077" class="scale1" src="../Images/chpt_fig_077.jpg"/></p>
+  <p class="caption" id="fig4.14"><span class="textstyle26">Figure 4.14</span> <span class="textstyle27">A typical configuration of MIDI ports on a device</span></p>
+
+  <p class="noindent"><span class="textstyle11">The MIDI In port receives incoming MIDI data from an outside source; this is commonly used to play back a MIDI performance coming from a DAW or other source using the onboard sounds of the device. The MIDI Out port sends MIDI data out from the device, for recording to a DAW or for triggering a different sound module. The MIDI Thru port passes the signal from the In port directly out to another device, without modifying it by any performance being done on the device. This can be very handy if you have a small MIDI interface with only a couple of ports, or if you have a complex live performance setup and don't want to lug an interface around.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc92" id="sub92" class="calibre5"><span class="textstyle14">Using a MIDI Interface</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Although most modern controllers use USB, you may encounter a hardware device (such as an older synthesizer) that uses traditional 5-pin MIDI cables to communicate. If so, you’ll need a way to connect the MIDI cables to your computer, because the computer will not have the appropriate jacks for MIDI. You can accommodate these connections using an audio interface with MIDI jacks (quite common on all but the smallest interfaces).</span></p>
+
+  <p class="img"><img alt="chpt_fig_078" class="scale1" src="../Images/chpt_fig_078.jpg"/></p>
+  <p class="caption" id="fig4.15"><span class="textstyle26">Figure 4.15</span> <span class="textstyle27">MIDI jacks on the back of a Focusrite 2i4 audio interface</span></p>
+
+  <p class="noindent"><span aria-label="91" id="page_91" role="doc-pagebreak"></span><span class="textstyle11">As an alternative to an audio interface, you can use a dedicated MIDI interface to route MIDI data to your computer. MIDI interfaces come in a variety of shapes and sizes and can have as many as eight jacks for MIDI input and output.</span></p>
+
+  <p class="img"><img alt="chpt_fig_079" class="scale1" src="../Images/chpt_fig_079.jpg"/></p>
+  <p class="caption" id="fig4.16"><span class="textstyle26">Figure 4.16</span> <span class="textstyle27">M-Audio Uno MIDI interface</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc93" id="sub93" class="calibre5"><span class="textstyle14">Considerations for Using Multiple MIDI Devices</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Even the smallest studio will often have more than one MIDI device. This could entail any combination of keyboard, drumpad, grid, and mixer controllers. Aside from the ergonomic issues of placing multiple controllers in the physical space, you’ll also need to consider whether you want the devices to control specific instruments or to all control the currently selected instrument.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In most DAWs, the ideal solution is to leave inputs on your MIDI tracks assigned to “ALL” so that the currently selected instrument will respond to any controller that you touch. This makes it very easy to play keyboard for a piano part, then switch over to the drumpads to perform a beat, all without having to stop and change the MIDI routing.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc94" id="sub94" class="calibre5"><span class="textstyle13">MIDI Versus Audio</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">One of the more difficult concepts to grasp when you begin working with a DAW is the difference between MIDI and audio. While most novice audio producers have a decent understanding of how audio data is recorded and represented in a DAW, many do not have a similar understanding with regard to MIDI data.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc95" id="sub95" class="calibre5"><span class="textstyle14">What Is MIDI?</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">As discussed earlier in this chapter, MIDI is a protocol that facilitates communication between a huge range of hardware and software devices. MIDI data is not audio, but rather a series of messages that can communicate information such as notes (pitch), duration, velocity (how hard a key or pad is pressed), dynamics (volume), and more. A tone-generating hardware or software instrument can receive MIDI messages and convert them into audio data.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In other words, the MIDI data has the potential to become music that we can hear, but there’s no way to listen to the MIDI data by itself.</span></p>
+
+  <p class="img"><span aria-label="92" id="page_92" role="doc-pagebreak"></span><img alt="chpt_fig_080" class="scale" src="../Images/chpt_fig_080.jpg"/></p>
+  <p class="caption" id="fig4.17"><span class="textstyle26">Figure 4.17</span> <span class="textstyle27">MIDI data (in piano roll format) must be sent to a tone-generating device to become music that we can hear</span></p>
+
+  <p class="noindent"><span class="textstyle11">MIDI messages share some features with traditional music notation. Both contain the information necessary to play a piece of music, but neither is capable of actually becoming music on its own. Like MIDI, the notes of a musical score aren’t audio, but instead represent the potential for audio once they are played using an instrument.</span></p>
+
+  <p class="noindent"><span class="textstyle11">MIDI and notation contain information that can convey essential musical elements such as pitch, duration, velocity, and dynamics. Almost every DAW allows MIDI data to be viewed and edited as music notation (in addition to piano roll, event list, and other more modern formats).</span></p>
+
+  <p class="img"><img alt="chpt_fig_081" class="scale" src="../Images/chpt_fig_081.jpg"/></p>
+  <p class="source"><span class="textstyle44">Image courtesy of <a href="http://Pexels.com" class="calibre5">Pexels.com</a></span></p>
+  <p class="caption" id="fig4.18"><span class="textstyle26">Figure 4.18</span> <span class="textstyle27">Music notation must be read by a musician to become music we can hear.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc96" id="sub96" class="calibre5"><span class="textstyle14">Monitoring with Onboard Sound Versus Virtual Instruments</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">If you are using a tone-generating keyboard such as a digital piano or synthesizer, you will need to decide whether you want to monitor from the onboard sound of the device or, alternatively, silence the onboard sounds and instead listen to a virtual instrument inside of your DAW.</span></p>
+
+  <p class="noindent"><span class="textstyle11">It is rare that you will want to hear the sound of the controller while recording MIDI data into your DAW. (In fact, this can result in an annoying doubling of the controller audio with the DAW audio.) In most situations, you’ll want to monitor from the associated virtual instrument’s output alone. This can be accomplished by turning off “Local Control” on the keyboard device. This setting will disable the internal sounds of the device while still sending MIDI data out to the DAW.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_008" class="scale" src="../Images/frn_fig_008.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Refer to the user guide or manufacturer’s website to find the local control setting on your particular device.</span></td>
+</tr>
+</table>
+
+  <h2 class="subhead"><span aria-label="93" id="page_93" role="doc-pagebreak"></span><a href="nav.xhtml#toc97" id="sub97" class="calibre5"><span class="textstyle13">Tracking with Virtual Instruments</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Most modern music production studios incorporate software instruments, or virtual instruments, into their toolkit. In fact, a number of software manufacturers are known primarily for their virtual instrument offerings, including Native Instruments, Arturia, and Spectrasonics. Virtual instruments encompass a huge range of musical devices, including digital synthesizers, analog-modeling synthesizers, samplers, drum machines, and much more. They have become so ubiquitous in the DAW world that every major manufacturer offers a range of free or paid virtual instruments.</span></p>
+
+  <p class="img"><img alt="chpt_fig_082" class="scale1" src="../Images/chpt_fig_082.jpg"/></p>
+  <p class="caption" id="fig4.19"><span class="textstyle26">Figure 4.19</span> <span class="textstyle27">Native Instruments Kontakt sampler</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc98" id="sub98" class="calibre5"><span class="textstyle14">Creating Tracks for Virtual Instruments</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Working with virtual instruments in your DAW can seem a bit confusing at first. It’s not quite as simple as just creating a track and pressing record! The first step to working with virtual instruments is to create the appropriate track type, which is usually referred to as an “Instrument” or “MIDI” track depending on the DAW. These tracks are capable of recording and editing MIDI data, routing the MIDI data to a virtual instrument, and then mixing the virtual instrument’s resulting audio output.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Let’s take a look at a couple of example configurations.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Virtual Instruments in Logic Pro X</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Routing MIDI to a virtual instrument in Logic Pro X is quite similar to the process in many other DAWs, including Pro Tools, Cubase, and others.</span></p>
+
+  <p class="img"><span aria-label="94" id="page_94" role="doc-pagebreak"></span><img alt="chpt_fig_083" class="scale" src="../Images/chpt_fig_083.jpg"/></p>
+  <p class="caption" id="fig4.20"><span class="textstyle26">Figure 4.20</span> <span class="textstyle27">When MIDI is routed to the Retro Synth plug-in, the plug-in’s audio output is processed in the track’s Fader section.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In <a href="#fig4.20" class="calibre5">Figure 4.20</a>, the</span> <span class="textstyle15">Inst 1</span> <span class="textstyle11">track sends its MIDI data to the</span> <span class="textstyle15">Retro Synth</span> <span class="textstyle11">software instrument plug-in, which is inserted on the same track. Then, Retro Synth converts the MIDI data to audio, with the sound being determined by the current patch/preset. Next, the audio output from Retro Synth is routed through the audio section of the</span> <span class="textstyle15">Inst 1</span> <span class="textstyle11">track, where its volume, pan, and other audio attributes can be adjusted as desired. Finally, the audio output of the track is routed to the audio interface, so that it can be monitored through speakers or headphones.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Virtual Instruments in GarageBand</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">GarageBand provides another example of this concept, although the approach used in the software is somewhat different. (See <a href="#fig4.21" class="calibre5">Figure 4.21</a>.) Note that GarageBand doesn’t offer a mixer view, so the track is only visible in a horizontal layout that is similar to the Main window in Logic Pro X.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In GarageBand, the sound module is assigned by selecting the desired source from the Sound Library, rather than by placing a virtual instrument plug-in on the track.</span></p>
+
+  <p class="img"><img alt="chpt_fig_084" class="scale1" src="../Images/chpt_fig_084.jpg"/></p>
+  <p class="caption" id="fig4.21"><span class="textstyle26">Figure 4.21</span> <span class="textstyle27">Using a drum instrument in GarageBand</span></p>
+
+  <p class="noindent"><span aria-label="95" id="page_95" role="doc-pagebreak"></span><span class="textstyle11">In <a href="#fig4.21" class="calibre5">Figure 4.21</a>, we can see the MIDI data in the familiar piano roll format on the track. That MIDI data is being routed to the East Bay drum kit (whose controls are displayed at the bottom). The kit converts the MIDI data to audio. The audio output actually appears on the horizontal controls just to the left of the MIDI data, where the volume and pan attributes can be modified. From there, the audio goes to the interface output.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc99" id="sub99" class="calibre5"><span class="textstyle14">Summary</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">The function of a virtual instrument is quite similar regardless of the DAW you choose. Professional-level DAWs offer sophisticated routing and additional views for working with MIDI data (as well as audio). By contrast, entry-level DAW options (such as GarageBand) aim to keep things as simple as possible. Regardless of where you begin, once you have gained basic familiarity with your chosen DAW, you’ll find it relatively easy to apply that knowledge to any other DAW you should encounter.</span></p>
+
+  <h2 class="subhead"><span aria-label="96" id="page_96" role="doc-pagebreak"></span><a href="nav.xhtml#toc100" id="sub100" class="calibre5"><span class="textstyle13">Review/Discussion Questions</span></a></h2>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">What were some of the drawbacks of historical analog synthesizers? (See “A Brief History of MIDI” starting on <a href="#page_78" class="calibre5">page 78</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">How did digital control of synthesizers pave the way for the development of MIDI? (See “A Brief History of MIDI” starting on <a href="#page_78" class="calibre5">page 78</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">What are the three basic categories of MIDI messages? (See “The MIDI Protocol” starting on <a href="#page_80" class="calibre5">page 80</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">What is the standard range of values for all MIDI messages? (See “Note Values” starting on <a href="#page_80" class="calibre5">page 80</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">What MIDI note number is typically used to represent middle C on a piano? Is this number the same with every device? (See “Note Values” starting on <a href="#page_80" class="calibre5">page 80</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">What are the two components of a MIDI Note On command? (See “Note On and Note Off Events” starting on <a href="#page_81" class="calibre5">page 81</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">What is another name for a patch change command when using MIDI? (See “Program Changes” starting on <a href="#page_81" class="calibre5">page 81</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">What type of MIDI data can be used to increase the expressiveness of a MIDI performance? (See “Controller Messages” starting on <a href="#page_82" class="calibre5">page 82</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">Aside from keyboards, what are some other types of MIDI controllers? (See “MIDI Controllers” starting on <a href="#page_83" class="calibre5">page 83</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">10.</span><span class="space2"></span><span class="textstyle11">What are two categories of tone-generating keyboards? (See “Tone-Generating Keyboards” starting on <a href="#page_83" class="calibre5">page 83</a>.)</span></li>
+
+  <li class="numlist"><span aria-label="97" id="page_97" role="doc-pagebreak"></span><span class="textstyle11">11.</span><span class="space2"></span><span class="textstyle11">What does it mean when a USB device is labeled class-compliant? What is the benefit of a class-compliant USB device? (See “Plug-and-Play Setup” starting on <a href="#page_89" class="calibre5">page 89</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">12.</span><span class="space2"></span><span class="textstyle11">How can MIDI notes be converted to an audio signal that we can hear? (See “MIDI Versus Audio” starting on <a href="#page_91" class="calibre5">page 91</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">13.</span><span class="space2"></span><span class="textstyle11">How can a virtual instrument plug-in be assigned in Logic Pro X? (See “Tracking with Virtual Instruments” starting on <a href="#page_93" class="calibre5">page 93</a>.)</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To review additional material from this chapter and prepare for certification, see the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+</section>
+
+
+
+  </div>
+
+  
+  <div class="calibreToc">
+    <h2><a href="../../../fultv-nyhsd.html">Table of contents
+</a></h2>
+    <div>
+  <ul>
+    <li>
+      <a href="HalfTitle.xhtml">Half Title</a>
+    </li>
+    <li>
+      <a href="TitlePage.xhtml">Title</a>
+    </li>
+    <li>
+      <a href="Copyright.xhtml">Copyright</a>
+    </li>
+    <li>
+      <a href="nav.xhtml">Contents</a>
+    </li>
+    <li>
+      <a href="Acknowledgments.xhtml#sub1">Acknowledgments</a>
+    </li>
+    <li>
+      <a href="Introduction.xhtml#sub2">Introduction. Welcome to the World of Audio</a>
+      <ul>
+        <li>
+          <a href="Introduction.xhtml#sub3">Getting Started in Audio Production</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub4">Who Should Read This Book</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub5">About This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub6">Requirements and Prerequisites</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub7">Media Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub8">Course Organization and Sequence</a>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub9">Conventions and Symbols Used in This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub10">Keyboard Shortcuts and Modifiers</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub11">Icons</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Chapter01.xhtml#sub12">Chapter 1. Computer Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter01.xhtml#sub13">Selecting a Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub14">Mac Versus Windows Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub15">The Importance of RAM</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub16">Processing Power</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub17">Storage Space</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub18">Storage Options</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub19">Onboard Sound Options (Audio In and Out)</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub20">Other Options to Consider</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub21">Working with Your Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub22">File Management</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub23">Launching Applications</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub24">Saving Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub25">Working with an Application</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub26">Menus</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub27">Keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub28">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise01.xhtml#sub29">Exercise 1. Exploring Audio on the Computer</a>
+    </li>
+    <li>
+      <a href="Chapter02.xhtml#sub30">Chapter 2. DAW Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter02.xhtml#sub31">Functions of a DAW</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub32">What Can a DAW Do?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub33">Common DAWs</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub34">Plug-In Formats</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub35">What Is a Plug-In?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub36">Common Plug-In Formats</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub37">Logic Pro X System</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub38">Logic Pro X Software Capabilities</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub39">Logic Pro X Software Options</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub40">Logic Pro X Hardware Options</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub41">Downloading and Installing Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub42">System Requirements for Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub43">Installation Steps</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub44">Launching Logic Pro X for the First Time</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub45">Downloadable Content</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub46">Important Preference Settings</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub47">Project Settings</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub48">Important Concepts in Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub49">Project Files Versus Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub50">Audio Versus MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub51">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise02.xhtml#sub52">Exercise 2. Setting Up a Multi-Track Project</a>
+    </li>
+    <li>
+      <a href="Chapter03.xhtml#sub53">Chapter 3. Audio Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter03.xhtml#sub54">The Basics of Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub55">Frequency</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub56">Amplitude</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub57">Microphones</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub58">Traditional Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub59">USB Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub60">Other Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub61">Basic Miking Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub62">Multi-Tracking and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub63">What Is Multi-Track Recording?</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub64">Recording Signal Flow</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub65">Moving Audio from Analog to Digital</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub66">Analog Versus Digital Audio</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub67">The Analog-to-Digital Conversion Process</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub68">The Audio Interface</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub69">Audio Interface Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub70">Working Without an Audio Interface</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub71">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise03.xhtml#sub72">Exercise 3. Selecting Your Audio Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter04.xhtml#sub73">Chapter 4. MIDI Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter04.xhtml#sub74">A Brief History of MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub75">Digital Control</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub76">The Birth of MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub77">The MIDI Protocol</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub78">MIDI Notes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub79">Program Changes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub80">Controller Messages</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub81">MIDI Controllers</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub82">Tone-Generating Keyboards</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub83">Keyboard Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub84">Drumpad Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub85">Grid Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub86">Alternate Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub87">What to Look for in a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub88">Purchasing a Keyboard Controller</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub89">Setup and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub90">Plug-and-Play Setup</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub91">MIDI Cables and Jacks</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub92">Using a MIDI Interface</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub93">Considerations for Using Multiple MIDI Devices</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub94">MIDI Versus Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub95">What Is MIDI?</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub96">Monitoring with Onboard Sound Versus Virtual Instruments</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub97">Tracking with Virtual Instruments</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub98">Creating Tracks for Virtual Instruments</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub99">Summary</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub100">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise04.xhtml#sub101">Exercise 4. Selecting Your MIDI Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter05.xhtml#sub102">Chapter 5. Logic Pro Concepts, Part 1</a>
+      <ul>
+        <li>
+          <a href="Chapter05.xhtml#sub103">Creating a Project</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub104">Selecting a Track Type</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub105">Enabling Advanced Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub106">Main Window</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub107">The Control Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub108">Tracks Area Menu Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub109">Rulers</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub110">Mixer Display and Window</a>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub111">Working with Tracks</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub112">Adding Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub113">Mono Versus Stereo Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub114">External MIDI Versus Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub115">Regions Versus Files</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub116">Selecting Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub117">Basic Navigation</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub118">Using the Transport Controls</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub119">Zooming and Scrolling in the Main Window</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub120">Controlling Playback Behavior</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub121">Monitoring Your Playhead Location</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub122">Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub123">Selection Scenarios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub124">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise05.xhtml#sub125">Exercise 5. Configuring and Working on a Project</a>
+    </li>
+    <li>
+      <a href="Chapter06.xhtml#sub126">Chapter 6. Logic Pro X Concepts, Part 2</a>
+      <ul>
+        <li>
+          <a href="Chapter06.xhtml#sub127">Setting Up for Recording</a>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub128">Recording Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub129">Making a Record Selection</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub130">Record Enabling Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub131">Monitoring Record Enabled Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub132">Initiating a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub133">Stopping a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub134">Recording Additional Takes</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub135">Recording MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub136">Monitoring a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub137">Record Enabling Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub138">Overlap Recording on Software Instrument Tracks</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub139">Importing Audio and MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub140">Supported Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub141">Importing from the Desktop</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub142">Importing from Media Browser and All Files Browser</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub143">Using the Import Command</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub144">Using Apple Loops</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub145">Working in the Tracks Area</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub146">Snap to Grid</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub147">Setting the Snap Value</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub148">Working with Regions and Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub149">Selecting a Tool for Editing</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub150">Basic Editing Techniques</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub151">Advanced Editing Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub152">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise06.xhtml#sub153">Exercise 6. Importing and Editing Regions</a>
+    </li>
+    <li>
+      <a href="Chapter07.xhtml#sub154">Chapter 7. Mixing Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter07.xhtml#sub155">Basic Mixing</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub156">Setting Levels</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub157">Panning</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub158">Staying Organized</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub159">Processing Options and Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub160">Gain-Based Processing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub161">Time-Based Processing and Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub162">Insert Effects Versus Send Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub163">Processing with External Gear</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub164">Mixing in the Box</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub165">Advantages of In-the-Box Mixing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub166">Getting the Most Out of an In-the-Box Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub167">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise07.xhtml#sub168">Exercise 7. Creating a Basic Mix</a>
+    </li>
+    <li>
+      <a href="Chapter08.xhtml#sub169">Chapter 8. Signal Processing</a>
+      <ul>
+        <li>
+          <a href="Chapter08.xhtml#sub170">Plug-In Basics</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub171">Inserting Plug-Ins on Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub172">Moving and Duplicating Plug-Ins</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub173">Displaying Plug-In Windows</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub174">Common Plug-In Controls</a>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub175">Adjusting Plug-In Parameters</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub176">Adjusting Plug-In Parameters with the Mouse</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub177">Adjusting Plug-In Parameters with the Computer Keyboard</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub178">EQ Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub179">Types of EQ</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub180">Basic EQ Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub181">EQ Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub182">Strategies for Using EQ</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub183">Dynamics Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub184">Types of Dynamics Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub185">Basic Dynamics Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub186">Dynamics Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub187">Strategies for Using Compression</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub188">Strategies for Using a De-Esser</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub189">Reverb and Delay Effects</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub190">What Is Reverb?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub191">Reverb in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub192">Applications for Reverb Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub193">What Is Delay?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub194">Delay in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub195">Applications for Delay Processors</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub196">Wet Versus Dry Signals</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub197">Using Time-Based Effects as Plug-in Inserts</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub198">Using Send-and-Return Configurations</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub199">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise08.xhtml#sub200">Exercise 8. Optimizing Tracks with Signal Processing</a>
+    </li>
+    <li>
+      <a href="Chapter09.xhtml#sub201">Chapter 9. Finishing a Project</a>
+      <ul>
+        <li>
+          <a href="Chapter09.xhtml#sub202">Recalling a Saved Mix</a>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub203">Using Automation</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub204">Selecting an Automation Mode</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub205">Writing Real-Time Automation</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub206">Viewing Automation Curves</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub207">Editing Automation Points</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub208">Creating a Mixdown</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub209">Adding Processing on the Stereo Output</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub210">Considerations for Bouncing Audio</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub211">Creating a Bounce of an Audio Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub212">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise09.xhtml#sub213">Exercise 9. Preparing the Final Mix</a>
+    </li>
+    <li>
+      <a href="Chapter10.xhtml#sub214">Chapter 10. Beyond the Basics</a>
+      <ul>
+        <li>
+          <a href="Chapter10.xhtml#sub215">Flex Time and Pitch</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub216">Enabling Flex</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub217">Flex Time</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub218">Flex Pitch</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub219">MIDI Editing Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub220">Viewing MIDI Regions and Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub221">Editing MIDI Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub222">Working with Velocity</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub223">Software Instrument Region Inspector</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub224">Quantization in the Piano Roll Editor</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub225">Submixing with Track Stacks</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub226">Simplifying a Mix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub227">Using Track Stacks to Submix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub228">Creating Stems</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub229">Keyboard Shortcuts</a>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub230">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise10.xhtml#sub231">Exercise 10. Finalizing a Project</a>
+    </li>
+    <li>
+      <a href="AbouttheAuthors.xhtml#sub232">About the Authors</a>
+    </li>
+  </ul>
+</div>
+
+
+  </div>
+  
+
+  <div class="calibreEbNav">
+    
+      <a href="Exercise03.xhtml" class="calibreAPrev">previous page
+</a>
+    
+
+    <a href="../../../fultv-nyhsd.html" class="calibreAHome">start
+</a>
+
+    
+      <a href="Exercise04.xhtml" class="calibreANext">next page
+</a>
+    
+  </div>
+
+</div>
+
+</body>
+</html>

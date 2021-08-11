@@ -1,0 +1,1967 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Chapter 10 Beyond the Basics</title>
+    <meta content="urn:uuid:e0000000-0000-0000-0000-000006335993" name="Adept.expected.resource"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../../stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../../page_styles.css" rel="stylesheet" type="text/css"/>
+
+  
+
+
+<link href="../../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="calibreMeta">
+  <div class="calibreMetaTitle">
+  
+  
+    
+    <h1>
+      <a href="../../../fultv-nyhsd.html">Audio Production Basics with Logic Pro X
+</a>
+    </h1>
+    
+    
+  
+  </div>
+  <div class="calibreMetaAuthor">
+    Gold, Harry; Rey, Ryan; Cook, Frank D., Harry Gold
+
+  </div>
+</div>
+
+<div class="calibreMain">
+
+  <div class="calibreEbookContent">
+    
+      <div class="calibreEbNavTop">
+        
+          <a href="Exercise09.xhtml" class="calibreAPrev">previous page
+</a>
+        
+
+        
+          <a href="Exercise10.xhtml" class="calibreANext">next page
+</a>
+        
+      </div>
+    
+
+    
+<section role="doc-chapter">
+  <p class="chnum"><span aria-label="243" id="page_243" role="doc-pagebreak"></span><a href="nav.xhtml#toc214" id="sub214" class="calibre5"><span class="textstyle12">Chapter 10</span></a></p>
+
+  <h1 class="chtitle1"><a href="nav.xhtml#toc214" class="calibre5"><span class="textstyle8">Beyond the Basics</span></a></h1>
+
+  <p class="center"><span class="textstyle21">…What to Explore to Become a Power User…</span></p>
+
+  <p class="noindent"><span class="textstyle11">In this chapter, we take a brief look at various advanced features in Logic Pro X. We begin with a quick overview of using Flex Time and Pitch to manipulate the rhythmic and melodic attributes of audio regions. Then we explore some fundamental MIDI editing techniques that can be used to create and modify MIDI data. Next we discuss how you can simplify project management with submixing. The chapter concludes with a sample of some keyboard shortcuts that you can use to dramatically accelerate your editing workflow.</span></p>
+
+  <p class="learn"><img alt="frn_fig_010" src="../Images/frn_fig_010.jpg" class="calibre15"/><span class="space1"></span><span class="textstyle22">Learning Targets for This Chapter</span></p>
+<ul class="ul">
+<li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand the basics of Flex Time and Pitch</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Explore fundamental MIDI editing techniques</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Gain familiarity with submixing techniques</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Learn essential keyboard shortcuts</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp1"><span class="textstyle20">Key topics from this chapter are illustrated in the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform. Sign up at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span aria-label="244" id="page_244" role="doc-pagebreak"></span><span class="textstyle11">For those who are new to the world of DAWs, or simply new to Logic Pro X, the information required to produce a finished project can seem a bit overwhelming. Learning the fundamentals should obviously be the first goal, so that you’ll have a strong foundation. But it’s also helpful to learn some advanced features so you’ll be able to work quickly and effectively.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The goal of this chapter is to present some key features in Logic Pro X that you can get started using right away. Many of the topics we touch on here are easily deep enough to warrant an entire chapter in an advanced course. However, here we address just the primary functionality so that you’ll be able to put these features to use quickly. Once you’ve gained a bit of experience with Logic Pro X, you can come back to these topics at a later date and learn them comprehensively.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc215" id="sub215" class="calibre5"><span class="textstyle13">Flex Time and Pitch</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Flex Time is the name of the Logic Pro X feature that allows you to manipulate the timing of notes, beats, and other events in audio regions. A related feature, Flex Pitch, allows you to manipulate the pitch of audio material. Flex operations are not enabled in Logic Pro X by default. You can enable or change the Flex processing on individual tracks in your project at any time.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Flex Time operations in Logic Pro X are similar to Elastic Audio or Time Warping operations in other DAWs.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">With Flex enabled, you have a number of options available to alter the timing and pitch of your regions.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc216" id="sub216" class="calibre5"><span class="textstyle14">Enabling Flex</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Flex Time and Pitch can be accessed in the Tracks area of the Main window and in the Track Editor. You can use one of several methods to activate Flex.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To enable Flex in the Main window, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">To show Flex parameters, do one of the following:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Choose</span> <span class="textstyle29">E</span><span class="textstyle29">DIT</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">S</span><span class="textstyle29">HOW</span> <span class="textstyle29">F</span><span class="textstyle29">LEX</span> <span class="textstyle29">P</span><span class="textstyle29">ITCH</span><span class="textstyle29">/T</span><span class="textstyle29">IME</span> <span class="textstyle11">from the Tracks area menu bar.</span></li>
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Click the</span> <span class="textstyle29">S</span><span class="textstyle29">HOW</span><span class="textstyle29">/H</span><span class="textstyle29">IDE</span> <span class="textstyle29">F</span><span class="textstyle29">LEX</span> <span class="textstyle11">button in the Tracks area menu bar.</span></li>
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+F</span><span class="textstyle11">.</span></li>
+</ul>
+  <p class="img-la"><img alt="chpt_fig_225" class="scale1" src="../Images/chpt_fig_225.jpg"/></p>
+  <p class="caption" id="fig10.1"><span class="textstyle26">Figure 10.1</span> <span class="textstyle27">The Edit menu and Show/Hide Flex Pitch/Time button in the Tracks area menu bar</span></p>
+
+  <p class="copy"><span aria-label="245" id="page_245" role="doc-pagebreak"></span><span class="textstyle11">A Track Flex button and Flex pop-up menu will appear in the track header for each audio track.</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">On the target track, click the</span> <span class="textstyle29">T</span><span class="textstyle29">RACK</span> <span class="textstyle29">F</span><span class="textstyle29">LEX</span> <span class="textstyle11">button in the track header to enable Flex for the track. Alternatively, you can select multiple tracks and click one of the</span> <span class="textstyle29">T</span><span class="textstyle29">RACK</span> <span class="textstyle29">F</span><span class="textstyle29">LEX</span> <span class="textstyle11">buttons to enable Flex for all selected tracks.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To enable Flex in the Track Editor, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the desired track.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Click the Editors button (or press the</span> <span class="textstyle29">E</span> <span class="textstyle11">key) to open the Track Editor.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">In the Track Editor, click the</span> <span class="textstyle29">S</span><span class="textstyle29">HOW</span><span class="textstyle29">/H</span><span class="textstyle29">IDE</span> <span class="textstyle29">F</span><span class="textstyle29">LEX</span> <span class="textstyle11">button (or press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+F</span><span class="textstyle11">). A dialog box will display prompting you to turn on Flex for the selected track.</span>
+
+  <p class="img-la"><img alt="chpt_fig_226" class="scale" src="../Images/chpt_fig_226.jpg"/></p>
+  <p class="caption" id="fig10.2"><span class="textstyle26">Figure 10.2</span> <span class="textstyle27">The Show/Hide Flex button enabled</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Select</span> <span class="textstyle15">Turn on Flex</span> <span class="textstyle11">to enable Flex on the track.</span></li>
+</ol>
+  <h3 class="subhead1"><a href="nav.xhtml#toc217" id="sub217" class="calibre5"><span class="textstyle14">Flex Time</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Once you’ve enabled Flex parameters on a track, you can begin to manipulate the timing of the audio on that track. Regions or portions of a region can be expanded or compressed to fit your editing needs. Logic Pro X provides a number of options for editing the timing in audio regions.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The available Flex algorithms include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Monophonic</span><span class="textstyle11">—This algorithm is ideally suited to monophonic material such as vocals or bass guitar when only single notes are played at a time.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Slicing</span><span class="textstyle11">—This algorithm cuts audio into slices at transient markers. This is a good option for drums, percussion, and other material with clear breaks in audio. Slices are played at their original speed, so no expansion or compression occurs.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Rhythmic</span><span class="textstyle11">—This algorithm is the best choice for material that includes rhythm guitars, keyboard parts, and other complex percussive elements.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Polyphonic</span><span class="textstyle11">—This is an all-purpose algorithm that works well on complex material such as chords and mixes. Polyphonic is the most processor intensive of the algorithms.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Speed (FX)</span><span class="textstyle11">—This algorithm links time and pitch changes to create tape speed effects. Stretching audio for slower playback results in lower pitch. Compressing audio for faster playback results in higher pitch.</span></li>
+
+  <li class="sq-listb"><span aria-label="246" id="page_246" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Tempophone (FX)</span><span class="textstyle11">—This algorithm creates an effect similar to granular synthesis with sound artifacts.</span>
+
+  <p class="img-l"><img alt="chpt_fig_227" class="scale2" src="../Images/chpt_fig_227.jpg"/></p>
+  <p class="caption" id="fig10.3"><span class="textstyle26">Figure 10.3</span> <span class="textstyle27">The Flex options in Logic Pro X</span></p>
+  </li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_005" class="scale" src="../Images/frn_fig_005.jpg"/></td>
+<td class="tdp"><span class="textstyle20">When Flex is initially enabled on a track, Flex Time – Automatic is selected by default. In this mode, Logic Pro X analyzes the audio and chooses a suitable algorithm based on the track content.</span></td>
+</tr>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Flex Time Quantization</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The fastest way to tighten the rhythm of an audio performance is to use standard Logic Pro X quantize features. This uses the same settings found in the Region Inspector that are commonly used to alter MIDI performances. The Quantize settings can be used to edit audio data as long as the desired track or regions are selected.</span></p>
+
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">What Is Quantization?</span></p>
+
+  <p class="copy"><span class="textstyle19">Quantization is the process of aligning musical events to an underlying rhythmic pattern. This process is commonly used to improve the timing of MIDI performances by moving individual MIDI notes closer to the selected grid resolution. This results in more precise timing and a tighter rhythmic feel.</span></p>
+
+  <p class="noindent"><span class="textstyle19">Extreme quantization can make a performance sound “mechanical,” which can be desirable for certain genres of music such as EDM. For a more “human” feel, you can apply a subtler amount of quantization and include a degree of strength, randomization, swing, or other characteristics.</span></p>
+</div>
+  <p class="noindent"><span class="textstyle17">To quantize audio using the Quantize dialog box:</span></p>
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Verify that Flex Time is enabled on the target track.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Select the audio region or regions that you would like to quantize.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">From the Quantize pop-up menu of the Region Inspector, select a quantization value. Once a value is selected, quantization will be applied to the selection. (See <a href="#fig10.4" class="calibre5">Figure 10.4</a>.)</span>
+  <p class="img-la"><span aria-label="247" id="page_247" role="doc-pagebreak"></span><img alt="chpt_fig_228" class="scale2" src="../Images/chpt_fig_228.jpg"/></p>
+  <p class="caption" id="fig10.4"><span class="textstyle26">Figure 10.4</span> <span class="textstyle27">Quantize value set to a quarter note in the Region Inspector</span></p>
+  </li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_005" class="scale" src="../Images/frn_fig_005.jpg"/></td>
+<td class="tdp"><span class="textstyle20">You can change the quantization settings anytime by selecting another time value. You can also disable quantization by selecting “off.”</span></td>
+</tr>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Manually Edit Flex Markers</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">If you need to change the timing of your tracks without quantizing to a grid, you have the option of manually editing flex markers. When you show Flex, audio waveforms will show transient markers, and the pointer will turn into a Flex tool. With the pointer, you can turn transient markers into flex markers or add flex markers anywhere within the region. Once placed, these markers can be adjusted by dragging with the pointer. Flex markers can be adjusted or deleted at any time.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Additionally, clicking with the pointer in a region will result in two different behaviors, depending on where the pointer is positioned. Clicking with the pointer in the upper half of a region will place just one flex marker. Clicking with the pointer in the lower half of a region will add a flex marker at that position as well as at the transient markers on either side of the marker.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To add flex markers to change the timing of audio:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Verify that the Flex Time is enabled for the target track.</span>
+
+  <p class="img-la"><img alt="chpt_fig_229" class="scale1" src="../Images/chpt_fig_229.jpg"/></p>
+  <p class="caption" id="fig10.5"><span class="textstyle26">Figure 10.5</span> <span class="textstyle27">A region with Flex enabled showing transient markers</span></p>
+  </li>
+</ol>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span aria-label="248" id="page_248" role="doc-pagebreak"></span><span class="textstyle20">Logic Pro X’s Flex Time function adds transient markers automatically at all transient locations and other significant rhythmic events within a region.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">If no flex marker exists at the location that you’d like to stretch, create one by placing the pointer over the lower half of the region. The pointer will change into a flex tool that shows three flex markers.</span>
+
+  <p class="img-la"><img alt="chpt_fig_230" class="scale2" src="../Images/chpt_fig_230.jpg"/></p>
+  <p class="caption" id="fig10.6"><span class="textstyle26">Figure 10.6</span> <span class="textstyle27">The Flex tool showing three flex markers when positioned on the lower half of the region</span></p>
+  </li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Flex markers anchor the audio at a given point on the timeline. Flex markers are recognizable in Flex view by a blue pentagon at the top and a solid white line.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Click on the transient marker. Three flex markers will be added: one at the location, one at the transient before, and one at the transient after.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Use the pointer to reposition the flex marker in the center to adjust the timing</span> <span class="textstyle11">of the</span> <span class="textstyle11">underlying audio event relative to the events on either side.</span>
+
+  <p class="img-la"><img alt="chpt_fig_231" class="scale" src="../Images/chpt_fig_231.jpg"/></p>
+  <p class="caption" id="fig10.7"><span class="textstyle26">Figure 10.7</span> <span class="textstyle27">A region with flex marker before time stretching (left) and after (right)</span></p>
+  </li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">When flex markers are adjusted to stretch time, the waveform color will change to reflect the adjustment. When audio is compressed, the waveform becomes white. When audio is expanded, the waveform becomes gray.</span></td>
+</tr>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Flex Time and the Marquee Tool</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Another option for editing time with Flex is to use the Marquee tool. You can reposition a selection rather than stretching the audio between markers. This helps to preserve the original audio while still making time corrections. Just like with the Slicing algorithm of Flex Time, audio that has clear separation between transients will produce the best results.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Similar to adding flex markers as described above, placing the pointer in the upper or lower portions of a region will produce different results. When clicking the upper half of a marquee selection, four flex markers <span aria-label="249" id="page_249" role="doc-pagebreak"></span>are made: two markers outside the borders of the marquee selection and markers on transients before and after the selection. Clicking the lower half of the marquee selection adds three flex markers: two markers outside the borders of the marquee selection and one at the clicked position within the selection. The former allows you to move the selection like a slice, while the latter stretches the audio within the selection.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To move a marquee selection with Flex:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Verify that the Flex Time is enabled for the target track.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Make a selection with the Marquee tool.</span>
+
+  <p class="img-la"><img alt="chpt_fig_232" class="scale1" src="../Images/chpt_fig_232.jpg"/></p>
+  <p class="caption" id="fig10.8"><span class="textstyle26">Figure 10.8</span> <span class="textstyle27">A marquee selection on a Flex-enabled region</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Position the pointer over the upper half of the selection and click. (The pointer will turn into a hand.) Four flex markers will be created: two on the borders of the marquee selection and one marker on each transient to the left and right of the selection.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Grab the marquee selection with the hand and drag to the desired location.</span>
+
+  <p class="img-la"><img alt="chpt_fig_233" class="scale" src="../Images/chpt_fig_233.jpg"/></p>
+  <p class="caption" id="fig10.9"><span class="textstyle26">Figure 10.9</span> <span class="textstyle27">A marquee selection with flex markers before editing (left) and after (right)</span></p>
+  </li>
+</ol>
+  <h3 class="subhead1"><a href="nav.xhtml#toc218" id="sub218" class="calibre5"><span class="textstyle14">Flex Pitch</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Flex Pitch allows you to alter the melodic material of an audio file. Instead of displaying transient markers, audio content will have an overlay of MIDI notes. When Flex Pitch is enabled, you can adjust the individual notes on a piano roll, much like you would for a software instrument track. Notes can be moved vertically or horizontally, resized, split, and merged.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Flex Pitch works only for monophonic, or melodic, content. It cannot process individual notes in a chord or other complex sound.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">Each displayed note also has six parameters that can be adjusted, independent of the other notes. When you select a note or move the pointer over it, the six parameters, or “hotspots,” will appear. From left to right, <span aria-label="250" id="page_250" role="doc-pagebreak"></span>hotspots along the top are pitch drift at the note start, fine pitch, and pitch drift at the note end; the hotspots along the bottom are gain, vibrato, and formant shift (see <a href="#fig10.10" class="calibre5">Figure 10.10</a>).</span></p>
+
+  <p class="img"><img alt="chpt_fig_234" class="scale1" src="../Images/chpt_fig_234.jpg"/></p>
+  <p class="caption" id="fig10.10"><span class="textstyle26">Figure 10.10</span> <span class="textstyle27">Flex Pitch “hotspots” on a selected note in the Audio Track Editor</span></p>
+
+  <p class="noindent"><span class="textstyle11">The fine pitch parameter allows you to fine tune notes. This is useful for when the notes of a performance are correct but are out of tune. Fine pitch makes subtle adjustments so that a performance will better harmonize with other parts. You can tell if a note is in tune visually by how solid the note is. When a note is right on the MIDI note position, it’s in perfect pitch. Notes that sit above or below are sharp or flat, respectively (see <a href="#fig10.11" class="calibre5">Figure 10.11</a>).</span></p>
+
+  <p class="img"><img alt="chpt_fig_235" class="scale1" src="../Images/chpt_fig_235.jpg"/></p>
+  <p class="caption" id="fig10.11"><span class="textstyle26">Figure 10.11</span> <span class="textstyle27">Flex Pitch shows whether notes are in perfect pitch (left), sharp (middle), or flat (right)</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">When editing notes in the Track Editor, you can easily access additional features like the pitch correction slider and scale quantize menu.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To change pitches of a melody with Flex Pitch:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Verify that the Flex Pitch is enabled for the target track.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Select or position the pointer over the note you want to change.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Drag notes vertically to the desired pitch. (See <a href="#fig10.12" class="calibre5">Figure 10.12</a>.)</span>
+
+  <p class="img-la"><span aria-label="251" id="page_251" role="doc-pagebreak"></span><img alt="chpt_fig_236" class="scale1" src="../Images/chpt_fig_236.jpg"/></p>
+  <p class="caption" id="fig10.12"><span class="textstyle26">Figure 10.12</span> <span class="textstyle27">Lowering the third note of the example in <a href="#fig10.10" class="calibre5">Figure 10.10</a> with Flex Pitch</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Adjust notes that aren’t in perfect pitch using the fine pitch hotspot: select the note and drag the hotspot up or down until it resets to 0, or other value you choose.</span>
+
+  <p class="img-la"><img alt="chpt_fig_237" class="scale" src="../Images/chpt_fig_237.jpg"/></p>
+  <p class="caption" id="fig10.13"><span class="textstyle26">Figure 10.13</span> <span class="textstyle27">Using Fine Pitch parameter to adjust the sharp note (left) and make it perfect pitch (right)</span></p>
+  </li>
+</ol>
+  <h2 class="subhead"><a href="nav.xhtml#toc219" id="sub219" class="calibre5"><span class="textstyle13">MIDI Editing Techniques</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">MIDI editing is another topic worthy of its own chapter (or several chapters). But as with Flex, a little knowledge is all you need to get started. Understanding the fundamentals of MIDI editing is absolutely essential in the modern studio. Whether your goal is to add a few MIDI instruments to a song or to compose a virtual orchestral masterpiece, you’ll need to know how to edit MIDI data quickly and accurately.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc220" id="sub220" class="calibre5"><span class="textstyle14">Viewing MIDI Regions and Data</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">When working with MIDI-capable tracks, the two areas you’ll utilize are the Tracks area and Editors pane or window. The Tracks area of the Main window allows viewing and editing of MIDI regions only, making it useful for arranging a project. The Piano Roll Editor, on the other hand, allows you to view and edit regions but also provides full access to MIDI information contained within regions, making it a more versatile option. The Piano Roll can be opened in the Editor pane below the Tracks area or as a separate window. Both viewing options give you the same features.</span></p>
+
+  <p class="img"><span aria-label="252" id="page_252" role="doc-pagebreak"></span><img alt="chpt_fig_238" class="scale1" src="../Images/chpt_fig_238.jpg"/></p>
+  <p class="caption" id="fig10.14"><span class="textstyle26">Figure 10.14</span> <span class="textstyle27">Piano Roll window</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">MIDI Regions in the Tracks Area</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">On MIDI-capable tracks, the Tracks area of the Main window is commonly used to edit and arrange MIDI regions. In this area, you can perform the same basic editing techniques that you use on audio regions:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Cut, Copy, Paste, and Clear selections or regions</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Duplicate and Repeat selections or regions</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Trim regions</span></li>
+</ul>
+  <p class="img"><img alt="chpt_fig_239" class="scale1" src="../Images/chpt_fig_239.jpg"/></p>
+  <p class="caption" id="fig10.15"><span class="textstyle26">Figure 10.15</span> <span class="textstyle27">A Software Instrument MIDI region in the Tracks area</span></p>
+
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">Repeat Commands</span></p>
+
+  <p class="copy"><span class="textstyle19">The two commands, Repeat and Repeat Multiple, provide ways to quickly create multiple instances of a region or selection. Repeat is the best option when you only need to make one or two sequential copies. If you need to make multiple copies, it can be faster to use the Repeat Multiple command instead.</span></p>
+
+  <p class="copy"><span class="textstyle19">To use the Repeat command, select a region or a portion of a region. Then choose</span> <span class="textstyle29">E</span><span class="textstyle29">DIT</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">R</span><span class="textstyle29">EPEAT</span> <span class="textstyle19">or</span> <span class="textstyle19">press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+R</span><span class="textstyle19">. To use the Repeat Multiple command instead, choose</span> <span class="textstyle29">E</span><span class="textstyle29">DIT</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">R</span><span class="textstyle29">EPEAT</span> <span class="textstyle29">M</span><span class="textstyle29">ULTIPLE</span> <span class="textstyle19">and type in the number of copies to make.</span></p>
+</div>
+
+  <h4 class="subhead1"><span aria-label="253" id="page_253" role="doc-pagebreak"></span><span class="textstyle28">MIDI Regions in the Piano Roll Editor</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The Piano Roll Editor is where you’ll do most of your work on MIDI regions. You can perform a wide range of tasks using this window, including the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Adding and deleting notes</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Selecting notes</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Transposing notes (changing a note’s pitch)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Moving notes (changing a note’s timing)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Trimming the note start and end (changing a note’s duration)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Quantizing notes</span></li>
+</ul>
+  <p class="img"><img alt="chpt_fig_240" class="scale2" src="../Images/chpt_fig_240.jpg"/></p>
+  <p class="caption" id="fig10.16"><span class="textstyle26">Figure 10.16</span> <span class="textstyle27">Trimming a MIDI note in the Piano Roll Editor</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Automation/MIDI Area</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The Automation/MIDI area in the Piano Roll Editor can be used to edit the velocity and other controller data associated with individual MIDI notes. A note’s velocity is a measurement of how hard the note has been struck. This is one of the most common pieces of data you will edit along with MIDI notes. The velocity characteristic can substantially change the sound of a virtual instrument.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Automation and MIDI data is show in two ways: as an automation curve and as nodes with horizontal lines representing note lengths. Values can be adjusted in a number of ways, including:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Adjusting the velocity of a note with the pointer</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Scaling velocity values of multiple notes by dragging up or down with the Pencil tool</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Drawing gradual changes in velocity (crescendo/decrescendo) with the pointer</span>
+
+  <p class="img-la"><span aria-label="254" id="page_254" role="doc-pagebreak"></span><img alt="chpt_fig_241" class="scale1" src="../Images/chpt_fig_241.jpg"/></p>
+  <p class="caption" id="fig10.17"><span class="textstyle26">Figure 10.17</span> <span class="textstyle27">Adjusting the velocity value of a note in the MIDI/Automation area of the Piano Roll Editor</span></p>
+  </li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc221" id="sub221" class="calibre5"><span class="textstyle14">Editing MIDI Data</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X offers a powerful MIDI editing toolset that can be used to create and edit MIDI performances, regardless of whether or not you own a MIDI controller such as a keyboard.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Let’s take a closer look at some options for creating and working with MIDI data in Logic Pro X.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Creating MIDI Notes</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Manually entering MIDI note data may seem like a slow method of creating a performance, compared to playing the performance on a MIDI controller. However, many music producers prefer to manually enter note data for certain types of tracks (such as drums, percussion, and bass). With a little practice, you can create and edit MIDI note data very quickly and accurately, using only the Pencil tool and the Pointer tool.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To manually create a MIDI note:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the Software Instrument track you wish to use.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">If there is no MIDI region to edit, create one by</span> <span class="textstyle29">C</span><span class="textstyle29">ONTROL</span><span class="textstyle29">-</span><span class="textstyle29">CLICKING</span> <span class="textstyle11">an empty area in the Tracks area or Piano Roll Editor. An empty one-bar region will be created.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">In the Piano Roll Editor, hold</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span> <span class="textstyle11">to change the pointer to the Pencil tool.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Click and hold with the Pencil at the location (in both pitch and time) where you would like to enter a note. You can adjust the note’s duration by dragging forward/backward; you can adjust the note’s pitch by dragging up or down.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If no MIDI region exists in the Piano Roll Editor, clicking anywhere in the grid with the Pencil tool will automatically create a new region along with a note at the clicked location.</span></td>
+</tr>
+</table>
+  <p class="img-la"><span aria-label="255" id="page_255" role="doc-pagebreak"></span><img alt="chpt_fig_242" class="scale2" src="../Images/chpt_fig_242.jpg"/></p>
+  <p class="caption1"><span class="textstyle26">Figure 10.18</span> <span class="textstyle27">Manually entering a MIDI note with the Pencil tool</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Release the mouse to complete the action and place the note at the selected location.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Newly created notes match the length, velocity, and channel of the previously edited or selected note. When opening a new project, the default values are: length equals 240 ticks (sixteenth note), velocity equals 80, and MIDI channel is 1.</span></td>
+</tr>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Selecting MIDI Notes</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Another essential part of working with MIDI data involves selecting notes. Understanding how to quickly select single notes and groups of notes is critical to the MIDI editing workflow. You can use the following techniques to select notes on a MIDI or Instrument track in the Piano Roll Editor.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To select an individual note, do one of the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the pointer or Pencil tool, click anywhere on a note.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the pointer, click in an empty space on the grid and drag a rectangle over the note.</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle17">To select groups of notes, do one of the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the pointer or Pencil tool,</span> <span class="textstyle29">S</span><span class="textstyle29">HIFT</span><span class="textstyle29">-</span><span class="textstyle29">CLICK</span> <span class="textstyle11">on each of the desired notes.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the pointer, click in an empty space on the grid and draw a rectangle around the desired notes.</span>
+
+  <p class="img-l"><img alt="chpt_fig_243" class="scale1" src="../Images/chpt_fig_243.jpg"/></p>
+  <p class="caption" id="fig10.19"><span class="textstyle26">Figure 10.19</span> <span class="textstyle27">Selecting a group of MIDI notes with the pointer</span></p>
+  </li>
+</ul>
+
+  <h4 class="subhead1"><span aria-label="256" id="page_256" role="doc-pagebreak"></span><span class="textstyle28">Editing MIDI Notes</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">With basic note creation and selection techniques in hand, a whole range of MIDI editing functions are available to you. Let’s look at some essential MIDI editing techniques that you can use.</span></p>
+
+  <p class="noindent"><span class="textstyle51">Deleting MIDI Notes</span></p>
+
+  <p class="noindent1"><span class="textstyle17">To delete an individual note, do one of the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the pointer, select a note and press</span> <span class="textstyle29">D</span><span class="textstyle29">ELETE</span><span class="textstyle11">.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the Pencil tool,</span> <span class="textstyle29">D</span><span class="textstyle29">OUBLE</span><span class="textstyle29">-</span><span class="textstyle29">CLICK</span> <span class="textstyle11">on a note.</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle17">To delete a group of notes:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Select the notes and press</span> <span class="textstyle29">D</span><span class="textstyle29">ELETE</span><span class="textstyle11">.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Select the notes, then using the Pencil tool,</span> <span class="textstyle29">D</span><span class="textstyle29">OUBLE</span><span class="textstyle29">-</span><span class="textstyle29">CLICK</span> <span class="textstyle11">on a selected note.</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle51">Moving MIDI Notes</span></p>
+
+  <p class="noindent1"><span class="textstyle17">To move a note to a new location, do one of the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the pointer or Pencil tool, click on the note and drag left or right.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Select a note and press</span> <span class="textstyle29">S</span><span class="textstyle29">EMICOLON</span> <span class="textstyle11">(</span><span class="textstyle29">;</span><span class="textstyle11">) to move the selected note to the playhead position. (This is particularly useful when moving to a location off screen.)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Select a note, then press</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">+L</span><span class="textstyle29">EFT</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span> <span class="textstyle11">to nudge the note to the left or</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">+R</span><span class="textstyle29">IGHT</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span> <span class="textstyle11">to nudge to the right.</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Nudging is an editing technique that allows you to move a selected event or region forward or backward in time by small increments using key commands.</span></td>
+</tr>
+</table>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_005" class="scale" src="../Images/frn_fig_005.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To change the nudge value, open the Toolbar by clicking the Toolbar button in the Control bar or by pressing Control+Option+Command+T. From the Nudge Value pop-up menu, select the desired increment.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To move a group of notes to a new location, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the target notes.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Use any of the methods listed above for moving a single note.</span></li>
+</ol>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span aria-label="257" id="page_257" role="doc-pagebreak"></span><span class="textstyle20">When working in Grid mode, hold Control to temporarily suspend the grid. For finer control, hold Control+Shift.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle51">Transposing MIDI Notes</span></p>
+
+  <p class="noindent"><span class="textstyle17">To change a note’s pitch, do one of the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Using the pointer or Pencil tool, click on the note and drag up or down.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Select a note and press</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">+U</span><span class="textstyle29">P</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span> <span class="textstyle11">to transpose up a semitone or</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">+D</span><span class="textstyle29">OWN</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span> <span class="textstyle11">to transpose down a semitone.</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_005" class="scale" src="../Images/frn_fig_005.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To transpose an octave up or down, hold</span> <span class="textstyle34">S</span><span class="textstyle34">HIFT</span> <span class="textstyle34">+O</span><span class="textstyle34">PTION</span> <span class="textstyle34">+U</span><span class="textstyle34">P</span> <span class="textstyle34">A</span><span class="textstyle34">RROW</span> <span class="textstyle20">or</span> <span class="textstyle34">S</span><span class="textstyle34">HIFT</span> <span class="textstyle34">+O</span><span class="textstyle34">PTION</span> <span class="textstyle34">+D</span><span class="textstyle34">OWN</span> <span class="textstyle34">A</span><span class="textstyle34">RROW</span><span class="textstyle20">, respectively..</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To change the pitch of a group of notes, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the target notes.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Use any of the methods listed above for transposing a single note.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_005" class="scale" src="../Images/frn_fig_005.jpg"/></td>
+<td class="tdp"><span class="textstyle20">When moving or transposing notes with the pointer or Pencil tool, you can hold Option to copy the notes. This is a quick way to create harmonies or chords for melodic instruments.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle51">Trimming MIDI Notes</span></p>
+
+  <p class="noindent"><span class="textstyle17">To trim a note, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Using the pointer or the Pencil tool, position the cursor near the beginning or end of the note.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Click and drag left or right to trim the note start or end point.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To trim a group of notes, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the target notes.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Using the pointer or the Pencil tool, position the cursor near the beginning or end of any one of the selected notes.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Click and drag left or right to trim the start or end point of all of the selected notes.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_004" class="scale" src="../Images/frn_fig_004.jpg"/></td>
+<td class="tdp"><span aria-label="258" id="page_258" role="doc-pagebreak"></span><span class="textstyle20">When trimming multiple notes of different lengths, hold Shift+Option to make them the same length as the note being trimmed.</span></td>
+</tr>
+</table>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc222" id="sub222" class="calibre5"><span class="textstyle14">Working with Velocity</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Most modern MIDI controllers are “velocity sensitive,” meaning that they automatically detect how hard a key or pad is struck. The velocity data is transmitted and recorded as a characteristic of the MIDI note. However, when notes are manually entered (with the Pencil tool, for example), they will all share a default velocity value. This can lead to very stiff, robotic–sounding performances. Modifying and manipulating velocity data is essential to creating natural-sounding MIDI parts.</span></p>
+
+  <p class="noindent"><span class="textstyle11">We’ve already covered how to edit velocity in the Automation/MIDI area of the Piano Roll Editor. Two more options are available that are quick and easy alternatives. The first is to use the Velocity slider to the left of the Piano Roll and below the quantize settings. The second is to use the Velocity tool.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To edit velocity using the Velocity slider:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">With the pointer or Pencil tool, select the desired note.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Move the Velocity slider to the preferred setting.</span>
+
+  <p class="img-la"><img alt="chpt_fig_244" class="scale" src="../Images/chpt_fig_244.jpg"/></p>
+  <p class="caption" id="fig10.20"><span class="textstyle26">Figure 10.20</span> <span class="textstyle27">Adjusting velocity of a note with the Velocity slider</span></p>
+  </li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To edit velocity using the Velocity tool:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the Velocity tool from the Left-click Tool menu.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Click and hold on a note and drag up or down to the preferred setting.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To edit MIDI velocity data for a group of notes:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the group of notes that you wish to affect.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Use either technique described above.</span></li>
+</ol>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span aria-label="259" id="page_259" role="doc-pagebreak"></span><span class="textstyle20">In addition to the Velocity slider and Automation/MIDI data area, Logic Pro X shows velocity visually on the notes in two ways. First, horizontal lines within the notes represent the note’s relative velocity. Second, the note color changes with velocity, ranging from violet (low velocity) to red (high velocity).</span></td>
+</tr>
+</table>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc223" id="sub223" class="calibre5"><span class="textstyle14">Software Instrument Region Inspector</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">During the music production process, you’ll frequently want to make adjustments to MIDI data. One available option is to manually transpose, set quantization, and otherwise fine-tune a MIDI performance with various tools.</span></p>
+
+  <p class="noindent"><span class="textstyle11">However, when you’re in the middle of the creative flow and you want to perform a simple quantize operation, it’s not always convenient to stop and look at a complex dialog box or specific tool. In these instances, you can take advantage of the Region Inspector settings in Logic Pro X.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The Region Inspector controls can be used to quickly apply a number of settings, including the following modifications to the regions on a MIDI-capable track:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Quantization</span><span class="textstyle11">: Select a quantize grid value and swing amount.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Q-Strength</span><span class="textstyle11">: Adjust how far a note gets shifted toward the grid.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Delay</span><span class="textstyle11">: Adjust the timing of notes, shifting them earlier or later.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Velocity</span><span class="textstyle11">: Scale the velocity of notes up or down or change the range of velocities by percentage.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Transpose</span><span class="textstyle11">: Transpose notes up or down by a specified number of octaves and/or semitones.</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle11">A powerful advantage of using the Region Inspector is that you can quickly toggle a number of the properties on and off at any time. And you can modify the settings at any time without having to undo a previous change.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To view the full list of Region Inspector settings:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">With a software instrument track selected, click the</span> <span class="textstyle29">I</span><span class="textstyle29">NSPECTOR</span> <span class="textstyle11">button or press</span> <span class="textstyle29">I</span> <span class="textstyle11">to open the Inspector.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Click to expand the</span> <span class="textstyle29">M</span><span class="textstyle29">ORE</span> <span class="textstyle11">disclosure arrow. Once expanded, the full list of parameter controls for the region will appear. You can use these controls to quickly adjust the settings.</span>
+
+  <p class="img-la"><span aria-label="260" id="page_260" role="doc-pagebreak"></span><img alt="chpt_fig_245" class="scale" src="../Images/chpt_fig_245.jpg"/></p>
+  <p class="caption" id="fig10.21"><span class="textstyle26">Figure 10.21</span> <span class="textstyle27">The Region Inspector settings on a Software Instrument track</span></p>
+  </li>
+</ol>
+  <h3 class="subhead1"><a href="nav.xhtml#toc224" id="sub224" class="calibre5"><span class="textstyle14">Quantization in the Piano Roll Editor</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">One of the most commonly used tools is quantization. Earlier in this chapter, we looked at the quantization features in the Region Inspector when editing and correcting audio with Flex Time algorithms. MIDI-capable tracks share many of the same quantization settings in the Region Inspector, but also have the most common options conveniently available within the Piano Roll Editor: Time Quantize and Scale Quantize.</span></p>
+
+  <p class="noindent"><span class="textstyle11">An added benefit of using the Piano Roll Editor for quantization is that you can select specific notes rather than operating on all content within an entire region.</span></p>
+
+  <p class="img"><img alt="chpt_fig_246" class="scale2" src="../Images/chpt_fig_246.jpg"/></p>
+  <p class="caption" id="fig10.22"><span class="textstyle26">Figure 10.22</span> <span class="textstyle27">The quantization settings in the Piano Roll Editor</span></p>
+
+  <p class="noindent"><span class="textstyle11">The Time Quantize settings can be used to quickly apply the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Time Quantize pop-up menu</span><span class="textstyle11">: Set a quantize value to apply correction. The default is 1/16 Note.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Time Quantize (Q)</span><span class="textstyle11">: Apply correction to selected notes based on the set Time Quantize value.</span></li>
+  <li class="sq-listb"><span aria-label="261" id="page_261" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Strength</span><span class="textstyle11">: Set the degree of quantization applied to a selection (default is 100).</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Swing</span><span class="textstyle11">: Set the degree of swing (default is 0).</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle11">The Scale Quantize settings can be used to quickly limit notes to a particular scale. This function uses the following parameters:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Scale Quantize pop-up menu</span><span class="textstyle11">: Enable and disable scale quantization from the left menu (default is</span> <span class="textstyle29">O</span><span class="textstyle29">FF</span><span class="textstyle11">). Select the scale from the right menu.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Scale Quantize (Q)</span><span class="textstyle11">: Apply correction to selected notes based on the set Scale Quantize settings.</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Quantization applies correction to selected events without permanently altering the content. You can always return the content to its original state at any time.</span></td>
+</tr>
+</table>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc225" id="sub225" class="calibre5"><span class="textstyle13">Submixing with Track Stacks</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Submixing is a technique whereby multiple tracks are summed to a common destination (typically an aux channel) to simplify certain mixing tasks. While submixing is most useful in projects with a large number of tracks, there are advantages to using submixes in smaller projects as well.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc226" id="sub226" class="calibre5"><span class="textstyle14">Simplifying a Mix</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Submixing is frequently used to help simplify the mixing process. By submixing a group of related tracks, you can more easily apply effects across the whole group. You can also automate the summed levels of the group using a single fader.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Submixing is an essential technique for managing drum recordings, which typically span across a number of tracks. By routing the drums to a common Aux Input, you can apply compression or limiting to the group (for example) using a single plug-in. Then, you can quickly set the level for the entire drum kit using a single fader, while maintaining the relative levels of the individual tracks, as set by their own faders.</span></p>
+
+  <p class="noindent"><span class="textstyle11">But submixing isn’t just for drums. It can be a great way to manage any related group of tracks such as background vocals, guitars, and keyboards.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc227" id="sub227" class="calibre5"><span class="textstyle14">Using Track Stacks to Submix</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X offers a quick and convenient way to submix, using a feature called Track Stacks. This feature groups numerous tracks together into a collapsible display within the Tracks area and Mixer window. The required submix signal routing is handled automatically.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Submix workflows utilize a type of Track Stack called a</span> <span class="textstyle31">summing stack</span><span class="textstyle11">. Summing stacks combine the outputs from multiple tracks and route the summed output to a bus functioning as an audio subgroup. The <span aria-label="262" id="page_262" role="doc-pagebreak"></span>subgroup is represented by a top-level track known as the</span> <span class="textstyle31">main track</span><span class="textstyle11">. This track is assigned to an aux channel strip in the mixer.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Logic Pro X provides two types of Track Stacks: folder stacks and summing stacks. This discussion focuses on summing stacks.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">By selecting the main track for a summing stack, you can mute, solo, and adjust volume and send levels for the stack. You can also add plug-ins to the main track, affecting the sound of all the subtracks in the summing stack.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Summing stacks are ideal, not only for adding processing to a group and controlling its overall level, but for simplifying the organization within your project.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To create a Track Stack for submixing, follow these steps:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the tracks you wish to submix.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Choose</span> <span class="textstyle29">T</span><span class="textstyle29">RACK</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">C</span><span class="textstyle29">REATE</span> <span class="textstyle29">T</span><span class="textstyle29">RACK</span> <span class="textstyle29">S</span><span class="textstyle29">TACK</span> <span class="textstyle11">or press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+S</span><span class="textstyle29">HIFT</span><span class="textstyle29">+D</span> <span class="textstyle11">to open the Track Stack dialog box.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_004" class="scale" src="../Images/frn_fig_004.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Use the key command Command+Shift+G to create a summing stack directly, bypassing the dialog box.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">In the dialog box, select the</span> <span class="textstyle15">Summing Stack</span> <span class="textstyle11">radio button and click</span> <span class="textstyle29">C</span><span class="textstyle29">REATE</span><span class="textstyle11">. A Track Stack will be created, and the selected tracks will be moved under the stack’s main track.</span></li>
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Optionally, rename the main track with a descriptive name for your submix.</span>
+  <p class="img-la"><img alt="chpt_fig_247" class="scale1" src="../Images/chpt_fig_247.jpg"/></p>
+  <p class="caption" id="fig10.23"><span class="textstyle26">Figure 10.23</span> <span class="textstyle27">A drum submix created using a Summing Stack</span></p>
+  </li>
+</ol>
+  <p class="noindent"><span class="textstyle11">Once you’ve created a summing stack, you can collapse or expand the Track Stack at any time by clicking on the disclosure arrow to the left of the track icon on the main track.</span></p>
+
+  <p class="noindent"><span class="textstyle11">You can easily insert plug-ins on the main track to have them apply to the submix. You can also adjust the volume and panning on the main track to modify the submix level and position in the larger mix.</span></p>
+
+  <h3 class="subhead1"><span aria-label="263" id="page_263" role="doc-pagebreak"></span><a href="nav.xhtml#toc228" id="sub228" class="calibre5"><span class="textstyle14">Creating Stems</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Another important use for submixes is to aid in the creation of</span> <span class="textstyle31">stems</span><span class="textstyle11">. Stems are mixed-down versions of your submixes that can be useful when mixing or remixing a project in a different DAW. Stems can also be used to supplement a live performance.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Once you’ve routed all of your tracks to summing stacks, it is very easy to create stems in Logic Pro X.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To create stems from summing stacks, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Make a selection with Cycle that spans the section of the song that you would like to bounce as stems. This might be the entire song, or it might be one section of the song like a verse or chorus. If no selection is made, the bounce will extend from the beginning until the Project End marker.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Locate the first summing stack that you would like to bounce as a stem.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Select the main track for the stack.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Press</span> <span class="textstyle29">S</span> <span class="textstyle11">or click the</span> <span class="textstyle29">S</span><span class="textstyle29">OLO</span> <span class="textstyle11">button on the main track. This will solo all of the tracks in the stack.</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Play the session for a bit to verify that no other tracks are currently audible.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If the tracks in the summing stack include sends to a reverb or delay, make sure that the reverb or delay aux channel strip is also soloed.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">If you are using any plug-ins (such as a limiter) on the Stereo Out channel strip, consider bypassing or removing them.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Generally when using submix tracks in another DAW, you will want to apply master bus processing there for maximum control. However, you can also create stems with processing in place on the Stereo Out channel strip in Logic Pro X to help preserve the sound of your mix.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">Choose</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">P</span><span class="textstyle29">ROJECT OR</span> <span class="textstyle29">S</span><span class="textstyle29">ECTION</span> <span class="textstyle11">or press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+B</span><span class="textstyle11">. The Bounce dialog box will appear.</span></li>
+
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">Choose the desired settings from the Bounce dialog, and then click</span> <span class="textstyle29">O</span> <span class="textstyle29">K</span><span class="textstyle11">. The submix will be exported as an audio file.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Due to the nature of effects like reverb, the effect’s decay tails may extend beyond the end point of the selection. This can result in an abrupt sound cutoff at the end of the bounced audio file. As a safeguard, check the box to Include Audio Tail to ensure the audio file continues until volume reaches zero.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">Repeat the process for each of the summing stacks in your project.</span></li>
+</ol>
+
+  <p class="noindent"><span aria-label="264" id="page_264" role="doc-pagebreak"></span><span class="textstyle11">When you are finished, you will have an audio stem file for each of the submixes. These files can then be use in another Logic Pro X project, or in an entirely different DAW. Using these stems, you can recreate the original mix with no more than a few small tweaks.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If you have no signal processing on aux channel strips or the Stereo Out channel, or if you plan to reapply processing in another environment, you can use the Export function to export one or more selected main tracks as audio files. This can save time for larger projects. The resulting audio files will not contain signals from Sends, aux channels, or the Stereo Out channel.</span></td>
+</tr>
+</table>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc229" id="sub229" class="calibre5"><span class="textstyle13">Keyboard Shortcuts</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">In closing, we’ll cover some keyboard shortcuts that will dramatically accelerate your work in Logic Pro X. Learning even a handful of essential shortcuts can elevate your status from prospect to pro user in no time.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_005" class="scale" src="../Images/frn_fig_005.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Logic Pro X allows users to edit key commands and create shortcuts for hundreds of commands that are unassigned by default. You can save your custom commands for use on another system or import custom sets. You can even import settings that match other DAWs like Pro Tools.</span></td>
+</tr>
+</table>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To open the Key Command window, choose Logic Pro X &gt; Key Commands &gt; Edit or press Option+K.</span></td>
+</tr>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Working Areas in Main Window</span></h4>
+
+<table class="tab2">
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdl15" scope="col"><span class="textstyle55">Key</span></th>
+<th class="tdl16" scope="col"><span class="textstyle55">Function</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">Y</span></td>
+<td class="tdl18"><span class="textstyle54">Show/Hide the Library</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">I</span></td>
+<td class="tdl20"><span class="textstyle54">Show/Hide the Inspector</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">B</span></td>
+<td class="tdl18"><span class="textstyle54">Show/Hide the Smart Controls</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">X</span></td>
+<td class="tdl20"><span class="textstyle54">Show/Hide the Mixer</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">E</span></td>
+<td class="tdl18"><span class="textstyle54">Show/Hide the Editor</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">O</span></td>
+<td class="tdl20"><span class="textstyle54">Show/Hide the Loops Browser</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl21"><span class="textstyle29">F</span></td>
+<td class="tdl22"><span class="textstyle54">Show/Hide the Browsers</span></td>
+</tr>
+</tbody>
+</table>
+  <h4 class="subhead1"><span aria-label="265" id="page_265" role="doc-pagebreak"></span><span class="textstyle28">Other Windows</span></h4>
+<table class="tab2">
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdl15" scope="col"><span class="textstyle55">Key</span></th>
+<th class="tdl16" scope="col"><span class="textstyle55">Function</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+N</span></td>
+<td class="tdl18"><span class="textstyle54">Open New Project from Template</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">+C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+W</span></td>
+<td class="tdl20"><span class="textstyle54">Close Project</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+2</span></td>
+<td class="tdl18"><span class="textstyle54">Open Mixer Window</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+4</span></td>
+<td class="tdl20"><span class="textstyle54">Open Piano Roll Window</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl21"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+K</span></td>
+<td class="tdl22"><span class="textstyle54">Show/Hide Musical Typing</span></td>
+</tr>
+</tbody>
+</table>
+  <h4 class="subhead1"><span class="textstyle28">Zoom Functions</span></h4>
+
+<table class="tab2">
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdl15" scope="col"><span class="textstyle55">Key</span></th>
+<th class="tdl16" scope="col"><span class="textstyle55">Function</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">Z</span></td>
+<td class="tdl18"><span class="textstyle54">Toggle Zoom Fit Selection to Screen</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+L</span><span class="textstyle29">EFT</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span></td>
+<td class="tdl20"><span class="textstyle54">Zoom Horizontal Out</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+R</span><span class="textstyle29">IGHT</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span></td>
+<td class="tdl18"><span class="textstyle54">Zoom Horizontal In</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+U</span><span class="textstyle29">P</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span></td>
+<td class="tdl20"><span class="textstyle54">Zoom Vertical Out</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl21"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+D</span><span class="textstyle29">OWN</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span></td>
+<td class="tdl22"><span class="textstyle54">Zoom Vertical In</span></td>
+</tr>
+</tbody>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Navigation and Playback</span></h4>
+
+<table class="tab2">
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdl15" scope="col"><span class="textstyle55">Key</span></th>
+<th class="tdl16" scope="col"><span class="textstyle55">Function</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">S</span><span class="textstyle29">PACEBAR</span></td>
+<td class="tdl18"><span class="textstyle54">Play/Stop</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">S</span><span class="textstyle29">HIFT</span><span class="textstyle29">+S</span><span class="textstyle29">PACEBAR</span></td>
+<td class="tdl20"><span class="textstyle54">Play from Selection</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">R</span><span class="textstyle29">ETURN</span></td>
+<td class="tdl18"><span class="textstyle54">Return to Beginning</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMA</span><span class="textstyle29">(,)</span></td>
+<td class="tdl20"><span class="textstyle54">Rewind One Bar</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">P</span><span class="textstyle29">ERIOD</span><span class="textstyle29">(.)</span></td>
+<td class="tdl18"><span class="textstyle54">Skip Forward One Bar</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span></td>
+<td class="tdl20"><span class="textstyle54">Toggle Cycle Mode On/Off</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl21"><span class="textstyle29">U</span></td>
+<td class="tdl22"><span class="textstyle54">Set Rounded Locators by Selection and Enable Cycle</span></td>
+</tr>
+</tbody>
+</table>
+
+  <h4 class="subhead1"><span aria-label="266" id="page_266" role="doc-pagebreak"></span><span class="textstyle28">Tracks</span></h4>
+
+<table class="tab2">
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdl15" scope="col"><span class="textstyle55">Key</span></th>
+<th class="tdl16" scope="col"><span class="textstyle55">Function</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">+C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+N</span></td>
+<td class="tdl18"><span class="textstyle54">New Tracks</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+D</span></td>
+<td class="tdl20"><span class="textstyle54">New Track With Duplicate Settings</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">S</span></td>
+<td class="tdl18"><span class="textstyle54">Solo the Track</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">M</span></td>
+<td class="tdl20"><span class="textstyle54">Mute the Track</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">A</span></td>
+<td class="tdl18"><span class="textstyle54">Show/Hide Automation</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+F</span></td>
+<td class="tdl20"><span class="textstyle54">Show/Hide Flex</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">G</span></td>
+<td class="tdl18"><span class="textstyle54">Show Global Tracks</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl23"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+S</span><span class="textstyle29">HIFT</span><span class="textstyle29">+D</span></td>
+<td class="tdl24"><span class="textstyle54">Create Track Stack</span></td>
+</tr>
+</tbody>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Edit Commands</span></h4>
+
+<table class="tab2">
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdl15" scope="col"><span class="textstyle55">Key</span></th>
+<th class="tdl16" scope="col"><span class="textstyle55">Function</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+Z</span></td>
+<td class="tdl18"><span class="textstyle54">Undo</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+X</span></td>
+<td class="tdl20"><span class="textstyle54">Cut</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+C</span></td>
+<td class="tdl18"><span class="textstyle54">Copy</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+V</span></td>
+<td class="tdl20"><span class="textstyle54">Paste</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+A</span></td>
+<td class="tdl18"><span class="textstyle54">Select All</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+T</span></td>
+<td class="tdl20"><span class="textstyle54">Split at Playhead</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+J</span></td>
+<td class="tdl18"><span class="textstyle54">Join Regions</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+R</span></td>
+<td class="tdl20"><span class="textstyle54">Repeat</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl21"><span class="textstyle29">S</span><span class="textstyle29">EMICOLON</span><span class="textstyle29">(;)</span></td>
+<td class="tdl22"><span class="textstyle54">Move to Playhead</span></td>
+</tr>
+</tbody>
+</table>
+
+  <h4 class="subhead1"><span aria-label="267" id="page_267" role="doc-pagebreak"></span><span class="textstyle28">Bounce and Export</span></h4>
+
+<table class="tab2">
+<thead class="calibre10">
+<tr class="calibre11">
+<th class="tdl15" scope="col"><span class="textstyle55">Key</span></th>
+<th class="tdl16" scope="col"><span class="textstyle55">Function</span></th>
+</tr>
+</thead>
+<tbody class="calibre12">
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+B</span></td>
+<td class="tdl18"><span class="textstyle54">Bounce Project or Selection</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl19"><span class="textstyle29">C</span><span class="textstyle29">ONTROL</span><span class="textstyle29">+B</span></td>
+<td class="tdl20"><span class="textstyle54">Bounce in Place</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl17"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+E</span></td>
+<td class="tdl18"><span class="textstyle54">Export Tracks as Audio Files</span></td>
+</tr>
+<tr class="calibre11">
+<td class="tdl23"><span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+F</span></td>
+<td class="tdl24"><span class="textstyle54">Show/Hide Flex</span></td>
+</tr>
+</tbody>
+</table>
+
+  <h2 class="subhead"><span aria-label="268" id="page_268" role="doc-pagebreak"></span><a href="nav.xhtml#toc230" id="sub230" class="calibre5"><span class="textstyle13">Review/Discussion Questions</span></a></h2>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">What windows or areas provide access to Flex functions in Logic Pro X? (See “Enabling Flex” beginning on <a href="#page_244" class="calibre5">page 244</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Which Flex Time algorithm is best suited to monophonic material such as vocals or bass guitar? (See “Flex Time” beginning on <a href="#page_245" class="calibre5">page 245</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Which algorithm is the best for drums and percussion? (See “Flex Time” beginning on <a href="#page_245" class="calibre5">page 245</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Is it possible to use Flex Time to tighten the rhythm of an audio performance? What process would you use? (See “Flex Time Quantization” beginning on <a href="#page_246" class="calibre5">page 246</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">How can you quickly create three successive Flex markers on a Flex-enabled track, in order to reposition a spot in the center? (See “Manually Edit Flex Markers” beginning on <a href="#page_247" class="calibre5">page 247</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">What two areas are used to edit MIDI data? What editing operations can you perform in each? (See “Viewing MIDI Regions and Data” beginning on <a href="#page_251" class="calibre5">page 251</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">What two tools are commonly used for creating and editing MIDI data? (See “Creating MIDI Notes” beginning on <a href="#page_254" class="calibre5">page 254</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">How can new MIDI notes be manually created on the Piano Roll? (See “Creating MIDI Notes” beginning on <a href="#page_254" class="calibre5">page 254</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">What are some common techniques for editing MIDI notes? (See “Editing MIDI Notes” beginning on <a href="#page_256" class="calibre5">page 256</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">10.</span><span class="space2"></span><span class="textstyle11">What is MIDI velocity? What are some ways that velocity data can be viewed and edited in Logic Pro X? (See “Working with Velocity” beginning on <a href="#page_258" class="calibre5">page 258</a>.)</span></li>
+
+  <li class="numlist"><span aria-label="269" id="page_269" role="doc-pagebreak"></span><span class="textstyle11">11.</span><span class="space2"></span><span class="textstyle11">What are some Region Inspector controls that can be used to quickly apply changes to the regions on a MIDI-capable track? (See “Software Instrument Region Inspector” beginning on <a href="#page_259" class="calibre5">page 259</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">12.</span><span class="space2"></span><span class="textstyle11">How is submixing useful in a project? What process can you use to quickly create a submix in Logic Pro X? (See “Submixing with Track Stacks” beginning on <a href="#page_261" class="calibre5">page 261</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">13.</span><span class="space2"></span><span class="textstyle11">What type of Track Stack is used for a submixing workflow? (See “Using Track Stacks to Submix” beginning on <a href="#page_261" class="calibre5">page 261</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">14.</span><span class="space2"></span><span class="textstyle11">Why is it helpful to create stems when exporting your Logic Pro X project to be imported into a different DAW? (See “Creating Stems” beginning on <a href="#page_263" class="calibre5">page 263</a>.)</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To review additional material from this chapter and prepare for certification, see the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+</section>
+
+
+
+  </div>
+
+  
+  <div class="calibreToc">
+    <h2><a href="../../../fultv-nyhsd.html">Table of contents
+</a></h2>
+    <div>
+  <ul>
+    <li>
+      <a href="HalfTitle.xhtml">Half Title</a>
+    </li>
+    <li>
+      <a href="TitlePage.xhtml">Title</a>
+    </li>
+    <li>
+      <a href="Copyright.xhtml">Copyright</a>
+    </li>
+    <li>
+      <a href="nav.xhtml">Contents</a>
+    </li>
+    <li>
+      <a href="Acknowledgments.xhtml#sub1">Acknowledgments</a>
+    </li>
+    <li>
+      <a href="Introduction.xhtml#sub2">Introduction. Welcome to the World of Audio</a>
+      <ul>
+        <li>
+          <a href="Introduction.xhtml#sub3">Getting Started in Audio Production</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub4">Who Should Read This Book</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub5">About This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub6">Requirements and Prerequisites</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub7">Media Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub8">Course Organization and Sequence</a>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub9">Conventions and Symbols Used in This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub10">Keyboard Shortcuts and Modifiers</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub11">Icons</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Chapter01.xhtml#sub12">Chapter 1. Computer Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter01.xhtml#sub13">Selecting a Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub14">Mac Versus Windows Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub15">The Importance of RAM</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub16">Processing Power</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub17">Storage Space</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub18">Storage Options</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub19">Onboard Sound Options (Audio In and Out)</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub20">Other Options to Consider</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub21">Working with Your Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub22">File Management</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub23">Launching Applications</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub24">Saving Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub25">Working with an Application</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub26">Menus</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub27">Keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub28">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise01.xhtml#sub29">Exercise 1. Exploring Audio on the Computer</a>
+    </li>
+    <li>
+      <a href="Chapter02.xhtml#sub30">Chapter 2. DAW Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter02.xhtml#sub31">Functions of a DAW</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub32">What Can a DAW Do?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub33">Common DAWs</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub34">Plug-In Formats</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub35">What Is a Plug-In?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub36">Common Plug-In Formats</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub37">Logic Pro X System</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub38">Logic Pro X Software Capabilities</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub39">Logic Pro X Software Options</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub40">Logic Pro X Hardware Options</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub41">Downloading and Installing Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub42">System Requirements for Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub43">Installation Steps</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub44">Launching Logic Pro X for the First Time</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub45">Downloadable Content</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub46">Important Preference Settings</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub47">Project Settings</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub48">Important Concepts in Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub49">Project Files Versus Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub50">Audio Versus MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub51">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise02.xhtml#sub52">Exercise 2. Setting Up a Multi-Track Project</a>
+    </li>
+    <li>
+      <a href="Chapter03.xhtml#sub53">Chapter 3. Audio Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter03.xhtml#sub54">The Basics of Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub55">Frequency</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub56">Amplitude</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub57">Microphones</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub58">Traditional Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub59">USB Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub60">Other Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub61">Basic Miking Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub62">Multi-Tracking and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub63">What Is Multi-Track Recording?</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub64">Recording Signal Flow</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub65">Moving Audio from Analog to Digital</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub66">Analog Versus Digital Audio</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub67">The Analog-to-Digital Conversion Process</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub68">The Audio Interface</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub69">Audio Interface Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub70">Working Without an Audio Interface</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub71">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise03.xhtml#sub72">Exercise 3. Selecting Your Audio Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter04.xhtml#sub73">Chapter 4. MIDI Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter04.xhtml#sub74">A Brief History of MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub75">Digital Control</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub76">The Birth of MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub77">The MIDI Protocol</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub78">MIDI Notes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub79">Program Changes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub80">Controller Messages</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub81">MIDI Controllers</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub82">Tone-Generating Keyboards</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub83">Keyboard Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub84">Drumpad Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub85">Grid Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub86">Alternate Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub87">What to Look for in a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub88">Purchasing a Keyboard Controller</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub89">Setup and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub90">Plug-and-Play Setup</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub91">MIDI Cables and Jacks</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub92">Using a MIDI Interface</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub93">Considerations for Using Multiple MIDI Devices</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub94">MIDI Versus Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub95">What Is MIDI?</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub96">Monitoring with Onboard Sound Versus Virtual Instruments</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub97">Tracking with Virtual Instruments</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub98">Creating Tracks for Virtual Instruments</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub99">Summary</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub100">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise04.xhtml#sub101">Exercise 4. Selecting Your MIDI Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter05.xhtml#sub102">Chapter 5. Logic Pro Concepts, Part 1</a>
+      <ul>
+        <li>
+          <a href="Chapter05.xhtml#sub103">Creating a Project</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub104">Selecting a Track Type</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub105">Enabling Advanced Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub106">Main Window</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub107">The Control Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub108">Tracks Area Menu Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub109">Rulers</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub110">Mixer Display and Window</a>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub111">Working with Tracks</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub112">Adding Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub113">Mono Versus Stereo Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub114">External MIDI Versus Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub115">Regions Versus Files</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub116">Selecting Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub117">Basic Navigation</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub118">Using the Transport Controls</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub119">Zooming and Scrolling in the Main Window</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub120">Controlling Playback Behavior</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub121">Monitoring Your Playhead Location</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub122">Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub123">Selection Scenarios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub124">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise05.xhtml#sub125">Exercise 5. Configuring and Working on a Project</a>
+    </li>
+    <li>
+      <a href="Chapter06.xhtml#sub126">Chapter 6. Logic Pro X Concepts, Part 2</a>
+      <ul>
+        <li>
+          <a href="Chapter06.xhtml#sub127">Setting Up for Recording</a>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub128">Recording Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub129">Making a Record Selection</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub130">Record Enabling Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub131">Monitoring Record Enabled Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub132">Initiating a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub133">Stopping a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub134">Recording Additional Takes</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub135">Recording MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub136">Monitoring a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub137">Record Enabling Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub138">Overlap Recording on Software Instrument Tracks</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub139">Importing Audio and MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub140">Supported Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub141">Importing from the Desktop</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub142">Importing from Media Browser and All Files Browser</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub143">Using the Import Command</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub144">Using Apple Loops</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub145">Working in the Tracks Area</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub146">Snap to Grid</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub147">Setting the Snap Value</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub148">Working with Regions and Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub149">Selecting a Tool for Editing</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub150">Basic Editing Techniques</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub151">Advanced Editing Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub152">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise06.xhtml#sub153">Exercise 6. Importing and Editing Regions</a>
+    </li>
+    <li>
+      <a href="Chapter07.xhtml#sub154">Chapter 7. Mixing Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter07.xhtml#sub155">Basic Mixing</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub156">Setting Levels</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub157">Panning</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub158">Staying Organized</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub159">Processing Options and Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub160">Gain-Based Processing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub161">Time-Based Processing and Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub162">Insert Effects Versus Send Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub163">Processing with External Gear</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub164">Mixing in the Box</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub165">Advantages of In-the-Box Mixing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub166">Getting the Most Out of an In-the-Box Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub167">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise07.xhtml#sub168">Exercise 7. Creating a Basic Mix</a>
+    </li>
+    <li>
+      <a href="Chapter08.xhtml#sub169">Chapter 8. Signal Processing</a>
+      <ul>
+        <li>
+          <a href="Chapter08.xhtml#sub170">Plug-In Basics</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub171">Inserting Plug-Ins on Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub172">Moving and Duplicating Plug-Ins</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub173">Displaying Plug-In Windows</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub174">Common Plug-In Controls</a>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub175">Adjusting Plug-In Parameters</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub176">Adjusting Plug-In Parameters with the Mouse</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub177">Adjusting Plug-In Parameters with the Computer Keyboard</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub178">EQ Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub179">Types of EQ</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub180">Basic EQ Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub181">EQ Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub182">Strategies for Using EQ</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub183">Dynamics Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub184">Types of Dynamics Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub185">Basic Dynamics Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub186">Dynamics Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub187">Strategies for Using Compression</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub188">Strategies for Using a De-Esser</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub189">Reverb and Delay Effects</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub190">What Is Reverb?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub191">Reverb in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub192">Applications for Reverb Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub193">What Is Delay?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub194">Delay in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub195">Applications for Delay Processors</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub196">Wet Versus Dry Signals</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub197">Using Time-Based Effects as Plug-in Inserts</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub198">Using Send-and-Return Configurations</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub199">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise08.xhtml#sub200">Exercise 8. Optimizing Tracks with Signal Processing</a>
+    </li>
+    <li>
+      <a href="Chapter09.xhtml#sub201">Chapter 9. Finishing a Project</a>
+      <ul>
+        <li>
+          <a href="Chapter09.xhtml#sub202">Recalling a Saved Mix</a>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub203">Using Automation</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub204">Selecting an Automation Mode</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub205">Writing Real-Time Automation</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub206">Viewing Automation Curves</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub207">Editing Automation Points</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub208">Creating a Mixdown</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub209">Adding Processing on the Stereo Output</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub210">Considerations for Bouncing Audio</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub211">Creating a Bounce of an Audio Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub212">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise09.xhtml#sub213">Exercise 9. Preparing the Final Mix</a>
+    </li>
+    <li>
+      <a href="Chapter10.xhtml#sub214">Chapter 10. Beyond the Basics</a>
+      <ul>
+        <li>
+          <a href="Chapter10.xhtml#sub215">Flex Time and Pitch</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub216">Enabling Flex</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub217">Flex Time</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub218">Flex Pitch</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub219">MIDI Editing Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub220">Viewing MIDI Regions and Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub221">Editing MIDI Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub222">Working with Velocity</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub223">Software Instrument Region Inspector</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub224">Quantization in the Piano Roll Editor</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub225">Submixing with Track Stacks</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub226">Simplifying a Mix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub227">Using Track Stacks to Submix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub228">Creating Stems</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub229">Keyboard Shortcuts</a>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub230">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise10.xhtml#sub231">Exercise 10. Finalizing a Project</a>
+    </li>
+    <li>
+      <a href="AbouttheAuthors.xhtml#sub232">About the Authors</a>
+    </li>
+  </ul>
+</div>
+
+
+  </div>
+  
+
+  <div class="calibreEbNav">
+    
+      <a href="Exercise09.xhtml" class="calibreAPrev">previous page
+</a>
+    
+
+    <a href="../../../fultv-nyhsd.html" class="calibreAHome">start
+</a>
+
+    
+      <a href="Exercise10.xhtml" class="calibreANext">next page
+</a>
+    
+  </div>
+
+</div>
+
+</body>
+</html>

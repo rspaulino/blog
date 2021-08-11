@@ -1,0 +1,1624 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Chapter 8 Signal Processing</title>
+    <meta content="urn:uuid:e0000000-0000-0000-0000-000006335993" name="Adept.expected.resource"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../../stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../../page_styles.css" rel="stylesheet" type="text/css"/>
+
+  
+
+
+<link href="../../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="calibreMeta">
+  <div class="calibreMetaTitle">
+  
+  
+    
+    <h1>
+      <a href="../../../fultv-nyhsd.html">Audio Production Basics with Logic Pro X
+</a>
+    </h1>
+    
+    
+  
+  </div>
+  <div class="calibreMetaAuthor">
+    Gold, Harry; Rey, Ryan; Cook, Frank D., Harry Gold
+
+  </div>
+</div>
+
+<div class="calibreMain">
+
+  <div class="calibreEbookContent">
+    
+      <div class="calibreEbNavTop">
+        
+          <a href="Exercise07.xhtml" class="calibreAPrev">previous page
+</a>
+        
+
+        
+          <a href="Exercise08.xhtml" class="calibreANext">next page
+</a>
+        
+      </div>
+    
+
+    
+<section role="doc-chapter">
+  <p class="chnum"><span aria-label="189" id="page_189" role="doc-pagebreak"></span><a href="nav.xhtml#toc169" id="sub169" class="calibre5"><span class="textstyle12">Chapter 8</span></a></p>
+
+  <h1 class="chtitle1"><a href="nav.xhtml#toc169" class="calibre5"><span class="textstyle8">Signal Processing</span></a></h1>
+
+  <p class="center"><span class="textstyle21">…What You Can Do to Optimize Your Audio…</span></p>
+
+  <p class="noindent"><span class="textstyle11">This chapter begins with an overview of using plug-ins in Logic Pro X. We take a look at some general categories of plug-ins—including EQ, dynamics, and time-based effects—and provide some suggestions for using various plug-in processors and parameters. We also look at the process of creating send-and-return configurations and discuss how this setup can be useful.</span></p>
+
+  <p class="learn"><img alt="frn_fig_010" src="../Images/frn_fig_010.jpg" class="calibre15"/><span class="space1"></span><span class="textstyle22">Learning Targets for This Chapter</span></p>
+<ul class="ul">
+<li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand basic plug-in functionality in Logic Pro X</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Become familiar with the major plug-in categories</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Learn how to use basic plug-in parameters</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Explore send-and-return configurations</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp1"><span class="textstyle20">Key topics from this chapter are illustrated in the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform. Sign up at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span aria-label="190" id="page_190" role="doc-pagebreak"></span><span class="textstyle11">Plug-ins are the key to one of the most important aspects of working with a DAW: processing audio and adding effects. Innovations in plug-in design were a key factor in the rise of the DAW as the dominant platform for producing music and creating audio for film, TV, and video games. Without great–sounding plug-ins for equalization, dynamics processing, and time-based effects such as reverb and delay, the DAW revolution might never have occurred.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In this chapter, we take a look at how to use plug-ins in Logic Pro X and review the most common types of plug-ins used in today’s production workflow.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc170" id="sub170" class="calibre5"><span class="textstyle13">Plug-In Basics</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">The sheer variety of plug-ins available today can seem completely overwhelming when you’re just getting started. Logic Pro X comes with a large collection of professional effects that are capable of handling the most common production needs, as well as a number of specialty plug-ins. While the selection is vast, with practice, you’ll eventually become familiar with these tools and how to use them effectively.</span></p>
+
+  <p class="noindent"><span class="textstyle11">For those who are new to the DAW world, learning just a few plug-ins well is a realistic goal. And, because there are only a few major categories of plug-ins, the knowledge that you gain now can easily be applied to other plug-ins down the road as you expand your processing palette.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc171" id="sub171" class="calibre5"><span class="textstyle14">Inserting Plug-Ins on Tracks</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">We’ve already looked at several ways to insert plug-ins (including virtual instruments) on tracks in Logic Pro X. But let’s do a quick recap before moving on to using plug-ins to process audio.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To insert a plug-in on a track in the Inspector:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Click the</span> <span class="textstyle29">I</span><span class="textstyle29">NSPECTOR</span> <span class="textstyle11">button (or press</span> <span class="textstyle29">I</span><span class="textstyle11">) to open the Inspector.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Select the desired track from the main window.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Click on the Audio Effect slot for the desired insert position.</span></li>
+
+  <li class="numlist"><span aria-label="191" id="page_191" role="doc-pagebreak"></span><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Select the desired plug-in from the pop-up menu. The plug-in will be applied at the selected position, and the plug-in window will open.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To insert a plug-in on a track in the Mixer:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Press the</span> <span class="textstyle29">M</span><span class="textstyle29">IXER</span> <span class="textstyle11">button (or press</span> <span class="textstyle29">X</span><span class="textstyle11">) to open the Mixer. Alternatively, you can open a separate Mixer window by choosing</span> <span class="textstyle29">W</span><span class="textstyle29">INDOW</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">O</span><span class="textstyle29">PEN</span> <span class="textstyle29">M</span><span class="textstyle29">IXER</span> <span class="textstyle11">(or press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+2</span><span class="textstyle11">).</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Adjust the size of the Mixer or scroll vertically to bring the audio effect section into view.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Click on the Audio Effect slot for the desired insert position on the track’s channel strip.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Select the desired plug-in from the pop-up menu. The plug-in will be applied at the selected position, and the plug-in window will open.</span>
+
+  <p class="img-la"><img alt="chpt_fig_179" class="scale1" src="../Images/chpt_fig_179.jpg"/></p>
+  <p class="caption" id="fig8.1"><span class="textstyle26">Figure 8.1</span> <span class="textstyle27">Assigning the Channel EQ plug-in to an Audio Effect slot</span></p>
+  </li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Some audio effects will have multiple output options, like stereo or dual mono. Others may have only one option. If you select a plug-in without picking the output preference, Logic Pro X will automatically select the first option.</span></td>
+</tr>
+</table>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">In a new project, a single Audio Effect slot will be visible on each track. The audio effect section will expand to show additional slots as needed. The last visible empty slot will be half the normal size. (See <a href="#fig8.2" class="calibre5">Figure 8.2</a>.)</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To change or replace a plug-in on a track:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Move the pointer over the plug-in slot and click the arrows that appear on the right side.</span>
+
+  <p class="img-la"><img alt="chpt_fig_180" class="scale" src="../Images/chpt_fig_180.jpg"/></p>
+  <p class="caption" id="fig8.2"><span class="textstyle26">Figure 8.2</span> <span class="textstyle27">Moving the pointer over the plug-in slot reveals the arrows to open the pop-up menu</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Make a new plug-in selection.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To remove a plug-in from a track:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Move the pointer over the plug-in slot and click the arrows that appear on the right side.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Choose</span> <span class="textstyle29">N</span><span class="textstyle29">O</span> <span class="textstyle29">P</span><span class="textstyle29">LUG</span><span class="textstyle29">-I</span><span class="textstyle29">N</span> <span class="textstyle11">from the pop-up menu.</span></li>
+</ol>
+
+  <h3 class="subhead1"><span aria-label="192" id="page_192" role="doc-pagebreak"></span><a href="nav.xhtml#toc172" id="sub172" class="calibre5"><span class="textstyle14">Moving and Duplicating Plug-Ins</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">After you’ve begun working with plug-ins on tracks in a project, you may find that you need to move a plug-in to a different insert slot or to a different track entirely. You may also want to create a duplicate of the plug-in elsewhere in the project. These tasks are easily accomplished in Logic Pro X.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To move a plug-in, do the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Click on the plug-in and drag it to a new Audio Effects slot on the same track or to an available  Audio Effects slot on another track.</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle17">To duplicate a plug-in, do the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">-</span><span class="textstyle29">CLICK</span> <span class="textstyle11">on the plug-in and drag it to the desired location (on the same channel strip or on another channel strip). A duplicate plug-in will be added at the destination location.</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">You can move or duplicate a plug-in within the same channel strip using the Inspector or Mixer. If you want to move or duplicate a plug-in to a different channel strip, you must use the Mixer.</span></td>
+</tr>
+</table>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc173" id="sub173" class="calibre5"><span class="textstyle14">Displaying Plug-In Windows</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Before you can adjust the parameters of a plug-in, you’ll need to open the plug-in window. Plug-in windows open automatically when you assign a plug-in to a slot. You can easily re-open a plug-in window that is not displayed at any time.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To open a plug-in window:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Click on the center of the plug-in slot on the track.</span>
+
+  <p class="img-l"><img alt="chpt_fig_181" class="scale" src="../Images/chpt_fig_181.jpg"/></p>
+  <p class="caption" id="fig8.3"><span class="textstyle26">Figure 8.3</span> <span class="textstyle27">Opening the plug-in window by clicking on the center of a plug-in slot</span></p>
+  </li>
+</ul>
+  <h2 class="subhead"><a href="nav.xhtml#toc174" id="sub174" class="calibre5"><span class="textstyle13">Common Plug-In Controls</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X plug-ins feature two sets of controls: the standard Logic Pro X controls that are common to all plug-ins, and the process-specific controls that are unique to each plug-in. Let’s take a look at the common controls first. We’ll look at process-specific controls later in this chapter.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The common controls are available in the plug-in window header.</span></p>
+
+  <p class="img"><span aria-label="193" id="page_193" role="doc-pagebreak"></span><img alt="chpt_fig_182" class="scale1" src="../Images/chpt_fig_182.jpg"/></p>
+  <p class="caption" id="fig8.4"><span class="textstyle26">Figure 8.4</span> <span class="textstyle27">The plug-in window header shared by all AU plug-ins in Logic Pro X</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Bypass Control</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">To the right of the Automation controls is the plug-in Bypass button.</span></p>
+
+  <p class="img"><img alt="chpt_fig_183" class="scale" src="../Images/chpt_fig_183.jpg"/></p>
+  <p class="caption" id="fig8.5"><span class="textstyle26">Figure 8.5</span> <span class="textstyle27">Plug-in Bypass control</span></p>
+
+  <p class="noindent"><span class="textstyle11">Use this button to disable the currently displayed plug-in so that it will not affect the track’s audio signal. This allows you to perform an “A/B” comparison of the affected and unaffected signal.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Plug-in Settings Controls</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">To the right of the bypass button are the plug-in Settings. These controls are used to select and manage presets for the plug-in. This area features a number of items: the Plug-In Settings menu, Previous and Next Setting buttons, the Compare button, the Copy and Paste buttons, and the Undo and Redo buttons.</span></p>
+
+  <p class="img"><img alt="chpt_fig_184" class="scale1" src="../Images/chpt_fig_184.jpg"/></p>
+  <p class="caption" id="fig8.6"><span class="textstyle26">Figure 8.6</span> <span class="textstyle27">The plug-in Settings controls</span></p>
+
+  <p class="noindent"><span class="textstyle11">Plug-in Settings controls include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Plug-In Settings menu</span><span class="textstyle11">—Use this pop-up menu to select previous/next settings, copy/paste settings, save/load settings, delete settings, and select a setting from the submenus.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Previous and Next settings buttons</span><span class="textstyle11">—Click the left or right arrow buttons to quickly select the previous or next preset.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Compare button</span><span class="textstyle11">—Click this button to toggle between the most recently loaded preset and any subsequent modifications that you’ve made. This is often referred to as an “A/B” comparison.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Copy and Paste settings buttons</span><span class="textstyle11">—Use these buttons to copy and paste settings between different plug-in instances.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Undo and Redo settings button</span><span class="textstyle11">—Use this button to undo and redo setting adjustments.</span></li>
+</ul>
+
+  <h4 class="subhead1"><span aria-label="194" id="page_194" role="doc-pagebreak"></span><span class="textstyle28">View Control</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">To the right of the Settings controls is the View pop-up menu.</span></p>
+
+  <p class="img"><img alt="chpt_fig_185" class="scale" src="../Images/chpt_fig_185.jpg"/></p>
+  <p class="caption" id="fig8.7"><span class="textstyle26">Figure 8.7</span> <span class="textstyle27">Plug-in View pop-up menu</span></p>
+
+  <p class="noindent"><span class="textstyle11">Use this pop-up menu to adjust the size of the plug-in window. Alternatively, you can adjust the size of the window by dragging any corner. The menu also allows you to switch between plug-in parameter views:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Controls</span><span class="textstyle11">—This view shows all parameters as numerical fields with horizontal sliders. You can adjust values by moving the sliders or entering values into the numerical fields.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Editor</span><span class="textstyle11">—This view shows the plug-in graphical interface. (This is usually the default view if a graphical interface is available.)</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_008" class="scale" src="../Images/frn_fig_008.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The plug-in automation features in Logic Pro X are not covered in this book. See the Logic Pro X User Guide for information about plug-in automation.</span></td>
+</tr>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Link Control</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">When Link is enabled, a single plug-in window is used onscreen as you open new plug-ins. The plug-in window updates to display the newly opened plug-in. By default, Link is disabled.</span></p>
+
+  <p class="img"><img alt="chpt_fig_186" class="scale" src="../Images/chpt_fig_186.jpg"/></p>
+  <p class="caption" id="fig8.8"><span class="textstyle26">Figure 8.8</span> <span class="textstyle27">Plug-in Link control</span></p>
+
+  <p class="noindent"><span class="textstyle11">Right-click or Control-click the Link button to access the menu and choose from the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Off</span><span class="textstyle11">—Plug-in windows are not linked. Clicking on the center of the plug-in slot will open the plug-in in a new window. As additional plug-ins are opened, multiple windows will be visible.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Single</span><span class="textstyle11">—A single plug-in window is used to display any opened plug-in on any track. The window will refresh to reflect the current selection. When enabled, the link button will turn purple.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Multi</span><span class="textstyle11">—A single window is used for plug-ins on the same slot row of any track; plug-ins on a different row will open in a separate window. Additionally, the plug-in window for a slot row will refresh to show the associated plug-in for any newly selected track. When enabled, the link button will turn yellow.</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Link provides a powerful way to see and adjust plug-in settings across your project. If you display multiple plug-ins from track 1 and then select track 2, the open windows will update to display the associated plug-ins from track 2.</span></td>
+</tr>
+</table>
+  <h4 class="subhead1"><span aria-label="195" id="page_195" role="doc-pagebreak"></span><span class="textstyle28">Close Control</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The icon on the top-left of the plug-in window can be used to close the plug-in.</span></p>
+
+  <p class="img"><img alt="chpt_fig_187" class="scale2" src="../Images/chpt_fig_187.jpg"/></p>
+  <p class="caption" id="fig8.9"><span class="textstyle26">Figure 8.9</span> <span class="textstyle27">Close plug-in window icon</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Show/Hide Control</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">On the right of the plug-in window is the Show/Hide button.</span></p>
+
+  <p class="img"><img alt="chpt_fig_188" class="scale2" src="../Images/chpt_fig_188.jpg"/></p>
+  <p class="caption" id="fig8.10"><span class="textstyle26">Figure 8.10</span> <span class="textstyle27">Show/Hide button in the plug-in window header</span></p>
+
+  <p class="noindent"><span class="textstyle11">Use this button to show or hide the plug-in window header while leaving the adjustable plug-in parameters visible.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc175" id="sub175" class="calibre5"><span class="textstyle13">Adjusting Plug-In Parameters</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Once you have a plug-in inserted on a track with the plug-in window visible, you’re ready to start adjusting the plug-in’s parameters. This is where the fun begins! Logic Pro X provides a number of ways to adjust plug-in parameters, including the obvious (using the mouse), and the not-so-obvious (using the computer keyboard). Let’s take a closer look.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc176" id="sub176" class="calibre5"><span class="textstyle14">Adjusting Plug-In Parameters with the Mouse</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">The most straightforward way to adjust plug-in parameters is to use the mouse. For vertical and horizontal slider controls, simply click and drag up/right to increase the value of the control or drag down/left to decrease the value. To adjust rotary knob plug-in parameter controls, click and drag vertically. To adjust numeric field parameters, click and drag vertically.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If you click on a position just outside a rotary knob, the value will change to the clicked value. If you click and hold a value, the rotary knob value will follow with respect to the mouse’s location.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">You can modify the way that plug-in controls respond to the mouse using keyboard modifiers.</span></p>
+
+  <p class="noindent"><span class="textstyle17">For fine adjustments:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Hold</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span> <span class="textstyle11">while moving the control. (Hold</span> <span class="textstyle29">S</span><span class="textstyle29">HIFT</span> <span class="textstyle11">to invert this behavior for broader movements.)</span></li>
+</ul>
+
+  <p class="noindent"><span aria-label="196" id="page_196" role="doc-pagebreak"></span><span class="textstyle17">To return a control to its default value:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">-</span><span class="textstyle29">CLICK</span> <span class="textstyle11">on the control.</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc177" id="sub177" class="calibre5"><span class="textstyle14">Adjusting Plug-In Parameters with the Computer Keyboard</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">It’s actually a little-known fact that you can also use the computer’s alphanumeric keyboard (or “QWERTY” keyboard) to adjust plug-in parameter controls in Logic Pro X.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To change the value of a plug-in parameter control incrementally using the computer keyboard:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Click in the text field for the control that you’d like to adjust.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Press the</span> <span class="textstyle29">U</span><span class="textstyle29">P</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span> <span class="textstyle11">key to increase the value or press the</span> <span class="textstyle29">D</span><span class="textstyle29">OWN</span> <span class="textstyle29">A</span><span class="textstyle29">RROW</span> <span class="textstyle11">key to decrease the value.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To set a value of plug-in parameter controls using the computer keyboard:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Double-click in the text field for the control that you’d like to adjust. (Once you’re in a text field, you can use</span> <span class="textstyle29">T</span><span class="textstyle29">AB</span> <span class="textstyle11">or</span> <span class="textstyle29">S</span><span class="textstyle29">HIFT</span><span class="textstyle29">+T</span><span class="textstyle29">AB</span> <span class="textstyle11">to move to the next or previous text field, respectively.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Type in a numeric value.</span></li>
+</ol>
+  <h2 class="subhead"><a href="nav.xhtml#toc178" id="sub178" class="calibre5"><span class="textstyle13">EQ Processing</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">EQ (short for equalization) is probably the most commonly used processor in the audio universe. In the consumer electronics world, EQ can be found just about anywhere that an audio signal is present; even the most humble car stereo usually has basic low, mid, and high EQ controls.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In the realm of audio production, EQ is an absolutely essential tool for getting individual instruments to sound their best, and for getting a multi-track mix to sound great.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc179" id="sub179" class="calibre5"><span class="textstyle14">Types of EQ</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">In the simplest terms, EQ is used to manipulate the frequency component of an audio signal. However, EQ processors themselves come in a variety of flavors that offer different numbers of EQ bands. These are often combined with different configurations within the available bands.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In the case of a simple graphic EQ, each band is represented by a slider control that is used to boost or cut the signal at that frequency. Graphic EQs use fixed frequency bands.</span></p>
+
+  <p class="img"><span aria-label="197" id="page_197" role="doc-pagebreak"></span><img alt="chpt_fig_189" class="scale1" src="../Images/chpt_fig_189.jpg"/></p>
+  <p class="caption" id="fig8.11"><span class="textstyle26">Figure 8.11</span> <span class="textstyle27">The Vintage Graphic EQ plug-in in Logic Pro X</span></p>
+
+  <p class="noindent"><span class="textstyle11">By contrast, many of the EQs you will use in a DAW will have adjustable EQ bands of various types.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Some types of adjustable EQ bands include:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Parametric</span><span class="textstyle11">—This is the most common type of EQ band. A parametric band is fully adjustable in terms of its frequency, gain, and Q (width) parameters.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">High- and Low-Pass Filters</span><span class="textstyle11">—These constitute another common type of EQ band, and are often abbreviated HPF and LPF, respectively. These filters permit signal to “pass” only above (HPF) or below (LPF) the selected frequency. High-pass filters are commonly used to eliminate low-frequency rumble, while low-pass filters can be employed to remove high-frequency hiss.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Shelf</span><span class="textstyle11">—The shelf is similar to the high- and low-pass filter, but it is used to boost or cut the signal above (high-shelf) or below (low-shelf) the selected frequency by a specified amount.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Notch</span><span class="textstyle11">—A notch filter is essentially a parametric band that has the gain setting fixed at the maximum negative value. This type of filter is used to “notch” out an offending frequency to make it inaudible.</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc180" id="sub180" class="calibre5"><span class="textstyle14">Basic EQ Parameters</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">You’ll find a number of standard EQ parameters on most software and hardware EQ processors. These will vary somewhat based on the type of EQ band.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Common EQ parameters include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Frequency</span><span class="textstyle11">—The Frequency parameter determines the target frequency for an EQ band. Every type of EQ band will have a frequency parameter, although some may be fixed at a specific frequency (such as the bands in a graphic EQ).</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Gain</span><span class="textstyle11">—The Gain parameter is used to boost or cut the volume of the associated EQ band. A gain control is typically found on parametric and shelf bands.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Q</span><span class="textstyle11">—This is probably the most confusing EQ parameter for those who are new to audio production. The Q control is used to adjust the shape (slope or width) of an EQ curve. It behaves somewhat differently depending on the type of EQ band being used (parametric, shelf, filter).</span></li>
+  <li class="sq-listb"><span aria-label="198" id="page_198" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Band On/Off</span><span class="textstyle11">—This parameter can be used to enable or disable an EQ band, controlling whether that particular band is having an audible effect on the signal. This can be useful for doing an A/B comparison of the signal with and without an individual EQ band.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Input/Output</span> <span class="textstyle11">– The Input and Output gain controls can be used to boost or cut the signal at the input (before the EQ has been applied) or output (after the EQ has been applied).</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc181" id="sub181" class="calibre5"><span class="textstyle14">EQ Plug-Ins in Logic Pro X</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X offers a large selection of EQ plug-ins that cover a variety of production needs. Options include Channel EQ, Linear Phase EQ, Match EQ, and a Single Band EQ. Logic Pro X recently added a vintage EQ collection as well, featuring Vintage Console EQ, Vintage Graphic EQ, and Vintage Tube EQ. These plug-ins are modeled after three famous units from the 1950s, 1960s, and 1970s.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In addition, a number of other plug-ins feature adjustable EQ sections as part of the parameter settings.</span></p>
+
+  <p class="img"><img alt="chpt_fig_190" class="scale1" src="../Images/chpt_fig_190.jpg"/></p>
+  <p class="caption" id="fig8.12"><span class="textstyle26">Figure 8.12</span> <span class="textstyle27">The Channel EQ plug-in in Logic Pro X</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc182" id="sub182" class="calibre5"><span class="textstyle14">Strategies for Using EQ</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Different types of material will require different approaches to EQ. But the basic techniques for finding good EQ settings are similar from track to track. Following are some tips for using Channel EQ and its 8 bands.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To use a Channel EQ on a track:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Enable</span> <span class="textstyle29">B</span><span class="textstyle29">AND</span> <span class="textstyle29">1</span><span class="textstyle11">, the high-pass filter, and increase the frequency enough to eliminate any unwanted noises at the extreme low frequencies, but not so much that the track loses significant low end.</span>
+
+
+  <p class="copy"><span aria-label="199" id="page_199" role="doc-pagebreak"></span><span class="textstyle11">On some tracks, such as drum overheads, you may want to eliminate almost all of the bass to make room for the kick drum track and other low-frequency instruments.</span></p>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Use the</span> <span class="textstyle29">L</span><span class="textstyle29">OW</span><span class="textstyle29">-M</span><span class="textstyle29">ID</span><span class="textstyle11">,</span> <span class="textstyle29">M</span><span class="textstyle29">ID</span><span class="textstyle11">,</span> <span class="textstyle29">H</span><span class="textstyle29">IGH</span><span class="textstyle29">-M</span><span class="textstyle29">ID</span><span class="textstyle11">, and/or</span> <span class="textstyle29">H</span><span class="textstyle29">IGH</span> <span class="textstyle11">bands to emphasize desirable qualities of a particular track.</span>
+
+  <p class="copy"><span class="textstyle11">A common approach used to identify a target frequency is to boost the gain substantially (+12 dB or more) and slowly sweep the frequency control back and forth during playback. Listen carefully to the track while adjusting the frequency. Stop sweeping when you hear something you like, tone-wise. Then reduce the gain until the frequency is only slightly pronounced, compared to the original.</span></p>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Use the</span> <span class="textstyle29">L</span><span class="textstyle29">OW</span><span class="textstyle29">-M</span><span class="textstyle29">ID</span><span class="textstyle11">,</span> <span class="textstyle29">M</span><span class="textstyle29">ID</span><span class="textstyle11">,</span> <span class="textstyle29">H</span><span class="textstyle29">IGH</span><span class="textstyle29">-M</span><span class="textstyle29">ID</span><span class="textstyle11">, and/or</span> <span class="textstyle29">H</span><span class="textstyle29">IGH</span> <span class="textstyle11">bands as needed to reduce undesirable qualities of a particular track.</span>
+
+  <p class="copy"><span class="textstyle11">A similar technique to the above can be used to identify target frequencies to cut. Simply stop sweeping when you hear something in the tone that sounds bad, intrusive, or unwanted. Then adjust the gain to a negative value that effectively reduces the prominence of the frequency, compared to the original.</span></p>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">If necessary, use</span> <span class="textstyle29">B</span><span class="textstyle29">AND</span> <span class="textstyle29">2</span> <span class="textstyle11">(low shelf) or</span> <span class="textstyle29">B</span><span class="textstyle29">AND</span> <span class="textstyle29">7</span> <span class="textstyle11">(high shelf) to add low-end thump to a bass guitar or some high-end sizzle to cymbals (respectively).</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Use the plug-in’s</span> <span class="textstyle29">M</span><span class="textstyle29">ASTER</span> <span class="textstyle29">G</span><span class="textstyle29">AIN</span> <span class="textstyle11">slider to increase or lower the output level since the resulting volume may have been affected by the EQ settings.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Frequently</span> <span class="textstyle29">B</span><span class="textstyle29">YPASS</span> <span class="textstyle11">the plug-in to make sure that the changes you’re making are actually improving the sound of the track and helping it to sit better in the overall mix!</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">You can load the Channel EQ plug-in by inserting one into an Audio Effect slot or by clicking the rectangular EQ display on the channel strip.</span></td>
+</tr>
+</table>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc183" id="sub183" class="calibre5"><span class="textstyle13">Dynamics Processing</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Like EQ, dynamics processing is an essential part of the audio production workflow. Unlike EQ, dynamics processing is not particularly well known outside of audio production. It is fair to say that working with dynamics processors is a bit more complex than using EQ to boost the bass or cut the treble on your car stereo. But the basics of dynamics processing are pretty straightforward, and if you use your ears to dial in just the right settings you’ll be working like a pro in no time!</span></p>
+
+  <p class="img"><span aria-label="200" id="page_200" role="doc-pagebreak"></span><img alt="chpt_fig_191" class="scale1" src="../Images/chpt_fig_191.jpg"/></p>
+  <p class="caption" id="fig8.13"><span class="textstyle26">Figure 8.13</span> <span class="textstyle27">The Vintage Opto Compressor in Logic Pro X</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc184" id="sub184" class="calibre5"><span class="textstyle14">Types of Dynamics Processors</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Dynamics processing refers to the manipulation of the volume (or amplitude) of an audio signal. Many instruments benefit from dynamics processing, including vocals, guitar, bass guitar, and drums. Depending on the situation, dynamics processors can be used to control a signal level that is varying dramatically, or to isolate just the loudest part of a signal while reducing or eliminating the quiet parts.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Some types of dynamics processors include:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Compressors</span><span class="textstyle11">—The compressor is the most common type of dynamics processor. It is used to reduce the loudest part of an audio signal, resulting in a more predictable dynamic range. Once the loudest parts have been reigned in, it becomes possible to boost the entire signal without fear of clipping.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Limiters</span><span class="textstyle11">—A limiter is essentially a compressor with a very high ratio setting (see the “Basic Dynamics Parameters” section below). As a result, the incoming audio signal is completely “capped” at a specified level that prevents clipping. Limiters are an essential part of the music production workflow and are often used to make an overall mix seem louder.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">De</span><span class="textstyle11">-</span><span class="textstyle17">Essers</span><span class="textstyle11">—A de-esser is a compressor that operates at a specific frequency. Its primary use is to reduce excessive “s” sounds in a recording, a phenomenon known as</span> <span class="textstyle31">sibilance</span><span class="textstyle11">. This type of processor can also be used to eliminate other undesirable high-frequency sounds such as the breath noise in a flute recording.</span></li>
+
+  <li class="sq-listb"><span aria-label="201" id="page_201" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Expanders</span><span class="textstyle11">—An expander is a dynamics processor that can be used to reduce the level of a signal when it falls below a certain level. Expanders work something like a compressor in reverse. A gentle amount of expansion can help to reduce some of the ambient noise that gets picked up in an audio recording.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Gates</span><span class="textstyle11">—A gate (often called a “noise gate”) is a type of expander that will completely silence a signal when it falls below a certain level. Gates are frequently used to eliminate the “bleed” that occurs when a microphone picks up signal from an “off-mike” sound source, such as a snare drum being picked up by a kick drum mike. Gates are also useful to eliminate background noise in a recording, such as the buzz of a guitar amp that can be heard in “silent” parts of the performance. The purpose of a gate is to clean up the sound of a recording by helping to isolate the desired parts of the audio signal and eliminate the unwanted parts.</span>
+
+  <p class="img-l"><img alt="chpt_fig_192" class="scale1" src="../Images/chpt_fig_192.jpg"/></p>
+  <p class="caption" id="fig8.14"><span class="textstyle26">Figure 8.14</span> <span class="textstyle27">The Noise Gate in Logic Pro X</span></p>
+  </li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc185" id="sub185" class="calibre5"><span class="textstyle14">Basic Dynamics Parameters</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Just like EQ processors, dynamic processors make use of a standard set of controls. These will vary somewhat based on the type of dynamics processor being used.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Common dynamics parameters include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Threshold</span><span class="textstyle11">—The threshold parameter sets the level that the input signal must reach in order to trigger the processor. Note that compressors and limiters are triggered when the signal exceeds the threshold, whereas expanders and gates are triggered when the signal drops below the threshold.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Ratio</span><span class="textstyle11">—The ratio parameter determines the amount of signal reduction that occurs once the threshold has been reached. For example, when using a compressor with the ratio set to 2:1, the signal must exceed the threshold by 2 dB to result in an output increase of 1 dB. A limiter typically features a compression ratio of 100:1.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Knee</span><span class="textstyle11">—The knee parameter determines how suddenly or gradually gain reduction is introduced in a compressor as the signal level approaches the threshold.</span></li>
+
+  <li class="sq-listb"><span aria-label="202" id="page_202" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Gain</span><span class="textstyle11">—The gain parameter is used to add a level increase (known as “makeup gain”) to a signal that has been reduced in volume by a dynamics processor.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Attack/Release</span><span class="textstyle11">—The attack parameter determines how quickly the dynamics processor will act once the audio signal has reached the threshold. The release parameter determines how quickly the dynamics processor will disengage once the threshold is no longer met.</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc186" id="sub186" class="calibre5"><span class="textstyle14">Dynamics Plug-Ins in Logic Pro X</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X offers nine types of dynamics plug-ins: the Adaptive Limiter, the Compressor, the DeEsser 2, the Enveloper, the Expander, the Limiter, the Multipressor, and Noise Gate. The basic functions of most of these are as described above. A few of the processors have specialized functions:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">The Enveloper allows you to shape the attack and release phases of a signal.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">The Multipressor, also known as a multiband compressor, divides a signal into multiple frequency bands allowing independent compression for each band.</span>
+
+  <p class="img-l"><img alt="chpt_fig_193" class="scale1" src="../Images/chpt_fig_193.jpg"/></p>
+  <p class="caption" id="fig8.15"><span class="textstyle26">Figure 8.15</span> <span class="textstyle27">The Multipressor in Logic Pro X</span></p>
+  </li>
+</ul>
+  <p class="noindent"><span class="textstyle11">Applying dynamics processing to tracks can seem confusing at first. But, just like when working with EQ, there are some common strategies to help you find the right settings.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc187" id="sub187" class="calibre5"><span class="textstyle14">Strategies for Using Compression</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">To add compression to a track in Logic Pro X, you can add the Compressor plug-in to an Audio Effect slot on the target track’s channel strip.</span></p>
+
+  <p class="noindent"><span aria-label="203" id="page_203" role="doc-pagebreak"></span><span class="textstyle17">To use the Compressor on a signal:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Set the</span> <span class="textstyle29">K</span><span class="textstyle29">NEE</span> <span class="textstyle11">to about</span> <span class="textstyle15">0.3</span><span class="textstyle11">, the</span> <span class="textstyle29">A</span><span class="textstyle29">TTACK</span> <span class="textstyle11">to about</span> <span class="textstyle15">10ms</span><span class="textstyle11">, and the</span> <span class="textstyle29">R</span><span class="textstyle29">ELEASE</span> <span class="textstyle11">to about</span> <span class="textstyle15">100ms</span><span class="textstyle11">.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Start off with a</span> <span class="textstyle29">R</span><span class="textstyle29">ATIO</span> <span class="textstyle11">of about</span> <span class="textstyle15">3.0:1</span><span class="textstyle11">. (You may need a higher ratio if the track has a wide dynamic range.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Reduce the</span> <span class="textstyle29">T</span><span class="textstyle29">HRESHOLD</span> <span class="textstyle11">setting until you start seeing a small amount of compression registering in the gain reduction (GR) meter. A good starting point is to target around 3 to 6 dB of gain reduction.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">You can switch between the Meter and Graph display to help visually monitor the effect of the compressor settings on the incoming signal level.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Adjust the</span> <span class="textstyle29">M</span><span class="textstyle29">AKE</span> <span class="textstyle29">U</span><span class="textstyle29">P</span> <span class="textstyle11">gain control to increase the overall level of the track.</span>
+
+  <p class="copy"><span class="textstyle11">Make sure that you don’t increase the gain so much that the plug-in’s output begins clipping. If you’re having trouble finding the perfect gain setting, you may need to increase the ratio or lower the threshold.</span></p>
+  </li>
+</ol>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">You can load the Compressor plug-in by inserting one into an Audio Effect slot or by clicking the Gain Reduction meter on the channel strip located just above the rectangular EQ display.</span></td>
+</tr>
+</table>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc188" id="sub188" class="calibre5"><span class="textstyle14">Strategies for Using a De-Esser</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">A de-esser is an essential tool when working with vocals. Even a great singer can have problems with sibilance in the studio. Fortunately, de-esser plug-ins have a small number of controls that you can easily learn to use effectively.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">For best results, insert the De-Esser 2 after any compressor plug-ins on the track.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To use a De-Esser 2 on a vocal track:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the</span> <span class="textstyle29">H</span><span class="textstyle29">IGHPASS</span> <span class="textstyle29">S</span><span class="textstyle29">HELVING</span> <span class="textstyle11">button of the Filter section to limit the effect to the high frequencies.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Turn on</span> <span class="textstyle29">F</span><span class="textstyle29">ILTER</span> <span class="textstyle29">S</span><span class="textstyle29">OLO</span> <span class="textstyle11">and play back a sibilant portion of the track.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The Filter Solo button lets you isolate the sibilance targeted by the Frequency control. This lets you hear the sibilant peaks that will be reduced by the plug-in.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Adjust the</span> <span class="textstyle29">F</span><span class="textstyle29">REQUENCY</span> <span class="textstyle11">control while listening carefully; try to zero in on just the harsh sibilant frequencies.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span aria-label="204" id="page_204" role="doc-pagebreak"></span><span class="textstyle20">Sibilant sounds typically occur in the 4 to 10 kHz range. Most singers will require de-essing in the 6 to 7 kHz range.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Once you’ve found the target frequency, stop playback and turn off</span> <span class="textstyle29">F</span><span class="textstyle29">ILTER</span> <span class="textstyle29">S</span><span class="textstyle29">OLO</span><span class="textstyle11">.</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Set the</span> <span class="textstyle29">T</span><span class="textstyle29">HRESHOLD</span> <span class="textstyle11">control to</span> <span class="textstyle15">-0.0 dB</span> <span class="textstyle11">and begin playback across the sibilant section again. Watch the gain reduction (GR) meter to help identify when de-essing is being applied.</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">Slowly lower the Threshold value, as needed, to set the level at which de-essing is triggered.</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">While setting the Threshold, toggle the</span> <span class="textstyle29">B</span><span class="textstyle29">YPASS</span> <span class="textstyle11">control frequently to compare the result to the original vocal.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Unsolo the track from time to time to hear how the de-essed vocal sounds in the overall mix. You don’t want to overdo things; a little de-essing can go a long way!</span></li>
+</ul>
+  </li>
+</ol>
+  <h2 class="subhead"><a href="nav.xhtml#toc189" id="sub189" class="calibre5"><span class="textstyle13">Reverb and Delay Effects</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Reverb and delay effects are indispensable tools for creating a sense of space. Collectively known as “time-based effects,” reverb and delay can be used to create a wide range of sounds. This range spans the gamut from providing tasteful spatialization of audio, to adding a subtle spaciousness to a track, to creating dramatic effects that completely alter the sound of a voice or instrument.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc190" id="sub190" class="calibre5"><span class="textstyle14">What Is Reverb?</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Reverb effects are used to create the sound of a real or imaginary space. Reverb algorithms can be used to recreate the sound of small spaces (rooms, cars, phone booths) or large spaces (concert halls, parking garages). A number of types of reverbs are available in both hardware and software formats. Some use a series of delays (see “What Is Delay?” below) to create smooth, musical-sounding results. Other reverbs use a technique called “convolution,” which actually uses samples of real-world acoustic spaces to create incredible realism.</span></p>
+
+  <p class="img"><img alt="chpt_fig_194" class="scale1" src="../Images/chpt_fig_194.jpg"/></p>
+  <p class="caption" id="fig8.16"><span class="textstyle26">Figure 8.16</span> <span class="textstyle27">The Space Designer plug-in in Logic Pro X</span></p>
+
+  <h3 class="subhead1"><span aria-label="205" id="page_205" role="doc-pagebreak"></span><a href="nav.xhtml#toc191" id="sub191" class="calibre5"><span class="textstyle14">Reverb in Logic Pro X</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X offers a number of reverb plug-ins, ranging from basic to advanced. Reverb plug-ins include ChromaVerb, EnVerb, SilverVerb, and Space Designer. The first three are digital reverb effects that include additional options. The Space Designer is a convolution reverb effect that utilizes recorded and synthesized impulse responses. This allows for incredibly realistic recreations of real-world spaces as well as more adventurous sounds.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Common reverb parameters include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Decay</span><span class="textstyle11">—The decay control, sometimes referred to as Reverb Time, determines how long it will take for the reverb to “fade out” after a sound has been processed.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Pre-Delay</span><span class="textstyle11">—The pre-delay control adjusts the amount of time that a reverb “waits” after receiving an input signal before it begins to create reverb.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Diffusion</span><span class="textstyle11">—When set to a high value, the diffusion control will emphasize the initial build-up of echoes. Low values will reduce the initial build-up, which can result in better clarity.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Low-Pass and High-Pass Filter</span><span class="textstyle11">—Just like the filter controls on an EQ, this control can be used to eliminate content above or below the specified frequency.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Room Type/Size</span><span class="textstyle11">—This determines the type or size of space being emulated. Depending on the plug-in, this can correlate to reverb time (based on size of the space) or diffusion (based on the room materials). In some cases, selecting a room type or size may adjust a number of other reverb parameters.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Mix</span><span class="textstyle11">—The Mix control can be used to adjust the wet/dry balance of the plug-in’s output. (See “Wet Versus Dry Signals” below.)</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc192" id="sub192" class="calibre5"><span class="textstyle14">Applications for Reverb Processors</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">There are many creative ways to use reverb in a project. Whether used to add a subtle sense of space to a vocal or to completely wash out a guitar for an ambient bed, reverb can truly bring a track to life.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Suggestions and scenarios for reverb usage:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Add some character to a snare track by inserting a small room reverb directly on the track. Then adjust the wet/dry control to get the proper balance. Try the</span> <span class="textstyle29">R</span><span class="textstyle29">OOM</span> <span class="textstyle11">preset in SilverVerb.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Give a vocal track a vintage sound by using a medium plate reverb. Try the</span> <span class="textstyle29">S</span><span class="textstyle29">MALL</span> <span class="textstyle29">S</span><span class="textstyle29">PACES</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">P</span><span class="textstyle29">LATE</span> <span class="textstyle29">R</span><span class="textstyle29">EVERBS</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">1.1</span><span class="textstyle29">S</span> <span class="textstyle29">V</span><span class="textstyle29">OCAL</span> <span class="textstyle29">P</span><span class="textstyle29">LATE</span> <span class="textstyle11">preset using Space Designer.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Create a distant, washed-out guitar sound by using a large church reverb and setting the wet/dry control to 100% wet. Try the</span> <span class="textstyle29">L</span><span class="textstyle29">ARGE</span> <span class="textstyle29">S</span><span class="textstyle29">PACES</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">I</span><span class="textstyle29">NDOOR</span> <span class="textstyle29">S</span><span class="textstyle29">PACES</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">08.7</span><span class="textstyle29">S</span><span class="textstyle29">B</span><span class="textstyle29">IG</span> <span class="textstyle29">G</span><span class="textstyle29">OTHIC</span> <span class="textstyle29">C</span><span class="textstyle29">HURCH</span> <span class="textstyle11">preset using Space Designer.</span></li>
+  <li class="sq-listb"><span aria-label="206" id="page_206" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Add a medium hall reverb in a send-and-return configuration to apply reverb to a number of tracks in a project including vocals, acoustic guitars, keyboards, and more. This can help “gel” the mix by putting all of the components into the same acoustic space. Try the</span> <span class="textstyle29">H</span><span class="textstyle29">ALLS</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">V</span><span class="textstyle29">INTAGE</span> <span class="textstyle29">C</span><span class="textstyle29">ONCERT</span> <span class="textstyle29">H</span><span class="textstyle29">ALL</span> <span class="textstyle11">preset using ChromaVerb.</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc193" id="sub193" class="calibre5"><span class="textstyle14">What Is Delay?</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Delay is the term that audio engineers use for a processor that creates an echo. Delay is a simple effect in concept, but over the years both hardware and software delays have evolved into extremely complex processors.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Delay plug-ins provide dozens of different approaches to delay, from digital models of vintage tape-style echos to modern granular pitch-shifted delays. And almost all modern delays have the ability to synchronize their individual echoes to the tempo of a song.</span></p>
+
+  <p class="img"><img alt="chpt_fig_195" class="scale1" src="../Images/chpt_fig_195.jpg"/></p>
+  <p class="caption" id="fig8.17"><span class="textstyle26">Figure 8.17</span> <span class="textstyle27">The Delay Designer plug-in in Logic Pro X</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc194" id="sub194" class="calibre5"><span class="textstyle14">Delay in Logic Pro X</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X offers a number of delay plug-ins. The Delay Designer is a multitap delay with additional control over level, panning, pitch, and filters for each tap, making it one of the most robust delay options available. The Echo plug-in is a simple delay with minimal features. The Sample Delay is a utility that allows you to delay the left and right channels in very fine increments (measured in samples or milliseconds). The Stereo Delay lets you independently set delay time, feedback, and other parameters per channel. Finally, the Tape Delay emulates vintage tape echo machines and provides subtle saturation to the signal.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Common delay controls include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Delay Time</span><span class="textstyle11">—Set the plug-in delay time in milliseconds or musical values linked with the project grid when Sync is enabled. Ranges can vary by plug-in.</span></li>
+
+  <li class="sq-listb"><span aria-label="207" id="page_207" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Feedback</span><span class="textstyle11">—The feedback control determines how much of the plug-in’s output will be “fed back” into the input. The feedback setting ultimately controls the number of echoes that will occur.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Filters</span><span class="textstyle11">—Like on an EQ, some delay plug-ins have filter controls that can be used to eliminate content above or below the specified frequency. These can include: low-pass, high-pass, low cut, high cut, and other filtering options.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Sync</span><span class="textstyle11">—When enabled, the Sync control will cause the delay time to synchronize to the session tempo.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Mix</span><span class="textstyle11">—The Mix control can be used to adjust the wet/dry balance of the plug-in’s output. (See “Wet Versus Dry Signals” below.)</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc195" id="sub195" class="calibre5"><span class="textstyle14">Applications for Delay Processors</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">A little delay can help add excitement to your mix. This is a great way to propel a track forward and add rhythmic variety.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Suggestions and scenarios for delay usage:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Use Selection-Based Processing to quickly apply delay to just the last word of a vocal phrase.</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">With the Marquee tool, select the target word or phrase.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Open the Selection-Based Processing window. (In the Tracks area of the main window, select</span> <span class="textstyle29">F</span><span class="textstyle29">UNCTIONS</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">S</span><span class="textstyle29">ELECTION</span><span class="textstyle29">-B</span><span class="textstyle29">ASED</span> <span class="textstyle29">P</span><span class="textstyle29">ROCESSING</span> <span class="textstyle11">or press</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle29">+S</span><span class="textstyle29">HIFT</span><span class="textstyle29">+P</span><span class="textstyle11">.)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Under the blue</span> <span class="textstyle15">Set A</span> <span class="textstyle11">column, add the desired plug-in and configure the parameters.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Audition the processing by clicking the</span> <span class="textstyle29">P</span><span class="textstyle29">REVIEW</span> <span class="textstyle11">button (speaker icon) in the lower left corner of the plug-in window and experiment with the plug-in’s wet/dry control to get the proper balance.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Check the boxes for</span> <span class="textstyle29">S</span><span class="textstyle29">PLIT AT</span> <span class="textstyle29">M</span><span class="textstyle29">ARQUEE</span> <span class="textstyle29">B</span><span class="textstyle29">ORDERS</span> <span class="textstyle11">and</span> <span class="textstyle29">A</span><span class="textstyle29">DD</span> <span class="textstyle29">E</span><span class="textstyle29">FFECT</span> <span class="textstyle29">T</span><span class="textstyle29">AIL</span><span class="textstyle11">. (This ensures that the effect doesn’t cut off abruptly during playback.)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Apply the Selection-Based Processing by clicking the</span> <span class="textstyle29">A</span><span class="textstyle29">PPLY</span> <span class="textstyle11">button.</span></li>
+</ul>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Add some width to a mono acoustic guitar track by applying the Sample Delay plug-in with delay on the left or right channels. Alternatively, apply slightly different delay times to the left and right channels with the Stereo Delay plug-in.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Use the Echo or Tape Delay to apply a simple quarter-note delay in a send-and-return configuration to add sustain, rhythmic emphasis, and interest to a variety of track types including vocals and guitar solos.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Get an Edge-like guitar sound (U2) by running a simple guitar part into a dotted-eighth-note delay synced to the song’s tempo. Set the feedback parameter high enough to give at least 2 to 3 repeats of each note. Take it a step further with the Stereo Delay plug-in by setting both channels to different rhythmic values to create an even more complex rhythmic effect.</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span aria-label="208" id="page_208" role="doc-pagebreak"></span><span class="textstyle20">The Pedalboard plug-in located in the Amps and Pedals folder of the plug-in menu has a large assortment of effect pedals including multiple delay options. While the Pedalboard was designed with guitarists in mind, these can easily be used with any audio or software instrument source.</span></td>
+</tr>
+</table>
+  <h2 class="subhead"><a href="nav.xhtml#toc196" id="sub196" class="calibre5"><span class="textstyle13">Wet Versus Dry Signals</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">When working with time-based effects such as reverb and delay, you will need to balance the original signal against the processed signal. Audio producers refer to the original signal as the “dry” signal and the reverberated or delayed signal as the “wet” signal. Here are some common ways to adjust the wet/dry balance.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc197" id="sub197" class="calibre5"><span class="textstyle14">Using Time-Based Effects as Plug-in Inserts</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Although time-based effects are typically applied using a send-and-return configuration (see below), at times you may use a reverb or delay as an Audio Effect directly on the source track. For example, you may want to add reverb to a snare track to give it a unique sound, or you may want to create a swirling guitar wash, where the signal is 100% wet. In these scenarios, you can place the desired plug-in directly on the target track’s channel strip.</span></p>
+
+  <p class="noindent"><span class="textstyle11">When applying a time-based effect directly to a track, the only way to adjust the wet/dry balance is to use the plug-in’s controls. The location and labeling of these controls can vary from plug-in to plug-in. Most of the delay plug-ins in Logic Pro X use wet/dry sliders to adjust the mix.</span></p>
+
+  <p class="img"><img alt="chpt_fig_196" class="scale2" src="../Images/chpt_fig_196.jpg"/></p>
+  <p class="caption" id="fig8.18"><span class="textstyle26">Figure 8.18</span> <span class="textstyle27">Tape Delay’s wet/dry balance is adjusted using two sliders in the Output control area.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The Output control of the Tape Delay, for example, uses dry and wet sliders to control the overall output of the corresponding signal. You can also type directly into the number field at the top of the slider and manually enter a numerical value from</span> <span class="textstyle15">0%</span> <span class="textstyle11">to</span> <span class="textstyle15">100%</span><span class="textstyle11">.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">As a general rule, you’ll want to set the plug-in to a relatively dry setting when emulating “natural” reverb or delay characteristics. Start with a low setting, such as 70% Dry and 30% Wet, as shown in the example in <a href="#fig8.18" class="calibre5">Figure 8.18</a>, and adjust from there as needed.</span></td>
+</tr>
+</table>
+
+  <h3 class="subhead1"><span aria-label="209" id="page_209" role="doc-pagebreak"></span><a href="nav.xhtml#toc198" id="sub198" class="calibre5"><span class="textstyle14">Using Send-and-Return Configurations</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Configuring your time-based effects using a send and return is typically preferable, for a variety of reasons. First, you’ll often want to apply the same reverb settings to many tracks in your project, so using a single plug-in is much faster to set up and adjust.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Second, because time-based effects can use significant CPU power, using a send and return will save on CPU processing. You can create one instance of a reverb or delay on an Aux Input track and then use as many sends to the track as necessary to apply the effect for multiple tracks.</span></p>
+
+  <p class="noindent"><span class="textstyle11">And third, each source track’s direct output will remain completely dry, while the send level can be used to adjust the wet signal. This provides a quick and easy way to modify the wet/dry balance for a whole bunch of tracks in your project without needing to change the settings of the plug-in itself.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Although advanced send-and-return configurations are beyond the scope of this book, you can configure a basic setup with a few simple steps. Use the techniques outlined below to get started with a reverb send.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The same techniques can be used to create a delay send. Simply modify the name you use for the aux channel strip and change the plug-in you assign to the channel.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To set up a reverb send across multiple tracks:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">In the Mixer, select all of the tracks that you’d like to send to the reverb by clicking on their channel strips.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Click on an empty Send slot on one of the selected channel strips.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Select an available option from the list of busses. (For example, choose</span> <span class="textstyle29">B</span><span class="textstyle29">US</span> <span class="textstyle29">1</span><span class="textstyle11">.) A send to the selected bus will be created across all of the selected channel strips, and an aux channel strip will be created with the selected bus routed to its input slot.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To set up the reverb return:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Rename the new aux channel strip to something meaningful, like</span> <span class="textstyle15">Reverb</span><span class="textstyle11">.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Assign your preferred reverb plug-in on one of the Audio Effect slots on the aux channel strip.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle17">To set the send levels:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">For each of the source channel strips you used in Step 1, bring up the Send Level knob as needed to introduce reverb for that track.</span></li>
+</ul>
+  <h2 class="subhead"><span aria-label="210" id="page_210" role="doc-pagebreak"></span><a href="nav.xhtml#toc199" id="sub199" class="calibre5"><span class="textstyle13">Review/Discussion Questions</span></a></h2>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">How can you insert a plug-in on a track? How can you remove an inserted plug-in? (See “Inserting Plug-Ins on Tracks” beginning on <a href="#page_190" class="calibre5">page 190</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">How can you move a plug-in from one track to another track? How can you duplicate a plug-in? (See “Moving and Duplicating Plug-Ins” beginning on <a href="#page_192" class="calibre5">page 192</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">What is the purpose of the previous (</span><span class="textstyle29">&lt;</span><span class="textstyle11">) and next (</span><span class="textstyle29">&gt;</span><span class="textstyle11">) buttons in the plug-in controls? (See “Plug-in Settings Controls” beginning on <a href="#page_193" class="calibre5">page 193</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Is it possible to change the plug-in that you are viewing in the currently open plug-in window? How might you enable/disable this behavior? (See “Link Control” beginning on <a href="#page_194" class="calibre5">page 194</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">What is the function of the Multi setting for the Link control? (See “Link Control” beginning on <a href="#page_194" class="calibre5">page 194</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">Which keyboard modifier can you use to make fine adjustments on plug-in controls? (See “Adjusting Plug-In Parameters with the Mouse” beginning on <a href="#page_195" class="calibre5">page 195</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">Which keyboard modifier can you use to reset a plug-in control to its default value? (See “Adjusting Plug-In Parameters with the Mouse” beginning on <a href="#page_195" class="calibre5">page 195</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">In what ways can plug-in parameters be adjusted using the computer keyboard? (See “Adjusting Plug-In Parameters with the Computer Keyboard” beginning on <a href="#page_196" class="calibre5">page 196</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">What are the four common types of EQ bands? (See “Types of EQ” beginning on <a href="#page_196" class="calibre5">page 196</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">10.</span><span class="space2"></span><span class="textstyle11">What EQ plug-in options are included with Logic Pro X? (See “EQ Plug-Ins in Logic Pro X” beginning on <a href="#page_198" class="calibre5">page 198</a>.)</span></li>
+
+  <li class="numlist"><span aria-label="211" id="page_211" role="doc-pagebreak"></span><span class="textstyle11">11.</span><span class="space2"></span><span class="textstyle11">What dynamics plug-ins are found in Logic Pro X? (See “Dynamics Plug-Ins in Logic Pro X” beginning on <a href="#page_202" class="calibre5">page 202</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">12.</span><span class="space2"></span><span class="textstyle11">What is the difference between reverb and delay? What category of effects do both of these processes belong to? (See “Reverb and Delay Effects” beginning on <a href="#page_204" class="calibre5">page 204</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">13.</span><span class="space2"></span><span class="textstyle11">What are some scenarios in which you might place a time-based effect directly on a track? (See “Using Time-Based Effects as Plug-in Inserts” beginning on <a href="#page_208" class="calibre5">page 208</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">14.</span><span class="space2"></span><span class="textstyle11">What are some advantages of using a send-and-return configuration for time-based effects? (See “Using Send-and-Return Configurations” beginning on <a href="#page_209" class="calibre5">page 209</a>.)</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To review additional material from this chapter and prepare for certification, see the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+</section>
+
+
+
+  </div>
+
+  
+  <div class="calibreToc">
+    <h2><a href="../../../fultv-nyhsd.html">Table of contents
+</a></h2>
+    <div>
+  <ul>
+    <li>
+      <a href="HalfTitle.xhtml">Half Title</a>
+    </li>
+    <li>
+      <a href="TitlePage.xhtml">Title</a>
+    </li>
+    <li>
+      <a href="Copyright.xhtml">Copyright</a>
+    </li>
+    <li>
+      <a href="nav.xhtml">Contents</a>
+    </li>
+    <li>
+      <a href="Acknowledgments.xhtml#sub1">Acknowledgments</a>
+    </li>
+    <li>
+      <a href="Introduction.xhtml#sub2">Introduction. Welcome to the World of Audio</a>
+      <ul>
+        <li>
+          <a href="Introduction.xhtml#sub3">Getting Started in Audio Production</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub4">Who Should Read This Book</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub5">About This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub6">Requirements and Prerequisites</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub7">Media Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub8">Course Organization and Sequence</a>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub9">Conventions and Symbols Used in This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub10">Keyboard Shortcuts and Modifiers</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub11">Icons</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Chapter01.xhtml#sub12">Chapter 1. Computer Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter01.xhtml#sub13">Selecting a Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub14">Mac Versus Windows Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub15">The Importance of RAM</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub16">Processing Power</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub17">Storage Space</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub18">Storage Options</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub19">Onboard Sound Options (Audio In and Out)</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub20">Other Options to Consider</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub21">Working with Your Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub22">File Management</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub23">Launching Applications</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub24">Saving Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub25">Working with an Application</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub26">Menus</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub27">Keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub28">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise01.xhtml#sub29">Exercise 1. Exploring Audio on the Computer</a>
+    </li>
+    <li>
+      <a href="Chapter02.xhtml#sub30">Chapter 2. DAW Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter02.xhtml#sub31">Functions of a DAW</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub32">What Can a DAW Do?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub33">Common DAWs</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub34">Plug-In Formats</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub35">What Is a Plug-In?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub36">Common Plug-In Formats</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub37">Logic Pro X System</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub38">Logic Pro X Software Capabilities</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub39">Logic Pro X Software Options</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub40">Logic Pro X Hardware Options</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub41">Downloading and Installing Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub42">System Requirements for Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub43">Installation Steps</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub44">Launching Logic Pro X for the First Time</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub45">Downloadable Content</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub46">Important Preference Settings</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub47">Project Settings</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub48">Important Concepts in Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub49">Project Files Versus Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub50">Audio Versus MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub51">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise02.xhtml#sub52">Exercise 2. Setting Up a Multi-Track Project</a>
+    </li>
+    <li>
+      <a href="Chapter03.xhtml#sub53">Chapter 3. Audio Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter03.xhtml#sub54">The Basics of Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub55">Frequency</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub56">Amplitude</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub57">Microphones</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub58">Traditional Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub59">USB Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub60">Other Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub61">Basic Miking Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub62">Multi-Tracking and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub63">What Is Multi-Track Recording?</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub64">Recording Signal Flow</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub65">Moving Audio from Analog to Digital</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub66">Analog Versus Digital Audio</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub67">The Analog-to-Digital Conversion Process</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub68">The Audio Interface</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub69">Audio Interface Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub70">Working Without an Audio Interface</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub71">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise03.xhtml#sub72">Exercise 3. Selecting Your Audio Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter04.xhtml#sub73">Chapter 4. MIDI Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter04.xhtml#sub74">A Brief History of MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub75">Digital Control</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub76">The Birth of MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub77">The MIDI Protocol</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub78">MIDI Notes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub79">Program Changes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub80">Controller Messages</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub81">MIDI Controllers</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub82">Tone-Generating Keyboards</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub83">Keyboard Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub84">Drumpad Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub85">Grid Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub86">Alternate Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub87">What to Look for in a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub88">Purchasing a Keyboard Controller</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub89">Setup and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub90">Plug-and-Play Setup</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub91">MIDI Cables and Jacks</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub92">Using a MIDI Interface</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub93">Considerations for Using Multiple MIDI Devices</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub94">MIDI Versus Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub95">What Is MIDI?</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub96">Monitoring with Onboard Sound Versus Virtual Instruments</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub97">Tracking with Virtual Instruments</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub98">Creating Tracks for Virtual Instruments</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub99">Summary</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub100">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise04.xhtml#sub101">Exercise 4. Selecting Your MIDI Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter05.xhtml#sub102">Chapter 5. Logic Pro Concepts, Part 1</a>
+      <ul>
+        <li>
+          <a href="Chapter05.xhtml#sub103">Creating a Project</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub104">Selecting a Track Type</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub105">Enabling Advanced Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub106">Main Window</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub107">The Control Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub108">Tracks Area Menu Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub109">Rulers</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub110">Mixer Display and Window</a>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub111">Working with Tracks</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub112">Adding Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub113">Mono Versus Stereo Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub114">External MIDI Versus Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub115">Regions Versus Files</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub116">Selecting Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub117">Basic Navigation</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub118">Using the Transport Controls</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub119">Zooming and Scrolling in the Main Window</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub120">Controlling Playback Behavior</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub121">Monitoring Your Playhead Location</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub122">Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub123">Selection Scenarios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub124">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise05.xhtml#sub125">Exercise 5. Configuring and Working on a Project</a>
+    </li>
+    <li>
+      <a href="Chapter06.xhtml#sub126">Chapter 6. Logic Pro X Concepts, Part 2</a>
+      <ul>
+        <li>
+          <a href="Chapter06.xhtml#sub127">Setting Up for Recording</a>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub128">Recording Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub129">Making a Record Selection</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub130">Record Enabling Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub131">Monitoring Record Enabled Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub132">Initiating a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub133">Stopping a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub134">Recording Additional Takes</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub135">Recording MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub136">Monitoring a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub137">Record Enabling Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub138">Overlap Recording on Software Instrument Tracks</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub139">Importing Audio and MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub140">Supported Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub141">Importing from the Desktop</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub142">Importing from Media Browser and All Files Browser</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub143">Using the Import Command</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub144">Using Apple Loops</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub145">Working in the Tracks Area</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub146">Snap to Grid</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub147">Setting the Snap Value</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub148">Working with Regions and Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub149">Selecting a Tool for Editing</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub150">Basic Editing Techniques</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub151">Advanced Editing Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub152">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise06.xhtml#sub153">Exercise 6. Importing and Editing Regions</a>
+    </li>
+    <li>
+      <a href="Chapter07.xhtml#sub154">Chapter 7. Mixing Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter07.xhtml#sub155">Basic Mixing</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub156">Setting Levels</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub157">Panning</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub158">Staying Organized</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub159">Processing Options and Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub160">Gain-Based Processing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub161">Time-Based Processing and Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub162">Insert Effects Versus Send Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub163">Processing with External Gear</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub164">Mixing in the Box</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub165">Advantages of In-the-Box Mixing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub166">Getting the Most Out of an In-the-Box Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub167">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise07.xhtml#sub168">Exercise 7. Creating a Basic Mix</a>
+    </li>
+    <li>
+      <a href="Chapter08.xhtml#sub169">Chapter 8. Signal Processing</a>
+      <ul>
+        <li>
+          <a href="Chapter08.xhtml#sub170">Plug-In Basics</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub171">Inserting Plug-Ins on Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub172">Moving and Duplicating Plug-Ins</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub173">Displaying Plug-In Windows</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub174">Common Plug-In Controls</a>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub175">Adjusting Plug-In Parameters</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub176">Adjusting Plug-In Parameters with the Mouse</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub177">Adjusting Plug-In Parameters with the Computer Keyboard</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub178">EQ Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub179">Types of EQ</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub180">Basic EQ Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub181">EQ Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub182">Strategies for Using EQ</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub183">Dynamics Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub184">Types of Dynamics Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub185">Basic Dynamics Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub186">Dynamics Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub187">Strategies for Using Compression</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub188">Strategies for Using a De-Esser</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub189">Reverb and Delay Effects</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub190">What Is Reverb?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub191">Reverb in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub192">Applications for Reverb Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub193">What Is Delay?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub194">Delay in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub195">Applications for Delay Processors</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub196">Wet Versus Dry Signals</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub197">Using Time-Based Effects as Plug-in Inserts</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub198">Using Send-and-Return Configurations</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub199">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise08.xhtml#sub200">Exercise 8. Optimizing Tracks with Signal Processing</a>
+    </li>
+    <li>
+      <a href="Chapter09.xhtml#sub201">Chapter 9. Finishing a Project</a>
+      <ul>
+        <li>
+          <a href="Chapter09.xhtml#sub202">Recalling a Saved Mix</a>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub203">Using Automation</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub204">Selecting an Automation Mode</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub205">Writing Real-Time Automation</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub206">Viewing Automation Curves</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub207">Editing Automation Points</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub208">Creating a Mixdown</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub209">Adding Processing on the Stereo Output</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub210">Considerations for Bouncing Audio</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub211">Creating a Bounce of an Audio Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub212">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise09.xhtml#sub213">Exercise 9. Preparing the Final Mix</a>
+    </li>
+    <li>
+      <a href="Chapter10.xhtml#sub214">Chapter 10. Beyond the Basics</a>
+      <ul>
+        <li>
+          <a href="Chapter10.xhtml#sub215">Flex Time and Pitch</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub216">Enabling Flex</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub217">Flex Time</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub218">Flex Pitch</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub219">MIDI Editing Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub220">Viewing MIDI Regions and Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub221">Editing MIDI Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub222">Working with Velocity</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub223">Software Instrument Region Inspector</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub224">Quantization in the Piano Roll Editor</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub225">Submixing with Track Stacks</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub226">Simplifying a Mix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub227">Using Track Stacks to Submix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub228">Creating Stems</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub229">Keyboard Shortcuts</a>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub230">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise10.xhtml#sub231">Exercise 10. Finalizing a Project</a>
+    </li>
+    <li>
+      <a href="AbouttheAuthors.xhtml#sub232">About the Authors</a>
+    </li>
+  </ul>
+</div>
+
+
+  </div>
+  
+
+  <div class="calibreEbNav">
+    
+      <a href="Exercise07.xhtml" class="calibreAPrev">previous page
+</a>
+    
+
+    <a href="../../../fultv-nyhsd.html" class="calibreAHome">start
+</a>
+
+    
+      <a href="Exercise08.xhtml" class="calibreANext">next page
+</a>
+    
+  </div>
+
+</div>
+
+</body>
+</html>

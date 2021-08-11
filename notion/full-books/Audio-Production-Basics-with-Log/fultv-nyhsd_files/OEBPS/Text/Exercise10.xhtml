@@ -1,0 +1,1142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Exercise 10 Finalizing a Project</title>
+    <meta content="urn:uuid:e0000000-0000-0000-0000-000006335993" name="Adept.expected.resource"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../../stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../../page_styles.css" rel="stylesheet" type="text/css"/>
+
+  
+
+
+<link href="../../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="calibreMeta">
+  <div class="calibreMetaTitle">
+  
+  
+    
+    <h1>
+      <a href="../../../fultv-nyhsd.html">Audio Production Basics with Logic Pro X
+</a>
+    </h1>
+    
+    
+  
+  </div>
+  <div class="calibreMetaAuthor">
+    Gold, Harry; Rey, Ryan; Cook, Frank D., Harry Gold
+
+  </div>
+</div>
+
+<div class="calibreMain">
+
+  <div class="calibreEbookContent">
+    
+      <div class="calibreEbNavTop">
+        
+          <a href="Chapter10.xhtml" class="calibreAPrev">previous page
+</a>
+        
+
+        
+          <a href="AbouttheAuthors.xhtml" class="calibreANext">next page
+</a>
+        
+      </div>
+    
+
+    
+<section>
+  <p class="chnum"><span aria-label="270" id="page_270" role="doc-pagebreak"></span><a href="nav.xhtml#toc231" id="sub231" class="calibre5"><span class="textstyle12">Exercise 10</span></a></p>
+
+  <h1 class="chtitle1"><a href="nav.xhtml#toc231" class="calibre5"><span class="textstyle37">Finalizing a Project</span></a></h1>
+
+  <p class="learn"><img alt="chpt_fig_026" src="../Images/chpt_fig_026.jpg" class="calibre15"/> <span class="textstyle37">Activity</span></p>
+
+  <p class="noindent"><span class="textstyle11">In this exercise, you will perform the final steps necessary to finish a project in Logic Pro X. You’ll begin by creating a drums submix. Then, you’ll duplicate and transpose the</span> <span class="textstyle15">Strings</span> <span class="textstyle11">track to achieve a bigger string sound. Finally, you’ll bounce your mix to a stereo audio file.</span></p>
+
+  <p class="learn"><img alt="chpt_fig_027" src="../Images/chpt_fig_027.jpg" class="calibre15"/> <span class="textstyle37">Duration</span></p>
+
+  <p class="noindent"><span class="textstyle11">This exercise should take approximately 20 minutes to complete.</span></p>
+
+  <p class="learn"><img alt="frn_fig_010" src="../Images/frn_fig_010.jpg" class="calibre15"/> <span class="textstyle37">Goals/Targets</span></p>
+
+<ul class="ul">
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Submix multiple tracks to a summing stack</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Duplicate a Software Instrument track to create a variation on an existing MIDI performance</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Use Region Inspector controls to transpose MIDI data to a different octave</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Bounce the final mix as a stereo file</span></li>
+</ul>
+
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">Exercise Media</span></p>
+
+  <p class="copy"><span class="textstyle19">This exercise uses media files taken from the song, “Lights,” provided courtesy of Bay Area band Fotograf.</span></p>
+
+  <p class="copy"><span class="textstyle33">Written by: Zack Vieira and Eric Kuehnl; Performed by: Fotograf</span></p>
+
+  <p class="copy"><span class="textstyle19">The media provided for this course may be used for educational purposes only. No rights are granted to use the media for any other personal, commercial, or non-commercial purposes.</span></p>
+</div>
+
+  <h2 class="subhead"><span aria-label="271" id="page_271" role="doc-pagebreak"></span><span class="textstyle13">Getting Started</span></h2>
+
+  <p class="noindent"><span class="textstyle11">To get started, you will open your completed project from Exercise 9. This will serve as the starting point for this exercise.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Open your existing Lights project:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">O</span><span class="textstyle29">PEN</span> <span class="textstyle11">or press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+O</span><span class="textstyle11">. The Open dialog box will display.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Navigate to the location where you saved your project in Exercise 9.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Select your</span> <span class="textstyle15">Lights04-xxx</span> <span class="textstyle11">project and click</span> <span class="textstyle29">O</span><span class="textstyle29">PEN</span><span class="textstyle11">. The project will open as it was when last saved.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Choose</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">S</span><span class="textstyle29">AVE</span> <span class="textstyle29">A</span><span class="textstyle29">S</span> <span class="textstyle11">and create a copy of the project called</span> <span class="textstyle15">Lights05-xxx</span> <span class="textstyle11">keeping the project in the original project folder.</span></li>
+</ol>
+  <h2 class="subhead"><span class="textstyle13">Creating a Drum Submix</span></h2>
+
+  <p class="noindent1"><span class="textstyle11">You’ll begin by creating a submix of all the drum tracks by combining them to a single summing stack. You will then be able to use the main track for the summing stack to set the volume for the drums as a whole, without having to adjust the faders on all of the individual tracks.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Create a summing stack for a drum submix:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select the four drum tracks (</span><span class="textstyle15">01 Kick</span><span class="textstyle11">,</span> <span class="textstyle15">02 Snare</span><span class="textstyle11">,</span> <span class="textstyle15">03 Hi Hat</span><span class="textstyle11">, and</span> <span class="textstyle15">04 Claps</span><span class="textstyle11">).</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Choose</span> <span class="textstyle29">T</span><span class="textstyle29">RACK</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">C</span><span class="textstyle29">REATE</span> <span class="textstyle29">T</span><span class="textstyle29">RACK</span> <span class="textstyle29">S</span><span class="textstyle29">TACK</span> <span class="textstyle11">or press</span> <span class="textstyle29">S</span><span class="textstyle29">HIFT</span><span class="textstyle29">+C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+D</span> <span class="textstyle11">to open the Track Stack dialog box.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Select the</span> <span class="textstyle15">Summing Stack</span> <span class="textstyle11">radio button and click</span> <span class="textstyle29">C</span><span class="textstyle29">REATE</span><span class="textstyle11">. A main track will be created for the summing stack, and the selected tracks will be moved under the main track.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Rename the main track</span> <span class="textstyle15">Drum Submix</span><span class="textstyle11">.</span>
+
+  <p class="img-la"><img alt="chpt_fig_248" class="scale" src="../Images/chpt_fig_248.jpg"/></p>
+  <p class="caption" id="fig10.24"><span class="textstyle26">Figure 10.24</span> <span class="textstyle27">The renamed main track for the summing stack containing the four drum tracks</span></p>
+  </li>
+</ol>
+
+  <p class="noindent"><span aria-label="272" id="page_272" role="doc-pagebreak"></span><span class="textstyle11">You can now take a moment to adjust the level of the drums relative to other tracks in the mix using the volume fader on the</span> <span class="textstyle15">Drum Submix</span> <span class="textstyle11">main track. Try pushing the</span> <span class="textstyle15">Drum Submix</span> <span class="textstyle11">up a few dB to see how it changes the mix.</span></p>
+
+  <h2 class="subhead"><span class="textstyle13">Adding a Second Strings Track</span></h2>
+
+  <p class="noindent1"><span class="textstyle11">The</span> <span class="textstyle15">Strings</span> <span class="textstyle11">track may sound a little thin for the mix at this point. In this section, you will help the strings sound more like a real orchestra by adding a second track and transposing that track down an octave.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Duplicate the Strings track and its contents:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Click on the</span> <span class="textstyle15">Strings</span> <span class="textstyle11">track and verify that it is the only track selected.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">While holding</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span><span class="textstyle11">, click and drag the</span> <span class="textstyle15">Strings</span> <span class="textstyle11">track to an empty space to duplicate the track and its contents. You will now have a second copy of the</span> <span class="textstyle15">Strings</span> <span class="textstyle11">track and its MIDI data.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Rename the new track</span> <span class="textstyle15">Strings Low</span> <span class="textstyle11">and rename the original track</span> <span class="textstyle15">Strings Hi</span><span class="textstyle11">.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Pan the</span> <span class="textstyle15">Strings Low</span> <span class="textstyle11">track to the right a bit. This will be a nice complement to the panning you did in Exercise 7 on the</span> <span class="textstyle15">Strings Hi</span> <span class="textstyle11">track.</span>
+
+  <p class="img-la"><img alt="chpt_fig_249" class="scale1" src="../Images/chpt_fig_249.jpg"/></p>
+  <p class="caption" id="fig10.25"><span class="textstyle26">Figure 10.25</span> <span class="textstyle27">The duplicated Strings track and its adjusted panning settings</span></p>
+  </li>
+</ol>
+<p class="noindent"><span class="textstyle11">In the next series of step, you’ll transpose the duplicated notes to double the strings an octave lower.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Transpose the Strings Low track using the Region Inspector:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">If the Inspector is not already open, click the Inspector button or press</span> <span class="textstyle29">I</span><span class="textstyle11">.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Select the</span> <span class="textstyle15">Strings Low</span> <span class="textstyle11">region to show its settings in the Region Inspector.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">From the</span> <span class="textstyle29">T</span><span class="textstyle29">RANSPOSE</span> <span class="textstyle11">pop-up menu, select</span><span class="textstyle29">–12</span><span class="textstyle11">. This will transpose the MIDI notes in the</span> <span class="textstyle15">Strings Low</span> <span class="textstyle11">region down by one octave. The region will now display “</span><span class="textstyle15">(-12)</span> <span class="textstyle11">” after its name.</span>
+
+  <p class="img-la"><img alt="chpt_fig_250" class="scale1" src="../Images/chpt_fig_250.jpg"/></p>
+  <p class="caption" id="fig10.26"><span class="textstyle26">Figure 10.26</span> <span class="textstyle27">The Strings Low track with the suggested Region Inspector transposition</span></p>
+  </li>
+</ol>
+  <h2 class="subhead"><span aria-label="273" id="page_273" role="doc-pagebreak"></span><span class="textstyle13">Bouncing an Audio Mix</span></h2>
+
+  <p class="noindent1"><span class="textstyle11">In this section of the exercise, you will bounce the final audio mix of your project. Bouncing a mix is a necessary step whenever you want to burn a song to CD, post it to a music-sharing site like SoundCloud, or sell it on services like iTunes or Bandcamp.</span></p>
+
+  <p class="noindent"><span class="textstyle11">For this project, you’ll create a 16-Bit, 44.1 kHz WAV file. Selecting these parameters will ensure that the resulting file is compatible with all of the common distribution options.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Bounce your final mix:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">In the Tracks area of the Main window, press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+A</span> <span class="textstyle11">to select all regions.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Select</span> <span class="textstyle29">N</span><span class="textstyle29">AVIGATE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">S</span><span class="textstyle29">ET</span> <span class="textstyle29">R</span><span class="textstyle29">OUNDED</span> <span class="textstyle29">L</span><span class="textstyle29">OCATORS BY</span> <span class="textstyle29">S</span><span class="textstyle29">ELECTION AND</span> <span class="textstyle29">E</span><span class="textstyle29">NABLE</span> <span class="textstyle29">C</span><span class="textstyle29">YCLE</span> <span class="textstyle11">or press</span> <span class="textstyle29">U</span> <span class="textstyle11">to set Cycle locators at the start and end of the song.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If you don’t make a selection before exporting your mix, Logic Pro X will make certain assumptions about where your project ends, which may not be accurate. It’s generally a good idea to set the range yourself to control the exact length.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Select</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">P</span><span class="textstyle29">ROJECT OR</span> <span class="textstyle29">S</span><span class="textstyle29">ELECTION</span> <span class="textstyle11">or press</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+B</span><span class="textstyle11">. The Bounce dialog box will display.</span>
+  <p class="img-la"><img alt="chpt_fig_251" class="scale1" src="../Images/chpt_fig_251.jpg"/></p>
+  <p class="caption" id="fig10.27"><span class="textstyle26">Figure 10.27</span> <span class="textstyle27">The Bounce dialog box</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">In the Bounce dialog box, select the following settings:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle15">PCM</span><span class="textstyle11">: Checked</span></li>
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle15">Include Audio Tail</span><span class="textstyle11">: Checked</span></li>
+  <li class="bull-list"><span aria-label="274" id="page_274" role="doc-pagebreak"></span><span class="textstyle38">•</span><span class="space"></span><span class="textstyle15">File Format</span><span class="textstyle11">: Wave</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle15">Resolution</span><span class="textstyle11">: 16 Bit</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle15">Sample Rate</span><span class="textstyle11">: 44100</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle15">File Type</span><span class="textstyle11">: Interleaved</span></li>
+</ul>
+  </li>
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Select</span> <span class="textstyle29">OK</span> <span class="textstyle11">to confirm the settings.</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">On the next dialog box, specify the filename for your mix.</span></li>
+
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">If desired, select a different location to save the file.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If you do not specify a destination, your mix will be bounced and saved to the Bounces folder located in the project folder.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">To listen to the mix as the project is being exported, check the</span> <span class="textstyle15">Realtime</span> <span class="textstyle11">radio button. This will create a real-time export. Otherwise, check the</span> <span class="textstyle15">Offline</span> <span class="textstyle11">radio button for a faster-than-real-time export.</span></li>
+
+  <li class="numlist"><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">When ready, click the</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCE</span> <span class="textstyle11">button to begin bouncing your mix. Depending on the option you selected, you will see a countdown or a progress bar as the export completes.</span></li>
+</ol>
+  <h2 class="subhead"><span class="textstyle13">Finishing Up</span></h2>
+
+  <p class="noindent1"><span class="textstyle11">Congratulations! You’ve completed all of the required audio production work for a Logic Pro X project, including:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Importing audio and MIDI files</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Editing clips and assigning virtual instruments</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Mixing and balancing tracks</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Adding EQ, dynamics, and effects processing</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Creating automation</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Submixing tracks</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Applying MIDI Region Inspector parameters</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Bouncing the final mix as a stereo file</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle11">To wrap up, you’ll need to locate the file you bounced and verify the results.</span></p>
+
+  <p class="noindent"><span aria-label="275" id="page_275" role="doc-pagebreak"></span><span class="textstyle17">Locate your bounced stereo mix file:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Switch from Logic Pro X to the Mac Finder.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">If you kept the default export location in the Bounce dialog box, do the following:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Locate and open your project folder.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Open the</span> <span class="textstyle15">Bounces</span> <span class="textstyle11">folder within the project folder. Your mix file should be within this folder.</span></li>
+</ul>
+  <p class="copy"><span class="textstyle11">Otherwise, navigate to the folder location you selected for your bounce.</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Select your mix file and do one of the following to listen to the results of your bounced mix:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Press the</span> <span class="textstyle29">SPACEBAR</span> <span class="textstyle11">to begin playback using the QuickLook feature.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Open the audio with your preferred media player.</span></li>
+</ul>
+  </li>
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Listen through the entire mix to verify that the results are as you expected/intended.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_007" class="scale" src="../Images/frn_fig_007.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Be sure to listen to the mixed files that you create with Logic Pro X before sharing them with others. If an unintended condition affects your bounce, you may not realize it without a careful listen, especially if you use the Offline option.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">If you hear any problem with the file (such as missing parts, wrong file duration, etc.), return to Logic Pro X to correct the issue. Look for soloed or muted tracks, a selection that is too long or too short, and so forth. Once corrected, play back the project to verify that it sounds correct and repeat the bounce process.</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">When happy with the results, return to Logic and save your work.</span></li>
+
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">Choose</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">C</span><span class="textstyle29">LOSE</span> <span class="textstyle29">P</span><span class="textstyle29">ROJECT</span> <span class="textstyle11">to close the project.</span></li>
+</ol>
+  <p class="noindent"><span class="textstyle11">That completes this exercise.<span aria-label="276" id="page_276" role="doc-pagebreak"></span></span></p>
+</section>
+
+
+
+  </div>
+
+  
+  <div class="calibreToc">
+    <h2><a href="../../../fultv-nyhsd.html">Table of contents
+</a></h2>
+    <div>
+  <ul>
+    <li>
+      <a href="HalfTitle.xhtml">Half Title</a>
+    </li>
+    <li>
+      <a href="TitlePage.xhtml">Title</a>
+    </li>
+    <li>
+      <a href="Copyright.xhtml">Copyright</a>
+    </li>
+    <li>
+      <a href="nav.xhtml">Contents</a>
+    </li>
+    <li>
+      <a href="Acknowledgments.xhtml#sub1">Acknowledgments</a>
+    </li>
+    <li>
+      <a href="Introduction.xhtml#sub2">Introduction. Welcome to the World of Audio</a>
+      <ul>
+        <li>
+          <a href="Introduction.xhtml#sub3">Getting Started in Audio Production</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub4">Who Should Read This Book</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub5">About This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub6">Requirements and Prerequisites</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub7">Media Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub8">Course Organization and Sequence</a>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub9">Conventions and Symbols Used in This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub10">Keyboard Shortcuts and Modifiers</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub11">Icons</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Chapter01.xhtml#sub12">Chapter 1. Computer Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter01.xhtml#sub13">Selecting a Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub14">Mac Versus Windows Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub15">The Importance of RAM</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub16">Processing Power</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub17">Storage Space</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub18">Storage Options</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub19">Onboard Sound Options (Audio In and Out)</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub20">Other Options to Consider</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub21">Working with Your Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub22">File Management</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub23">Launching Applications</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub24">Saving Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub25">Working with an Application</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub26">Menus</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub27">Keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub28">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise01.xhtml#sub29">Exercise 1. Exploring Audio on the Computer</a>
+    </li>
+    <li>
+      <a href="Chapter02.xhtml#sub30">Chapter 2. DAW Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter02.xhtml#sub31">Functions of a DAW</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub32">What Can a DAW Do?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub33">Common DAWs</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub34">Plug-In Formats</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub35">What Is a Plug-In?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub36">Common Plug-In Formats</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub37">Logic Pro X System</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub38">Logic Pro X Software Capabilities</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub39">Logic Pro X Software Options</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub40">Logic Pro X Hardware Options</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub41">Downloading and Installing Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub42">System Requirements for Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub43">Installation Steps</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub44">Launching Logic Pro X for the First Time</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub45">Downloadable Content</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub46">Important Preference Settings</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub47">Project Settings</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub48">Important Concepts in Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub49">Project Files Versus Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub50">Audio Versus MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub51">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise02.xhtml#sub52">Exercise 2. Setting Up a Multi-Track Project</a>
+    </li>
+    <li>
+      <a href="Chapter03.xhtml#sub53">Chapter 3. Audio Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter03.xhtml#sub54">The Basics of Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub55">Frequency</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub56">Amplitude</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub57">Microphones</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub58">Traditional Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub59">USB Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub60">Other Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub61">Basic Miking Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub62">Multi-Tracking and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub63">What Is Multi-Track Recording?</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub64">Recording Signal Flow</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub65">Moving Audio from Analog to Digital</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub66">Analog Versus Digital Audio</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub67">The Analog-to-Digital Conversion Process</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub68">The Audio Interface</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub69">Audio Interface Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub70">Working Without an Audio Interface</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub71">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise03.xhtml#sub72">Exercise 3. Selecting Your Audio Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter04.xhtml#sub73">Chapter 4. MIDI Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter04.xhtml#sub74">A Brief History of MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub75">Digital Control</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub76">The Birth of MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub77">The MIDI Protocol</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub78">MIDI Notes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub79">Program Changes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub80">Controller Messages</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub81">MIDI Controllers</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub82">Tone-Generating Keyboards</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub83">Keyboard Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub84">Drumpad Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub85">Grid Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub86">Alternate Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub87">What to Look for in a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub88">Purchasing a Keyboard Controller</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub89">Setup and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub90">Plug-and-Play Setup</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub91">MIDI Cables and Jacks</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub92">Using a MIDI Interface</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub93">Considerations for Using Multiple MIDI Devices</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub94">MIDI Versus Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub95">What Is MIDI?</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub96">Monitoring with Onboard Sound Versus Virtual Instruments</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub97">Tracking with Virtual Instruments</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub98">Creating Tracks for Virtual Instruments</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub99">Summary</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub100">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise04.xhtml#sub101">Exercise 4. Selecting Your MIDI Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter05.xhtml#sub102">Chapter 5. Logic Pro Concepts, Part 1</a>
+      <ul>
+        <li>
+          <a href="Chapter05.xhtml#sub103">Creating a Project</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub104">Selecting a Track Type</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub105">Enabling Advanced Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub106">Main Window</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub107">The Control Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub108">Tracks Area Menu Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub109">Rulers</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub110">Mixer Display and Window</a>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub111">Working with Tracks</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub112">Adding Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub113">Mono Versus Stereo Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub114">External MIDI Versus Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub115">Regions Versus Files</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub116">Selecting Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub117">Basic Navigation</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub118">Using the Transport Controls</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub119">Zooming and Scrolling in the Main Window</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub120">Controlling Playback Behavior</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub121">Monitoring Your Playhead Location</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub122">Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub123">Selection Scenarios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub124">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise05.xhtml#sub125">Exercise 5. Configuring and Working on a Project</a>
+    </li>
+    <li>
+      <a href="Chapter06.xhtml#sub126">Chapter 6. Logic Pro X Concepts, Part 2</a>
+      <ul>
+        <li>
+          <a href="Chapter06.xhtml#sub127">Setting Up for Recording</a>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub128">Recording Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub129">Making a Record Selection</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub130">Record Enabling Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub131">Monitoring Record Enabled Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub132">Initiating a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub133">Stopping a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub134">Recording Additional Takes</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub135">Recording MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub136">Monitoring a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub137">Record Enabling Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub138">Overlap Recording on Software Instrument Tracks</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub139">Importing Audio and MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub140">Supported Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub141">Importing from the Desktop</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub142">Importing from Media Browser and All Files Browser</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub143">Using the Import Command</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub144">Using Apple Loops</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub145">Working in the Tracks Area</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub146">Snap to Grid</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub147">Setting the Snap Value</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub148">Working with Regions and Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub149">Selecting a Tool for Editing</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub150">Basic Editing Techniques</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub151">Advanced Editing Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub152">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise06.xhtml#sub153">Exercise 6. Importing and Editing Regions</a>
+    </li>
+    <li>
+      <a href="Chapter07.xhtml#sub154">Chapter 7. Mixing Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter07.xhtml#sub155">Basic Mixing</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub156">Setting Levels</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub157">Panning</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub158">Staying Organized</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub159">Processing Options and Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub160">Gain-Based Processing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub161">Time-Based Processing and Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub162">Insert Effects Versus Send Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub163">Processing with External Gear</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub164">Mixing in the Box</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub165">Advantages of In-the-Box Mixing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub166">Getting the Most Out of an In-the-Box Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub167">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise07.xhtml#sub168">Exercise 7. Creating a Basic Mix</a>
+    </li>
+    <li>
+      <a href="Chapter08.xhtml#sub169">Chapter 8. Signal Processing</a>
+      <ul>
+        <li>
+          <a href="Chapter08.xhtml#sub170">Plug-In Basics</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub171">Inserting Plug-Ins on Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub172">Moving and Duplicating Plug-Ins</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub173">Displaying Plug-In Windows</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub174">Common Plug-In Controls</a>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub175">Adjusting Plug-In Parameters</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub176">Adjusting Plug-In Parameters with the Mouse</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub177">Adjusting Plug-In Parameters with the Computer Keyboard</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub178">EQ Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub179">Types of EQ</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub180">Basic EQ Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub181">EQ Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub182">Strategies for Using EQ</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub183">Dynamics Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub184">Types of Dynamics Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub185">Basic Dynamics Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub186">Dynamics Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub187">Strategies for Using Compression</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub188">Strategies for Using a De-Esser</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub189">Reverb and Delay Effects</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub190">What Is Reverb?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub191">Reverb in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub192">Applications for Reverb Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub193">What Is Delay?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub194">Delay in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub195">Applications for Delay Processors</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub196">Wet Versus Dry Signals</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub197">Using Time-Based Effects as Plug-in Inserts</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub198">Using Send-and-Return Configurations</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub199">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise08.xhtml#sub200">Exercise 8. Optimizing Tracks with Signal Processing</a>
+    </li>
+    <li>
+      <a href="Chapter09.xhtml#sub201">Chapter 9. Finishing a Project</a>
+      <ul>
+        <li>
+          <a href="Chapter09.xhtml#sub202">Recalling a Saved Mix</a>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub203">Using Automation</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub204">Selecting an Automation Mode</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub205">Writing Real-Time Automation</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub206">Viewing Automation Curves</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub207">Editing Automation Points</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub208">Creating a Mixdown</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub209">Adding Processing on the Stereo Output</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub210">Considerations for Bouncing Audio</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub211">Creating a Bounce of an Audio Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub212">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise09.xhtml#sub213">Exercise 9. Preparing the Final Mix</a>
+    </li>
+    <li>
+      <a href="Chapter10.xhtml#sub214">Chapter 10. Beyond the Basics</a>
+      <ul>
+        <li>
+          <a href="Chapter10.xhtml#sub215">Flex Time and Pitch</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub216">Enabling Flex</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub217">Flex Time</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub218">Flex Pitch</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub219">MIDI Editing Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub220">Viewing MIDI Regions and Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub221">Editing MIDI Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub222">Working with Velocity</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub223">Software Instrument Region Inspector</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub224">Quantization in the Piano Roll Editor</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub225">Submixing with Track Stacks</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub226">Simplifying a Mix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub227">Using Track Stacks to Submix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub228">Creating Stems</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub229">Keyboard Shortcuts</a>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub230">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise10.xhtml#sub231">Exercise 10. Finalizing a Project</a>
+    </li>
+    <li>
+      <a href="AbouttheAuthors.xhtml#sub232">About the Authors</a>
+    </li>
+  </ul>
+</div>
+
+
+  </div>
+  
+
+  <div class="calibreEbNav">
+    
+      <a href="Chapter10.xhtml" class="calibreAPrev">previous page
+</a>
+    
+
+    <a href="../../../fultv-nyhsd.html" class="calibreAHome">start
+</a>
+
+    
+      <a href="AbouttheAuthors.xhtml" class="calibreANext">next page
+</a>
+    
+  </div>
+
+</div>
+
+</body>
+</html>

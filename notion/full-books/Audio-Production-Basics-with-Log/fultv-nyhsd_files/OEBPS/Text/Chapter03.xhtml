@@ -1,0 +1,1323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Chapter 3 Audio Recording Concepts</title>
+    <meta content="urn:uuid:e0000000-0000-0000-0000-000006335993" name="Adept.expected.resource"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../../stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../../page_styles.css" rel="stylesheet" type="text/css"/>
+
+  
+
+
+<link href="../../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="calibreMeta">
+  <div class="calibreMetaTitle">
+  
+  
+    
+    <h1>
+      <a href="../../../fultv-nyhsd.html">Audio Production Basics with Logic Pro X
+</a>
+    </h1>
+    
+    
+  
+  </div>
+  <div class="calibreMetaAuthor">
+    Gold, Harry; Rey, Ryan; Cook, Frank D., Harry Gold
+
+  </div>
+</div>
+
+<div class="calibreMain">
+
+  <div class="calibreEbookContent">
+    
+      <div class="calibreEbNavTop">
+        
+          <a href="Exercise02.xhtml" class="calibreAPrev">previous page
+</a>
+        
+
+        
+          <a href="Exercise03.xhtml" class="calibreANext">next page
+</a>
+        
+      </div>
+    
+
+    
+<section role="doc-chapter">
+  <p class="chnum"><span aria-label="57" id="page_57" role="doc-pagebreak"></span><a href="nav.xhtml#toc53" id="sub53" class="calibre5"><span class="textstyle12">Chapter 3</span></a></p>
+
+  <h1 class="chtitle1"><a href="nav.xhtml#toc53" class="calibre5"><span class="textstyle8">Audio Recording Concepts</span></a></h1>
+  
+  <p class="center"><span class="textstyle21">…What You Need to Record Audio…</span></p>
+
+  <p class="noindent"><span class="textstyle11">This chapter introduces you to the fundamentals of audio recording. We begin with a discussion on the basics of sound, including the principles of frequency and amplitude. We then discuss various types of microphones and their uses, before diving into a discussion on multi-track recording. We follow this by examining the process of converting audio signals between the analog and digital domains and exploring the role of the audio interface in this exchange. The characteristics of analog and digital audio discussed in this chapter are important considerations when it comes to optimizing your results with any DAW.</span></p>
+
+  <p class="learn"><img alt="frn_fig_010" src="../Images/frn_fig_010.jpg" class="calibre15"/><span class="space1"></span><span class="textstyle22">Learning Targets for This Chapter</span></p>
+<ul class="ul">
+<li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand the audio characteristics of frequency and amplitude</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand characteristics of traditional microphones and USB microphones</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand the purpose of multi-track recording</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand the basic principles of analog-to-digital conversion</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Recognize the role of the audio interface in modern digital recording</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp1"><span class="textstyle20">Key topics from this chapter are illustrated in the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform. Sign up at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span aria-label="58" id="page_58" role="doc-pagebreak"></span><span class="textstyle11">The process of recording audio has been commonplace for over 60 years, ever since magnetic tape-based recording processes began replacing earlier processes of inscribing a signal to a physical surface. In just the past 20 years or so, tape-based recording has itself largely given way to digital recording technology.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Regardless of the technology used to capture an audio recording, certain fundamental characteristics remain unchanged, including how an audio event moves through an acoustic environment and how that event is translated into an electrical signal that can be recorded. Recording in digital simply adds a dimension of collecting discrete measurements of the signal and storing those measurements as binary information.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc54" id="sub54" class="calibre5"><span class="textstyle13">The Basics of Audio</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">To understand the process of recording audio, it helps to first understand the basics of audio and sound waves. Sound waves are created when a physical object vibrates, causing a variation in the surrounding air pressure. By way of example, consider what happens when a guitar string is plucked.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The vibration of the guitar string, as it moves back and forth in a repeating cycle, causes a displacement of air particles. This results in a cyclical variation in air pressure, known as compression and rarefaction. The air pressure will increase (compression) and decrease (rarefaction) in a way that corresponds directly to the pattern and frequency of the string’s vibration. This cycling pattern of air pressure changes is referred to as a sound wave.</span></p>
+
+  <p class="img"><img alt="chpt_fig_057" class="scale" src="../Images/chpt_fig_057.jpg"/></p>
+  <p class="caption" id="fig3.1"><span class="textstyle26">Figure 3.1</span> <span class="textstyle27">Cycles of compression (increasing air pressure) and rarefaction (decreasing air pressure) in a sound wave</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc55" id="sub55" class="calibre5"><span class="textstyle14">Frequency</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">The frequency of the cycle of sound pressure variations determines our perception of the pitch of the sound. If a guitar string vibrates quickly, the air pressure variations will likewise cycle quickly between compression and rarefaction, creating a high-pitched sound. If the guitar string vibrates slowly, the air pressure will cycle slowly, creating a low-pitched sound.</span></p>
+
+  <p class="noindent"><span class="textstyle11">We measure the frequency of these changes in</span> <span class="textstyle31">cycles per second</span> <span class="textstyle11">(CPS), also commonly denoted as</span> <span class="textstyle31">Hertz</span> <span class="textstyle11">(Hz). These two terms are synonymous—15,000 CPS is the same as 15,000 Hz. Multiples of 1,000 Hz are often denoted as kilohertz (kHz). Therefore, 15,000 Hz is also written as 15 kHz.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span aria-label="59" id="page_59" role="doc-pagebreak"></span><span class="textstyle20">The open “</span><span class="textstyle34">A”</span> <span class="textstyle20">string on a guitar vibrates at a frequency of 110 Hz in standard tuning. Playing the</span> <span class="textstyle34">A</span> <span class="textstyle20">note on the 12th fret produces vibrations at 220 Hz (one octave higher).</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">The range of human hearing is generally accepted to be between 20 and 20,000 cycles per second. This is also commonly denoted as 20 Hz to 20 kHz. Therefore, to capture a full-spectrum recording, we must be able to represent all frequencies within this range.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc56" id="sub56" class="calibre5"><span class="textstyle14">Amplitude</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">The intensity of a sound, or the amount of change in air pressure it produces, creates our perception of the loudness of the sound. A sound’s intensity is represented by the amplitude (height) of the sound wave. We measure amplitude in</span> <span class="textstyle31">decibels</span> <span class="textstyle11">(dB).</span></p>
+
+  <p class="noindent"><span class="textstyle11">The decibel scale is defined by the dynamic range of human hearing, from 0 dB at the threshold of hearing to approximately 120 dB at the threshold of pain. The decibel is a logarithmic unit that is used to describe a ratio of sound pressure. As such, the decibel does not have a linear relation to our perception of loudness. An increase of approximately 10 dB is required to produce a perceived doubling of loudness.</span></p>
+
+  <p class="noindent"><span class="textstyle11">By way of example, the amplitude of ordinary conversation is around 60 dB. Increasing the amplitude to around 70 dB would essentially double the loudness, similar to what you might face trying to hold a conversation in a room with the TV or radio on. Increasing the amplitude to 80 dB would double the loudness again, such as you might experience trying to hold a conversation in a crowded room.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc57" id="sub57" class="calibre5"><span class="textstyle13">Microphones</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">The most common technique used to capture an acoustic audio event for recording is to place a microphone somewhere near the sound source. Microphones come in many shapes, sizes, and prices, so it can help to know a little bit about how they work before selecting the microphone or microphones you plan to use.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc58" id="sub58" class="calibre5"><span class="textstyle14">Traditional Microphones</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">All microphones are transducers, meaning they change energy from one form to another. A traditional analog microphone simply converts the variations in air pressure into variations in an electrical current. Three basic types of microphones are commonly available to make this conversion: dynamic mikes, ribbon mikes, and condenser mikes.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Dynamic Microphones</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">A dynamic microphone consists of a diaphragm attached to a coil of wire encircling a magnet. When sound waves hit the diaphragm, it vibrates back and forth, thereby moving the coil of wire back and forth over the magnet. This movement induces a current in the coil, with compression creating a positive voltage and rarefaction creating a negative voltage.</span></p>
+
+  <p class="noindent"><span aria-label="60" id="page_60" role="doc-pagebreak"></span><span class="textstyle11">The advantages of dynamic microphones are that they are rugged and durable. They can also handle high input signals without distortion. Dynamic microphones are commonly used in both studio and live performance environments.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Ribbon Microphones</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">A ribbon microphone consists of a thin metal foil or other conductive ribbon material suspended between the positive and negative poles of a magnet. As sound waves hit the ribbon, they cause it to vibrate; the ribbon’s movement within the magnetic field induces a current within the ribbon itself.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The advantages of ribbon microphones include a warm, smooth tone and an ability to capture high-frequency detail. Some ribbon microphones can be delicate and expensive. Ribbon mikes tend to be better suited for use in a studio environment rather than live performance.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Condenser Microphones</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Condenser microphones consist of a thin conductive diaphragm (front plate) affixed a small distance in front of a metal back plate. The two plates are typically energized with a fixed charge. When sound waves hit the front plate, the diaphragm vibrates, varying the distance between the two plates. This varies the capacitance of the circuit and creates an opposite change in electrical voltage.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The capacitance is the ratio of the electric charge on the plates to the voltage difference between them. The capacitance increases as the plates move closer together and decreases as the plates move further apart.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">Condenser microphones require power to operate, either from a battery or a phantom power source. Phantom power is typically 48 volts DC applied through a microphone cable to the condenser mike.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Mixers, microphone preamps, and audio interfaces commonly provide the option to enable phantom power, often denoted as +48V on the device.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">The advantages of condenser microphones include a wide, smooth frequency response and sharp, detailed transient response. Condenser mikes are particularly well suited for acoustic instruments and cymbals. Although condenser mikes are very popular for in-studio recording, they are also commonly used in live sound production as well, particularly as drum overhead mikes.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc59" id="sub59" class="calibre5"><span class="textstyle14">USB Microphones</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Another option to consider for home or studio use with your DAW is the USB microphone. USB mikes function the same as their traditional microphone counterparts, in that they convert acoustical energy into electrical energy. However, a USB mike goes a step further using two additional circuits: a built-in preamp and an analog–to–digital converter. This additional circuitry allows the microphone to be plugged directly into your computer for use with your DAW without requiring a separate audio interface.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_008" class="scale" src="../Images/frn_fig_008.jpg"/></td>
+<td class="tdp"><span aria-label="61" id="page_61" role="doc-pagebreak"></span><span class="textstyle20">For information on the analog-to-digital conversion process, see “Moving Audio from Analog to Digital” later in this chapter.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">Most USB microphones are condenser mikes, although a few dynamic USB mikes are also available.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Popular choices among USB microphones include:</span></p>
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Blue Microphones</span>
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Snowflake USB Microphone</span><span class="textstyle11">—Designed for mobile desktop recording at an affordable price ($)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Snowball USB Microphone</span><span class="textstyle11">—Designed for podcasting and other desktop recording ($$)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Yeti USB Microphone</span><span class="textstyle11">—Designed for studio vocals, musical instruments, voiceovers, field recordings, podcasting, and desktop recording ($$$)</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Spark Digital Lightning Microphone</span><span class="textstyle11">—Designed for studio and desktop recording for voiceovers, vocals, and instruments at a premium price ($$$$)</span></li>
+</ul>
+  </li>
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">CAD U37 USB Studio Condenser Recording Microphone</span><span class="textstyle11">—Designed for desktop recording and voiceovers, vocals, and instrumental recording on a budget ($)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Audio-Technica ATR2100-USB Cardioid Dynamic USB/XLR Microphone</span><span class="textstyle11">—Designed for stage and studio use at a reasonable price ($$)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Rode NT-USB USB Condenser Microphone</span><span class="textstyle11">—Designed for studio-quality recording of vocals, instruments, and voiceovers with built-in monitoring control ($$$)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Apogee Mic 96k Professional Quality Microphone</span><span class="textstyle11">—Designed for high-resolution studio-quality recording at a premium price ($$$$)</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Rode Podcaster USB Dynamic Microphone</span><span class="textstyle11">—Designed for studio-quality podcasting and other desktop recording at a premium price ($$$$)</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc60" id="sub60" class="calibre5"><span class="textstyle14">Other Considerations</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Aside from the characteristics of different types of microphones described above, a few other considerations should come into play when selecting the right mike for your needs.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Polar Pattern</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">A microphone’s polar pattern describes how the microphone responds to sound coming from different directions. Typical choices include omnidirectional mikes, bidirectional mikes, and unidirectional mikes.</span></p>
+
+  <p class="img"><span aria-label="62" id="page_62" role="doc-pagebreak"></span><img alt="chpt_fig_058" class="scale1" src="../Images/chpt_fig_058.jpg"/></p>
+  <p class="caption" id="fig3.2"><span class="textstyle26">Figure 3.2</span> <span class="textstyle27">Common polar patterns: omnidirectional, bidirectional, and unidirectional</span></p>
+
+  <p class="noindent"><span class="textstyle17">Omnidirectional.</span> <span class="textstyle11">An omnidirectional mike will pick up sound equally from all directions. While this may be desirable for a microphone placed in the middle of a large conference table, it is usually not the best choice for studio recording where the goal is to isolate a sound source.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Bidirectional.</span> <span class="textstyle11">Bidirectional mikes pick up sound primarily from the front and rear of the microphone, rejecting sound coming from the sides. This kind of mike may be desirable for across-the-desk interviews, two-part vocal recordings, or similar recordings of two opposite-facing sound sources. By rejecting sound from the sides, this type of mike will limit the amount of room acoustics and unwanted ambient noise in the recording.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Unidirectional (cardioid).</span> <span class="textstyle11">Unidirectional mikes are the most popular choice for recording isolated sound sources. These are also commonly referred to as cardioid microphones. Unidirectional, or cardioid, polar patterns are designed to pick up sound from the front of the microphone, while rejecting (or attenuating) sound coming from the sides or rear of the microphone.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Proximity Effect</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Most unidirectional and bidirectional microphones exhibit a noticeable bass boost when used within a few inches of a target sound source. This phenomenon is known as the proximity effect and often results in an unwanted boomy sound. You can hear the effect by speaking into a microphone as you move up close to the front of the grill.</span></p>
+
+  <p class="noindent"><span class="textstyle11">If you are aware of a mike’s proximity effect, you can adjust the mike placement or roll off the bass frequencies with an equalizer to compensate.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc61" id="sub61" class="calibre5"><span class="textstyle14">Basic Miking Techniques</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Microphone placement and position have a large impact on how well a microphone will perform at capturing the desired signal. The overall goal when setting up a microphone is to target the sounds you want to record while rejecting the sounds you don’t. Several accessories are available to help with this process.</span></p>
+
+  <h4 class="subhead1"><span aria-label="63" id="page_63" role="doc-pagebreak"></span><span class="textstyle28">Microphone Accessories</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The microphone accessories discussed below can assist you with mike placement, noise reduction, and sound isolation.</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Mike Stand</span><span class="textstyle11">—USB microphones designed for desktop use often come with a small stand or clip. For miking in a studio or open environment, however, you will need to invest in a full-sized mike stand. You might also consider a stand with a boom extension or gooseneck add-on for better reach and flexibility. You’ll find a variety of stands and extensions readily available from your local music store or online retailer.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Windscreens and Pop Filters</span><span class="textstyle11">—Windscreens and pop filters are designed to reduce unwanted noise resulting from wind or bursts of air hitting the microphone. These problems are especially prevalent for on-location field recordings and close-miked recordings of vocal or dialog performances.</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">In vocal performances, bursts of air are commonly produced from words that begin with “p” or “b” sounds. These bursts, or plosives, can ruin a recording if they hit a microphone’s diaphragm directly.</span></td>
+</tr>
+</table>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Shock Mounts</span><span class="textstyle11">—Shock mounts are designed to suspend a microphone, isolating it from any mechanical vibrations that may affect the mike stand. Such vibrations are commonly caused by loud music, noise carried through a floor or stage, or nearby thumps and bumps.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Acoustic Shields and Vocal Booths</span><span class="textstyle11">—To improve sound isolation, especially for vocal and dialog recordings, you can consider using an acoustic shield. These products are designed to reduce the influence of ambient noise, room acoustics, and reflected sound on a recording. Acoustic shields are most effective at attenuating mid– and high–frequency audio.</span>
+
+  <p class="noindent"><span class="textstyle11">A more extreme approach is to build or install a fully–enclosed vocal booth or isolation room. These will be more effective at reducing unwanted noise than a shield, but they can also be expensive and complex to design.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Note, also, that both shields and booths may colorize the audio, boosting or cutting certain frequencies of the performance. You may be able to correct for the colorization using an equalizer; however, you will need to determine whether the isolation gains are worth the trade-off.</span></p>
+  </li>
+</ul>
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">Where to Shop for Audio Gear</span></p>
+
+  <p class="copy"><span class="textstyle19">While locally owned music stores are becoming scarce, audio gear has never been easier to shop for. In addition to ubiquitous Guitar Center storefronts, numerous online retail outlets are available. Online options include <a href="http://guitarcenter.com" class="calibre5">guitarcenter.com</a>, <a href="http://sweetwater.com" class="calibre5">sweetwater.com</a>, <a href="http://musiciansfriend.com" class="calibre5">musiciansfriend.com</a>, <a href="http://vintageking.com" class="calibre5">vintageking.com</a>, and others. Almost any audio equipment you need can be found with a quick Internet search!</span></p>
+</div>
+
+  <h4 class="subhead1"><span aria-label="64" id="page_64" role="doc-pagebreak"></span><span class="textstyle28">Basic Setup and Connections</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Setting up your microphone or microphones is a simple matter of finding the right mike position and establishing a connection to your computer.</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Microphone Position</span><span class="textstyle11">—The location of your microphone during a recording can have a dramatic influence on the recorded signal. Generally speaking, the closer the mike is to the target sound source, the “cleaner” the recording will be. That is to say, the recording will include more of the desired sound and less ambient noise.</span>
+
+  <p class="noindent"><span class="textstyle11">However, as noted above, certain mikes exhibit a proximity effect when placed close to their sound source. This can colorize the sound in ways that may be unwanted, depending on the situation.</span></p>
+  </li>
+<li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Microphone Connection</span><span class="textstyle11">—The way that your microphone connects to your computer will depend on the type of mike you are using. Most analog microphones use a cable with XLR connectors (3-pin) to attach to your audio interface. The audio interface will in turn connect to your computer using a USB cable or other common digital computer connection.</span>
+
+  <p class="img-l"><img alt="chpt_fig_059" class="scale" src="../Images/chpt_fig_059.jpg"/></p>
+  <p class="caption" id="fig3.3"><span class="textstyle26">Figure 3.3</span> <span class="textstyle27">Microphone XLR connection to an Mbox Pro audio interface</span></p>
+
+  <p class="noindent"><span class="textstyle11">A digital USB microphone will connect directly to your computer, with no audio interface required.</span></p>
+
+  <p class="img-l"><img alt="chpt_fig_060" class="scale" src="../Images/chpt_fig_060.jpg"/></p>
+  <p class="caption" id="fig3.4"><span class="textstyle26">Figure 3.4</span> <span class="textstyle27">USB microphone connection to a desktop computer</span></p>
+</li>
+</ul>
+  <h2 class="subhead"><a href="nav.xhtml#toc62" id="sub62" class="calibre5"><span class="textstyle13">Multi-Tracking and Signal Flow</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">The benefits of recording to a DAW are many. For starters, it allows you to record multiple takes and keep the best parts of each take. Additionally, it gives you the ability to edit and process a recording to improve the final results. But one of the greatest advantages is the freedom to record numerous isolated parts, each on its own track (known as multi-track recording).</span></p>
+
+  <h3 class="subhead1"><span aria-label="65" id="page_65" role="doc-pagebreak"></span><a href="nav.xhtml#toc63" id="sub63" class="calibre5"><span class="textstyle14">What Is Multi-Track Recording?</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">The concept of multi-track recording has been around for many decades and is a fundamental aspect of audio production. Using this production method, each audio source is isolated as an individual recording on its own track. Each of these recorded tracks can then be edited and processed discretely. By playing back all of the individual tracks simultaneously, you can create a mix of the multiple sound sources as a final output.</span></p>
+
+  <p class="noindent"><span class="textstyle11">By way of example, a music recording might include individual tracks for vocals, guitar, bass guitar, keyboards, and drums. By isolating each part on its own track, the volume levels, pan settings, EQ settings, and other processing can be set independently for each component.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Another advantage of multi-track recording is that individual parts can be recorded at different times. This is key if the performers cannot all be present in the same location at the same time. It also allows individual contributors to record multiple parts. For example, a musician can record both guitar and piano parts for a song. Or a voice actor can record dialog lines for multiple characters in a script for an animated short.</span></p>
+
+  <p class="img"><img alt="chpt_fig_061" class="scale" src="../Images/chpt_fig_061.jpg"/></p>
+  <p class="caption" id="fig3.5"><span class="textstyle26">Figure 3.5</span> <span class="textstyle27">Multi-track music production session in Logic Pro X</span></p>
+
+  <p class="noindent"><span class="textstyle11">Not all recordings require multiple tracks. In some cases, you may want to record a mix of multiple sources to a single track. Examples might include recording a live ensemble performance with a pair of microphones routed to a single stereo track or using an external mixer to sum multiple drum microphones to a single track. One reason for doing this is to simplify the recording and the number of tracks in your session. You might also use this approach if you do not have enough inputs on your system to record from many microphones at the same time.</span></p>
+
+  <h3 class="subhead1"><span aria-label="66" id="page_66" role="doc-pagebreak"></span><a href="nav.xhtml#toc64" id="sub64" class="calibre5"><span class="textstyle14">Recording Signal Flow</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Recording onto a computer involves routing a signal through various processing stages. This routing path is commonly referred to as the signal flow. Here, we will focus on a typical recording signal flow, from the sound source to the storage device (HDD or SSD).</span></p>
+
+  <p class="noindent"><span class="textstyle11">The sound originates at a source, such as a guitar, and travels through an environment by way of variations in air pressure, as discussed above. The air pressure changes are picked up by a microphone, converting the sound into an electrical signal. The electrical signal travels down the microphone cable to an audio interface.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Within the audio interface, the signal is boosted, using a pre-amplifier (or</span> <span class="textstyle31">pre-amp</span><span class="textstyle11">). The pre-amp is used to create a healthy signal level for recording. Next, the signal is sampled, using periodic measurements of the electrical voltage. The measured values are represented as strings of binary numbers and are passed along to the computer. At the computer, the binary numbers are stored on a hard disk drive or solid-state drive.</span></p>
+
+  <p class="img"><img alt="chpt_fig_062" class="scale" src="../Images/chpt_fig_062.jpg"/></p>
+  <p class="caption" id="fig3.6"><span class="textstyle26">Figure 3.6</span> <span class="textstyle27">Recording signal flow from a guitar to a computer’s hard drive</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc65" id="sub65" class="calibre5"><span class="textstyle13">Moving Audio from Analog to Digital</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">As mentioned above, the practice of recording audio to a computer involves converting an electrical signal into individual, discrete binary measurements. This is the process known as analog-to-digital conversion.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc66" id="sub66" class="calibre5"><span class="textstyle14">Analog Versus Digital Audio</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">The variations in electrical voltage produced by a microphone capture a continuously changing analog audio waveform. In order to represent that information on a computer, the waveform must be converted into binary numbers that the computer can understand.</span></p>
+
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">What Is Binary Data?</span></p>
+
+  <p class="copy"><span class="textstyle19">Binary data is comprised of binary digits, or bits. Each binary digit can represent only two possible values:</span> <span class="textstyle33">zero</span> <span class="textstyle19">or</span> <span class="textstyle33">one</span><span class="textstyle19">. (At the most basic level, computers store and work with values using “switches” that are either off or on. A bit value of</span> <span class="textstyle33">zero</span> <span class="textstyle19">can be stored by toggling the associated switch off, while a bit value of</span> <span class="textstyle33">one</span> <span class="textstyle19">can be stored by toggling the switch on.)</span></p>
+
+  <p class="copy"><span aria-label="67" id="page_67" role="doc-pagebreak"></span><span class="textstyle19">In order to store values larger than one, computers use strings of multiple binary digits. For example, using a string of four binary digits, a computer can store values from zero (0000) to fifteen (1111). Using a string of eight binary digits, a computer can store values from zero up to 255. Using a 16-bit string, the computer can store values up to 65,535.</span></p>
+</div>
+  <p class="noindent"><span class="textstyle11">Once an audio signal has been converted to digital, the waveform can be stored, read, and manipulated by the computer. The digital audio file is comprised of individual measured values (samples) stored as strings of binary digits.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc67" id="sub67" class="calibre5"><span class="textstyle14">The Analog-to-Digital Conversion Process</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Converting an analog signal to digital involves two critical parameters: the sample rate and the bit depth.</span></p>
+
+  <p class="noindent"><span class="textstyle17">Sample Rate.</span> <span class="textstyle11">The sample rate refers to the frequency at which the incoming electrical signal is measured by the audio interface. The sample rate must be high enough to accurately represent the original analog signal.</span></p>
+
+  <p class="img"><img alt="chpt_fig_063" class="scale" src="../Images/chpt_fig_063.jpg"/></p>
+  <p class="caption" id="fig3.7"><span class="textstyle26">Figure 3.7</span> <span class="textstyle27">Sample intervals used to measure the changing voltage of an incoming audio signal</span></p>
+
+  <p class="noindent"><span class="textstyle11">The sample rate required to accurately record a signal can be determined using a fundamental law of analog-to-digital conversion, known as the</span> <span class="textstyle31">Nyquist Theorem</span><span class="textstyle11">. The Nyquist Theorem states that, in order to represent a given audio frequency, each cycle of the waveform must be sampled at least two times. Stated another way, the sample rate must be at least two times the frequency of the audio you wish to record.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Because we generally want to record full-spectrum audio – up to 20,000 Hz – the Nyquist Theorem tells us we need to use a sample rate of at least 40,000 Hz (or 40kHz). This will capture frequencies across the full range of human hearing.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Most modern digital audio systems use a minimum sample rate of 44.1kHz.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span aria-label="68" id="page_68" role="doc-pagebreak"></span><span class="textstyle17">Bit Depth.</span> <span class="textstyle11">The bit depth (or word length) refers to the number of binary digits used to measure the voltage for each sample. The more binary digits used, the more accurate the measurements will be. Low bit-depth recordings exhibit a loss of audio detail—the result of a reduced dynamic range.</span></p>
+
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">What Is Dynamic Range?</span></p>
+
+  <p class="copy"><span class="textstyle19">Dynamic range is the difference between the quietest signal that a system can represent and the loudest signal that the system can represent. Dynamic range is measured in decibels (dB). This is a relative measurement, not an absolute loudness value. The maximum absolute loudness of a system depends on the amount of amplification applied at the output; however, the dynamic range remains constant at all loudness levels, since it measures the relative</span> <span class="textstyle33">difference</span> <span class="textstyle19">between two levels.</span></p>
+</div>
+  <p class="noindent"><span class="textstyle11">You can estimate the dynamic range of a system by multiplying the bit depth by six. Said another way, each binary digit that is added to the word length increases the dynamic range by approximately 6 dB.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The useful amplitude range for speech and music extends from around 40 dB (very quiet) to around 105 dB (very loud): a 65-dB dynamic range. In order to produce that dynamic range, a digital audio system must use at least 11 bits in its word length (65 dB divided by 6 dB per bit). Additional dynamic range is necessary to provide headroom before clipping and to accommodate the noise floor inherent in a system. Addressing these considerations requires using more bits per sample.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Most modern digital audio systems record with a minimum bit depth of 16 bits.</span></td>
+</tr>
+</table>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc68" id="sub68" class="calibre5"><span class="textstyle13">The Audio Interface</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">As mentioned previously, an audio interface is a device used to provide analog-to-digital conversion for the audio coming into a system. It also provides digital-to-analog conversion for the audio playing out of the system. The audio interface is what allows you to get sound into and out of your computer.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Most audio interfaces also provide one or more microphone pre-amps. Pre-amps generally include a gain control that allows you to adjust the incoming signal and optimize record levels.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc69" id="sub69" class="calibre5"><span class="textstyle14">Audio Interface Considerations</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">A multitude of audio interfaces are available today, providing an enormous array of options. To narrow down your choices, it helps to decide on the characteristics that are important for your recording needs.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Some factors to consider include:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">What kind of input and output (I/O) connectivity do you need?</span></li>
+
+  <li class="sq-listb"><span aria-label="69" id="page_69" role="doc-pagebreak"></span><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">What level of sound quality are you looking for?</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">What sort of budget are you working with?</span></li>
+</ul>
+  <h4 class="subhead1"><span class="textstyle28">I/O Connectivity</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">For the greatest flexibility, look for an audio interface with microphone (XLR) inputs.</span></p>
+
+  <p class="noindent"><span class="textstyle11">If you are operating on a limited budget, you can consider an audio interface that includes just 1 or 2 microphone inputs. These may be supplemented with additional line- or instrument-level inputs. Line/instrument inputs can be useful for recording from an electric guitar or keyboard connected directly to the audio interface along with your miked source(s).</span></p>
+
+  <p class="noindent"><span class="textstyle11">Most audio interfaces will include balanced stereo outputs, via a pair of ¼-inch jacks, for connecting to studio monitors. Many also include a stereo headphone jack with volume control. A headphone output is useful for monitoring playback from your DAW while recording: monitoring through headphones instead of your studio speakers helps prevent the playback from bleeding into a live microphone.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Sound Quality</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Generally speaking, the “quality” of a digital audio file is a factor of the sample rate and bit depth used for the recording. But the recorded results are also influenced by the quality of the microphone pre-amps and the analog-to-digital (or A/D) converters in the audio interface.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Other factors also have a significant impact, including the recording environment and the quality and type of microphone(s) being used to capture the audio.</span></p>
+
+  <p class="noindent"><span class="textstyle11">For these reasons, you should not consider the specifications of sample rate and bit depth in isolation when seeking to optimize the quality of your recordings.</span></p>
+
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">When to Use High-Resolution Audio</span></p>
+
+  <p class="copy"><span class="textstyle19">For a simple recording project, you may find yourself using an inexpensive microphone to record audio that has a limited dynamic range (such as dialog for a podcast or webinar). You may also be recording in an untreated room or office environment. In such cases, recording with a high sample rate and bit depth will have no beneficial impact: recording at 44.1kHz and 16-bit will be sufficient.</span></p>
+
+  <p class="copy"><span class="textstyle19">Other times, you may be recording something with a wider dynamic range, such as a musical performance. This type of recording is often done using higher-quality microphones in a home-studio environment with some degree of acoustic treatment. In this case, you might consider using higher-resolution audio for better results and more editing flexibility. Recording at 24-bits is recommended in this situation to preserve the quality and dynamic range of the audio being captured.</span></p>
+
+  <p class="copy"><span aria-label="70" id="page_70" role="doc-pagebreak"></span><span class="textstyle19">In cases where you find yourself working in a professional studio environment—with top-of-line microphones, boutique pre-amps, and other high-end gear—you will almost certainly want to record at a sample rate of 96kHz or above (and 24-bit) to capture all the subtle nuances of the performance and the character of the associated equipment.</span></p>
+</div>
+  <p class="noindent"><span class="textstyle11">Nearly all of the audio interfaces on the market today support sample rates up to 96kHz, with many supporting up to 192kHz. Likewise, 24-bit A/D conversion is a near universal standard for bit depth. This means that your search for an audio interface for Logic Pro X will not need to be based on the supported sample rate and bit depth of the device, as just about any device will fit the bill.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">Logic Pro X supports audio with sample rates up to 192kHz.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">Instead, look for an audio interface with a construction quality and price point that complements your recording goals and budget. For higher-quality audio, look for devices from “brand name” companies that have a reputation for high-end gear…but expect to pay a premium for them.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Budget</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The ultimate deciding factor often comes down to budget. But you can weigh the options, such as I/O connectivity and brand reputation, against your budget to find the right compromise.</span></p>
+
+  <p class="noindent"><span class="textstyle11">For example, if you need only a single mike input, you may opt for a high-end audio interface to maximize the sound quality. On the other hand, if having 4 mike inputs is an absolute requirement, but sound quality is less of a concern, you might select a more utilitarian audio interface instead to stay within budget.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In the end, be sure to consider the budget for your entire recording setup as a whole. You will want to balance the cost of your audio interface against the other considerations covered in this chapter to ensure that you are not spending too much in one area and neglecting others.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc70" id="sub70" class="calibre5"><span class="textstyle14">Working Without an Audio Interface</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">In some cases, you may decide to work without an audio interface. You could do this as a temporary measure until you can save up for the audio interface you want. You could also do this as way to run your DAW when you are away from your audio interface, such as when on the road with a laptop.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In either case, Logic Pro X allows you to utilize the built-in audio on your computer (if available) in lieu of a dedicated audio interface. Launching Logic Pro X without an interface attached will automatically connect the available inputs and outputs on your computer to the software.</span></p>
+
+  <h2 class="subhead"><span aria-label="71" id="page_71" role="doc-pagebreak"></span><a href="nav.xhtml#toc71" id="sub71" class="calibre5"><span class="textstyle13">Review/Discussion Questions</span></a></h2>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">When a sound event occurs, what are the changes in air pressure called (i.e., the areas where air pressure increases and decreases)? (See “The Basics of Audio” beginning on <a href="#page_58" class="calibre5">page 58</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">What is meant by the frequency of an audio waveform? How does the frequency of a sound wave affect our perception of the sound? (See “Frequency” beginning on <a href="#page_58" class="calibre5">page 58</a>).</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">What characteristic affects our perception of the loudness of a sound? How is loudness measured? (See “Amplitude” beginning on <a href="#page_59" class="calibre5">page 59</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">What is the purpose of a traditional microphone? What three basic types of microphones are commonly available? (See “Traditional Microphones” beginning on <a href="#page_59" class="calibre5">page 59</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">How are USB microphones different from traditional microphones? What is the advantage of using a USB microphone over a traditional microphone? (See “USB Microphones” beginning on <a href="#page_60" class="calibre5">page 60</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">What are the differences between omnidirectional microphones, bidirectional microphones, and unidirectional microphones? Which is the most common type of mike for recording isolated sound sources? (See “Polar Pattern” beginning on <a href="#page_61" class="calibre5">page 61</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">What are some accessories available to help you with mike placement, noise reduction, and sound isolation when recording? (See “Microphone Accessories” beginning on <a href="#page_63" class="calibre5">page 63</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">How is multi-track recording different from recording to a single audio file? What are some advantages of multi-track recording? (See “What Is Multi-Track Recording?” beginning on <a href="#page_65" class="calibre5">page 65</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">What two parameters are critical for the analog-to-digital conversion process? What minimum specifications are used for these parameters in modern digital audio systems? (See “The Analog-to-Digital Conversion Process” beginning on <a href="#page_67" class="calibre5">page 67</a>.)</span></li>
+
+  <li class="numlist"><span aria-label="72" id="page_72" role="doc-pagebreak"></span><span class="textstyle11">10.</span><span class="space2"></span><span class="textstyle11">What is the purpose of an audio interface? (See “The Audio Interface” beginning on <a href="#page_68" class="calibre5">page 68</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">11.</span><span class="space2"></span><span class="textstyle11">What are some factors to consider when selecting an audio interface for use with your DAW? (See “Audio Interface Considerations” beginning on <a href="#page_68" class="calibre5">page 68</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">12.</span><span class="space2"></span><span class="textstyle11">How is working without an audio interface useful? What is required to run Logic Pro X without an interface? (See “Working Without an Audio Interface” beginning on <a href="#page_70" class="calibre5">page 70</a>.)</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To review additional material from this chapter and prepare for certification, see the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+</section>
+
+
+
+  </div>
+
+  
+  <div class="calibreToc">
+    <h2><a href="../../../fultv-nyhsd.html">Table of contents
+</a></h2>
+    <div>
+  <ul>
+    <li>
+      <a href="HalfTitle.xhtml">Half Title</a>
+    </li>
+    <li>
+      <a href="TitlePage.xhtml">Title</a>
+    </li>
+    <li>
+      <a href="Copyright.xhtml">Copyright</a>
+    </li>
+    <li>
+      <a href="nav.xhtml">Contents</a>
+    </li>
+    <li>
+      <a href="Acknowledgments.xhtml#sub1">Acknowledgments</a>
+    </li>
+    <li>
+      <a href="Introduction.xhtml#sub2">Introduction. Welcome to the World of Audio</a>
+      <ul>
+        <li>
+          <a href="Introduction.xhtml#sub3">Getting Started in Audio Production</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub4">Who Should Read This Book</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub5">About This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub6">Requirements and Prerequisites</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub7">Media Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub8">Course Organization and Sequence</a>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub9">Conventions and Symbols Used in This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub10">Keyboard Shortcuts and Modifiers</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub11">Icons</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Chapter01.xhtml#sub12">Chapter 1. Computer Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter01.xhtml#sub13">Selecting a Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub14">Mac Versus Windows Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub15">The Importance of RAM</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub16">Processing Power</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub17">Storage Space</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub18">Storage Options</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub19">Onboard Sound Options (Audio In and Out)</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub20">Other Options to Consider</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub21">Working with Your Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub22">File Management</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub23">Launching Applications</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub24">Saving Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub25">Working with an Application</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub26">Menus</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub27">Keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub28">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise01.xhtml#sub29">Exercise 1. Exploring Audio on the Computer</a>
+    </li>
+    <li>
+      <a href="Chapter02.xhtml#sub30">Chapter 2. DAW Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter02.xhtml#sub31">Functions of a DAW</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub32">What Can a DAW Do?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub33">Common DAWs</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub34">Plug-In Formats</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub35">What Is a Plug-In?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub36">Common Plug-In Formats</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub37">Logic Pro X System</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub38">Logic Pro X Software Capabilities</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub39">Logic Pro X Software Options</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub40">Logic Pro X Hardware Options</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub41">Downloading and Installing Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub42">System Requirements for Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub43">Installation Steps</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub44">Launching Logic Pro X for the First Time</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub45">Downloadable Content</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub46">Important Preference Settings</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub47">Project Settings</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub48">Important Concepts in Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub49">Project Files Versus Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub50">Audio Versus MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub51">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise02.xhtml#sub52">Exercise 2. Setting Up a Multi-Track Project</a>
+    </li>
+    <li>
+      <a href="Chapter03.xhtml#sub53">Chapter 3. Audio Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter03.xhtml#sub54">The Basics of Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub55">Frequency</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub56">Amplitude</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub57">Microphones</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub58">Traditional Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub59">USB Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub60">Other Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub61">Basic Miking Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub62">Multi-Tracking and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub63">What Is Multi-Track Recording?</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub64">Recording Signal Flow</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub65">Moving Audio from Analog to Digital</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub66">Analog Versus Digital Audio</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub67">The Analog-to-Digital Conversion Process</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub68">The Audio Interface</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub69">Audio Interface Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub70">Working Without an Audio Interface</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub71">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise03.xhtml#sub72">Exercise 3. Selecting Your Audio Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter04.xhtml#sub73">Chapter 4. MIDI Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter04.xhtml#sub74">A Brief History of MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub75">Digital Control</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub76">The Birth of MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub77">The MIDI Protocol</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub78">MIDI Notes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub79">Program Changes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub80">Controller Messages</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub81">MIDI Controllers</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub82">Tone-Generating Keyboards</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub83">Keyboard Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub84">Drumpad Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub85">Grid Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub86">Alternate Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub87">What to Look for in a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub88">Purchasing a Keyboard Controller</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub89">Setup and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub90">Plug-and-Play Setup</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub91">MIDI Cables and Jacks</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub92">Using a MIDI Interface</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub93">Considerations for Using Multiple MIDI Devices</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub94">MIDI Versus Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub95">What Is MIDI?</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub96">Monitoring with Onboard Sound Versus Virtual Instruments</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub97">Tracking with Virtual Instruments</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub98">Creating Tracks for Virtual Instruments</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub99">Summary</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub100">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise04.xhtml#sub101">Exercise 4. Selecting Your MIDI Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter05.xhtml#sub102">Chapter 5. Logic Pro Concepts, Part 1</a>
+      <ul>
+        <li>
+          <a href="Chapter05.xhtml#sub103">Creating a Project</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub104">Selecting a Track Type</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub105">Enabling Advanced Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub106">Main Window</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub107">The Control Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub108">Tracks Area Menu Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub109">Rulers</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub110">Mixer Display and Window</a>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub111">Working with Tracks</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub112">Adding Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub113">Mono Versus Stereo Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub114">External MIDI Versus Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub115">Regions Versus Files</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub116">Selecting Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub117">Basic Navigation</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub118">Using the Transport Controls</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub119">Zooming and Scrolling in the Main Window</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub120">Controlling Playback Behavior</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub121">Monitoring Your Playhead Location</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub122">Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub123">Selection Scenarios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub124">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise05.xhtml#sub125">Exercise 5. Configuring and Working on a Project</a>
+    </li>
+    <li>
+      <a href="Chapter06.xhtml#sub126">Chapter 6. Logic Pro X Concepts, Part 2</a>
+      <ul>
+        <li>
+          <a href="Chapter06.xhtml#sub127">Setting Up for Recording</a>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub128">Recording Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub129">Making a Record Selection</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub130">Record Enabling Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub131">Monitoring Record Enabled Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub132">Initiating a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub133">Stopping a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub134">Recording Additional Takes</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub135">Recording MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub136">Monitoring a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub137">Record Enabling Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub138">Overlap Recording on Software Instrument Tracks</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub139">Importing Audio and MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub140">Supported Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub141">Importing from the Desktop</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub142">Importing from Media Browser and All Files Browser</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub143">Using the Import Command</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub144">Using Apple Loops</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub145">Working in the Tracks Area</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub146">Snap to Grid</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub147">Setting the Snap Value</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub148">Working with Regions and Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub149">Selecting a Tool for Editing</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub150">Basic Editing Techniques</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub151">Advanced Editing Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub152">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise06.xhtml#sub153">Exercise 6. Importing and Editing Regions</a>
+    </li>
+    <li>
+      <a href="Chapter07.xhtml#sub154">Chapter 7. Mixing Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter07.xhtml#sub155">Basic Mixing</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub156">Setting Levels</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub157">Panning</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub158">Staying Organized</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub159">Processing Options and Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub160">Gain-Based Processing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub161">Time-Based Processing and Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub162">Insert Effects Versus Send Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub163">Processing with External Gear</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub164">Mixing in the Box</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub165">Advantages of In-the-Box Mixing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub166">Getting the Most Out of an In-the-Box Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub167">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise07.xhtml#sub168">Exercise 7. Creating a Basic Mix</a>
+    </li>
+    <li>
+      <a href="Chapter08.xhtml#sub169">Chapter 8. Signal Processing</a>
+      <ul>
+        <li>
+          <a href="Chapter08.xhtml#sub170">Plug-In Basics</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub171">Inserting Plug-Ins on Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub172">Moving and Duplicating Plug-Ins</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub173">Displaying Plug-In Windows</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub174">Common Plug-In Controls</a>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub175">Adjusting Plug-In Parameters</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub176">Adjusting Plug-In Parameters with the Mouse</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub177">Adjusting Plug-In Parameters with the Computer Keyboard</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub178">EQ Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub179">Types of EQ</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub180">Basic EQ Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub181">EQ Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub182">Strategies for Using EQ</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub183">Dynamics Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub184">Types of Dynamics Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub185">Basic Dynamics Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub186">Dynamics Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub187">Strategies for Using Compression</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub188">Strategies for Using a De-Esser</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub189">Reverb and Delay Effects</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub190">What Is Reverb?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub191">Reverb in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub192">Applications for Reverb Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub193">What Is Delay?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub194">Delay in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub195">Applications for Delay Processors</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub196">Wet Versus Dry Signals</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub197">Using Time-Based Effects as Plug-in Inserts</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub198">Using Send-and-Return Configurations</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub199">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise08.xhtml#sub200">Exercise 8. Optimizing Tracks with Signal Processing</a>
+    </li>
+    <li>
+      <a href="Chapter09.xhtml#sub201">Chapter 9. Finishing a Project</a>
+      <ul>
+        <li>
+          <a href="Chapter09.xhtml#sub202">Recalling a Saved Mix</a>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub203">Using Automation</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub204">Selecting an Automation Mode</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub205">Writing Real-Time Automation</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub206">Viewing Automation Curves</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub207">Editing Automation Points</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub208">Creating a Mixdown</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub209">Adding Processing on the Stereo Output</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub210">Considerations for Bouncing Audio</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub211">Creating a Bounce of an Audio Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub212">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise09.xhtml#sub213">Exercise 9. Preparing the Final Mix</a>
+    </li>
+    <li>
+      <a href="Chapter10.xhtml#sub214">Chapter 10. Beyond the Basics</a>
+      <ul>
+        <li>
+          <a href="Chapter10.xhtml#sub215">Flex Time and Pitch</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub216">Enabling Flex</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub217">Flex Time</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub218">Flex Pitch</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub219">MIDI Editing Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub220">Viewing MIDI Regions and Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub221">Editing MIDI Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub222">Working with Velocity</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub223">Software Instrument Region Inspector</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub224">Quantization in the Piano Roll Editor</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub225">Submixing with Track Stacks</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub226">Simplifying a Mix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub227">Using Track Stacks to Submix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub228">Creating Stems</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub229">Keyboard Shortcuts</a>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub230">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise10.xhtml#sub231">Exercise 10. Finalizing a Project</a>
+    </li>
+    <li>
+      <a href="AbouttheAuthors.xhtml#sub232">About the Authors</a>
+    </li>
+  </ul>
+</div>
+
+
+  </div>
+  
+
+  <div class="calibreEbNav">
+    
+      <a href="Exercise02.xhtml" class="calibreAPrev">previous page
+</a>
+    
+
+    <a href="../../../fultv-nyhsd.html" class="calibreAHome">start
+</a>
+
+    
+      <a href="Exercise03.xhtml" class="calibreANext">next page
+</a>
+    
+  </div>
+
+</div>
+
+</body>
+</html>

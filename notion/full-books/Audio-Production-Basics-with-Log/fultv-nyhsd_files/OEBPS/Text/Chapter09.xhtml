@@ -1,0 +1,1435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Chapter 9 Finishing a Project</title>
+    <meta content="urn:uuid:e0000000-0000-0000-0000-000006335993" name="Adept.expected.resource"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../../stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="../../page_styles.css" rel="stylesheet" type="text/css"/>
+
+  
+
+
+<link href="../../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="calibreMeta">
+  <div class="calibreMetaTitle">
+  
+  
+    
+    <h1>
+      <a href="../../../fultv-nyhsd.html">Audio Production Basics with Logic Pro X
+</a>
+    </h1>
+    
+    
+  
+  </div>
+  <div class="calibreMetaAuthor">
+    Gold, Harry; Rey, Ryan; Cook, Frank D., Harry Gold
+
+  </div>
+</div>
+
+<div class="calibreMain">
+
+  <div class="calibreEbookContent">
+    
+      <div class="calibreEbNavTop">
+        
+          <a href="Exercise08.xhtml" class="calibreAPrev">previous page
+</a>
+        
+
+        
+          <a href="Exercise09.xhtml" class="calibreANext">next page
+</a>
+        
+      </div>
+    
+
+    
+<section role="doc-chapter">
+  <p class="chnum"><span aria-label="219" id="page_219" role="doc-pagebreak"></span><a href="nav.xhtml#toc201" id="sub201" class="calibre5"><span class="textstyle12">Chapter 9</span></a></p>
+
+  <h1 class="chtitle1"><a href="nav.xhtml#toc201" class="calibre5"><span class="textstyle8">Finishing a Project</span></a></h1>
+
+  <p class="center"><span class="textstyle21">…What You Need to Do to Create a Stereo Mixdown…</span></p>
+
+  <p class="noindent"><span class="textstyle11">This chapter introduces you to the processes of adding automation and creating a stereo mixdown of your Logic Pro X project. We cover the five automation modes in Logic Pro X, what their differences are, and how to use them. We also cover a variety of editing techniques that you can use to create or fine-tune the automation on your tracks. We then cover uses for limiters and dither plug-ins on the master bus before wrapping up with a discussion on exporting your mix as a stereo file.</span></p>
+
+  <p class="learn"><img alt="frn_fig_010" src="../Images/frn_fig_010.jpg" class="calibre15"/><span class="space1"></span><span class="textstyle22">Learning Targets for This Chapter</span></p>
+<ul class="ul">
+<li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand what settings will and will not be recalled with a project</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Learn how to select the appropriate automation mode for a desired result</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Learn how to write automation changes in Touch and Latch mode</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Understand how to display and edit automation graphs</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Add appropriate processing to a Stereo Output</span></li>
+
+  <li class="sq-list"><span class="textstyle23">■</span><span class="space"></span><span class="textstyle24">Use the Export command to create a stereo mix of a project</span></li>
+</ul>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp1"><span class="textstyle20">Key topics from this chapter are illustrated in the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform. Sign up at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span aria-label="220" id="page_220" role="doc-pagebreak"></span><span class="textstyle11">After you have finished balancing your tracks, adding processing to the tracks, and adding any desired effects for the mix, it’s time to start thinking about finishing up the project and creating a stereo mixdown. As you put the finishing touches on your mix, you can use automation to create and save dynamic changes. Then you can export your mix as a stereo file, configuring the file parameters as needed.</span></p>
+
+  <h2 class="subhead"><a href="nav.xhtml#toc202" id="sub202" class="calibre5"><span class="textstyle13">Recalling a Saved Mix</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">When you open a project that you’ve previously worked on, all of the Logic Pro X mixer settings are recalled with the file, including the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Track layouts and views</span><span class="textstyle11">—The track order, track heights, and zoom settings that were in place when the project was last saved will all be recalled.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Mix attributes, settings, and automation</span><span class="textstyle11">—The settings for volume faders and pan controls will be recalled for each track, along with any automation you previously created.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Track and send routing</span><span class="textstyle11">—Any routing you’ve used for submixes, effects sends, and similar configurations will be recalled, along with the send levels and send pan settings.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Plug-in assignments</span><span class="textstyle11">—Plug-in assignments and parameter settings will be recalled for each track.</span></li>
+</ul>
+  <p class="noindent"><span class="textstyle11">Occasionally, however, conditions may exist that will prevent a project from recalling exactly as it was when last saved. These conditions can include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">External effects processors</span><span class="textstyle11">—As discussed in <a href="Chapter07.xhtml" class="calibre5">Chapter 7</a>, if you’ve used external gear for your mix, you will need to reconnect the gear and reconfigure all the hardware settings whenever you return to the project.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Unavailable plug-ins</span><span class="textstyle11">—If you open the project from a system that does not have the same plug-ins installed as the system where you created the project, any unavailable plug-ins in the project will gray out on screen and will not provide processing.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Unavailable media</span><span class="textstyle11">—Any audio that might be missing from the Project’s folder will not be available for playback.</span></li>
+</ul>
+  <h2 class="subhead"><a href="nav.xhtml#toc203" id="sub203" class="calibre5"><span class="textstyle13">Using Automation</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">On a simple project, you may be able to set the volume faders, pan controls, and other parameters on tracks to a static position and leave them unchanged from the start of the mix to the end. But often a mix will require dynamic changes during the course of playback. This is where track and region automation can be useful.</span></p>
+
+  <p class="noindent"><span class="textstyle11">Logic Pro X allows you to record changes you make during playback as automation on your tracks or regions. Automatable parameters include track volume, pan, and mute controls; send controls; and plug-in controls.</span></p>
+
+  <h3 class="subhead1"><span aria-label="221" id="page_221" role="doc-pagebreak"></span><a href="nav.xhtml#toc204" id="sub204" class="calibre5"><span class="textstyle14">Selecting an Automation Mode</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Logic Pro X provides six automation modes. The currently active automation mode on each track determines how automation will function for the track. You can set the automation mode for each track independently, using the Automation Mode selector for a channel strip in the Mixer. You can also select the automation mode in the Main window once you enable the Show Automation function, as discussed below.</span></p>
+
+  <p class="img"><img alt="chpt_fig_202" class="scale1" src="../Images/chpt_fig_202.jpg"/></p>
+  <p class="caption" id="fig9.1"><span class="textstyle26">Figure 9.1</span> <span class="textstyle27">Automation Mode selector in the Mixer window</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Available Automation Modes</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The automation modes available in Logic Pro X include the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Read mode</span> <span class="textstyle11">(default)—This mode plays back existing automation on the track but will not write any new automation. Use this mode when you want a track to play back automation you have previously recorded for the track, but you do not want to record new changes as automation.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Latch mode</span><span class="textstyle11">—This mode writes automation only on parameters that you change during the automation pass. Use this mode to write automation selectively for some track settings without locking in other settings.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Touch mode</span><span class="textstyle11">—This mode writes automation only on parameters that you change, and only while you are actively modifying those parameters. Use this mode to change certain track settings only in specific areas of the track.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Write mode</span><span class="textstyle11">—This mode writes automation for all parameters whenever the transport is rolling. Use this mode if you want to write real-time automation on a track and lock in the volume, pan, send, and plug-in settings.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Trim mode</span><span class="textstyle11">—This mode offsets the value of existing automation (Volume, Pan, Send level) by adjusting it up or down by the amount that you move the fader or a control. This mode preserves <span aria-label="222" id="page_222" role="doc-pagebreak"></span>existing dynamic changes, offsetting them by the trim amount. Trim is a secondary mode that works in combination with Touch/Latch modes.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">Relative mode</span><span class="textstyle11">—This mode adds an independent, secondary automation curve which offsets the original primary curve for a selected parameter. Both the initial primary curve and the new secondary curve will be visible and can be edited. Relative is a secondary mode that works in combination with Touch, Latch, and Write automation modes.</span></li>
+</ul>
+  <h4 class="subhead1"><span class="textstyle28">Enabling the Show Automation Function in the Main Window</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">To display current automation modes and see automation graphs in the main window you have to enable the Show Automation button just above the track list. Alternatively you can press the</span> <span class="textstyle29">A</span> <span class="textstyle11">key to activate the Show Automation function.</span></p>
+
+  <p class="img"><img alt="chpt_fig_203" class="scale1" src="../Images/chpt_fig_203.jpg"/></p>
+  <p class="caption" id="fig9.2"><span class="textstyle26">Figure 9.2</span> <span class="textstyle27">Enabling the Show Automation button</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Selecting an Automation Mode</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">You can select an automation mode for a track or channel in either the main window or the Mixer window.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To select an automation mode, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Click on the Automation Mode selector in the Mixer or Main window.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Select the desired mode from the pop-up menu. (See <a href="#fig9.3" class="calibre5">Figure 9.3</a>.)</span>
+
+  <p class="img-la"><span aria-label="223" id="page_223" role="doc-pagebreak"></span><img alt="chpt_fig_204" class="scale1" src="../Images/chpt_fig_204.jpg"/></p>
+  <p class="caption" id="fig9.3"><span class="textstyle26">Figure 9.3</span> <span class="textstyle27">Selecting an automation mode: channel strip in the Mixer window (left) and Track List in the Main window (right)</span></p>
+  </li>
+</ol>
+  <h3 class="subhead1"><a href="nav.xhtml#toc205" id="sub205" class="calibre5"><span class="textstyle14">Writing Real-Time Automation</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">When writing real-time automation, you will commonly use Latch mode for basic settings on your initial automation passes. This can be useful when writing automation across long sections.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">By way of example, you might use Latch mode to automate changes for different sections of a song, such as to increase the level of the lead vocals during the choruses and return to a lower level during the verses.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To automate basic settings, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Put the target track(s) into Latch mode.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Begin playback. Automation will not be writing at this point.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">When you reach the location where you need to make a change, adjust the volume, pan, or other settings on the target track(s). The changes will begin writing as new automation and will continue until you make the next change.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Continue playback through the project, adjusting the settings during each section as needed.</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Return the track(s) to Read mode when finished (for playback purposes).</span></li>
+</ol>
+
+  <p class="noindent"><span aria-label="224" id="page_224" role="doc-pagebreak"></span><span class="textstyle11">With your initial track settings and automation in place, you can use Touch mode to refine the mix in specific areas. This can be useful to touch up existing automation or to make dynamic changes that affect only small areas of the project.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">By way of example, you can use Touch mode to increase the send levels for reverb or delay at the ends of certain vocal lines, while automatically returning to previous levels in between the changes.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To add or modify automation in specific areas, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Put the target track(s) into Touch mode.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Begin playback. Automation will not be writing at this point.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">When you reach the location where you need to make a change, adjust the volume, pan, or other settings on the target track(s). New automation will be written and will continue while you hold the control in place.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Release the control to return the parameter to its previous setting.</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Continue playback through the project, making additional changes in selected areas as needed.</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">Return the track(s) to Read mode when finished (for playback purposes).</span></li>
+</ol>
+  <h3 class="subhead1"><a href="nav.xhtml#toc206" id="sub206" class="calibre5"><span class="textstyle14">Viewing Automation Curves</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Each automatable parameter on a track has an associated automation graph, or automation curve as they are known in Logic. The automation curve can be displayed in the Edit window, allowing you to see a visual representation of the automation changes.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To display an automation curve, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Click the</span> <span class="textstyle29">S</span><span class="textstyle29">HOW</span> <span class="textstyle29">A</span><span class="textstyle29">UTOMATION</span> <span class="textstyle11">button to enable it, or press the</span> <span class="textstyle29">A</span> <span class="textstyle11">key. (See <a href="#fig9.2" class="calibre5">Figure 9.2</a> earlier in this chapter.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Select the type of automation that you want to display from the Automation Parameter pop-up menu. (See <a href="#fig9.4" class="calibre5">Figure 9.4</a>.) The Automation Parameter will be set to Volume by default. The automation curve will be displayed as a faint orange line superimposed on the track. Clicking onto any region to select it will make the line more prominent.</span>
+  <p class="img-la"><span aria-label="225" id="page_225" role="doc-pagebreak"></span><img alt="chpt_fig_205" class="scale1" src="../Images/chpt_fig_205.jpg"/></p>
+  <p class="caption" id="fig9.4"><span class="textstyle26">Figure 9.4</span> <span class="textstyle27">Selecting the Volume automation view (left); the Volume automation graph displayed (right)</span></p>
+
+  <p class="img-la"><img alt="chpt_fig_206" class="scale1" src="../Images/chpt_fig_206.jpg"/></p>
+  <p class="caption" id="fig9.5"><span class="textstyle26">Figure 9.5</span> <span class="textstyle27">The volume automation curve displayed on the 01 Kick track</span></p>
+  </li>
+</ol>
+  <p class="noindent"><span class="textstyle11">As an alternative, you can display an automation curve in an automation subtrack beneath a target track using the</span> <span class="textstyle29">S</span><span class="textstyle29">UBTRACK</span> <span class="textstyle29">D</span><span class="textstyle29">ISCLOSURE</span> <span class="textstyle29">T</span><span class="textstyle29">RIANGLE</span> <span class="textstyle11">at the head of a track. On Audio tracks, the Volume automation lane will appear by default. Additional automation lanes can be displayed by clicking on the plus sign (</span><span class="textstyle29">+</span><span class="textstyle11">) that appears when you place the pointer over the header of a displayed subtrack lane.</span></p>
+
+  <p class="img"><img alt="chpt_fig_207" class="scale" src="../Images/chpt_fig_207.jpg"/></p>
+  <p class="caption" id="fig9.6"><span class="textstyle26">Figure 9.6</span> <span class="textstyle27">Clicking the Subtrack Disclosure Triangle button (left); Volume automation subtrack displayed (right)</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc207" id="sub207" class="calibre5"><span class="textstyle14">Editing Automation Points</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">With an automation curve displayed, you can edit the curve using its automation points. Automation points are locations on the automation graph where the automation line changes slope or direction.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Using the Pointer Tool for Automation</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">You can edit the automation graph by adding, moving, or deleting automation points using the Pointer tool. To edit automation with the Pointer tool, do any of the following:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Click on the automation curve line to add an automation point.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle11">Click and drag an existing automation point to adjust its position.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle29">D</span><span class="textstyle29">OUBLE</span><span class="textstyle29">-</span><span class="textstyle29">CLICK</span> <span class="textstyle11">on an existing automation point to remove it.</span></li>
+</ul>
+  <p class="img"><span aria-label="226" id="page_226" role="doc-pagebreak"></span><img alt="chpt_fig_208" class="scale1" src="../Images/chpt_fig_208.jpg"/></p>
+  <p class="caption" id="fig9.7"><span class="textstyle26">Figure 9.7</span> <span class="textstyle27">Editing the Volume automation using the Pointer tool</span></p>
+
+  <p class="noindent"><span class="textstyle11">Automation can also be edited using other tools, such as the Pencil tool.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Using the Pencil Tool for Automation</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The Pencil Tool can be useful for drawing automation changes on an automation curve. The Pencil Tool can be combined with Snap Automation to create a variety of automation shapes.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To draw a freehand automation shape, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">In the main window press the</span> <span class="textstyle29">T</span> <span class="textstyle11">key to bring up the left-click tool menu.</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Verify that the</span> <span class="textstyle29">P</span><span class="textstyle29">ENCIL</span> <span class="textstyle29">T</span><span class="textstyle29">OOL</span> <span class="textstyle11">is selected.</span>
+
+  <p class="img-la"><img alt="chpt_fig_209" class="scale" src="../Images/chpt_fig_209.jpg"/></p>
+  <p class="caption" id="fig9.8"><span class="textstyle26">Figure 9.8</span> <span class="textstyle27">Selecting the Pencil Tool</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Click and drag on an automation curve to draw a new automation shape. A series of new automation points will be created, matching the shape you draw.</span>
+  <p class="img-la"><img alt="chpt_fig_210" class="scale" src="../Images/chpt_fig_210.jpg"/></p>
+  <p class="caption" id="fig9.9"><span class="textstyle26">Figure 9.9</span> <span class="textstyle27">Drawing freeform automation with the Pencil tool</span></p>
+  </li>
+</ol>
+  <p class="noindent"><span aria-label="227" id="page_227" role="doc-pagebreak"></span><span class="textstyle11">You can also create stepped automation with the Pencil Tool by activating the Snap Automation function. In this mode, the Pencil Tool will create automation in short line steps rather than curves as you click-drag. You can configure the length of each step in the Snap pop-up menu in the main window (See Figures <a href="#fig9.10" class="calibre5">9.10</a> and <a href="#fig9.11" class="calibre5">9.11</a>.)</span></p>
+
+  <p class="img"><img alt="chpt_fig_211" class="scale" src="../Images/chpt_fig_211.jpg"/></p>
+  <p class="caption" id="fig9.10"><span class="textstyle26">Figure 9.10</span> <span class="textstyle27">The Snap pop-up menu next to the blue power button</span></p>
+
+  <p class="noindent"><span class="textstyle17">To create stepped automation, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Configure a rhythmic value for the automation grid by clicking the Snap pop-up menu, selecting</span> <span class="textstyle29">S</span><span class="textstyle29">NAP</span> <span class="textstyle29">A</span><span class="textstyle29">UTOMATION</span><span class="textstyle11">, and choosing a rhythmic value. This is set to</span> <span class="textstyle15">Automatic</span> <span class="textstyle11">by default, meaning the snap increment will change based on your zoom level.</span>
+  <p class="img"><img alt="chpt_fig_212" class="scale1" src="../Images/chpt_fig_212.jpg"/></p>
+  <p class="caption" id="fig9.11"><span class="textstyle26">Figure 9.11</span> <span class="textstyle27">Selecting a rhythmic value for stepped automation in the Snap pop-up menu under the control bar</span></p>
+  </li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">When active, the Snap Automation function causes automation edits to snap to the chosen grid value.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">With the Pencil Tool selected, hold the</span> <span class="textstyle29">O</span><span class="textstyle29">PTION</span> <span class="textstyle11">modifier key.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Click and drag on an automation graph to draw a new stepped segment. Stepped automation can be useful for writing changing settings of an exact length, such as rhythmic changes to a plug-in parameter, like filter cutoff on a synth. In <a href="#fig9.12" class="calibre5">Figure 9.12</a>, panning automation has been drawn on a 1⁄4 note grid, alternating from side to side.</span>
+
+  <p class="img-la"><span aria-label="228" id="page_228" role="doc-pagebreak"></span><img alt="chpt_fig_213" class="scale" src="../Images/chpt_fig_213.jpg"/></p>
+  <p class="caption" id="fig9.12"><span class="textstyle26">Figure 9.12</span> <span class="textstyle27">Drawing a stepped automation segment with the Pencil Tool</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Release the mouse at the point where you want the steps to end.</span></li>
+</ol>
+  <h2 class="subhead"><a href="nav.xhtml#toc208" id="sub208" class="calibre5"><span class="textstyle13">Creating a Mixdown</span></a></h2>
+
+  <p class="noindent1"><span class="textstyle11">Mixing down is the process of recording the output from multiple tracks to a stereo file. This process is also commonly referred to as</span> <span class="textstyle31">bouncing</span> <span class="textstyle11">the project. Mixing down is often the last phase of audio production, although you can create a bounce at any time to create a complete mix as a stereo file.</span></p>
+
+  <h3 class="subhead1"><a href="nav.xhtml#toc209" id="sub209" class="calibre5"><span class="textstyle14">Adding Processing on the Stereo Output</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">Prior to creating a final mix, you may want to consider using some final dynamics processing on the entire mix to optimize your output levels. You can also add a dither plug-in to preserve the low-level dynamics in your mix during a bit-depth reduction.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Adding a Limiter to Optimize Output Levels</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">As discussed in <a href="Chapter08.xhtml" class="calibre5">Chapter 8</a>, a limiter is a dynamics processor that caps the audio signal at a specified level. A limiter can be used on the Stereo Out channel to protect against clipping. Using a limiter can also help make the overall mix seem louder.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To use a limiter on your mix in Logic Pro X, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Click on an Audio FX insert position on the Stereo Out channel and select</span> <span class="textstyle29">D</span><span class="textstyle29">YNAMICS</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">L</span><span class="textstyle29">IMITER</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">S</span><span class="textstyle29">TEREO</span><span class="textstyle11">. (See <a href="#fig9.13" class="calibre5">Figure 9.13</a>.)</span>
+
+  <p class="img-la"><span aria-label="229" id="page_229" role="doc-pagebreak"></span><img alt="chpt_fig_214" class="scale1" src="../Images/chpt_fig_214.jpg"/></p>
+  <p class="caption" id="fig9.13"><span class="textstyle26">Figure 9.13</span> <span class="textstyle27">Selecting a limiter plug-in for the Stereo Out track</span></p>
+
+  <p class="copy"><span class="textstyle11">The Limiter plug-in window will open.</span></p>
+
+  <p class="img-la"><img alt="chpt_fig_215" class="scale1" src="../Images/chpt_fig_215.jpg"/></p>
+  <p class="caption" id="fig9.14"><span class="textstyle26">Figure 9.14</span> <span class="textstyle27">The Limiter plug-in window includes Gain, Release, Output Level, and Lookahead controls.</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Play through the project, taking note of the peak readings displayed on the</span> <span class="textstyle29">I</span><span class="textstyle29">NPUT</span> <span class="textstyle11">meter.</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Adjust the</span> <span class="textstyle29">G</span><span class="textstyle29">AIN</span> <span class="textstyle11">control up or down until you have a strong input signal level that stays between</span> <span class="textstyle15">–10</span> <span class="textstyle11">and</span> <span class="textstyle15">0</span> <span class="textstyle11">on the meter through most of the song. The signal should occasionally trigger the gain reduction meter (labeled</span> <span class="textstyle15">Reduction</span><span class="textstyle11">) during the loudest peaks.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">You generally want to see gain reduction of no more than</span> <span class="textstyle52">–3</span> <span class="textstyle20">to</span> <span class="textstyle52">–6 dB</span> <span class="textstyle20">in the loudest areas of the song.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span aria-label="230" id="page_230" role="doc-pagebreak"></span><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Adjust the</span> <span class="textstyle29">O</span><span class="textstyle29">UTPUT</span> <span class="textstyle29">L</span><span class="textstyle29">EVEL</span> <span class="textstyle11">control to set the maximum signal level going to your audio interface. To prevent clipping in your mixed file, set this control to a negative value. Try around</span> <span class="textstyle15">–0.5</span> <span class="textstyle11">to</span> <span class="textstyle15">–1.5 dB</span><span class="textstyle11">.</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Set the</span> <span class="textstyle29">R</span><span class="textstyle29">ELEASE</span> <span class="textstyle11">control to its minimum value of</span> <span class="textstyle15">2.0 ms</span> <span class="textstyle11">to provide a quick response for the momentary peaks you are targeting with this type of limiter. Adjust this value upward during playback as needed to prevent sudden, unnatural-sounding volume changes.</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">Leave the</span> <span class="textstyle29">L</span><span class="textstyle29">OOKAHEAD</span> <span class="textstyle11">control set to its default value of</span> <span class="textstyle15">5.0 ms</span><span class="textstyle11">. This feature scans ahead to prepare the limiter for any potential upcoming peaks.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">A different option you can use on the Stereo Out channel is the Adaptive Limiter. This processor functions similar to the Limiter but is designed specifically to maximize the output level of a mix.</span></td>
+</tr>
+</table>
+
+  <h4 class="subhead1"><span class="textstyle28">Creating a CD-Ready Mix</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">To create a CD-ready mixdown from Logic Pro X, you will need to perform a bit-depth reduction: your mixdown file will need to use 16-bit audio in order to be burned onto a CD, whereas Logic Pro X uses 24-bit audio files by default.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The Red Book audio CD standard requires audio files that are encoded with a sample rate of 44.1 kHz and a word length of 16 bits.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle11">As discussed in <a href="Chapter03.xhtml" class="calibre5">Chapter 3</a>, lower bit-depth audio also exhibits a reduced dynamic range. To help preserve the dynamic range when reducing bit depth, you can add</span> <span class="textstyle31">dither</span> <span class="textstyle11">to your project. Dither is a form of randomized noise used to minimize signal loss when audio is near the low end of its dynamic range, such as during a quiet passage or fade-out.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Adding Dither to a Mix</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">Proper use of dithering allows you to squeeze better subjective performance out of 16-bit or 8-bit audio.</span></p>
+
+  <p class="noindent"><span class="textstyle11">In Logic Pro, dithering is applied during the bounce process. To create a mix for CD, you would select the dither checkbox during the final bounce.</span></p>
+
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_007" class="scale" src="../Images/frn_fig_007.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If you will be keeping your mixed file at 24-bit resolution, you should NOT use dither. Doing so will needlessly add noise to the mix.</span></td>
+</tr>
+</table>
+
+  <p class="noindent"><span class="textstyle17">To add dither to your mix during a bounce, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Select</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">P</span><span class="textstyle29">ROJECT OR</span> <span class="textstyle29">S</span><span class="textstyle29">ELECTION</span><span class="textstyle11">. (See <a href="#fig9.15" class="calibre5">Figure 9.15</a>.)</span>
+
+  <p class="img-la"><span aria-label="231" id="page_231" role="doc-pagebreak"></span><img alt="chpt_fig_216" class="scale1" src="../Images/chpt_fig_216.jpg"/></p>
+  <p class="caption" id="fig9.15"><span class="textstyle26">Figure 9.15</span> <span class="textstyle27">Selecting the Bounce option from the file menu</span></p>
+
+  <p class="copy"><span class="textstyle11">The Bounce dialog box will display.</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Choose the type of dither noise shaping to use for your mix.</span>
+
+  <p class="img-la"><img alt="chpt_fig_217" class="scale1" src="../Images/chpt_fig_217.jpg"/></p>
+  <p class="caption" id="fig9.16"><span class="textstyle26">Figure 9.16</span> <span class="textstyle27">The bounce project window showing the Dithering options menu</span></p>
+  </li>
+</ol>
+<div class="box-blue">
+  <p class="noindent1"><span class="textstyle25">Dither Noise Shaping Options</span></p>
+
+  <p class="copy"><span class="textstyle19">Noise shaping is a method of improving the signal-to-noise ratio of dither. POW-r Dither noise shaping improves audio performance and reduces the perceptible noise in the dither by shifting it into a less audible range.</span></p>
+
+  <p class="copy"><span class="textstyle53">POW-r #1:</span> <span class="textstyle19">A dithering curve with a flat frequency spectrum is utilized to minimize quantization noise. This option is recommended for solo instrument recordings and spoken-word recordings.</span></p>
+
+  <p class="copy"><span aria-label="232" id="page_232" role="doc-pagebreak"></span><span class="textstyle53">POW-r #2:</span> <span class="textstyle19">Additional noise shaping is used over a wide frequency range. This can extend the dynamic range of the bounce file by 5-10db. This is suitable for most genres of rock and pop music.</span></p>
+
+  <p class="copy"><span class="textstyle53">POW-r #3:</span> <span class="textstyle19">Even more noise shaping is used. This can extend the dynamic range by 20db in the 2-4khz range. Features psychoacoustically-optimized noise-shaping designed for full-spectrum, wide-stereo field material. This option is recommended for material with a broad dynamic range, such as classical and orchestral music; can also be effective for rock and pop music.</span></p>
+
+  <p class="copy"><span class="textstyle53">UV22HR:</span> <span class="textstyle19">This setting uses Apogee's renowned UV22 dithering algorithm, which is said to allow for the best possible sound resolution when bouncing 24-bit recordings to 16-bit files, without adding to the effective noise.</span></p>
+</div>
+  <h3 class="subhead1"><a href="nav.xhtml#toc210" id="sub210" class="calibre5"><span class="textstyle14">Considerations for Bouncing Audio</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">When exporting a mix from Logic Pro X, the bounced file will capture all audible information in your mix just as you hear it during playback.</span></p>
+
+  <p class="noindent"><span class="textstyle11">The following principles apply to the mixdown file:</span></p>
+
+<ul class="calibre8">
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">The file will include only audible tracks.</span> <span class="textstyle11">What you hear during playback is exactly what will be included in the mix. Any tracks that are muted will not be included. Similarly, if any tracks are soloed, they will be the</span> <span class="textstyle31">only</span> <span class="textstyle11">tracks included.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">The file will be a rendered version of your project.</span> <span class="textstyle11">Inserts, sends, and external effects will be applied permanently. Listen closely to your entire project prior to exporting the mix to ensure that everything sounds as it should. Pay close attention to levels, being sure to avoid clipping.</span></li>
+
+  <li class="sq-listb"><span class="textstyle16">■</span><span class="space"></span><span class="textstyle17">The file will be created based on the active selection.</span> <span class="textstyle11">If you have an active selection when you export your mix, the mix file will last for the length of the selection only. If you do not have a selection, Logic Pro X will create a bounce from the start of the project to the end of the longest track.</span></li>
+</ul>
+  <h3 class="subhead1"><a href="nav.xhtml#toc211" id="sub211" class="calibre5"><span class="textstyle14">Creating a Bounce of an Audio Mix</span></a></h3>
+
+  <p class="noindent1"><span class="textstyle11">When you are ready to create your mixdown in Logic Pro X, you can use the</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">P</span><span class="textstyle29">ROJECT OR</span> <span class="textstyle29">S</span><span class="textstyle29">ELECTION</span> <span class="textstyle11">command from the</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle11">menu. You can alternately use the shortcut</span> <span class="textstyle29">C</span><span class="textstyle29">OMMAND</span><span class="textstyle29">+B.</span> <span class="textstyle11">This provides a fast and easy way to create a bounce to a stereo file, requiring little to no setup.</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Selecting Bounce Options</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">The Bounce command combines the outputs of all currently audible tracks to create a new audio file on your hard drive. You can select options for the bounced file using the Bounce dialog box.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To bounce all currently audible tracks and select the export options, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Verify that the project plays back as desired. (Check levels, processing, and mute/solo states for tracks).</span></li>
+
+  <li class="numlist"><span aria-label="233" id="page_233" role="doc-pagebreak"></span><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Choose</span> <span class="textstyle29">F</span><span class="textstyle29">ILE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCE</span> <span class="textstyle29">&gt;</span> <span class="textstyle29">P</span><span class="textstyle29">ROJECT OR</span> <span class="textstyle29">S</span><span class="textstyle29">ELECTION</span><span class="textstyle11">. The Bounce dialog box will appear.</span>
+
+  <p class="img-la"><img alt="chpt_fig_218" class="scale1" src="../Images/chpt_fig_218.jpg"/></p>
+  <p class="caption" id="fig9.17"><span class="textstyle26">Figure 9.17</span> <span class="textstyle27">The Bounce dialog box</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Select one or more of the Destination formats. Once these are chosen, bounce options for that format will appear to the right of the Destination area.</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">Double-check the</span> <span class="textstyle29">S</span><span class="textstyle29">TART</span> <span class="textstyle11">and</span> <span class="textstyle29">E</span><span class="textstyle29">ND</span> <span class="textstyle11">fields. These represent the length of your bounce. If you don’t want to include the entire project, you can adjust the Start and End fields with the up/down arrows.</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">Under Mode, select</span> <span class="textstyle29">R</span><span class="textstyle29">EALTIME</span> <span class="textstyle11">or</span> <span class="textstyle29">O</span><span class="textstyle29">FFLINE</span><span class="textstyle11">. Offline mode provides a faster-than-realtime bounce; however, it cannot be used with External MIDI sounds. Make sure to select Realtime mode if you’re using any External MIDI sounds routed into the Mixer via aux tracks.</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">Two check-boxes are available for additional control over effect tails:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Bounce 2nd Cycle Pass</span><span class="textstyle11">—This option can be used when bouncing a cycle range. The range will playback for two cycle repetitions, with the bounce starting on the second pass. If you have time-based effects in your project, you will hear the effect bleeding into the start of the bounce.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Include Audio Tail—</span><span class="textstyle11">This setting extends the end of the bounce to let any time-based effects ring out until they decay. This is recommended when bouncing a project with reverb or delay effects.</span></li>
+</ul>
+  </li>
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">Select a File Format for your destination file (WAV, AIFF, CAF).</span></li>
+
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">Choose the file type for your stereo bounce from the</span> <span class="textstyle29">F</span><span class="textstyle29">ORMAT</span> <span class="textstyle11">pop-up menu:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Interleaved—</span><span class="textstyle11">Creates a single file containing both channels of a stereo mix. Interleaved files are compatible with most online services and music applications, including SoundCloud and iTunes.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Split</span><span class="textstyle11">—Creates two separate mono files for a stereo mix: one for the left channel and another for the right channel. This file format is required by certain media applications.</span></li>
+</ul>
+  </li>
+
+  <li class="numlist"><span aria-label="234" id="page_234" role="doc-pagebreak"></span><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">Choose the desired bit depth for the bounced file(s) from the</span> <span class="textstyle29">B</span><span class="textstyle29">IT</span> <span class="textstyle29">D</span><span class="textstyle29">EPTH</span> <span class="textstyle11">pop-up menu:</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Choose</span> <span class="textstyle15">16 Bit</span> <span class="textstyle11">if you plan to burn your bounce to CD without further processing.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle11">Choose</span> <span class="textstyle15">24 Bit</span> <span class="textstyle11">when you want to create a final mix that will be mastered separately.</span></li>
+</ul>
+  </li>
+  <li class="numlist"><span class="textstyle11">10.</span><span class="space2"></span><span class="textstyle11">Choose the desired sample rate for the bounce files from the</span> <span class="textstyle29">S</span><span class="textstyle29">AMPLE</span> <span class="textstyle29">R</span><span class="textstyle29">ATE</span> <span class="textstyle11">pop-up menu. Higher sampling rates will provide better audio fidelity but will also increase the size of the resulting file(s).</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">If you plan to burn your bounced audio directly to CD without further processing, choose 44.1 kHz as the sample rate for the bounce.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">11.</span><span class="space2"></span><span class="textstyle11">If desired, enable the</span> <span class="textstyle29">A</span><span class="textstyle29">DD TO</span> <span class="textstyle29">P</span><span class="textstyle29">ROJECT</span> <span class="textstyle11">checkbox. This option will import the bounced file into your project Audio Browser.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The Add to Project option is available only if the target sample rate for the bounce file matches the sample rate of your project.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">12.</span><span class="space2"></span><span class="textstyle11">Choose a Normalization setting from the</span> <span class="textstyle29">N</span><span class="textstyle29">ORMALIZE</span> <span class="textstyle11">pop-up menu.</span>
+
+<ul class="calibre8">
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Off</span><span class="textstyle11">—No normalization is applied to the bounce.</span></li>
+
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">Overload Protection Only</span><span class="textstyle11">—Normalization is applied for any levels that exceed 0db, but no normalization takes place for lower levels.</span></li>
+  <li class="bull-list"><span class="textstyle38">•</span><span class="space"></span><span class="textstyle17">On</span><span class="textstyle11">—The project’s audio is scanned for the highest amplitude peak, then the level is increased so that the peak is at the maximum possible level before clipping.</span></li>
+</ul>
+  </li>
+  <li class="numlist"><span class="textstyle11">13.</span><span class="space1"></span><span class="textstyle11">After confirming your settings, click the</span> <span class="textstyle29">OK</span> <span class="textstyle11">button. The bounce process will proceed and a Save dialog box will appear.</span>
+
+  <p class="copy"><span class="textstyle11">By default, the bounced file will be named after the output channel strip and placed in the</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCES</span> <span class="textstyle11">folder inside the</span> <span class="textstyle29">~/M</span><span class="textstyle29">USIC</span><span class="textstyle29">/L</span><span class="textstyle29">OGIC</span> <span class="textstyle11">folder for your user account.</span></p>
+  </li>
+  <li class="numlist"><span class="textstyle11">14.</span><span class="space1"></span><span class="textstyle11">You can optionally specify a different file name and location for the bounced file using the Save dialog box.</span></li>
+
+  <li class="numlist"><span class="textstyle11">15.</span><span class="space1"></span><span class="textstyle11">When you’re ready, click the</span> <span class="textstyle29">B</span><span class="textstyle29">OUNCE</span> <span class="textstyle11">button at the bottom of this dialog box.</span></li>
+</ol>
+  <h4 class="subhead1"><span class="textstyle28">Monitoring Bounce Progress</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">When performing an offline bounce, Logic Pro processes the bounce without audio playback. A window will appear displaying a progress bar during the bounce. (See <a href="#fig9.18" class="calibre5">Figure 9.18</a>.)</span></p>
+
+  <p class="img"><span aria-label="235" id="page_235" role="doc-pagebreak"></span><img alt="chpt_fig_219" class="scale2" src="../Images/chpt_fig_219.jpg"/></p>
+  <p class="caption" id="fig9.18"><span class="textstyle26">Figure 9.18</span> <span class="textstyle27">The bounce progress window</span></p>
+
+  <h4 class="subhead1"><span class="textstyle28">Locating the Bounced File</span></h4>
+
+  <p class="noindent1"><span class="textstyle11">After the bounce completes, you can retrieve your mix file from within the</span> <span class="textstyle29">B</span> <span class="textstyle29">OUNCES</span> <span class="textstyle11">folder or your selected save location.</span></p>
+
+  <p class="noindent"><span class="textstyle17">To locate your bounced mix, do the following:</span></p>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">Using the Application Switcher or the Dock, switch from Logic Pro X to the Finder.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_004" class="scale" src="../Images/frn_fig_004.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The Application Switcher lets you toggle through open applications on a Mac by pressing</span> <span class="textstyle34">C</span><span class="textstyle34">OMMAND</span><span class="textstyle34">+T</span><span class="textstyle34">AB</span><span class="textstyle20">.</span></td>
+</tr>
+</table>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">Navigate to the</span> <span class="textstyle15">Bounces</span> <span class="textstyle11">folder inside your project folder.</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_003" class="scale" src="../Images/frn_fig_003.jpg"/></td>
+<td class="tdp"><span class="textstyle20">The default location for project folders is ~/Music/Logic Pro. Your individual project folder locations may be different if you changed the save destination.</span></td>
+</tr>
+</table>
+
+  <h2 class="subhead"><span aria-label="236" id="page_236" role="doc-pagebreak"></span><a href="nav.xhtml#toc212" id="sub212" class="calibre5"><span class="textstyle13">Review/Discussion Questions</span></a></h2>
+
+<ol class="ol">
+  <li class="numlist"><span class="textstyle11">1.</span><span class="space1"></span><span class="textstyle11">What are some mix attributes that are recalled with a project in Logic Pro X? What are some items that may not be recalled? (See “Recalling a Saved Mix” beginning on <a href="#page_220" class="calibre5">page 220</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">2.</span><span class="space1"></span><span class="textstyle11">How many automation modes are available in Logic Pro X? What is the difference between Off mode and Read mode? (See “Available Automation Modes” beginning on <a href="#page_221" class="calibre5">page 221</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">3.</span><span class="space1"></span><span class="textstyle11">Which automation mode is useful for writing automation to selected parameters across long sections of your mix? Which mode is useful for touching up automation and making changes that affect only small areas? (See “Writing Real-Time Automation” beginning on <a href="#page_223" class="calibre5">page 223</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">4.</span><span class="space1"></span><span class="textstyle11">What is the purpose of displaying an automation curve? What are two ways automation curves can be displayed in Logic? (See “Viewing Automation Curves” beginning on <a href="#page_224" class="calibre5">page 224</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">5.</span><span class="space1"></span><span class="textstyle11">What are some ways of editing an automation graph with the Pointer tool? (See “Using the Pointer Tool for Automation” beginning on <a href="#page_225" class="calibre5">page 225</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">6.</span><span class="space1"></span><span class="textstyle11">How can the Pencil tool be used to create automation? (See “Using the Pencil Tool for Automation” beginning on <a href="#page_226" class="calibre5">page 226</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">7.</span><span class="space1"></span><span class="textstyle11">What is meant by the term</span> <span class="textstyle31">mixing down</span><span class="textstyle11">? What other term is commonly used to describe this process? (See “Creating a Mixdown” beginning on <a href="#page_228" class="calibre5">page 228</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">8.</span><span class="space1"></span><span class="textstyle11">What process can you use to optimize the output levels for your mix? What plug-in can you use in Logic Pro X for this purpose? (See “Adding a Limiter to Optimize Output Levels” beginning on <a href="#page_228" class="calibre5">page 228</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">9.</span><span class="space1"></span><span class="textstyle11">What is the purpose of adding dither during a bounce? When would you not want to use dither? (See “Adding Dither to a Mix” beginning on <a href="#page_230" class="calibre5">page 230</a>.)</span></li>
+
+  <li class="numlist"><span aria-label="237" id="page_237" role="doc-pagebreak"></span><span class="textstyle11">10.</span><span class="space2"></span><span class="textstyle11">What are some things to consider when preparing to create a bounce of your mix? How will the bounce be affected by soloed or muted tracks? (See “Considerations for Bouncing Audio” beginning on <a href="#page_232" class="calibre5">page 232</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">11.</span><span class="space2"></span><span class="textstyle11">What sample rate and bit depth should you use when exporting a mix for use on an audio CD? (See “Selecting Bounce Options” beginning on <a href="#page_232" class="calibre5">page 232</a>.)</span></li>
+
+  <li class="numlist"><span class="textstyle11">12.</span><span class="space2"></span><span class="textstyle11">Where will your exported file be located after completing the Bounce &gt; Project or Selection command? (See “Locating the Bounced File” beginning on <a href="#page_235" class="calibre5">page 235</a>.)</span></li>
+</ol>
+<table class="tab">
+<tr class="calibre13">
+<td class="calibre14"><img alt="frn_fig_009" class="scale" src="../Images/frn_fig_009.jpg"/></td>
+<td class="tdp"><span class="textstyle20">To review additional material from this chapter and prepare for certification, see the Logic Audio Production Basics Study Guide module available through the Elements|ED online learning platform at <a class="collll" href="http://ElementsED.com">ElementsED.com</a>.</span></td>
+</tr>
+</table>
+</section>
+
+
+
+  </div>
+
+  
+  <div class="calibreToc">
+    <h2><a href="../../../fultv-nyhsd.html">Table of contents
+</a></h2>
+    <div>
+  <ul>
+    <li>
+      <a href="HalfTitle.xhtml">Half Title</a>
+    </li>
+    <li>
+      <a href="TitlePage.xhtml">Title</a>
+    </li>
+    <li>
+      <a href="Copyright.xhtml">Copyright</a>
+    </li>
+    <li>
+      <a href="nav.xhtml">Contents</a>
+    </li>
+    <li>
+      <a href="Acknowledgments.xhtml#sub1">Acknowledgments</a>
+    </li>
+    <li>
+      <a href="Introduction.xhtml#sub2">Introduction. Welcome to the World of Audio</a>
+      <ul>
+        <li>
+          <a href="Introduction.xhtml#sub3">Getting Started in Audio Production</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub4">Who Should Read This Book</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub5">About This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub6">Requirements and Prerequisites</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub7">Media Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub8">Course Organization and Sequence</a>
+        </li>
+        <li>
+          <a href="Introduction.xhtml#sub9">Conventions and Symbols Used in This Book</a>
+          <ul>
+            <li>
+              <a href="Introduction.xhtml#sub10">Keyboard Shortcuts and Modifiers</a>
+            </li>
+            <li>
+              <a href="Introduction.xhtml#sub11">Icons</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Chapter01.xhtml#sub12">Chapter 1. Computer Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter01.xhtml#sub13">Selecting a Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub14">Mac Versus Windows Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub15">The Importance of RAM</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub16">Processing Power</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub17">Storage Space</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub18">Storage Options</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub19">Onboard Sound Options (Audio In and Out)</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub20">Other Options to Consider</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub21">Working with Your Computer</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub22">File Management</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub23">Launching Applications</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub24">Saving Files</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub25">Working with an Application</a>
+          <ul>
+            <li>
+              <a href="Chapter01.xhtml#sub26">Menus</a>
+            </li>
+            <li>
+              <a href="Chapter01.xhtml#sub27">Keyboard Shortcuts</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter01.xhtml#sub28">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise01.xhtml#sub29">Exercise 1. Exploring Audio on the Computer</a>
+    </li>
+    <li>
+      <a href="Chapter02.xhtml#sub30">Chapter 2. DAW Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter02.xhtml#sub31">Functions of a DAW</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub32">What Can a DAW Do?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub33">Common DAWs</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub34">Plug-In Formats</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub35">What Is a Plug-In?</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub36">Common Plug-In Formats</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub37">Logic Pro X System</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub38">Logic Pro X Software Capabilities</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub39">Logic Pro X Software Options</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub40">Logic Pro X Hardware Options</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub41">Downloading and Installing Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub42">System Requirements for Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub43">Installation Steps</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub44">Launching Logic Pro X for the First Time</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub45">Downloadable Content</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub46">Important Preference Settings</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub47">Project Settings</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub48">Important Concepts in Logic Pro X</a>
+          <ul>
+            <li>
+              <a href="Chapter02.xhtml#sub49">Project Files Versus Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter02.xhtml#sub50">Audio Versus MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter02.xhtml#sub51">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise02.xhtml#sub52">Exercise 2. Setting Up a Multi-Track Project</a>
+    </li>
+    <li>
+      <a href="Chapter03.xhtml#sub53">Chapter 3. Audio Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter03.xhtml#sub54">The Basics of Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub55">Frequency</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub56">Amplitude</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub57">Microphones</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub58">Traditional Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub59">USB Microphones</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub60">Other Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub61">Basic Miking Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub62">Multi-Tracking and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub63">What Is Multi-Track Recording?</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub64">Recording Signal Flow</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub65">Moving Audio from Analog to Digital</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub66">Analog Versus Digital Audio</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub67">The Analog-to-Digital Conversion Process</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub68">The Audio Interface</a>
+          <ul>
+            <li>
+              <a href="Chapter03.xhtml#sub69">Audio Interface Considerations</a>
+            </li>
+            <li>
+              <a href="Chapter03.xhtml#sub70">Working Without an Audio Interface</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter03.xhtml#sub71">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise03.xhtml#sub72">Exercise 3. Selecting Your Audio Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter04.xhtml#sub73">Chapter 4. MIDI Recording Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter04.xhtml#sub74">A Brief History of MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub75">Digital Control</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub76">The Birth of MIDI</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub77">The MIDI Protocol</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub78">MIDI Notes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub79">Program Changes</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub80">Controller Messages</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub81">MIDI Controllers</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub82">Tone-Generating Keyboards</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub83">Keyboard Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub84">Drumpad Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub85">Grid Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub86">Alternate Controllers</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub87">What to Look for in a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub88">Purchasing a Keyboard Controller</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub89">Setup and Signal Flow</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub90">Plug-and-Play Setup</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub91">MIDI Cables and Jacks</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub92">Using a MIDI Interface</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub93">Considerations for Using Multiple MIDI Devices</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub94">MIDI Versus Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub95">What Is MIDI?</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub96">Monitoring with Onboard Sound Versus Virtual Instruments</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub97">Tracking with Virtual Instruments</a>
+          <ul>
+            <li>
+              <a href="Chapter04.xhtml#sub98">Creating Tracks for Virtual Instruments</a>
+            </li>
+            <li>
+              <a href="Chapter04.xhtml#sub99">Summary</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter04.xhtml#sub100">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise04.xhtml#sub101">Exercise 4. Selecting Your MIDI Production Gear</a>
+    </li>
+    <li>
+      <a href="Chapter05.xhtml#sub102">Chapter 5. Logic Pro Concepts, Part 1</a>
+      <ul>
+        <li>
+          <a href="Chapter05.xhtml#sub103">Creating a Project</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub104">Selecting a Track Type</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub105">Enabling Advanced Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub106">Main Window</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub107">The Control Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub108">Tracks Area Menu Bar</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub109">Rulers</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub110">Mixer Display and Window</a>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub111">Working with Tracks</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub112">Adding Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub113">Mono Versus Stereo Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub114">External MIDI Versus Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub115">Regions Versus Files</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub116">Selecting Tools</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub117">Basic Navigation</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub118">Using the Transport Controls</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub119">Zooming and Scrolling in the Main Window</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub120">Controlling Playback Behavior</a>
+            </li>
+            <li>
+              <a href="Chapter05.xhtml#sub121">Monitoring Your Playhead Location</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub122">Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter05.xhtml#sub123">Selection Scenarios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter05.xhtml#sub124">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise05.xhtml#sub125">Exercise 5. Configuring and Working on a Project</a>
+    </li>
+    <li>
+      <a href="Chapter06.xhtml#sub126">Chapter 6. Logic Pro X Concepts, Part 2</a>
+      <ul>
+        <li>
+          <a href="Chapter06.xhtml#sub127">Setting Up for Recording</a>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub128">Recording Audio</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub129">Making a Record Selection</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub130">Record Enabling Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub131">Monitoring Record Enabled Audio Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub132">Initiating a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub133">Stopping a Record Take</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub134">Recording Additional Takes</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub135">Recording MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub136">Monitoring a MIDI Controller</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub137">Record Enabling Software Instrument Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub138">Overlap Recording on Software Instrument Tracks</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub139">Importing Audio and MIDI</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub140">Supported Audio Files</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub141">Importing from the Desktop</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub142">Importing from Media Browser and All Files Browser</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub143">Using the Import Command</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub144">Using Apple Loops</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub145">Working in the Tracks Area</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub146">Snap to Grid</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub147">Setting the Snap Value</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub148">Working with Regions and Selections</a>
+          <ul>
+            <li>
+              <a href="Chapter06.xhtml#sub149">Selecting a Tool for Editing</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub150">Basic Editing Techniques</a>
+            </li>
+            <li>
+              <a href="Chapter06.xhtml#sub151">Advanced Editing Techniques</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter06.xhtml#sub152">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise06.xhtml#sub153">Exercise 6. Importing and Editing Regions</a>
+    </li>
+    <li>
+      <a href="Chapter07.xhtml#sub154">Chapter 7. Mixing Concepts</a>
+      <ul>
+        <li>
+          <a href="Chapter07.xhtml#sub155">Basic Mixing</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub156">Setting Levels</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub157">Panning</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub158">Staying Organized</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub159">Processing Options and Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub160">Gain-Based Processing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub161">Time-Based Processing and Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub162">Insert Effects Versus Send Effects</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub163">Processing with External Gear</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub164">Mixing in the Box</a>
+          <ul>
+            <li>
+              <a href="Chapter07.xhtml#sub165">Advantages of In-the-Box Mixing</a>
+            </li>
+            <li>
+              <a href="Chapter07.xhtml#sub166">Getting the Most Out of an In-the-Box Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter07.xhtml#sub167">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise07.xhtml#sub168">Exercise 7. Creating a Basic Mix</a>
+    </li>
+    <li>
+      <a href="Chapter08.xhtml#sub169">Chapter 8. Signal Processing</a>
+      <ul>
+        <li>
+          <a href="Chapter08.xhtml#sub170">Plug-In Basics</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub171">Inserting Plug-Ins on Tracks</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub172">Moving and Duplicating Plug-Ins</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub173">Displaying Plug-In Windows</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub174">Common Plug-In Controls</a>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub175">Adjusting Plug-In Parameters</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub176">Adjusting Plug-In Parameters with the Mouse</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub177">Adjusting Plug-In Parameters with the Computer Keyboard</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub178">EQ Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub179">Types of EQ</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub180">Basic EQ Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub181">EQ Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub182">Strategies for Using EQ</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub183">Dynamics Processing</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub184">Types of Dynamics Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub185">Basic Dynamics Parameters</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub186">Dynamics Plug-Ins in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub187">Strategies for Using Compression</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub188">Strategies for Using a De-Esser</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub189">Reverb and Delay Effects</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub190">What Is Reverb?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub191">Reverb in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub192">Applications for Reverb Processors</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub193">What Is Delay?</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub194">Delay in Logic Pro X</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub195">Applications for Delay Processors</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub196">Wet Versus Dry Signals</a>
+          <ul>
+            <li>
+              <a href="Chapter08.xhtml#sub197">Using Time-Based Effects as Plug-in Inserts</a>
+            </li>
+            <li>
+              <a href="Chapter08.xhtml#sub198">Using Send-and-Return Configurations</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter08.xhtml#sub199">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise08.xhtml#sub200">Exercise 8. Optimizing Tracks with Signal Processing</a>
+    </li>
+    <li>
+      <a href="Chapter09.xhtml#sub201">Chapter 9. Finishing a Project</a>
+      <ul>
+        <li>
+          <a href="Chapter09.xhtml#sub202">Recalling a Saved Mix</a>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub203">Using Automation</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub204">Selecting an Automation Mode</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub205">Writing Real-Time Automation</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub206">Viewing Automation Curves</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub207">Editing Automation Points</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub208">Creating a Mixdown</a>
+          <ul>
+            <li>
+              <a href="Chapter09.xhtml#sub209">Adding Processing on the Stereo Output</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub210">Considerations for Bouncing Audio</a>
+            </li>
+            <li>
+              <a href="Chapter09.xhtml#sub211">Creating a Bounce of an Audio Mix</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter09.xhtml#sub212">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise09.xhtml#sub213">Exercise 9. Preparing the Final Mix</a>
+    </li>
+    <li>
+      <a href="Chapter10.xhtml#sub214">Chapter 10. Beyond the Basics</a>
+      <ul>
+        <li>
+          <a href="Chapter10.xhtml#sub215">Flex Time and Pitch</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub216">Enabling Flex</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub217">Flex Time</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub218">Flex Pitch</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub219">MIDI Editing Techniques</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub220">Viewing MIDI Regions and Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub221">Editing MIDI Data</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub222">Working with Velocity</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub223">Software Instrument Region Inspector</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub224">Quantization in the Piano Roll Editor</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub225">Submixing with Track Stacks</a>
+          <ul>
+            <li>
+              <a href="Chapter10.xhtml#sub226">Simplifying a Mix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub227">Using Track Stacks to Submix</a>
+            </li>
+            <li>
+              <a href="Chapter10.xhtml#sub228">Creating Stems</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub229">Keyboard Shortcuts</a>
+        </li>
+        <li>
+          <a href="Chapter10.xhtml#sub230">Review/Discussion Questions</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Exercise10.xhtml#sub231">Exercise 10. Finalizing a Project</a>
+    </li>
+    <li>
+      <a href="AbouttheAuthors.xhtml#sub232">About the Authors</a>
+    </li>
+  </ul>
+</div>
+
+
+  </div>
+  
+
+  <div class="calibreEbNav">
+    
+      <a href="Exercise08.xhtml" class="calibreAPrev">previous page
+</a>
+    
+
+    <a href="../../../fultv-nyhsd.html" class="calibreAHome">start
+</a>
+
+    
+      <a href="Exercise09.xhtml" class="calibreANext">next page
+</a>
+    
+  </div>
+
+</div>
+
+</body>
+</html>
