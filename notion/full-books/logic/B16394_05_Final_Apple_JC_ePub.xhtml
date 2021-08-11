@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>
+		<title>B16394_05_Final_Apple_JC_ePub</title>
+		<link href="css/Latest_NDP_epub.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="B16394_05_Final_Apple_JC_ePub" lang="en-GB" xml:lang="en-GB">
+		<div id="_idContainer086">
+			<h1 id="_idParaDest-80"><em class="italic"><a id="_idTextAnchor094"></a><a id="_idTextAnchor095"></a>Chapter 5</em>:  Recording MIDI</h1>
+			<p>As previously explained in <a href="B16394_01_Final_Apple_JC_ePub.xhtml#_idTextAnchor015"><em class="italic">Chapter 1</em></a>, <em class="italic">Beginning with Logic Pro X 10.5</em>, MIDI is simply 
+a set of instructions that can be utilized by a keyboard, tone module, drum machine, or Software Instrument that is capable of understanding the messages and responding to them.</p>
+			<p>We will be focusing on <strong class="bold">Software Instruments</strong>, and Logic Pro X comes with a great array of them.</p>
+			<p>This chapter will cover the following main topics:</p>
+			<ul>
+				<li>Recording MIDI parts with Logic Pro X&apos;s many Software Instruments</li>
+				<li>Logic&apos;s MIDI editors </li>
+				<li>Correcting timing with quantization</li>
+				<li>Creating interesting layered sounds with Summing Stacks</li>
+				<li>Making one track follow the feel of another</li>
+			</ul>
+			<h1 id="_idParaDest-81"><a id="_idTextAnchor096"></a>Logic Pro X&apos;s Software Instruments</h1>
+			<p>As you can see in the <a id="_idIndexMarker156"></a>following screenshot, Logic comes with a dazzling array of Software Instruments. Yes, there are lots of great third-party Software Instruments as well, but I suggest you become conversant with the Logic content before you reach for your wallet:</p>
+			<div>
+				<div id="_idContainer075" class="IMG---Figure">
+					<img src="image/Figure_5.1_B16394.jpg" alt="Figure 5.1 – Logic Pro&apos;s Software Instruments&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.1 – Logic Pro&apos;s Software Instruments</p>
+			<h2 id="_idParaDest-82"><a id="_idTextAnchor097"></a>Logic Pro X&apos;s built-in help</h2>
+			<p>Logic comes with <a id="_idIndexMarker157"></a>built-in <em class="italic">manuals</em> that you can access under the <strong class="bold">Help</strong> menu. One that you will find very helpful specifically deals with Logic&apos;s Software Instruments.</p>
+			<p class="callout-heading">Important Note</p>
+			<p class="callout">If you would like a downloadable version, you can go to the website and click on the ones that say web link: <a href="https://support.apple.com/en-gb/logic-pro">https://support.apple.com/en-gb/logic-pro</a>.</p>
+			<h2 id="_idParaDest-83"><a id="_idTextAnchor098"></a>GarageBand versus Logic Pro instruments</h2>
+			<p>Follow these <a id="_idIndexMarker158"></a>steps to get started with Logic Pro instruments:</p>
+			<ol>
+				<li>Open a new Logic empty project and create an empty Software Instrument 
+track.</li>
+				<li>Press <strong class="bold">O</strong> to open the <strong class="bold">Loop Browser</strong> and drag any <strong class="bold">Green Apple Loop</strong> into the workspace. I have chosen <strong class="bold">12 String</strong><strong class="bold"> Dream 02</strong>.</li>
+				<li>With the region selected, press <strong class="bold">U</strong> to create a Cycle and play it.</li>
+			</ol>
+			<p>You will see in the Inspector that Logic has loaded a Software Instrument named <strong class="bold">Guitar</strong> with three FX plugins. When you look at the picture of the Software Instruments, you do not see <em class="italic">guitar</em>. </p>
+			<p><strong class="bold">Guitar</strong> is actually a simplified version of Logic&apos;s sampler that comes with GarageBand. If you <a id="_idIndexMarker159"></a>click on it to open it, you will see this <strong class="bold">Graphical User Interf</strong><strong class="bold">ace</strong> (<strong class="bold">GUI</strong>):</p>
+			<div>
+				<div id="_idContainer076" class="IMG---Figure">
+					<img src="image/Figure_5.2_B16394.jpg" alt="Figure 5.2 – A GarageBand sampler instrument&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.2 – A GarageBand sampler instrument</p>
+			<p>Hold the mouse down on the <strong class="bold">Guitar</strong> instrument in the Inspector and scroll to <strong class="bold">Sampler</strong> (multi-sample) stereo and now you will see the Logic version:</p>
+			<div>
+				<div id="_idContainer077" class="IMG---Figure">
+					<img src="image/Figure_5.3_B16394.jpg" alt="Figure 5.3 – The Logic Pro equivalent of the GarageBand sampler instrument&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.3 – The Logic Pro equivalent of the GarageBand sampler instrument</p>
+			<p>Of course, the <a id="_idIndexMarker160"></a>question is, does it sound different? Maybe <em class="italic">a little</em>, because the Logic version has more filters, but not like night and day.</p>
+			<p>Next, let&apos;s take a look at the MIDI editors.</p>
+			<h1 id="_idParaDest-84"><a id="_idTextAnchor099"></a>Viewing a MIDI region in the Logic Pro MIDI editors</h1>
+			<p>With the <a id="_idIndexMarker161"></a>region selected, press <strong class="bold">P</strong> to open <strong class="bold">Piano Roll</strong>. The <strong class="bold">Piano Roll</strong> editor is <a id="_idIndexMarker162"></a>by far the most utilized editor among Logic users. Here, you will see the MIDI notes&apos; positions, pitches, lengths, and velocity, indicated by color. The bluer it is, the softer the velocity; the more reddish, the louder the velocity. All of this is, of course, editable, which we will do in the next chapter.</p>
+			<p>Now, press <strong class="bold">N</strong> to open the <strong class="bold">Score Editor</strong>, where you will see the notes as musical notation. It&apos;s a very deep editor because it allows you to make the MIDI sound one way while appearing as another, and you can print out parts and entire scores. It is so deep that I wrote an entire book on it. We won&apos;t be spending much time on it in this book for that reason.</p>
+			<p class="callout-heading">Note</p>
+			<p class="callout">Notice that when I open the <strong class="bold">Score Editor</strong>, <strong class="bold">Piano Roll</strong> disappears, and vice versa. Under the <strong class="bold">Window</strong> menu are standalone windows for each that you can open so that you can see them both, screen real estate permitting.</p>
+			<p>If <a id="_idIndexMarker163"></a>you press <strong class="bold">D</strong>, you open the <strong class="bold">List</strong> editors. The <strong class="bold">Event List</strong> editor is the <a id="_idIndexMarker164"></a>one we want to explore:</p>
+			<div>
+				<div id="_idContainer078" class="IMG---Figure">
+					<img src="image/Figure_5.4_B16394.jpg" alt="Figure 5.4 – The List editors in Logic Pro&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.4 – The List editors in Logic Pro</p>
+			<p>This is perhaps the most over-looked MIDI editor, and for me, it is essential to my workflow. Because it is a List editor, as you can see, I can have both <strong class="bold">Piano Roll</strong> and the <strong class="bold">Event </strong><strong class="bold">List</strong> open.</p>
+			<p>So, what are we seeing here? At the top are buttons to filter in/out different kinds of MIDI events. If you click on <strong class="bold">Notes</strong>, it grays out, and now the <strong class="bold">Event List</strong> is empty because, in this Apple Loop, the only included MIDI events are notes.</p>
+			<p>The first column is <strong class="bold">Position</strong>. This tells you where in the project the event occurs. The first note is at <strong class="bold">1 1 1 3</strong>. What does that mean?</p>
+			<p>The first number is the bar; the second number is the beat, which is a quarter note in 4/4 time; the third number in the sixteenth note within the beat; and the last number is the tick. A tick is <a id="_idIndexMarker165"></a>the smallest unit of timing <a id="_idIndexMarker166"></a>resolution in a MIDI sequencer. Logic has 240 ticks per sixteenth note, so the three you see here are, therefore, just a teensy bit of the very beginning of the project.</p>
+			<p>The next column is called <strong class="bold">Status</strong>, and we see a <em class="italic">Note</em> symbol on each. As you will see later in the chapter, not all MIDI events will have that symbol.</p>
+			<p><strong class="bold">Ch</strong> is short for MIDI channel. With hardware synths and samplers, this can choose specific sounds, but with Logic, it mostly has to do with how it appears in the <strong class="bold">Score Editor</strong> unless you are working with multi-timbral instruments, which we will not be dealing with in this book.</p>
+			<p>Clearly, <strong class="bold">Num</strong> is a list of the pitches. By default, C3 is middle C in Logic, which is the Yamaha convention. Roland says its C4, which on an 88-note keyboard it is, but more users have smaller keyboards. If you feel the need to change it, you can in <strong class="bold">Preferences</strong> | <strong class="bold">Display</strong> | <strong class="bold">General</strong>.</p>
+			<p><strong class="bold">Val</strong> is the velocity of the note. In MIDI, all measurements can range from 1 to 127.</p>
+			<p><strong class="bold">Length</strong> is just that, the length of the note, and the numbers work the same way as they do with <strong class="bold">Position</strong>.</p>
+			<h2 id="_idParaDest-85"><a id="_idTextAnchor100"></a>MIDI continuous controllers</h2>
+			<p>There are 127 MIDI <strong class="bold">Continous</strong> <strong class="bold">Controllers</strong> (<strong class="bold">CCs</strong>, as they are <a id="_idIndexMarker167"></a>commonly known). The ones most <a id="_idIndexMarker168"></a>often employed are CC1-Modwheel, CC7-MIDI volume, CC11-Expression, and CC 64-Sustain. With third-party Software Instrument libraries, how they control them is all over the map. With Logic Pro, they are more consistent. CC1 will usually control vibrato, CC7 and CC11 will control volume, and CC64 will control sustain. You can generate them from a keyboard controller or device, and you can step enter them.</p>
+			<h1 id="_idParaDest-86"><a id="_idTextAnchor101"></a>Recording MIDI with Merge</h1>
+			<p>We already <a id="_idIndexMarker169"></a>visited this window when we set our recording preferences for audio, but since we may want to make different choices when recording MIDI we should <a id="_idIndexMarker170"></a>return to it now. Go to <strong class="bold">Preferences</strong> | <strong class="bold">Recording</strong>. For now, let&apos;s have <strong class="bold">Merge</strong> as the option for both non-Cycle and Cycle recording.</p>
+			<p><strong class="bold">Merge</strong> means that we will add material to existing material when we record again.</p>
+			<p>Press <strong class="bold">Shift</strong> + <strong class="bold">Command</strong> + <strong class="bold">N</strong> to create a new empty project, and create a Software Instrument channel strip wi<a id="_idTextAnchor102"></a>th the default patch, which is a <strong class="bold">Vintage Electric Piano</strong> (it&apos;s a <em class="italic">Fender</em> Rhodes, but Apple can&apos;t tell you that or they would have to pay Fender).</p>
+			<p>If you have a MIDI keyboard controller connected to your Mac, play it now, and you will hear the sound. As you play, in your control bar, which we customized earlier, you will see the notes or chords as you play them.</p>
+			<p>If you do not have a physical MIDI keyboard controller connected to your computer, press <strong class="bold">Command</strong> + <strong class="bold">K</strong> and the Musical Typing keyboard appears. Notice that you can either play the notes from the virtual keys or from the keys on your computer keyboard.</p>
+			<h2 id="_idParaDest-87"><a id="_idTextAnchor103"></a>Let&apos;s get started!</h2>
+			<p>Make sure that your metronome is set to click while you are recording:</p>
+			<div>
+				<div id="_idContainer079" class="IMG---Figure">
+					<img src="image/Figure_5.5_B16394.jpg" alt="Figure 5.5 – Metronome settings&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.5 – Metronome settings</p>
+			<p>Play a 4-bar quarter note bass pattern.</p>
+			<p class="callout-heading">Note</p>
+			<p class="callout">If you don&apos;t hear the first note, it is because you played it before the beginning of the project at <strong class="bold">1111</strong>. In any MIDI editor, simply move it by selecting the note and pressing the semicolon key.</p>
+			<p>If you don&apos;t like it, simply press <strong class="bold">Command</strong> + <strong class="bold">Z</strong> to undo it and try again. Now play and record some chords. I am doing eighth notes.</p>
+			<p>Here is what I <a id="_idIndexMarker171"></a>came up with:</p>
+			<div>
+				<div id="_idContainer080" class="IMG---Figure">
+					<img src="image/Figure_5.6_B16394.jpg" alt="Figure 5.6 – A MIDI recording with flawed timing&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.6 – A MIDI recording with flawed timing</p>
+			<p>Man, I did a lousy job; my timing was terrible! At least I didn&apos;t hit any wrong notes. Had I done so, I could simply select the offending notes and hit <strong class="bold">Delete</strong>, or if I wanted them but they were on the wrong note, drag them to the correct note in the <strong class="bold">Piano Ro</strong><strong class="bold">ll</strong> editor.</p>
+			<p>If you look at either the <strong class="bold">Piano Roll</strong> editor or the <strong class="bold">Event List</strong>, you can see just how off the grid <a id="_idIndexMarker172"></a>my timing was. We need to fix this by snapping the notes to the grid. In Logic Pro, we call this <strong class="bold">quantizing</strong>. All MIDI quantizing is non-destructive because again, MIDI is just a set of instructions. We will learn how to quantize regions in the next section.</p>
+			<p>Quantizing regions</p>
+			<p>In the Region inspector, you can quantize as many regions at one time as you like; in this case, just one. I <a id="_idIndexMarker173"></a>played quarter notes in the bass part and eighth note chords, so my smallest value was an eighth note. I set it to <strong class="bold">1/8 Note</strong> and sure enough, it is now smack on the grid. But it sounds like a robot <a id="_idIndexMarker174"></a>now. This is sometimes referred to as <strong class="bold">hard q</strong><strong class="bold">uantizing</strong>.</p>
+			<p>Am I really stuck with living with bad timing, moving a bunch of notes around in a MIDI editor, or sounding robotic?</p>
+			<p>No, of course not. We can utilize advanced quantize parameters to achieve a more natural sound.</p>
+			<h2 id="_idParaDest-88"><a id="_idTextAnchor104"></a>Advanced Quantize parameters</h2>
+			<p>If you click <a id="_idIndexMarker175"></a>the <strong class="bold">More</strong> disclosure triangle, you <a id="_idIndexMarker176"></a>will see that more choices become available, including <strong class="bold">Q-Flam</strong>, <strong class="bold">Q- Range</strong>, and <strong class="bold">Q-Strength</strong>. <strong class="bold">Q-Flam</strong>, while helpful to add a bit of variance to quantized chords, is not something I find very useful.</p>
+			<p>But <strong class="bold">Q-Strength</strong> certainly is. If I double-click on the field where I see <strong class="bold">100 %</strong>, or pull down on it with the mouse, I can set it to a less Draconian value. In this instance, I will try <strong class="bold">92 %</strong>.</p>
+			<p>It is obvious in the editors, especially <strong class="bold">Event List</strong>, that it is no longer hard quantized, and when I play it back, it sounds both in time and human.</p>
+			<p><strong class="bold">Q-Range</strong> can refine it even more. If I set it to <strong class="source-inline">-8</strong> ticks, I am telling Logic, <em class="italic">if it is 8 or fewer ticks off the grid, leave it alone, but if it is more than that, move it 92% to</em><em class="italic"> the grid.</em></p>
+			<p>There is no magic formula for this – it depends on your performance – but skillful use of these settings is the key to getting parts that feel both tight and human.</p>
+			<h2 id="_idParaDest-89"><a id="_idTextAnchor105"></a>Setting a default quantization setting</h2>
+			<p>Personally, I <a id="_idIndexMarker177"></a>don&apos;t care about doing this, but many users do. If you know that in the next part you will be playing eighth notes and you want to default to that quantization, make sure you have no region selected, and in the Region inspector, set it to 1/8 note, and that will be the default.</p>
+			<p>We have now already recorded MIDI with <strong class="bold">Merge</strong> and done some timing correction. Let&apos;s learn about some other methods to record MIDI.</p>
+			<h1 id="_idParaDest-90"><a id="_idTextAnchor106"></a>Other techniques for recording MIDI</h1>
+			<p>While merging <a id="_idIndexMarker178"></a>might well be the way you want to record MIDI most often, there are other ways to do it that in specific situations you may prefer:</p>
+			<ul>
+				<li>Recording MIDI with <strong class="bold">Replace</strong></li>
+				<li>Recording MIDI with <strong class="bold">Cycle</strong> and <strong class="bold">Merge</strong></li>
+				<li>Recording MIDI with <strong class="bold">Cycle</strong> and <strong class="bold">Cre</strong><strong class="bold">ate Tracks</strong></li>
+				<li>Recording MIDI with <strong class="bold">Cycle</strong> and <strong class="bold">Ta</strong><strong class="bold">ke Folders</strong></li>
+			</ul>
+			<p>We will also discuss recording MIDI CCs, such as modwheel and expression</p>
+			<h2 id="_idParaDest-91"><a id="_idTextAnchor107"></a>Recording MIDI with Replace</h2>
+			<p><strong class="bold">Replace</strong> means that we will replace <a id="_idIndexMarker179"></a>material with <a id="_idIndexMarker180"></a>existing material when we 
+record again.</p>
+			<p>If in the control bar, click on the <strong class="bold">X</strong> button, which turns orange, and now you are in <strong class="bold">Replace mode</strong>. But here are a number of ways it can behave, depending on what you choose in <strong class="bold">Recording Pr</strong><strong class="bold">eferences</strong>:</p>
+			<ul>
+				<li><strong class="bold">Region Erase</strong>: Erases MIDI regions from the <strong class="bold">Tracks</strong> area from the start of the recording until the end of the recording, even if nothing is played.</li>
+				<li><strong class="bold">Region Punch</strong>: Erases MIDI regions only where MIDI events have been recorded.</li>
+				<li><strong class="bold">Content Erase</strong>: Does not erase MIDI regions but the MIDI content inside of them, from the start of the recording until the end of the recording, even if nothing is played.</li>
+				<li><strong class="bold">Content Punch</strong>: Does not erase MIDI regions but the MIDI content inside of them, only where MIDI events have been recorded.</li>
+			</ul>
+			<p>I am mostly a <strong class="bold">Region </strong><strong class="bold">Erase</strong> guy.</p>
+			<p>I create a <a id="_idIndexMarker181"></a>new Software Instrument either by clicking the <strong class="bold">+</strong> sign at the top of the track list or by doing the <a id="_idIndexMarker182"></a>following:</p>
+			<ol>
+				<li value="1">Open the Library by pressing <em class="italic">Y</em>.</li>
+				<li>Navigate to the <strong class="bold">Bass</strong> instruments, and load <strong class="bold">Fingers</strong><strong class="bold">tyle Bass</strong>.</li>
+				<li>Then, play a simple bass part. Not bad, but we can do better.</li>
+				<li>Click the <strong class="bold">X</strong> button to enable <strong class="bold">Replace mode</strong> and play the part again.</li>
+			</ol>
+			<p>Much better this time, and if need be, you can fix notes and quantize accordingly.</p>
+			<h2 id="_idParaDest-92"><a id="_idTextAnchor108"></a>Recording MIDI with Cycle and Merge</h2>
+			<p>This is another option <a id="_idIndexMarker183"></a>that is good for drum parts, and <a id="_idIndexMarker184"></a>it mimics old drum machine methodology. It&apos;s a very user-friendly way of creating parts with a flow and one you are already familiar with if you have ever played into a drum machine:</p>
+			<ol>
+				<li value="1">Create a new Software Instrument and open the Library by pressing <strong class="bold">Y</strong>.</li>
+				<li>Navigate to the <strong class="bold">Drums</strong> instruments, and load <strong class="bold">East Bay</strong>.</li>
+				<li>Set a 4-bar cycle, either by drawing it in the bar ruler or by selecting one of the existing 4-bar regions and pressing <strong class="bold">U</strong>.</li>
+				<li>Click the <strong class="bold">X</strong> button to disable <strong class="bold">Rep</strong><strong class="bold">lace mode</strong>.</li>
+				<li>Now play, without stopping, the kick drum, then the snare, then the high hats, and then a tom fill.</li>
+			</ol>
+			<p>In <strong class="bold">Piano Roll</strong>, to the right of the <strong class="bold">View</strong> menu is the <strong class="bold">Collapse</strong> button. By clicking <strong class="bold">I</strong>, <strong class="bold">Piano Roll</strong> only shows me the notes I played, and it shows me the kit piece names.</p>
+			<p>Now it just so happens <a id="_idIndexMarker185"></a>that quantizing to a sixteenth <a id="_idIndexMarker186"></a>note with some <strong class="bold">Q-Strength</strong> works perfectly on the whole region. But I will now show you another way of doing this that gives you more control.</p>
+			<h2 id="_idParaDest-93"><a id="_idTextAnchor109"></a>Recording MIDI with Cycle and Create Tracks</h2>
+			<p>Back in <strong class="bold">Recording Preferences</strong>, I change the Cycle recording behavior to <strong class="bold">Create Tracks</strong>. Now, doing the <a id="_idIndexMarker187"></a>exact same procedure <a id="_idIndexMarker188"></a>with the drums, instead of one track I have four tracks flowing through the same channel strip, and each region can be given its own quantization settings.</p>
+			<p>After, if I want them to be on one track in one region, I can merge them together with the <strong class="bold">Glue</strong> tool, or by pressing <strong class="bold">Command</strong> + <strong class="bold">J</strong> to merge them.</p>
+			<h2 id="_idParaDest-94"><a id="_idTextAnchor110"></a>Recording MIDI with Cycle and Create Track Alternatives</h2>
+			<p>Again, back <a id="_idIndexMarker189"></a>to <strong class="bold">Recording Preferences</strong>. This time, I <a id="_idIndexMarker190"></a>will change the Cycle recording behavior to <strong class="bold">Create Track Alt</strong><strong class="bold">ernatives</strong>.</p>
+			<p>By now, you are well familiar with the steps for creating a new Software Instrument and loading a patch from the Library, so I will just tell you that I am using the patch named <strong class="bold">Cle</strong><strong class="bold">an Guitar</strong>.</p>
+			<p>Now, following the exact same procedure as with the drums, I will play three different parts. Next to the name, in the Track Header, I see the letter <strong class="bold">C</strong>, with an up and down arrow. This means I have created three track alternatives: <strong class="bold">A</strong>, <strong class="bold">B</strong>, and <strong class="bold">C</strong>.</p>
+			<p>Holding the mouse down on <strong class="bold">C</strong> brings up this menu:</p>
+			<div>
+				<div id="_idContainer081" class="IMG---Figure">
+					<img src="image/Figure_5.7_B16394.jpg" alt="Figure 5.7 – Track alternatives&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.7 – Track alternatives</p>
+			<p>I can now audition each one to see which one I like best, and when I re-select the region, <strong class="bold">Piano Roll</strong> updates to reflect that track alternative.</p>
+			<p>Selecting <strong class="bold">Show Inactive</strong>, or <a id="_idIndexMarker191"></a>by pressing <strong class="bold">Ctrl</strong> + <strong class="bold">option</strong> + <strong class="bold">A</strong>, shows me all three, with two muted, and <a id="_idIndexMarker192"></a>each has a power button to turn it on instead of the chosen one, and an arrow to move it to the top. I can then either hide or delete the inactive track alternatives.</p>
+			<p>I love this workflow for MIDI, personally.</p>
+			<p>Hey, Jay, speaking of audio, what about that nifty <strong class="bold">Cycle Recording</strong> with <strong class="bold">Take Folders</strong> that we employed to record audio?</p>
+			<h2 id="_idParaDest-95"><a id="_idTextAnchor111"></a>Recording MIDI with Cycle and Take Folders</h2>
+			<p>Again, back <a id="_idIndexMarker193"></a>to <strong class="bold">Recording Preferences</strong>. This time, I <a id="_idIndexMarker194"></a>change the Cycle recording behavior to <strong class="bold">Change the Preferenc</strong><strong class="bold">e to this</strong>.</p>
+			<p>The good news is, you already know how to do this, and it works the same way, except…there is no Quick Swipe Comping the MIDI.</p>
+			<p>For me, this makes it my least favorite choice. If you disagree, then go back to <strong class="bold">Recording Audio</strong> in <a href="B16394_03_Final_Apple_JC_ePub.xhtml#_idTextAnchor052"><em class="italic">Chapter 3</em></a>, <em class="italic">Recording Audio</em>, and review it.</p>
+			<p class="callout-heading">Note</p>
+			<p class="callout">Remember to keep track of changes to your <strong class="bold">Recording Preferences</strong>, because they will affect every project, new, present, or older.</p>
+			<h2 id="_idParaDest-96"><a id="_idTextAnchor112"></a>Recording MIDI with CCs</h2>
+			<p>In addition to playing in <a id="_idIndexMarker195"></a>notes, you can play in MIDI CCs either at the <a id="_idIndexMarker196"></a>same time or in additional passes.</p>
+			<p>Some of what you can do is the following:</p>
+			<ul>
+				<li><strong class="bold">Record CC 1 - Modwheel</strong>, by manipulating the mod wheel on your keyboard controller, if it has one. Usually, but not always, it will increase/decrease vibrato.</li>
+				<li><strong class="bold">Record CC 11 - Expression</strong>, by raising and lowering a connected expression pedal, if you have one plugged in on your keyboard controller. Usually, but not always, it will increase/decrease the volume and sometimes brighten or darken the timbre, but this varies greatly from instrument to instrument.</li>
+				<li><strong class="bold">Record CC 64 - Sustain</strong>, by pressing down and releasing a connected sustain (damper) pedal, if you have one plugged in on your keyboard controller. When pressed down, it will sustain the sound when you take your hands off the keys, and end the sound when you release it.</li>
+			</ul>
+			<h1 id="_idParaDest-97"><a id="_idTextAnchor113"></a>The Arpeggiator MIDI FX plugin</h1>
+			<p>While an arpeggiator <a id="_idIndexMarker197"></a>can be used with any Software Instrument, traditionally we think of them as being associated with hardware synthesizers, as almost all of them have one built-in. Well, Logic has a MIDI plugin for this purpose, and it is nifty!</p>
+			<ol>
+				<li value="1">Create a new empty Software Instrument and with <strong class="bold">Open Library</strong> checked, and go to <strong class="bold">Synthesizers</strong> | <strong class="bold">Classics</strong> | <strong class="bold">Dre</strong><strong class="bold">am Dancer</strong>.</li>
+				<li>This loads a patch in Logic Pro X&apos;s most sophisticated synthesizer, the ES2, with some plugins, and it sounds really good.</li>
+				<li>On its channel <a id="_idIndexMarker198"></a>strip fader in the Inspector, you will find MIDI FX. Hold the mouse down and go to <strong class="bold">Logic</strong> | <strong class="bold">Arpeggiator</strong>, and it opens:</li>
+			</ol>
+			<div>
+				<div id="_idContainer082" class="IMG---Figure">
+					<img src="image/Figure_5.8_B16394.jpg" alt="Figure 5.8 – The Arpeggiator&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.8 – The Arpeggiator</p>
+			<p>Play single notes or chords, and listen to the default preset in <strong class="bold">Live mode</strong>.</p>
+			<p>While playing, drag the knob left to <strong class="bold">Slow</strong> or right to <strong class="bold">Fast</strong> and listen to how it changes the rate. You can also hold the mouse down on the rate filed to change it.</p>
+			<p>To the right of the <strong class="bold">Rate</strong> knob are a series of buttons. </p>
+			<p>The functions of the buttons are described in the manual, which can be accessed in the <strong class="bold">Help</strong> menu:</p>
+			<ul>
+				<li><strong class="bold">Up</strong>: Plays from the lowest to the highest note in consecutive order and restarts when all the keys are played.</li>
+				<li><strong class="bold">Down</strong>: Plays from the highest to the lowest note in consecutive order and restarts when all the <a id="_idIndexMarker199"></a>keys are played.</li>
+				<li><strong class="bold">Up and down</strong>: Plays from the lowest to the highest note in consecutive order, then plays from the highest to the lowest note, and restarts when all the keys are played.</li>
+				<li><strong class="bold">Outside</strong>: Plays the highest note, then the lowest note, then plays the 
+second-highest, and then the second-lowest note, and so on. The arpeggio restarts when all the keys are played.</li>
+				<li><strong class="bold">Random</strong>: The played note order is randomly generated and can include duplicate notes.</li>
+				<li><strong class="bold">As Played</strong>: Plays all notes in the order they were played, then restarts.</li>
+			</ul>
+			<p>Notice that each one has 4 variations and that it can play a range of 1–4 octaves.</p>
+			<p>With the <strong class="bold">Latch</strong> button disengaged, you hear the arpeggiator as long as you are holding down the keys. With <strong class="bold">Latch</strong> engaged, it keeps playing until you strike other keys.</p>
+			<p>In the <strong class="bold">Pattern</strong> tab, if you scroll down to <strong class="bold">Grid</strong>, or in the preset menu at the top of the plugin, you will see tons of patterns. You can also draw in your own steps in <strong class="bold">Grid</strong>.</p>
+			<p>One of my favorite features in <strong class="bold">Live mode</strong> only becomes visible if you click the disclosure triangle at the bottom, and that is <strong class="bold">Silent Capture</strong>. Check it and play some chords, and you have quickly created your own pattern.</p>
+			<p>The <strong class="bold">Options</strong> tab gives you additional controls that are really useful, especially for note length, for me.</p>
+			<p>The <strong class="bold">Keyboard</strong> tab allows you to choose to snap to keys and scales, while the keyboard split allows you to set ranges of your keyboard controller that generate arpeggiation and those that do not.</p>
+			<p>The <strong class="bold">Controller</strong> tab allows <a id="_idIndexMarker200"></a>you to map MIDI CCs for your performance.</p>
+			<p>In my view, <strong class="bold">Arpeggiator</strong> is just great, giving you all kinds of creative options. If you compose techno or EDM, I suggest you spend a lot of time with it.</p>
+			<h1 id="_idParaDest-98"><a id="_idTextAnchor114"></a>Creating patches</h1>
+			<p>You can <a id="_idIndexMarker201"></a>easily create very interesting sounds with Software Instruments and even save them in the Library. <strong class="bold">Summing Stacks</strong> is the key.</p>
+			<h2 id="_idParaDest-99"><a id="_idTextAnchor115"></a>Creating a layered patch with Summing Stacks</h2>
+			<p>Summing Stacks <a id="_idIndexMarker202"></a>give us the power to create complex patches with multiple Software Instruments and save them in the Library to <a id="_idIndexMarker203"></a>be used with any project.</p>
+			<p>I want to create a classic grand piano with a <strong class="bold">Rhodes Electric Piano</strong> patch. It&apos;s easier than you might think:</p>
+			<ol>
+				<li value="1">Create two empty Software Instrument tracks with <strong class="bold">Open Librar</strong><strong class="bold">y</strong> checked.</li>
+				<li>In the first one, load a piano of your choice.</li>
+				<li>In the second one, load an electric piano of your choice.</li>
+				<li>Arm the two and play and listen to the sound. Cool, I know that sound!</li>
+				<li><strong class="bold">Shift</strong>-select the two Track Headers.</li>
+				<li>Under the <strong class="bold">Track</strong> menu, go to <strong class="bold">Create Track Stack</strong>, or press <strong class="bold">Shift</strong> + <strong class="bold">Co</strong><strong class="bold">mmand</strong> + <strong class="bold">D</strong>.</li>
+			</ol>
+			<p>It will ask you whether you want to create a Folder Stack or Summing Stack. If you click the <strong class="bold">Details</strong> disclosure triangle, you will see descriptions of each. Clearly, we want the Summing Stack.</p>
+			<p>You now have a Summing Stack for a playable layered instrument that you can save in the Library, but before you do, you might want to consider some more adjustments:</p>
+			<ol>
+				<li value="1">Adjust the relative volumes with the volume sliders on the individual instruments.</li>
+				<li>Adjust the panning of the two instruments, one panned a bit to the left, the other a bit to the right, to make the sound wider.</li>
+				<li>Next, <strong class="bold">Ctrl</strong> + click the icon to give it a more suitable icon.</li>
+			</ol>
+			<p>In the Library window, click on <strong class="bold">Save</strong> and name it. There will now be a <strong class="source-inline">User Patches</strong> folder in your Library, and you can load this patch into any Software Instrument track in any project.</p>
+			<h2 id="_idParaDest-100"><a id="_idTextAnchor116"></a>Creating a split layered patch with Summing Stacks</h2>
+			<p>This is a variation <a id="_idIndexMarker204"></a>that can be a lot of fun. Let&apos;s say that I want to be able to play a vibraphone with my right hand and an upright bass <a id="_idIndexMarker205"></a>at the same time. No problem, the steps are the same as what we just did:</p>
+			<ol>
+				<li value="1">In the first channel strip in my Summing Stack, I chose <strong class="bold">Mallet</strong> | <strong class="bold">V</strong><strong class="bold">ibraphone</strong>.</li>
+				<li>In the second channel strip in my Summing Stack, I chose <strong class="bold">Bass</strong> | <strong class="bold">Upright St</strong><strong class="bold">udio Bass</strong>.</li>
+			</ol>
+			<p>Now, when I play the Summing Stack, I hear both throughout the range, which is not what I want.</p>
+			<p>In the Inspector, the second section is the Track inspector. Changes here affect the entire track, not just a region.</p>
+			<p>In here, I can adjust the key range that this instrument plays.</p>
+			<div>
+				<div id="_idContainer083" class="IMG---Figure">
+					<img src="image/Figure_5.9_B16394.jpg" alt="Figure 5.9 – The Key Limit range&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.9 – The Key Limit range</p>
+			<p>I want this <a id="_idIndexMarker206"></a>vibraphone to play from C3 to G8, so I double-click on <a id="_idIndexMarker207"></a>the field and, making sure that I am only selecting <strong class="bold">C-2</strong>, I type in <strong class="source-inline">C3</strong>.</p>
+			<p>Moving to the upright bass, I do just the opposite, naming the top note in the key range <strong class="source-inline">B2</strong>, and the note just below <strong class="source-inline">C3</strong>.</p>
+			<p>Now, when I play my Summing Stack, I have it split just where I want it, and can save it in the Library.</p>
+			<p>Very cool!</p>
+			<p>Stevie Wonder said &quot;<em class="italic">just because a record has a groove don&apos;t make it in the groove</em>,&quot; and he was right. Groove Tracks will help you make your parts feel great together.</p>
+			<h1 id="_idParaDest-101"><a id="_idTextAnchor117"></a>Groove Tracks</h1>
+			<p><strong class="bold">Groove Tracks</strong> is a way of making your regions groove together that works with either audio or MIDI regions. I am <a id="_idIndexMarker208"></a>going to demonstrate it to you with MIDI because that is where I personally find it most useful.</p>
+			<p>I have played in a fretless bass part that has some <strong class="bold">Quantize</strong> settings that are pretty specific, and it feels great. Then I played a kick drum part and it is close in feel to the bass, but not quite. This is where <strong class="bold">Groove Tracks</strong> really shines.</p>
+			<p>If you <strong class="bold">Ctrl</strong> + click on <strong class="bold">Track Header Components</strong>, you can scroll down to add <strong class="bold">Groove Track</strong> to the Track Header:</p>
+			<div>
+				<div id="_idContainer084" class="IMG---Figure">
+					<img src="image/Figure_5.10_B16394.jpg" alt="Figure 5.10 – Adding Groove Track to the Track Header&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.10 – Adding Groove Track to the Track Header</p>
+			<p>Since the bass is to be the <a id="_idIndexMarker209"></a>guide, in the bass&apos; Track Header, I will move the mouse to the left and see that there is a yellow star that I can check.</p>
+			<p>After I do that, a blank checkbox appears on all other tracks. In this example, I only have the drum kit. When I check that checkbox, I am telling the drums to follow the feel of the bass, which is what I want. Works like a charm!</p>
+			<div>
+				<div id="_idContainer085" class="IMG---Figure">
+					<img src="image/Fig._5.11r.jpg" alt="Figure 5.11 – Groove Tracks applied&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 5.11 – Groove Tracks applied</p>
+			<h1 id="_idParaDest-102"><a id="_idTextAnchor118"></a>Summary</h1>
+			<p>You have now been introduced to Logic Pro X&apos;s array of Software Instruments and have seen the various MIDI editors.</p>
+			<p>The importance of MIDI <strong class="bold">Recording Preferences</strong> and how they behave with non-Cycle and Cycle recording has been explained. You now can record MIDI in a number of different ways and correct its timing by quantizing.  As you have learned, MIDI is not just notes but CCs as well, which you will want to record frequently.</p>
+			<p>The <strong class="bold">Arpeggiator</strong> adds that classic synthesizer touch, while you can individualize your sound by created layered and split patches in the Library with Summing Stacks.</p>
+			<p><strong class="bold">Groove Tracks</strong> gives your music a tight feel that you will love.</p>
+			<p>In the next chapter, we will become familiar with step entering in the <strong class="bold">Piano Roll</strong> editor when you don&apos;t want to play live. This includes how to change notes pitch, length, velocity, scale, and quantization in the <strong class="bold">Piano Roll</strong> editor. We&apos;ll add MIDI CCs in the <strong class="bold">Piano Roll</strong> editor and take a brief look at the Step Editor.</p>
+		</div>
+	</body>
+</html>

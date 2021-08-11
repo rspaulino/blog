@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>
+		<title>B16394_11_Final_Apple_JC_ePub</title>
+		<link href="css/Latest_NDP_epub.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="B16394_11_Final_Apple_JC_ePub" lang="en-GB" xml:lang="en-GB">
+		<div id="_idContainer155">
+			<h1 id="_idParaDest-159"><em class="italic"><a id="_idTextAnchor185"></a><a id="_idTextAnchor186"></a>Chapter 1</em><em class="italic">1</em>:  Working with Audio Files, Tempo, and Pitch</h1>
+			<p>As we have already learned, changing tempo and pitch with MIDI is quite easy since MIDI is just a set of instructions. It&apos;s also, as we have learned, easy with Apple Loops since they are designed to chase tempo and keys and transpose easily.</p>
+			<p>Audio is also now similarly easy to work with, as is demonstrated by the fact that the blue Apple Loops are in fact audio loops. <strong class="bold">Logic Pro X</strong> gives you terrific tools for working with controlling the relationship between audio files, projects, and tempo.</p>
+			<p>Specifically, this chapter covers the following topics:</p>
+			<ul>
+				<li>Adjusting your project tempo to match an imported audio file</li>
+				<li>Fixing the timing of audio parts with <strong class="bold">Flex Time</strong></li>
+				<li>Fixing note pitch with <strong class="bold">Flex Pitch</strong></li>
+				<li>Changing tempo playback with <strong class="bold">Varispeed</strong></li>
+			</ul>
+			<p>You may want to bring in existing audio files to a project and change their tempo to work with your project at the desired tempo, but there are also times when you are beginning a project when you want to start with an imported audio file from another project, and have the project tempo adjust. <strong class="bold">Smart Tempo</strong> makes this easy.</p>
+			<h1 id="_idParaDest-160"><a id="_idTextAnchor187"></a>Adjusting a project&apos;s tempo with an imported audio file using Smart Tempo</h1>
+			<p>As we did with <a id="_idIndexMarker348"></a>the Rubato recording, we <a id="_idIndexMarker349"></a>will first start by changing the setting in the Control bar&apos;s LCD from <strong class="bold">Keep Tempo</strong> to <strong class="bold">Adapt Tempo</strong>. For this task, however, there is an additional project setting we need to attend to:</p>
+			<ol>
+				<li>Go to <strong class="bold">Project Settings</strong> | <strong class="bold">Sm</strong><strong class="bold">art Tempo</strong>.</li>
+				<li>In the middle pane, change <strong class="bold">Set imported audio files</strong> <strong class="bold">to</strong> <strong class="bold">On</strong>. I also like to set it to <strong class="bold">Trim start of new regions</strong> so that the region is placed right at <strong class="bold">1 1 1 1</strong>:<div id="_idContainer146" class="IMG---Figure"><img src="image/Figure__11.1_B16394.jpg" alt="Figure 11.1 – Smart Tempo project settings&#xd;&#xa;" /></div><p class="figure-caption">Figure 11.1 – Smart Tempo project settings</p></li>
+				<li>If I <a id="_idIndexMarker350"></a>now bring in an audio file, as I am doing here with a kick drum, <strong class="bold">Smart Tempo</strong> analyzes the <a id="_idIndexMarker351"></a>audio file&apos;s tempos and adjusts the project&apos;s tempo changes accordingly:</li>
+			</ol>
+			<div>
+				<div id="_idContainer147" class="IMG---Figure">
+					<img src="image/Figure__11.2_B16394.jpg" alt="Figure 11.2 – Tempos applied to the project from an imported audio file&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 11.2 – Tempos applied to the project from an imported audio file</p>
+			<p>But what if audio files were not played that well in terms of their timing? We can fix that with <strong class="bold">Flex Time</strong>. Open the <a href="B16394_11_Final_Apple_JC_ePub.xhtml#_idTextAnchor185"><em class="italic">Chapter 1</em><em class="italic">1</em></a><strong class="source-inline"> project</strong>.</p>
+			<h1 id="_idParaDest-161"><a id="_idTextAnchor188"></a>Fixing the timing of audio files with Flex Time</h1>
+			<p>If it&apos;s <a id="_idIndexMarker352"></a>something really simple, <strong class="bold">Flex Tool</strong> may get the job done quickly for you. In this screenshot, if you look at the <strong class="bold">Snare</strong> drum, it is pretty clear that <a id="_idIndexMarker353"></a>several of the snare hits are late, not hitting directly on beat 4 each time:</p>
+			<div>
+				<div id="_idContainer148" class="IMG---Figure">
+					<img src="image/Figure__11.3_B16394.jpg" alt="Figure 11.3 – Late snare hits&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 11.3 – Late snare hits</p>
+			<p>Let&apos;s fix it!</p>
+			<ol>
+				<li value="1">Press <strong class="bold">T</strong> and change <strong class="bold">Left Click Tool</strong> to <strong class="bold">Flex Tool</strong>.</li>
+				<li>Click on the region with the Flex Tool. This turns on <strong class="bold">Flex &amp; Follow</strong> in the <strong class="bold">Region</strong> inspector.</li>
+				<li>Press the <strong class="bold">Command</strong> key, which by default switches to the <strong class="bold">Marq</strong><strong class="bold">uee tool</strong>. </li>
+				<li>Drag the <strong class="bold">Marquee </strong>tool over the <strong class="bold">Snare</strong> hit and start to move to the correct position. It changes to the <strong class="bold">Hand </strong>tool for that purpose.</li>
+			</ol>
+			<p>Done – that was easy:</p>
+			<div>
+				<div id="_idContainer149" class="IMG---Figure">
+					<img src="image/Figure__11.4_B16394.jpg" alt="Figure 11.4 – Timing of the corrected snare hit&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 11.4 – Timing of the corrected snare hit</p>
+			<p>The kick <a id="_idIndexMarker354"></a>drum is really poorly timed in multiple spots. It needs to be quantized to 8th notes, so let&apos;s use <strong class="bold">Flex Time</strong> in a more sophisticated way:</p>
+			<ol>
+				<li value="1">Click the <strong class="bold">Flex</strong> icon <a id="_idIndexMarker355"></a>above the region, which enables <strong class="bold">Flexing</strong>, but defaults to <strong class="bold">M</strong><strong class="bold">onophonic</strong>.</li>
+				<li>Change it to <strong class="bold">Slicing</strong>, because slicing works best for short notes such as drum hits:<div id="_idContainer150" class="IMG---Figure"><img src="image/Figure__11.5_B16394.jpg" alt="Figure 11.5 – Enabling Flex with Slicing mode&#xd;&#xa;" /></div><p class="figure-caption">Figure 11.5 – Enabling Flex with Slicing mode</p></li>
+				<li>In the <strong class="bold">Region</strong> inspector, set <strong class="bold">Quantize</strong> to <strong class="bold">1/8 note</strong>.</li>
+			</ol>
+			<p>Boom! The timing is spot on.</p>
+			<p>There are other modes in addition to <strong class="bold">Slicing</strong> that work similarly for other kinds of material. <strong class="bold">Monophonic</strong> mode is perfect for solo instruments such as a bass. <strong class="bold">Rhythmic</strong> can work on <a id="_idIndexMarker356"></a>guitars and keyboards if the parts are simple, but for more complex parts, <strong class="bold">Polyphonic</strong> will probably work best. <strong class="bold">Speed</strong> and <strong class="bold">Tempophone</strong> are special effects that you probably will not use much, but feel free to try <a id="_idIndexMarker357"></a>them out if you like.</p>
+			<h1 id="_idParaDest-162"><a id="_idTextAnchor189"></a>Fixing the pitch of a vocal with Flex Pitch</h1>
+			<p><strong class="bold">Pitch Correction</strong> is <a id="_idIndexMarker358"></a>something you may well want to do, unless you are Bruce Springsteen or Bob Dylan!</p>
+			<p>The big dogs in <a id="_idIndexMarker359"></a>the pitch-correction jungle are AutoTune and Melodyne, but with <strong class="bold">Flex Pitch</strong>, we have a free alternative that is rather more like the Melodyne approach than the AutoTune method.</p>
+			<p>You can use <strong class="bold">Flex Pitch</strong> in the <strong class="bold">Tracks</strong> area, but I much prefer using it in the <strong class="bold">Track Editor</strong>, because I can have it on a second monitor; the functionality, however, is the same. I have performed a bluesy little vocal, but my pitch is a little off. I want to improve that, but not lose the bluesy nuances.</p>
+			<p>Click the <strong class="bold">Flex</strong> icon above the display in the <strong class="bold">Track Editor</strong> and change the mode to <strong class="bold">Flex Pitch</strong>, and you will see beams that represent each note:</p>
+			<div>
+				<div id="_idContainer151" class="IMG---Figure">
+					<img src="image/Figure__11.6_B16394.jpg" alt="Figure 11.6 – Enabling Flex Pitch in the Track Editor&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 11.6 – Enabling Flex Pitch in the Track Editor</p>
+			<p>We are ready to begin:</p>
+			<ol>
+				<li value="1">Press <strong class="bold">Command</strong> + <strong class="bold">A</strong> to select all the beams that represent the notes.</li>
+				<li>Then, <strong class="bold">Ctrl</strong> + click on one of the notes and choose <strong class="bold">Set to Perfect Pitch</strong> and listen.</li>
+			</ol>
+			<p>I am not happy with <a id="_idIndexMarker360"></a>the result. Logic thinks I meant to sing some notes that are not what I was going for, plus, some of the bluesy quality is lost. Press <strong class="bold">Command</strong> + <strong class="bold">Z</strong> to undo it. For the <a id="_idIndexMarker361"></a>notes that I do want to assign to perfect pitch, double-clicking on the note will do precisely that. But I want to take a more human approach, given the nature of the vocal. If you hold down on a note, in the middle of the beam, you will see the pitch and position. Notice that there are also three hotspots on the top and three more on the bottom.</p>
+			<p>The top three, from left to right, are for adjusting <strong class="bold">Pitch Drift</strong>, for leading into the note, <strong class="bold">Fine Pitch</strong>, for tuning, and <strong class="bold">Pitch Drift</strong>, for leaving the note, respectively. The bottom three, from left to right, are for adjusting the note&apos;s gain, the amount of vibrato, and the formant, respectively.</p>
+			<p>The <strong class="bold">Formant</strong> setting helps make the note sound more/less natural when higher or lower. Resuming my work, I decide to begin by using <strong class="bold">Fine Pitch</strong> to correct notes that bother me. The first note is OK, because it&apos;s bluesy, but the second note, a <strong class="bold">D#</strong>, sounds sharp to me, and the third note, also a <strong class="bold">D#</strong>, sounds flat:</p>
+			<ol>
+				<li value="1">Hold the mouse down on the mid hotspot for <strong class="bold">Fine Pitch</strong>; mine says <strong class="bold">23</strong> (cents). 100 is a semitone, so it is in fact a little sharp. I&apos;ll drag it down closer to <strong class="bold">0</strong> and it sounds better.</li>
+				<li>The third note is a D natural that is 42 cents sharp, but I was going for a <strong class="bold">D#</strong>. Drag the <strong class="bold">42</strong> up with the mouse until it is closer to a <strong class="bold">D#</strong> and it sounds good.</li>
+			</ol>
+			<p>The seventh <a id="_idIndexMarker362"></a>note is a C natural but it&apos;s longer and it almost sound like two pitches. For the best result, switch the <strong class="bold">Command</strong> + click to the <strong class="bold">Scissors</strong> tool and cut <a id="_idIndexMarker363"></a>the beam in half, and sure enough, you will see two pitches that you can edit:</p>
+			<div>
+				<div id="_idContainer152" class="IMG---Figure">
+					<img src="image/Figure__11.7_B16394.jpg" alt="Figure 11.7 – The beam cut into two pitches&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 11.7 – The beam cut into two pitches</p>
+			<p>Continuing on in this manner, you can correct any pitches that bother you. You can also adjust the vibrato by dragging down on the <strong class="bold">Vibrato</strong> hotspot with the mouse to decrease it or drag up to add vibrato. If you have too much drifting into a note, or drifting out of a note, you can drag the hotspots to decrease the amount. You could also increase it, but I have yet to encounter a scenario where I have wanted to do this.</p>
+			<p>One thing I did on another project was to select all the beams and drag the 
+<strong class="bold">Formant</strong> hotspot up a bit, which made me sound a little younger, but not unnaturally so. Very cool!</p>
+			<p>Using <strong class="bold">Flex Pitch</strong> takes a <a id="_idIndexMarker364"></a>bit of practice, but once you are comfortable with it, you can correct a vocal very quickly. Personally, I don&apos;t like my pitch correction to be <a id="_idIndexMarker365"></a>too perfect, but you may feel differently. Now we turn to <strong class="bold">Varispeed</strong>.</p>
+			<h1 id="_idParaDest-163"><a id="_idTextAnchor190"></a>Varispeed</h1>
+			<p><strong class="bold">Varispeed</strong> was a feature of tape recorders that is now digitally emulated in <strong class="bold">Logic Pro X</strong>. It was famously employed by <a id="_idIndexMarker366"></a>David Seville (Ross Bagsdasarian) to create the sound of <em class="italic">The Chipmunks</em>. By singing in a lower key more slowly, adjusting the <strong class="bold">Varispeed</strong> made it increasingly higher and faster, giving him that signature sound.</p>
+			<p>We can use it in Logic Pro X to speed up or slow down the playback of a project without, or with, the chipmunk effect of the pitch getting higher. </p>
+			<p>I have a project loaded that I recorded at 130 beats per minute that I want to playback a little slower, or faster. Feel free to load one of your own.</p>
+			<p>First, we need to enable Varispeed. In <a href="B16394_02_Final_Apple_JC_ePub.xhtml#_idTextAnchor030"><em class="italic">Chapter 2</em></a>, <em class="italic">Getting To Know the Logic Pro X Interface</em>, you learned how to customize the Control bar. Here, you can see that <strong class="bold">Varispeed</strong> can be added to the Control bar&apos;s <strong class="bold">LC</strong><strong class="bold">D</strong> section:</p>
+			<div>
+				<div id="_idContainer153" class="IMG---Figure">
+					<img src="image/Figure__11.8_B16394.jpg" alt="Figure 11.8 – Adding Varispeed to the Control bar&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 11.8 – Adding Varispeed to the Control bar</p>
+			<p>Now, on the Control bar, you will see a button with a minus and a plus sign. Clicking it turns on <strong class="bold">Varispeed</strong>:</p>
+			<div>
+				<div id="_idContainer154" class="IMG---Figure">
+					<img src="image/Figure__11.9_B16394.jpg" alt="Figure 11.9 – Varispeed activated&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 11.9 – Varispeed activated</p>
+			<p>By default, it is set to <strong class="bold">Speed Only</strong>, no <em class="italic">chipmunk</em> effect. You can hold down on <strong class="bold">Speed Only</strong> and switch to <strong class="bold">Varispeed</strong> and <strong class="bold">Pitch</strong> if you want both, and even <strong class="bold">Varispeed</strong> and <strong class="bold">MIDI</strong> for when you have both audio and <strong class="bold">MID</strong><strong class="bold">I</strong> regions.</p>
+			<p>Also, by default, it <a id="_idIndexMarker367"></a>shows you the percentage change when you drag up or down on that field. If you drag it down <strong class="bold">3%</strong>, however, you don&apos;t know what the tempo is with that percentage, unless you do the math. Holding down the mouse on the percentage field allows you to change the view to <strong class="bold">Resulting Tempo</strong>, which I find more useful.</p>
+			<p><strong class="bold">3%</strong> changed my playback tempo from <strong class="bold">130</strong> to <strong class="bold">126.100</strong>. If I double-click on the tempo, I can round it off to <strong class="bold">126</strong>. Now, when I hit play, I hear my project playback a bit slower without the pitch<a id="_idTextAnchor191"></a> changing. </p>
+			<p>Click on the <strong class="bold">Varispeed</strong> button to turn it off and you are back to hearing it at the original speed.</p>
+			<h1 id="_idParaDest-164"><a id="_idTextAnchor192"></a>Summary</h1>
+			<p>We began by learning how to match a project&apos;s tempo to that of an imported audio file with <strong class="bold">Smart Tempo</strong>. You now know how to correct the timing of a performance with the <strong class="bold">Flex tool</strong> and <strong class="bold">Flex Time</strong>. You can tune a vocal with <strong class="bold">Flex Pitch</strong> and use it to alter its character by adjusting <strong class="bold">Pitch Drift</strong>, <strong class="bold">Vibrato</strong>, and <strong class="bold">Formants</strong>. You have read about the beginnings of <strong class="bold">Varispeed</strong> with tape recorders and the digital emulation of its functionality in Logic Pro X. </p>
+			<p>In the next chapter, we will explore methods for getting an arrangement ready for mixing by employing project alternatives for different versions, inserting, copying or deleting sections, and removing problematic noise so that you have cleaner audio files to mix.</p>
+		</div>
+	</body>
+</html>

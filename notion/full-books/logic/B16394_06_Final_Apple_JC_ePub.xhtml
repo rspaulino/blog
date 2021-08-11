@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>
+		<title>B16394_06_Final_Apple_JC_ePub</title>
+		<link href="css/Latest_NDP_epub.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="B16394_06_Final_Apple_JC_ePub" lang="en-GB" xml:lang="en-GB">
+		<div id="_idContainer102">
+			<h1 id="_idParaDest-103"><em class="italic"><a id="_idTextAnchor119"></a><a id="_idTextAnchor120"></a>Chapter 6</em>:  Step Entering and Editing MIDI</h1>
+			<p>Obviously, not everybody is a good keyboard player. Even if you are, there may be musical parts you want to create that would be better served being programmed rather than played in. This process is <a id="_idIndexMarker210"></a>called <strong class="bold">step entering</strong> and you can do it in 
+a number of ways and then edit it to your heart&apos;s content. While you can step enter in any MIDI editor, the <strong class="bold">Piano Roll</strong> editor is the most user friendly and popular choice.</p>
+			<p>Specifically, this chapter covers the following topics:</p>
+			<ul>
+				<li>Step entering in the <strong class="bold">Piano R</strong><strong class="bold">oll</strong> editor</li>
+				<li>Using the <strong class="bold">Step Inpu</strong><strong class="bold">t Keyboard</strong></li>
+				<li>Entering MIDI controller steps in the <strong class="bold">Piano R</strong><strong class="bold">oll</strong> editor</li>
+				<li>A brief look at the Step Editor</li>
+			</ul>
+			<h1 id="_idParaDest-104"><a id="_idTextAnchor121"></a>Step entering in the Piano Roll Editor</h1>
+			<p>Logic comes with a dazzling <a id="_idIndexMarker211"></a>array of software instruments. Yes, there are<a id="_idIndexMarker212"></a> lots of great third-party software instruments as well, but I suggest you become conversant with the Logic content before you<a id="_idIndexMarker213"></a> reach for your wallet.</p>
+			<p>I will use a <strong class="bold">Harp</strong> for this task:</p>
+			<ol>
+				<li>Open a new project with an empty Software Instrument with <strong class="bold">Open Library</strong> checked, and then go to <strong class="bold">Orchestral</strong> | <strong class="bold">Harp</strong> and click on it to load it.</li>
+				<li>Press <strong class="bold">P</strong> to open the <strong class="bold">Piano Roll</strong> editor and, not surprisingly, it&apos;s blank because there is no MIDI region with content yet.</li>
+				<li>If you drag the mouse over the keyboard you see on the side, you will hear the notes.</li>
+			</ol>
+			<p>Let&apos;s begin with a simple arpeggiated phrase. Notice that the <strong class="bold">Command Tool</strong> defaults to the <strong class="bold">Pencil Tool</strong>, which is what we want.</p>
+			<p>With the <strong class="bold">Command</strong> key held down, click on the grid to the right of <strong class="bold">C2</strong>, and a note is created. If you hold the mouse down on it, the help tag tells you that it is <strong class="bold">0 0 1 0</strong>, 
+a sixteenth note. But for this exercise, let&apos;s change it to an eighth note:</p>
+			<ol>
+				<li value="1">Position the <strong class="bold">Pointer Tool</strong> at the end of the note and it changes to the <strong class="bold">Re</strong><strong class="bold">size Tool</strong>.</li>
+				<li>Drag it to the right until the <strong class="bold">Help</strong> tag shows <strong class="bold">0 0 2 0</strong>, an eighth note. The <strong class="bold">Pencil Tool</strong> will now default to creating eighth notes.</li>
+				<li>Now create three <a id="_idIndexMarker214"></a>more, <strong class="bold">E2</strong>, <strong class="bold">G2</strong>, and <strong class="bold">C3</strong>. Now we want to create two quarter notes, <strong class="bold">G</strong><strong class="bold">2</strong>, and <strong class="bold">E2</strong>.</li>
+				<li>Pencil in another <strong class="bold">G2</strong> and again, drag it to the right, this time until the <strong class="bold">Help</strong> tag shows <strong class="bold">0 1 0 0</strong>, a quarter note. The <strong class="bold">Pencil Tool</strong> will now default to creating quarter notes.</li>
+				<li>Pencil in another <strong class="bold">E2</strong>.</li>
+				<li>Play and listen. Very nice:</li>
+			</ol>
+			<div>
+				<div id="_idContainer087" class="IMG---Figure">
+					<img src="image/Fig._6.2r.jpg" alt="Figure 6.1 – Step entered notes in the Piano Roll&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.1 – Step entered notes in the Piano Roll</p>
+			<p>We can continue entering notes this way, but there is a shortcut:</p>
+			<ol>
+				<li value="1">Select all the notes in the <strong class="bold">Piano Roll</strong> by pressing <strong class="bold">Comma</strong><strong class="bold">nd</strong> + <strong class="bold">A</strong> or 
+rubber-banding (dragging the mouse) over them.</li>
+				<li>In the local <strong class="bold">Edit</strong> menu, scroll to <strong class="bold">Repeat</strong> | <strong class="bold">Once</strong>, or press the <strong class="bold">Co</strong><strong class="bold">mmand</strong> key.</li>
+				<li>We may want to <a id="_idIndexMarker215"></a>change the E2s to F2s and the G2s to A2s on the repeat. Select the E2s in bar 2 and hold the <strong class="bold">Option</strong> key and press the up arrow on your computer keyboard, and they transpose up a half-step.</li>
+				<li>Select the G2s in bar 2, hold the <strong class="bold">Option</strong> key, and press the up arrow on your computer keyboard twice, and they transpose up a whole step.</li>
+				<li>Select all the notes in the <strong class="bold">Piano Roll</strong> by pressing <strong class="bold">Comma</strong><strong class="bold">nd</strong> + <strong class="bold">A</strong> or 
+rubber-banding over them.</li>
+				<li>In the local <strong class="bold">Edit</strong> menu, scroll to <strong class="bold">Repeat</strong> | <strong class="bold">Once</strong>, or press the <strong class="bold">Co</strong><strong class="bold">mmand</strong> key.</li>
+				<li>Bar 3 is just like bar 1, and that&apos;s fine, but let&apos;s change bar to <strong class="bold">D2 G2 B2 D3 B2</strong> and make the <strong class="bold">G2</strong> a half note. </li>
+				<li>Select the first note in bar 4 and, using the <strong class="bold">Command</strong> key, make it a <strong class="bold">D2</strong>.</li>
+				<li>Press the right arrow to advance to the next note and change it to an <strong class="bold">G2</strong>, then the next note to a <strong class="bold">B2</strong>, followed by a <strong class="bold">D3</strong>, and another <strong class="bold">B2</strong>.</li>
+				<li>Select the last note and delete it.</li>
+				<li>Select what is now the last note, position the <strong class="bold">Pointer Tool</strong> at the end of the note, and drag it to the right, this time until the <strong class="bold">Help</strong> tag shows <strong class="bold">0 2 0 0</strong>, 
+a half note.<p>Pretty good, but maybe the entire part should be an octave higher?</p></li>
+				<li>With all the notes<a id="_idIndexMarker216"></a> selected, press both the <strong class="bold">Option</strong> and the <strong class="bold">Shift</strong> key with the up arrow and they transpose the entire part up an octave.</li>
+			</ol>
+			<p>That sounds better, but pretty mechanical. Let&apos;s fix that. Press <strong class="bold">D</strong> on your computer keyboard to open the <strong class="bold">List Editors</strong> area, choose the <strong class="bold">Event List</strong>, and the problems are clearly visible:</p>
+			<div>
+				<div id="_idContainer088" class="IMG---Figure">
+					<img src="image/Figure_6.2_B16394.jpg" alt="Figure 6.2 – Mechanical sounding step entered notes in the Piano Roll and &#xd;&#xa;Event List&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.2 – Mechanical sounding step entered notes in the Piano Roll and Event List</p>
+			<p>For starters, they are all the <a id="_idIndexMarker217"></a>same velocity. I want the first note in each bar to be a little louder. I can <strong class="bold">Shift</strong>-select the <strong class="bold">C3</strong> and <strong class="bold">D3</strong> on the <strong class="bold">Piano Roll</strong> keyboard for this purpose.</p>
+			<p>Because this is Logic Pro, there are a few ways to adjust this.</p>
+			<h2 id="_idParaDest-105"><a id="_idTextAnchor122"></a>The Velocity slider</h2>
+			<p>If you don&apos;t see the <strong class="bold">Velocity</strong> slider <a id="_idIndexMarker218"></a>and the other items in the local Inspector, go to the local <strong class="bold">View</strong> menu and <strong class="bold">Show Local Inspector</strong>. You should see this:</p>
+			<div>
+				<div id="_idContainer089" class="IMG---Figure">
+					<img src="image/Figure_6.3_B16394.jpg" alt="Figure 6.3: The Velocity slider in the local Inspector&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.3: The Velocity slider in the local Inspector</p>
+			<p>If you drag it to the right, we will see<a id="_idIndexMarker219"></a> the velocity increase and the color change to become more red.</p>
+			<h2 id="_idParaDest-106"><a id="_idTextAnchor123"></a>The Velocity Tool</h2>
+			<p>Let&apos;s change the <strong class="bold">Command Tool</strong> to the <strong class="bold">Velocity Tool</strong> by clicking on the <strong class="bold">Pencil Tool</strong> and pressing <strong class="bold">V</strong> or scrolling<a id="_idIndexMarker220"></a> down to the <strong class="bold">Velocity Tool</strong>. Now let&apos;s make the last two notes of each bar a bit louder with the <strong class="bold">Velo</strong><strong class="bold">city Tool</strong>:</p>
+			<ol>
+				<li value="1"><strong class="bold">Shift</strong> + select the last two quarter notes in bar 1.</li>
+				<li>In the local <strong class="bold">Edit</strong> menu, go to <strong class="bold">Select</strong> | <strong class="bold">Same Subposition</strong> or press <strong class="bold">Shift</strong> + <strong class="bold">P</strong>, and now the last two notes in every bar are selected.</li>
+				<li>Hold the <strong class="bold">Command</strong> key and drag upward on any of the notes, and they all increase their velocity and change color. Dragging down makes them softer.</li>
+			</ol>
+			<p>Continuing in this fashion, you can make them more human-sounding, as you can see here:</p>
+			<div>
+				<div id="_idContainer090" class="IMG---Figure">
+					<img src="image/Figure_6.4_B16394.jpg" alt="Figure 6.4 – Adjusted velocities&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.4 – Adjusted velocities</p>
+			<h2 id="_idParaDest-107"><a id="_idTextAnchor124"></a>Scale Quantize</h2>
+			<p>This does just what you think it<a id="_idIndexMarker221"></a> does. I will quantize the pitches of selected notes to conform to scales and modes:</p>
+			<div>
+				<div id="_idContainer091" class="IMG---Figure">
+					<img src="image/Figure_6.5_B16394.jpg" alt="Figure 6.5 – Scale and mode choices for Scale Quantize&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.5 – Scale and mode choices for Scale Quantize</p>
+			<p>I rarely use it, but you should <a id="_idIndexMarker222"></a>experiment with it, as you may love using it:</p>
+			<ol>
+				<li value="1">Choose a scale.</li>
+				<li>Select the notes you wish to <strong class="bold">Scale</strong><strong class="bold"> Quantize</strong>.</li>
+				<li>Press the <strong class="bold">Q</strong> button and the notes conform to the selected scale or mode.</li>
+			</ol>
+			<h2 id="_idParaDest-108"><a id="_idTextAnchor125"></a>Time Quantize</h2>
+			<p>You can also quantize the time <a id="_idIndexMarker223"></a>on any notes you select in the Piano Roll&apos;s local Inspector by making your duration choice, adjusting the <strong class="bold">Strength</strong> and <strong class="bold">Swing</strong> if you so desire, and pressing <strong class="bold">Q</strong>. Notice that it says <strong class="bold">(classic)</strong>:</p>
+			<div>
+				<div id="_idContainer092" class="IMG---Figure">
+					<img src="image/Figure_6.6_B16394.jpg" alt="Figure 6.6 – Time Quantize in the Piano Roll&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.6 – Time Quantize in the Piano Roll</p>
+			<p>Something I did not yet show you with <strong class="bold">Quantize</strong> in the Region Inspector parameters is named <strong class="bold">Smart</strong><strong class="bold"> Quantize</strong>:</p>
+			<div>
+				<div id="_idContainer093" class="IMG---Figure">
+					<img src="image/Figure_6.7_B16394.jpg" alt="Figure 6.7 – Smart Quantize in the Region Inspector parameters&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.7 – Smart Quantize in the Region Inspector parameters</p>
+			<p>You may find that you don&apos;t need to bother with the <strong class="bold">Advanced Quantize settings</strong>, that just switching from <strong class="bold">Classic</strong> to <strong class="bold">Smart</strong> makes it human enough. If you change it in the Region parameters, it also changes in the Piano Roll local Inspector, which gives you the option of performing it on chosen notes rather than the whole region.</p>
+			<p>I have a talented friend who never quantizes at the region level, only in the <strong class="bold">Piano Roll</strong>, while I usually do. Horses for courses, as they say.</p>
+			<p>In this example, however, no <a id="_idIndexMarker224"></a>quantization is necessary because it was step entered, not played. In fact, if anything, I want this to be more human.</p>
+			<h1 id="_idParaDest-109"><a id="_idTextAnchor126"></a>Using the Step Input Keyboard</h1>
+			<p>The <strong class="bold">Step Input Keyboard</strong> is often<a id="_idIndexMarker225"></a> overlooked, but it is a gem. If you go to the <strong class="bold">Window</strong> menu and scroll down, you will see that you can open it:</p>
+			<div>
+				<div id="_idContainer094" class="IMG---Figure">
+					<img src="image/Figure_6.8_B16394.jpg" alt="Figure 6.8 – The Step Input Keyboard&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.8 – The Step Input Keyboard</p>
+			<p>Notice that you can choose the note duration you wish to enter on the fly, including dotted notes and triplets, chords, and you can choose the dynamics as well. This is perfect for our next task, which is to create a glissando at <strong class="bold">5 3 1 1</strong>, culminating in a whole note chord:</p>
+			<ol>
+				<li value="1">Use the <strong class="bold">Go To Position</strong> command key, which is the forward slash next to the right <strong class="bold">Shift</strong> key, and type in <strong class="bold">5</strong>, then press the spacebar, then <strong class="bold">3</strong>, and press <strong class="bold">Enter</strong> or <strong class="bold">return</strong> to move the Playhead to <strong class="bold">5 3 1 1</strong> (The <strong class="bold">Go To Position</strong> key command is my favorite.).</li>
+				<li>Select the 64th note at mezzo piano (mp).</li>
+				<li>Starting with <strong class="bold">C4</strong>, play a chromatic scale up to <strong class="bold">B4</strong>.</li>
+				<li>Select the <strong class="bold">Chord</strong> and <strong class="bold">Whole Note</strong> buttons, and <strong class="bold">forte (f)</strong>.</li>
+				<li>Play <strong class="bold">C5</strong>, then <strong class="bold">E5</strong>, then <strong class="bold">G5</strong>, then <strong class="bold">B5</strong>, to create a major 7th chord that lasts four beats.</li>
+				<li><strong class="bold">Shift</strong> + select the notes<a id="_idIndexMarker226"></a> in the chord and press the button that has both 
+a rest and a right arrow, and the chord now is a two-bar chord. (If no notes are selected, it advances the Playhead to create a rest for the last duration you entered.)</li>
+			</ol>
+			<p>Here is another nice feature. If you double-click on the MIDI in button, next to the green MIDI out button, you can now change a note pitch from your MIDI controller, and if it is velocity sensitive, it will also change the velocity:</p>
+			<div>
+				<div id="_idContainer095" class="IMG---Figure">
+					<img src="image/Figure_6.9_B16394.jpg" alt="Figure 6.9 – MIDI in/out buttons in the Piano Roll&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.9 – MIDI in/out buttons in the Piano Roll</p>
+			<p>We have come a long way, but a look at either the <strong class="bold">Piano Roll</strong> editor or the <strong class="bold">Event List</strong> reveals that the timing is still robotic.</p>
+			<p><strong class="bold">Logic Pro</strong> has a set of presets in the MIDI Transformer that can help, which we will now examine.</p>
+			<h2 id="_idParaDest-110"><a id="_idTextAnchor127"></a>MIDI Transform</h2>
+			<p>In the <strong class="bold">Functions</strong> menu in <a id="_idIndexMarker227"></a>any of the MIDI editors, you will find <strong class="bold">MIDI Transform</strong>. We will begin with the one named <strong class="bold">Humanize</strong>:</p>
+			<div>
+				<div id="_idContainer096" class="IMG---Figure">
+					<img src="image/Figure_6.10_B16394.jpg" alt="Figure 6.10 – MIDI Transform&apos;s Humanize preset&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.10 – MIDI Transform&apos;s Humanize preset</p>
+			<p>OK, that looks a little scary!</p>
+			<p>Let&apos;s figure it out. <strong class="bold">Select Events by Conditions</strong> is where we tell it which kind of MIDI events we want and if we want ones that are equal to it. Clearly, this preset is already designed for MIDI notes. For the <strong class="bold">Position</strong>, we can affect it in a number of ways that you will see in the pulldown menu, but + or- Randomization is indeed what we want. It defaults to 10 ticks either way, which is not a lot, since you hopefully remember that are 240 ticks for each sixteenth note. If you want fewer or more, you can pull down on the <strong class="bold">10</strong> and adjust it or double-click, but make sure you only have the <strong class="bold">10</strong> selected, not all the numbers in the field.</p>
+			<p>Notice you can also randomize the velocity, but I already adjusted velocities in the <strong class="bold">Piano Roll</strong> and think unintended musical consequences can happen with that, so I hold down the mouse on that field and go up to select <strong class="bold">Thru</strong> and it disappears, like magic:</p>
+			<div>
+				<div id="_idContainer097" class="IMG---Figure">
+					<img src="image/Figure_6.11_B16394.jpg" alt="Figure 6.11 – MIDI Transform&apos;s Humanize with Length set to Thru&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.11 – MIDI Transform&apos;s Humanize with Length set to Thru</p>
+			<p>I feel the same way about the<a id="_idIndexMarker228"></a> note length, although I doubt you would hear a ten-tick adjustment, so I do it with that field as well.</p>
+			<p>Now we need to choose from the options to <strong class="bold">Select Only</strong>, <strong class="bold">Operate Only</strong>, and <strong class="bold">Select and Operate</strong>. If the region is not at <strong class="bold">1 1 1 1</strong>, <strong class="bold">Select and Operate</strong> is fine, but if it is, you have to be careful not to select the first note or it could be moved to before the beginning of the project and you won&apos;t hear it. <strong class="bold">Select Only</strong> could be fine, but in this instance, I don&apos;t want to mess with the glissando, which contains very short notes. So, in the <strong class="bold">Piano Roll</strong>, I select all the notes I want to affect and press <strong class="bold">Operate Only</strong> and voila, it has indeed made it more human sounding by randomizing the positions a little. I can even press <strong class="bold">Operate Only</strong> a second time and it does it more.</p>
+			<p>Let&apos;s solve another problem with a different feature. The glissando is 64th notes, but I think they and the chord should have been twice as fast.</p>
+			<h2 id="_idParaDest-111"><a id="_idTextAnchor128"></a>Time Handles</h2>
+			<p>In the <strong class="bold">Functions</strong> menu, select <strong class="bold">Time Handles</strong>. Nothing<a id="_idIndexMarker229"></a> appears to happen until you drag over some notes, but once you do, you see them appear, all in blue:</p>
+			<div>
+				<div id="_idContainer098" class="IMG---Figure">
+					<img src="image/Figure_6.12_B16394.jpg" alt="Figure 6.12 – Time Handles&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.12 – Time Handles</p>
+			<p>Grab the right Time Handle and drag it significantly to the left, and now the notes play a lot faster! Press <strong class="bold">Command</strong> + <strong class="bold">T</strong> to toggle the Time Handles off, and it does not undo what you did with them.</p>
+			<p>This sounds pretty good, and I don&apos;t think<a id="_idIndexMarker230"></a> you would know that it was step entered and not played live.</p>
+			<h1 id="_idParaDest-112"><a id="_idTextAnchor129"></a>Entering MIDI controller steps in the Piano Roll Editor</h1>
+			<p>I think it would be cool for the<a id="_idIndexMarker231"></a> glissando to crescendo. We can do this in the <strong class="bold">Piano Roll</strong> editor with velocities.</p>
+			<h2 id="_idParaDest-113"><a id="_idTextAnchor130"></a>Creating a crescendo by MIDI velocity</h2>
+			<p>Press the <strong class="bold">Automation</strong> button to the<a id="_idIndexMarker232"></a> left of the MIDI in button or press <strong class="bold">A</strong>. By default, unless you have been editing another MIDI <strong class="bold">Continuous Controller (CC)</strong>, it will show the <a id="_idIndexMarker233"></a>velocities of the notes.</p>
+			<p>If you hold the mouse down in the bottom of the editor just before the first note 
+in the glissando and drag up diagonally to the velocity of the chord, you will create a crescendo:</p>
+			<div>
+				<div id="_idContainer099" class="IMG---Figure">
+					<img src="image/Figure_6.13_B16394.jpg" alt="Figure 6.13 – Note velocities&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.13 – Note velocities</p>
+			<p>To raise or lower them after<a id="_idIndexMarker234"></a> the fact, select the<a id="_idIndexMarker235"></a> notes in the <strong class="bold">Piano Roll</strong>, and use the <strong class="bold">Veloci</strong><strong class="bold">ty</strong> slider.</p>
+			<h2 id="_idParaDest-114"><a id="_idTextAnchor131"></a>Creating vibrato with modulation</h2>
+			<p>The harp sound is not<a id="_idIndexMarker236"></a> going to be affected much by<a id="_idIndexMarker237"></a> vibrato, so let&apos;s use the Library to change it to a sound that will be. Open the Library by pressing <strong class="bold">Y</strong>, and navigate to <strong class="bold">Synthesizers</strong> | <strong class="bold">Classics</strong> | <strong class="bold">80&apos;s W</strong><strong class="bold">ave Synth</strong>.</p>
+			<p>In the <strong class="bold">Automation/MIDI</strong> field, change from <strong class="bold">Note Velocity</strong> to <strong class="bold">Modulation</strong>, which is MIDI CC:</p>
+			<ol>
+				<li value="1">Drag the mouse down to the bottom of the window, right at the beginning of the region so that it says <strong class="bold">0</strong>.</li>
+				<li>Just before the first quarter note at beat 3, click the line to create a control point.</li>
+				<li>Right next to it, click again to create another control point.</li>
+				<li>Drag the second control point up to <strong class="bold">110</strong>. Play and listen to the effect the modulation has on the sound.</li>
+				<li>Just before bar 2, add two more control points close together and drag the second one back to <strong class="bold">0</strong>.<p>We have now created the <a id="_idIndexMarker238"></a>following MIDI Region modulation automation by adding control points:</p><div id="_idContainer100" class="IMG---Figure"><img src="image/Figure_6.14_B16394.jpg" alt="Figure 6.14 – Modulation control points&#xd;&#xa;" /></div><p class="figure-caption">Figure 6.14 – Modulation control points</p><p>Great! You want to <a id="_idIndexMarker239"></a>do the same thing at bar <strong class="bold">2 3 1 1</strong>, but do you have to go through all that again? No, you do not.</p></li>
+				<li><strong class="bold">Shift</strong> + select the four control points.</li>
+				<li>Hold the mouse down on the first control point.</li>
+				<li>Hold the <strong class="bold">Option</strong> key and drag it to the desired position to copy it. Remember to release the mouse before you release the <strong class="bold">O</strong><strong class="bold">ption</strong> key.</li>
+			</ol>
+			<p>That&apos;s all there is to it. You can <a id="_idIndexMarker240"></a>proceed in this fashion for pitch bend or any MIDI CC you wish to automate.</p>
+			<h1 id="_idParaDest-115"><a id="_idTextAnchor132"></a>A brief look at the Step Editor</h1>
+			<p>One of the most <a id="_idIndexMarker241"></a>common complaints I hear from Logic users is that we cannot see multiple automation lanes in the <strong class="bold">Piano Roll</strong> editor. <strong class="bold">Logic Pro X</strong> has another editor that does allow it, but for reasons I cannot understand, people have not taken to it.</p>
+			<p>In earlier versions, before 10.5., you would have seen it where you now see the <strong class="bold">Step Sequencer</strong> tab, but it has been devalued and now you must find it by going to the <strong class="bold">Wi</strong><strong class="bold">ndow</strong> menu:</p>
+			<div>
+				<div id="_idContainer101" class="IMG---Figure">
+					<img src="image/Figure_6.15_B16394.jpg" alt="Figure 6.15 – The Step Editor&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 6.15 – The Step Editor</p>
+			<p>If it intrigues you, then it is well explained in the manual.</p>
+			<h1><a id="_idTextAnchor133"></a></h1>
+			<h1 id="_idParaDest-116"><a id="_idTextAnchor134"></a>Summary</h1>
+			<p>You have now been introduced to <strong class="bold">step entering</strong> in the <strong class="bold">Piano Roll</strong> editor and editing you can do in the Piano Roll&apos;s local Inspector. You now are familiar with just how valuable the <strong class="bold">Step Input Keyboard</strong> is for these tasks, either alone or in conjunction with your MIDI keyboard. You can enter MIDI Continuous Controllers in the <strong class="bold">Piano Roll</strong> editor, and you know how they affect the sound. While it is not widely used or appreciated, you now know about the <strong class="bold">Step Editor</strong> and why you may want to consider using it.</p>
+			<p>In the next chapter, we will become familiar with Logic Pro X&apos;s Drummer, its newly revamped Drum Machine Designer, Percussionist, as well as the new Drum Synth and Drummer loops, all designed to get you the realistic drums or drum machine style arrangements you want for your project.</p>
+		</div>
+	</body>
+</html>

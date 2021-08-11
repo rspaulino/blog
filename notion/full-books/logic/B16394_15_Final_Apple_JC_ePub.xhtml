@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+	<head>
+		<title>B16394_15_Final_Apple_JC_ePub</title>
+		<link href="css/Latest_NDP_epub.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="B16394_15_Final_Apple_JC_ePub" lang="en-GB" xml:lang="en-GB">
+		<div id="_idContainer258">
+			<h1 id="_idParaDest-221"><em class="italic"><a id="_idTextAnchor256"></a><a id="_idTextAnchor257"></a>Chapter 15</em>:  Automating Your Mix</h1>
+			<p>In <a href="B16394_14_Final_Apple_JC_ePub.xhtml#_idTextAnchor233"><em class="italic">Chapter 14</em></a>, <em class="italic">Mixing Your Project in Logic Pro X</em>, we focused on mixing, but when it came to setting volume levels, pan positions, and all the settings in the plug-ins, everything we did was what is often referred to as <em class="italic">set and forget</em>. Sometimes that works just fine, but, more often than not, automating the levels, panning, and plug-ins so that the parameter values change over time can bring a sense of movement and liveliness to your project.</p>
+			<p>In this chapter, we will discuss the following topics:</p>
+			<ul>
+				<li>A brief history of automation</li>
+				<li>Creating region automation without the project playing</li>
+				<li>Creating track automation with the project playing in Touch mode</li>
+				<li>Creating track automation with the project playing in Latch mode</li>
+				<li>Editing and deleting automation</li>
+			</ul>
+			<h1 id="_idParaDest-222"><a id="_idTextAnchor258"></a>A brief history of automation</h1>
+			<p>In the 1970s, the development of recording consoles and tape machines progressed to the point where we <a id="_idIndexMarker516"></a>could now mix multiple 24-track machines synced together. This meant that the engineer might have many more adjustments to make in real time than he could realistically perform with just two hands, or even two engineers with four hands could.</p>
+			<p>Console makers such as AMS Neve and SSL rose to fill the void with console automation, allowing the console to memorize the engineer&apos;s moves. It is often claimed that Queen&apos;s <em class="italic">Bohemian Rhapsody</em> was one of the first records to employ this ability, and as complex as it is, it certainly had to be at least one of the first.</p>
+			<p>Initially, the faders and knobs would not be moving as you were hearing the changes, but Rupert Neve created a console in the 70s that introduced <em class="italic">flying faders</em>, and all of today&apos;s DAWs can emulate this, as do even inexpensive hardware controllers from companies such as Mackie and Behringer, among others.</p>
+			<p>In Logic Pro X, virtually any plug-in or channel strip settings you execute in a project can be automated.</p>
+			<p>To view <strong class="bold">Automation</strong> in a Logic project, you simply need to press <strong class="bold">A</strong> on your computer keyboard. By default, Logic will show you a lane with volume automation, because volume is the setting that is most frequently automated.</p>
+			<p>Here, you <a id="_idIndexMarker517"></a>can see volume automation in <em class="italic">O</em><em class="italic">cean Eyes</em>:</p>
+			<div>
+				<div id="_idContainer236" class="IMG---Figure">
+					<img src="image/Figure__15.1_B16394.jpg" alt="Figure 15.1 – Volume automation in Ocean Eyes&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.1 – Volume automation in Ocean Eyes</p>
+			<p>Automation can be achieved both offline, without the project playing, or in real time, with the project playing. Although I can only guess with some of the tracks, track 25 clearly was done offline just by creating a few control points, because there are few movements and they are straight lines. Others could have been performed in real time and edited.</p>
+			<p>If we click the disclosure triangle, other lanes appear that show additional automation that was performed on this track:</p>
+			<div>
+				<div id="_idContainer237" class="IMG---Figure">
+					<img src="image/Figure__15.2_B16394.jpg" alt="Figure 15.2 – Additional automation in Ocean Eyes &#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.2 – Additional automation in Ocean Eyes </p>
+			<p>When you play the song back with the Mixer open, you will see the volume moves, as well as hearing some of the plug-in automation, but no panning movement and, overall, not that much automation, because of the dreamy nature of the song. </p>
+			<p>Tracks and regions can be automated. If you automate a region, then it does not affect other regions that come <a id="_idIndexMarker518"></a>after in the track. If you copy the region, the automation is copied with it. If you automate a track, then any automation definitely does affect what happens later in that track. We will explore both in this chapter with a new project created entirely from Apple Loops. You may also use Apple Loops for practice or one of your own projects.</p>
+			<p>Open the <a href="B16394_15_Final_Apple_JC_ePub.xhtml#_idTextAnchor256"><em class="italic">Chapter 1</em><em class="italic">5</em></a> project:</p>
+			<div>
+				<div id="_idContainer238" class="IMG---Figure">
+					<img src="image/Figure__15.3_B16394.jpg" alt="Figure 15.3 – A project created with Apple Loops&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.3 – A project created with Apple Loops</p>
+			<h1 id="_idParaDest-223"><a id="_idTextAnchor259"></a>Offline Region automation</h1>
+			<p>I am going to begin <a id="_idIndexMarker519"></a>by automating panning in the region you see on track 8 at bar 3.</p>
+			<h2 id="_idParaDest-224"><a id="_idTextAnchor260"></a>Region panning automation</h2>
+			<p>Let&apos;s <a id="_idIndexMarker520"></a>begin with the following steps:</p>
+			<ol>
+				<li>Press <strong class="bold">A</strong> to see <a id="_idIndexMarker521"></a>automation. It defaults to <strong class="bold">Track automation</strong> for volume, 
+the automation is visible on every track, and is assigned to <strong class="bold">Read mode</strong>.</li>
+				<li>Should you want this track to be bigger, press <strong class="bold">Control</strong> + <strong class="bold">Z</strong> on the computer keyboard or, alternatively, go to the <strong class="bold">View</strong> menu and choose <strong class="bold">Zoom Focused Track</strong>, and any selected track now gets bigger.</li>
+				<li>Click on the word <strong class="bold">Track</strong> and it switches to <strong class="bold">Region</strong>, which is what I want to use to create panning for this region in this instance.</li>
+				<li>Hold the mouse down on <strong class="bold">Volume</strong> and navigate to <strong class="bold">Main</strong> | <strong class="bold">Pan</strong> | <strong class="bold">Absolute</strong>:<div id="_idContainer239" class="IMG---Figure"><img src="image/Figure__15.4_B16394.jpg" alt="Figure 15.4 – Set to create region-based panning automation&#xd;&#xa;" /></div><p class="figure-caption">Figure 15.4 – Set to create region-based panning automation</p><p>As you <a id="_idIndexMarker522"></a>turn the pan knob from left <a id="_idIndexMarker523"></a>to right or right to left while listening to a stereo recording, any material that was panned to one side starts to disappear. You aren&apos;t moving anything, just raising and lowering levels on each side.</p><p>I decide that I would like to begin in the center, pan all the way left, then all the way right, and then return to the center.</p></li>
+				<li>Click in the <strong class="bold">Warp Speed</strong> region at four different horizontal positions, which creates four control points, all set to <strong class="bold">0</strong>, center pan:<div id="_idContainer240" class="IMG---Figure"><img src="image/Figure__15.5_B16394.jpg" alt="Figure 15.5 – Four control points in the region for pan automation&#xd;&#xa;" /></div><p class="figure-caption">Figure 15.5 – Four control points in the region for pan automation</p></li>
+				<li>Drag <a id="_idIndexMarker524"></a>the second control point <a id="_idIndexMarker525"></a>all the way up to <strong class="bold">-64</strong> and the third all the way down to <strong class="bold">+63</strong>:<div id="_idContainer241" class="IMG---Figure"><img src="image/Figure__15.6_B16394.jpg" alt="Figure 15.6 – Four control points creating pan automation in the region&#xd;&#xa;" /></div><p class="figure-caption">Figure 15.6 – Four control points creating pan automation in the region</p></li>
+				<li>Press <strong class="bold">Control</strong> + <strong class="bold">Z</strong> to turn off <strong class="bold">Zoom focu</strong><strong class="bold">sed track</strong>.</li>
+				<li>Select the region and, while holding down the <strong class="bold">Option</strong> key, drag it to bar 15, making sure you release the mouse before the <strong class="bold">Option</strong> key. You will then see that the <a id="_idIndexMarker526"></a>region is copied with the <a id="_idIndexMarker527"></a>panning automation, and that there is no automation in between the two regions:</li>
+			</ol>
+			<div>
+				<div id="_idContainer242" class="IMG---Figure">
+					<img src="image/Figure__15.7_B16394.jpg" alt="Figure 15.7 – The copied region with the pan automation&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.7 – The copied region with the pan automation</p>
+			<p><strong class="bold">Region automation</strong> can be converted to <strong class="bold">Track automation</strong>, and vice-versa:</p>
+			<div>
+				<div id="_idContainer243" class="IMG---Figure">
+					<img src="image/Figure__15.8_B16394.jpg" alt="Figure 15.8 – Converting automation from Region to Track&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.8 – Converting automation from Region to Track</p>
+			<p>You will <a id="_idIndexMarker528"></a>then see panning automation before, in between, and after those two regions, but there is no particular advantage <a id="_idIndexMarker529"></a>to that in this instance.</p>
+			<h2 id="_idParaDest-225"><a id="_idTextAnchor261"></a>Plug-in bypass automation in a region</h2>
+			<p>In <a id="_idIndexMarker530"></a>the <strong class="bold">2-Step Remix</strong> region, I have <a id="_idIndexMarker531"></a>added an <strong class="bold">AutoFilter</strong> effect with a preset:</p>
+			<div>
+				<div id="_idContainer244" class="IMG---Figure">
+					<img src="image/Figure__15.9_B16394.jpg" alt="Figure 15.9 – An AutoFilter effect&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.9 – An AutoFilter effect</p>
+			<p>I want to hear that effect at the beginning, but then bypass it when the <strong class="bold">Warp Speed</strong> region enters at bar 3:</p>
+			<ol>
+				<li value="1">Change the automation from <strong class="bold">Track</strong> automation to <strong class="bold">Region</strong> automation, as we did with the panning.</li>
+				<li>Navigate to <strong class="bold">Main</strong> | <strong class="bold">Insert 6 Bypass (Au</strong><strong class="bold">toFilter)</strong>.<p>Here is another instance where key commands are your friend.</p></li>
+				<li>Press <strong class="bold">Ctrl</strong> + <strong class="bold">Shift</strong> + <strong class="bold">Command</strong> + <strong class="bold">2</strong> to create control points at the borders of the region. Excellent!</li>
+				<li>Create another control point at bar 3 and drag it down.</li>
+				<li>Play <a id="_idIndexMarker532"></a>back from the beginning and you will see and hear the plug-in initially, but not when it is <a id="_idIndexMarker533"></a>bypassed at bar 3:</li>
+			</ol>
+			<div>
+				<div id="_idContainer245" class="IMG---Figure">
+					<img src="image/Figure__15.10_B16394.jpg" alt="Figure 15.10 – An AutoFilter effect with bypass automated in the region&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.10 – An AutoFilter effect with bypass automated in the region</p>
+			<p>If I copy the region, that automation will be included.</p>
+			<h1 id="_idParaDest-226"><a id="_idTextAnchor262"></a>Live Track automation</h1>
+			<p>Clicking in control <a id="_idIndexMarker534"></a>points without playback is a very precise way to automate, but sometimes you just want the feel of doing this in real time. This is especially true with volume, where listening to a part and riding the fader produces a very musical result.</p>
+			<h2 id="_idParaDest-227"><a id="_idTextAnchor263"></a>Automation modes</h2>
+			<p>There are four <strong class="bold">Automation Modes</strong>, as can be seen here:</p>
+			<div>
+				<div id="_idContainer246" class="IMG---Figure">
+					<img src="image/Figure__15.11_B16394.jpg" alt="Figure 15.11 – The Automation Modes&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.11 – The Automation Modes</p>
+			<ul>
+				<li><strong class="bold">Read</strong>: Reacts to any automation. Turning it off does not remove the automation, but it is <a id="_idIndexMarker535"></a>ignored until turned back on.</li>
+				<li><strong class="bold">Touch</strong>: While playing the <a id="_idIndexMarker536"></a>project back, it stays at the level you are drawing with your mouse until you release it, and then snaps back to its original level.</li>
+				<li><strong class="bold">Latch</strong>: While playing the <a id="_idIndexMarker537"></a>project back, it stays at the level you are drawing with your mouse until you release it, and then remains at that level until you resume movement.</li>
+				<li><strong class="bold">Write</strong>: While <a id="_idIndexMarker538"></a>playing the project back, it erases all the automation on that track, whether visible or not.</li>
+			</ul>
+			<h2 id="_idParaDest-228"><a id="_idTextAnchor264"></a>Volume automation with Touch mode</h2>
+			<p>Let&apos;s <a id="_idIndexMarker539"></a>discover exactly how <strong class="bold">Touch Mode</strong> works. You don&apos;t need to be in <em class="italic">record</em> to record automation:</p>
+			<ol>
+				<li value="1">Change the Automation mode from <strong class="bold">Read</strong> to <strong class="bold">Touch</strong>.</li>
+				<li>Start playback and grab either the <strong class="bold">Volume</strong> slider in <strong class="bold">Track Header</strong> or <strong class="bold">Channel Strip Fader</strong> in the Inspector or Mixer and start to raise and lower the volume.</li>
+				<li>While playback continues, release the mouse button for a while, and then resume the movements.</li>
+				<li>Change the Automation mode from <strong class="bold">Touch</strong> back to <strong class="bold">Read</strong>.</li>
+			</ol>
+			<p>In <a id="_idIndexMarker540"></a>the following screenshot, it is pretty obvious where I stopped moving the mouse, because with <strong class="bold">Touch</strong> mode, it snapped back to the original level:</p>
+			<div>
+				<div id="_idContainer247" class="IMG---Figure">
+					<img src="image/Figure__15.12_B16394.jpg" alt="Figure 15.12 – Touch automation&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.12 – Touch automation</p>
+			<h2 id="_idParaDest-229"><a id="_idTextAnchor265"></a>Volume automation with Latch mode</h2>
+			<p>Perform the <a id="_idIndexMarker541"></a>following similar, but nevertheless different, steps:</p>
+			<ol>
+				<li value="1">Change the Automation mode from <strong class="bold">Read</strong> to <strong class="bold">Latch</strong>.</li>
+				<li>Start playback and grab either the <strong class="bold">Volume</strong> slider in <strong class="bold">Track Header</strong> or <strong class="bold">Channel Strip Fader</strong> in the Inspector or Mixer and start to raise and lower the volume.</li>
+				<li>While playback continues, release the mouse button for a while, and then resume the movements.</li>
+				<li>Change the Automation mode from <strong class="bold">Latch</strong> back to <strong class="bold">Read</strong>:</li>
+			</ol>
+			<div>
+				<div id="_idContainer248" class="IMG---Figure">
+					<img src="image/Figure__15.13_B16394.jpg" alt="Figure 15.13 – Latch automation&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.13 – Latch automation</p>
+			<p>In this screenshot, you can see that when I released the mouse button, it remained at the level I <a id="_idIndexMarker542"></a>was at, at that point, and it did not snap back to the original. When movement resumed, <strong class="bold">Latch</strong> also resumed.</p>
+			<h2 id="_idParaDest-230"><a id="_idTextAnchor266"></a>Automatic lane creation with either Latch or Touch mode</h2>
+			<p>This is an <a id="_idIndexMarker543"></a>area where Logic&apos;s automation shines. I decide that I want the EQ&apos;s bands to be automated in Cycle <a id="_idIndexMarker544"></a>mode. Do I have to choose a lane each time? No, I do not. Logic will do this for me:</p>
+			<ol>
+				<li value="1">Choose the <strong class="bold">Autumn Haze</strong> region and open <strong class="bold">Channel EQ</strong>. Notice that there have not yet been any EQ adjustments.</li>
+				<li>Change the Automation mode from <strong class="bold">Read</strong> to <strong class="bold">Touch</strong>.</li>
+				<li>Begin playback and, as it cycles, grab different bands in the EQ and adjust them.</li>
+			</ol>
+			<p>As is evident in the following screenshot, when I open the disclosure triangle, Logic did indeed create automation lanes for each EQ band:</p>
+			<div>
+				<div id="_idContainer249" class="IMG---Figure">
+					<img src="image/Figure__15.14_B16394.jpg" alt="Figure 15.14 – EQ band touch automation&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.14 – EQ band touch automation</p>
+			<h1 id="_idParaDest-231"><a id="_idTextAnchor267"></a>Trimming automation</h1>
+			<p>Logic gives you lots of <a id="_idIndexMarker545"></a>ways to alter your automation. To delete control points, select one or more points while holding the <em class="italic">Shift</em> key, and then just press the <em class="italic">Delete</em> key and they are gone.</p>
+			<p>We have two choices for trimming the level of volume automation – Trim and Relative, again both offline and in real time.</p>
+			<p>Offline Trim</p>
+			<p>If you hold your <a id="_idIndexMarker546"></a>mouse down over the <strong class="bold">Automation Value</strong> field, you will see the word <strong class="bold">Tr</strong><strong class="bold">im</strong> appear:</p>
+			<div>
+				<div id="_idContainer250" class="IMG---Figure">
+					<img src="image/Figure__15.15_B16394.jpg" alt="Figure 15.15 – Trim volume&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.15 – Trim volume</p>
+			<p>Simply dragging <strong class="bold">Trim</strong> up or down makes it lower or higher while preserving all the automation control points.</p>
+			<p>This isn&apos;t limited to volume automation. Remember all those EQ bands that<a id="_idTextAnchor268"></a> we automated? You can trim the frequency changes in the same manner.</p>
+			<h2 id="_idParaDest-232"><a id="_idTextAnchor269"></a>Real-time Trim</h2>
+			<p>If I return <a id="_idIndexMarker547"></a>to either <strong class="bold">Latch</strong> or <strong class="bold">Touch</strong> mode on a track, I now have the option of either choosing <strong class="bold">Trim</strong> or <strong class="bold">Relative</strong>:</p>
+			<div>
+				<div id="_idContainer251" class="IMG---Figure">
+					<img src="image/Figure__15.16_B16394.jpg" alt="Figure 15.16 – Trim or Relative for Latch or Touch mode&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.16 – Trim or Relative for Latch or Touch mode</p>
+			<p>If you choose <strong class="bold">Trim</strong>, your Automation mode changes to <strong class="bold">T-Latch</strong> or <strong class="bold">T-Touch</strong>. If you choose <strong class="bold">Relative</strong>, your Automation mode changes to <strong class="bold">R-Latch</strong> or <strong class="bold">R-Touch</strong>.</p>
+			<p>With <strong class="bold">T-Latch</strong>, a red line begins to appear as I drag down with my mouse:</p>
+			<div>
+				<div id="_idContainer252" class="IMG---Figure">
+					<img src="image/Figure__15.17_B16394.jpg" alt="Figure 15.17 – T- Latch in action&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.17 – T- Latch in action</p>
+			<p>When I stop, the red line disappears, the new values are in place, and the contours are replaced by the new moves. </p>
+			<p>Coming from the analog world, as I do, I do not think of this as trimming.</p>
+			<p>With <strong class="bold">R-Latch</strong>, a yellow line <a id="_idIndexMarker548"></a>begins to appear as I drag down with my mouse and when I stop, I see both lines, which indicates that even though it got louder or softer, the original contours are, in fact, preserved:</p>
+			<div>
+				<div id="_idContainer253" class="IMG---Figure">
+					<img src="image/Figure__15.18_B16394.jpg" alt="Figure 15.18 – R- Latch results&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.18 – R- Latch results</p>
+			<p>Personally, I think <strong class="bold">Relative</strong> should be called <strong class="bold">Trim</strong>, and what is presently called <strong class="bold">Trim</strong> should be called <strong class="bold">Replace</strong>.</p>
+			<h1 id="_idParaDest-233"><a id="_idTextAnchor270"></a>Copying automation</h1>
+			<p>You can copy <a id="_idIndexMarker549"></a>automation within a track or between tracks, but there are some things you need to understand for the latter.</p>
+			<h2 id="_idParaDest-234"><a id="_idTextAnchor271"></a>Copying automation within a track</h2>
+			<p>Copying visible <a id="_idIndexMarker550"></a>automation within a track works the same way copying works in the workspace with anything:</p>
+			<ol>
+				<li value="1">Select the control points with the <strong class="bold">Marquee</strong> tool, or hold down the <strong class="bold">Shift</strong> key and drag over them.</li>
+				<li>Hold the mouse down, and they all turn white.</li>
+				<li>While holding down the <strong class="bold">Option</strong> key, drag to copy them to the desired location, releasing the mouse first. So easy:</li>
+			</ol>
+			<div>
+				<div id="_idContainer254" class="IMG---Figure">
+					<img src="image/Figure__15.19_B16394.jpg" alt="Figure 15.19 – Automation copied within a track&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.19 – Automation copied within a track</p>
+			<h2 id="_idParaDest-235"><a id="_idTextAnchor272"></a>Copying automation between tracks</h2>
+			<p>The process is slightly <a id="_idIndexMarker551"></a>different when copying automation between tracks:</p>
+			<ol>
+				<li value="1">Select the control points in the track you wish to copy from with the <strong class="bold">Marquee</strong> tool or hold the <strong class="bold">Shift</strong> key and drag over them.</li>
+				<li>Either go to the <strong class="bold">Edit</strong> menu and choose <strong class="bold">Copy</strong>, or, better yet, press <strong class="bold">Co</strong><strong class="bold">mmand</strong> + <strong class="bold">C</strong>.</li>
+				<li>Go to the track you wish to copy to, and either go to the <strong class="bold">Edit</strong> menu and choose <strong class="bold">Paste</strong>, or, better yet, press <strong class="bold">co</strong><strong class="bold">mmand</strong> + <strong class="bold">V</strong>.</li>
+			</ol>
+			<h1 id="_idParaDest-236"><a id="_idTextAnchor273"></a>The track automation Event List</h1>
+			<p>Most users do <a id="_idIndexMarker552"></a>not know about this list, because it is only available by key command. The key command is …. drum roll …. <strong class="bold">Ctrl</strong> + <strong class="bold">Co</strong><strong class="bold">mmand</strong> + <strong class="bold">E</strong>.</p>
+			<p>It looks pretty much like the <strong class="bold">Event List</strong> and works the same way. Here, you can alter existing automation control points to your heart&apos;s content:</p>
+			<div>
+				<div id="_idContainer255" class="IMG---Figure">
+					<img src="image/Figure__15.20_B16394.jpg" alt="Figure 15.20 – The track automation Event List&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.20 – The track automation Event List</p>
+			<p>The question is, can you select the control points and copy them by pressing 
+<strong class="bold">Command</strong> + <strong class="bold">C</strong>, go to another <a id="_idIndexMarker553"></a>track and open the <strong class="bold">Track Automation Event List</strong>, and press <strong class="bold">Command</strong><em class="italic"> </em>+ <strong class="bold">V</strong> to paste them? You betcha!</p>
+			<h1 id="_idParaDest-237"><a id="_idTextAnchor274"></a>Deleting automation</h1>
+			<p>Automation can easily be deleted by going to the <strong class="bold">Mix</strong> menu; with or without being visible on a <a id="_idIndexMarker554"></a>selected track; all automation on a track; automation on a track where all regions have been deleted, a so-called orphaned track; redundant automation (control) points, or for all tracks as shown in the following screenshot:</p>
+			<div>
+				<div id="_idContainer256" class="IMG---Figure">
+					<img src="image/Figure__15.21_B16394.jpg" alt="Figure 15.21 – Automation deletion options in the Mix menu&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.21 – Automation deletion options in the Mix menu</p>
+			<h1 id="_idParaDest-238"><a id="_idTextAnchor275"></a>Customizing MIDI controllers for automation</h1>
+			<p>If <a id="_idIndexMarker555"></a>you go to <strong class="bold">Mix</strong> | <strong class="bold">Automation Preferences</strong>, the following <a id="_idIndexMarker556"></a>window appears:</p>
+			<div>
+				<div id="_idContainer257" class="IMG---Figure">
+					<img src="image/Figure__15.22_B16394.jpg" alt="Figure 15.22 – Automation preferences&#xd;&#xa;" />
+				</div>
+			</div>
+			<p class="figure-caption">Figure 15.22 – Automation preferences</p>
+			<p>If I was writing this book a couple of years ago, I would have spent some time instructing you as to how to use Automation Quick Access to teach your MIDI controller to use its knobs or <a id="_idIndexMarker557"></a>faders to control automation in real time. Nowadays though, there are a slew of affordable MIDI controllers that <a id="_idIndexMarker558"></a>come with mapping for <strong class="bold">Logic Pro X</strong>, so there is no need to do so. If you are a beginner, you should certainly consider buying one.</p>
+			<p>Alternatively, you can download the free Logic Remote app for an iPad or iPhone if you own one and use that for this purpose.</p>
+			<h1 id="_idParaDest-239"><a id="_idTextAnchor276"></a>Summary</h1>
+			<p>In this chapter, we covered a brief history of automation and Logic Pro X&apos;s automation capabilities. We learned how to automate both with playback stopped and in real time during playback. We also learned about all the different automation modes for real-time automation, and how to edit, trim, copy, and delete our automation.</p>
+			<p>In the next chapter, we will become familiar with the concepts of mastering versus pre-mastering, and bouncing a mix or stems for distribution.</p>
+		</div>
+	</body>
+</html>
