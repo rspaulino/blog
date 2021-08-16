@@ -677,32 +677,6 @@ input[type="number"].input-hide-arrows {
  * We use camelCase names here so they're easier to write in Typescript.
  * TODO: use something like linaria to automate this shenanigans.
 /* ==================================================================== */
-.pseudoAfter:after {
-    color: var(--pseudoAfter--color);
-    content: var(--pseudoAfter--content);
-    border: var(--pseudoAfter--border);
-    width: var(--pseudoAfter--width);
-    height: var(--pseudoAfter--height);
-    display: var(--pseudoAfter--display);
-    background: var(--pseudoAfter--background);
-  }
-  
-  .pseudoBefore:before {
-    color: var(--pseudoBefore--color);
-    content: var(--pseudoBefore--content);
-    border: var(--pseudoBefore--border);
-    width: var(--pseudoBefore--width);
-    height: var(--pseudoBefore--height);
-    display: var(--pseudoBefore--display) !important;
-    background: var(--pseudoBefore--background);
-  }
-  
-  .pseudoSelection ::selection {
-    color: var(--pseudoSelection--color);
-    background: var(--pseudoSelection--background);
-    text-shadow: var(--pseudoSelection--textShadow);
-  }
-  
 @keyframes leftOrRight {
     from {
         left: -50%;
