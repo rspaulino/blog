@@ -1,0 +1,717 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="1e1dcd36-5550-44ff-a376-5f0c98a9c920" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.71.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Cracking the PM Interview: How to Land a Product Manager Job in Technology</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="num_1" playOrder="1">
+      <navLabel>
+        <text>1. Introduction</text>
+      </navLabel>
+      <content src="index_split_006.html"/>
+      <navPoint class="chapter" id="num_2" playOrder="2">
+        <navLabel>
+          <text>Why does this matter?</text>
+        </navLabel>
+        <content src="index_split_007.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_3" playOrder="3">
+        <navLabel>
+          <text>Who are we?</text>
+        </navLabel>
+        <content src="index_split_008.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_4" playOrder="4">
+        <navLabel>
+          <text>What now?</text>
+        </navLabel>
+        <content src="index_split_009.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_5" playOrder="5">
+      <navLabel>
+        <text>2. The Product Manager Role</text>
+      </navLabel>
+      <content src="index_split_010.html"/>
+      <navPoint class="chapter" id="num_6" playOrder="6">
+        <navLabel>
+          <text>What is a PM?</text>
+        </navLabel>
+        <content src="index_split_011.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_7" playOrder="7">
+        <navLabel>
+          <text>Functions of a PM</text>
+        </navLabel>
+        <content src="index_split_012.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_8" playOrder="8">
+        <navLabel>
+          <text>Top Myths about Product Management</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_9" playOrder="9">
+        <navLabel>
+          <text>Project Managers and Program Managers</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_10" playOrder="10">
+      <navLabel>
+        <text>3. Companies</text>
+      </navLabel>
+      <content src="index_split_015.html"/>
+      <navPoint class="chapter" id="num_11" playOrder="11">
+        <navLabel>
+          <text>How the PM Role Varies</text>
+        </navLabel>
+        <content src="index_split_016.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_12" playOrder="12">
+        <navLabel>
+          <text>Google</text>
+        </navLabel>
+        <content src="index_split_017.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_13" playOrder="13">
+        <navLabel>
+          <text>Microsoft</text>
+        </navLabel>
+        <content src="index_split_018.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_14" playOrder="14">
+        <navLabel>
+          <text>Apple</text>
+        </navLabel>
+        <content src="index_split_019.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_15" playOrder="15">
+        <navLabel>
+          <text>Facebook</text>
+        </navLabel>
+        <content src="index_split_020.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_16" playOrder="16">
+        <navLabel>
+          <text>Amazon</text>
+        </navLabel>
+        <content src="index_split_021.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_17" playOrder="17">
+        <navLabel>
+          <text>Yahoo</text>
+        </navLabel>
+        <content src="index_split_022.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_18" playOrder="18">
+        <navLabel>
+          <text>Twitter</text>
+        </navLabel>
+        <content src="index_split_023.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_19" playOrder="19">
+        <navLabel>
+          <text>Startups</text>
+        </navLabel>
+        <content src="index_split_024.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_20" playOrder="20">
+      <navLabel>
+        <text>4. Getting the Right Experience</text>
+      </navLabel>
+      <content src="index_split_025.html"/>
+      <navPoint class="chapter" id="num_21" playOrder="21">
+        <navLabel>
+          <text>New Grads</text>
+        </navLabel>
+        <content src="index_split_026.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_22" playOrder="22">
+        <navLabel>
+          <text>Making the Most of Career Fairs</text>
+        </navLabel>
+        <content src="index_split_027.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_23" playOrder="23">
+        <navLabel>
+          <text>Do you need an MBA?</text>
+        </navLabel>
+        <content src="index_split_028.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_24" playOrder="24">
+        <navLabel>
+          <text>Why Technical Experience Matters</text>
+        </navLabel>
+        <content src="index_split_029.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_25" playOrder="25">
+        <navLabel>
+          <text>Transitioning from Engineer to Product Manager</text>
+        </navLabel>
+        <content src="index_split_030.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_26" playOrder="26">
+        <navLabel>
+          <text>Transitioning from Designer to Product Manager</text>
+        </navLabel>
+        <content src="index_split_031.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_27" playOrder="27">
+        <navLabel>
+          <text>Transitioning from Other Roles</text>
+        </navLabel>
+        <content src="index_split_032.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_28" playOrder="28">
+        <navLabel>
+          <text>What Makes a Good Side Project?</text>
+        </navLabel>
+        <content src="index_split_033.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_29" playOrder="29">
+      <navLabel>
+        <text>5. Career Advancement</text>
+      </navLabel>
+      <content src="index_split_034.html"/>
+      <navPoint class="chapter" id="num_30" playOrder="30">
+        <navLabel>
+          <text>Tips and Tricks for Career Advancement</text>
+        </navLabel>
+        <content src="index_split_035.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_31" playOrder="31">
+        <navLabel>
+          <text>Q &amp; A: Fernando Delgado, Sr. Director, Product Management at Yahoo</text>
+        </navLabel>
+        <content src="index_split_036.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_32" playOrder="32">
+        <navLabel>
+          <text>Q &amp; A: Ashley Carroll, Senior Director of Product Management, DocuSign</text>
+        </navLabel>
+        <content src="index_split_037.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_33" playOrder="33">
+        <navLabel>
+          <text>Q &amp; A: Brandon Bray, Principal Group Program Manager, Microsoft</text>
+        </navLabel>
+        <content src="index_split_038.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_34" playOrder="34">
+        <navLabel>
+          <text>Q &amp; A: Thomas Arend, International Product Lead, Airbnb</text>
+        </navLabel>
+        <content src="index_split_039.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_35" playOrder="35">
+        <navLabel>
+          <text>Q &amp; A: Johanna Wright, VP at Google</text>
+        </navLabel>
+        <content src="index_split_040.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_36" playOrder="36">
+        <navLabel>
+          <text>Q &amp; A: Lisa Kostova Ogata, VP of Product at Bright.com</text>
+        </navLabel>
+        <content src="index_split_041.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_37" playOrder="37">
+      <navLabel>
+        <text>6. Behind the Interview Scenes</text>
+      </navLabel>
+      <content src="index_split_042.html"/>
+      <navPoint class="chapter" id="num_38" playOrder="38">
+        <navLabel>
+          <text>Google</text>
+        </navLabel>
+        <content src="index_split_043.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_39" playOrder="39">
+        <navLabel>
+          <text>Microsoft</text>
+        </navLabel>
+        <content src="index_split_044.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_40" playOrder="40">
+        <navLabel>
+          <text>Facebook</text>
+        </navLabel>
+        <content src="index_split_045.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_41" playOrder="41">
+        <navLabel>
+          <text>Apple</text>
+        </navLabel>
+        <content src="index_split_046.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_42" playOrder="42">
+        <navLabel>
+          <text>Amazon</text>
+        </navLabel>
+        <content src="index_split_047.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_43" playOrder="43">
+        <navLabel>
+          <text>Yahoo</text>
+        </navLabel>
+        <content src="index_split_048.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_44" playOrder="44">
+        <navLabel>
+          <text>Twitter</text>
+        </navLabel>
+        <content src="index_split_049.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_45" playOrder="45">
+        <navLabel>
+          <text>Dropbox</text>
+        </navLabel>
+        <content src="index_split_050.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_46" playOrder="46">
+      <navLabel>
+        <text>7. Resumes</text>
+      </navLabel>
+      <content src="index_split_051.html"/>
+      <navPoint class="chapter" id="num_47" playOrder="47">
+        <navLabel>
+          <text>The 15 Second Rule</text>
+        </navLabel>
+        <content src="index_split_052.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_48" playOrder="48">
+        <navLabel>
+          <text>The Rules</text>
+        </navLabel>
+        <content src="index_split_053.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_49" playOrder="49">
+        <navLabel>
+          <text>Attributes of a Good PM Resume</text>
+        </navLabel>
+        <content src="index_split_054.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_50" playOrder="50">
+        <navLabel>
+          <text>What to Include</text>
+        </navLabel>
+        <content src="index_split_055.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_51" playOrder="51">
+      <navLabel>
+        <text>8. Real Resumes: Before &amp; After</text>
+      </navLabel>
+      <content src="index_split_056.html"/>
+      <navPoint class="chapter" id="num_52" playOrder="52">
+        <navLabel>
+          <text>Richard Wang (Anonymized)</text>
+        </navLabel>
+        <content src="index_split_057.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_53" playOrder="53">
+        <navLabel>
+          <text>Paul Unterberg</text>
+        </navLabel>
+        <content src="index_split_058.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_54" playOrder="54">
+        <navLabel>
+          <text>Amit Agarwal (Anonymized)</text>
+        </navLabel>
+        <content src="index_split_059.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_55" playOrder="55">
+        <navLabel>
+          <text>Adam Kazwell</text>
+        </navLabel>
+        <content src="index_split_060.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_56" playOrder="56">
+      <navLabel>
+        <text>9. Cover Letters</text>
+      </navLabel>
+      <content src="index_split_061.html"/>
+      <navPoint class="chapter" id="num_57" playOrder="57">
+        <navLabel>
+          <text>Elements of a Good PM Cover Letter</text>
+        </navLabel>
+        <content src="index_split_062.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_58" playOrder="58">
+        <navLabel>
+          <text>The Cover Letter Template</text>
+        </navLabel>
+        <content src="index_split_063.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_59" playOrder="59">
+        <navLabel>
+          <text>A Great Cover Letter</text>
+        </navLabel>
+        <content src="index_split_064.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_60" playOrder="60">
+      <navLabel>
+        <text>10. Company Research</text>
+      </navLabel>
+      <content src="index_split_065.html"/>
+      <navPoint class="chapter" id="num_61" playOrder="61">
+        <navLabel>
+          <text>The Product</text>
+        </navLabel>
+        <content src="index_split_066.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_62" playOrder="62">
+        <navLabel>
+          <text>The Strategy</text>
+        </navLabel>
+        <content src="index_split_067.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_63" playOrder="63">
+        <navLabel>
+          <text>The Culture</text>
+        </navLabel>
+        <content src="index_split_068.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_64" playOrder="64">
+        <navLabel>
+          <text>The Role</text>
+        </navLabel>
+        <content src="index_split_069.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_65" playOrder="65">
+        <navLabel>
+          <text>The Questions</text>
+        </navLabel>
+        <content src="index_split_070.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_66" playOrder="66">
+      <navLabel>
+        <text>11. Define Yourself</text>
+      </navLabel>
+      <content src="index_split_071.html"/>
+      <navPoint class="chapter" id="num_67" playOrder="67">
+        <navLabel>
+          <text>“Tell Me About Yourself” (The Pitch)</text>
+        </navLabel>
+        <content src="index_split_072.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_68" playOrder="68">
+        <navLabel>
+          <text>“Why do you want to work here?”</text>
+        </navLabel>
+        <content src="index_split_073.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_69" playOrder="69">
+        <navLabel>
+          <text>“Why should we hire you?”</text>
+        </navLabel>
+        <content src="index_split_074.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_70" playOrder="70">
+        <navLabel>
+          <text>“Why are you leaving your current job?”</text>
+        </navLabel>
+        <content src="index_split_075.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_71" playOrder="71">
+        <navLabel>
+          <text>“What do you like to do in your spare time?”</text>
+        </navLabel>
+        <content src="index_split_076.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_72" playOrder="72">
+        <navLabel>
+          <text>“Where do you see yourself in five years?”</text>
+        </navLabel>
+        <content src="index_split_077.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_73" playOrder="73">
+        <navLabel>
+          <text>“What are your strengths and weaknesses?”</text>
+        </navLabel>
+        <content src="index_split_078.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_74" playOrder="74">
+        <navLabel>
+          <text>Sample Strengths</text>
+        </navLabel>
+        <content src="index_split_079.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_75" playOrder="75">
+        <navLabel>
+          <text>Sample Weaknesses</text>
+        </navLabel>
+        <content src="index_split_080.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_76" playOrder="76">
+      <navLabel>
+        <text>12. Behavioral Questions</text>
+      </navLabel>
+      <content src="index_split_081.html"/>
+      <navPoint class="chapter" id="num_77" playOrder="77">
+        <navLabel>
+          <text>Why These Questions Are Asked</text>
+        </navLabel>
+        <content src="index_split_082.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_78" playOrder="78">
+        <navLabel>
+          <text>Preparation</text>
+        </navLabel>
+        <content src="index_split_083.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_79" playOrder="79">
+        <navLabel>
+          <text>Follow-Up Questions</text>
+        </navLabel>
+        <content src="index_split_084.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_80" playOrder="80">
+        <navLabel>
+          <text>Types of Behavioral Questions</text>
+        </navLabel>
+        <content src="index_split_085.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_81" playOrder="81">
+      <navLabel>
+        <text>13. Estimation Questions</text>
+      </navLabel>
+      <content src="index_split_086.html"/>
+      <navPoint class="chapter" id="num_82" playOrder="82">
+        <navLabel>
+          <text>Approach</text>
+        </navLabel>
+        <content src="index_split_087.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_83" playOrder="83">
+        <navLabel>
+          <text>Numbers Cheat Sheet</text>
+        </navLabel>
+        <content src="index_split_088.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_84" playOrder="84">
+        <navLabel>
+          <text>Tips and Tricks</text>
+        </navLabel>
+        <content src="index_split_089.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_85" playOrder="85">
+        <navLabel>
+          <text>Example Interview</text>
+        </navLabel>
+        <content src="index_split_090.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_86" playOrder="86">
+        <navLabel>
+          <text>Sample Questions</text>
+        </navLabel>
+        <content src="index_split_091.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_87" playOrder="87">
+      <navLabel>
+        <text>14. Product Questions</text>
+      </navLabel>
+      <content src="index_split_092.html"/>
+      <navPoint class="chapter" id="num_88" playOrder="88">
+        <navLabel>
+          <text>About the Product Question</text>
+        </navLabel>
+        <content src="index_split_093.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_89" playOrder="89">
+        <navLabel>
+          <text>Type 1: Designing a Product</text>
+        </navLabel>
+        <content src="index_split_094.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_90" playOrder="90">
+        <navLabel>
+          <text>Type 2: Improving a Product</text>
+        </navLabel>
+        <content src="index_split_095.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_91" playOrder="91">
+        <navLabel>
+          <text>Type 3: Favorite Product</text>
+        </navLabel>
+        <content src="index_split_096.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_92" playOrder="92">
+        <navLabel>
+          <text>Preparation</text>
+        </navLabel>
+        <content src="index_split_097.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_93" playOrder="93">
+        <navLabel>
+          <text>Tips and Tricks</text>
+        </navLabel>
+        <content src="index_split_098.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_94" playOrder="94">
+        <navLabel>
+          <text>Sample Questions</text>
+        </navLabel>
+        <content src="index_split_099.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_95" playOrder="95">
+      <navLabel>
+        <text>15. Case Questions</text>
+      </navLabel>
+      <content src="index_split_100.html"/>
+      <navPoint class="chapter" id="num_96" playOrder="96">
+        <navLabel>
+          <text>The Case Question: Consultants vs. PMs</text>
+        </navLabel>
+        <content src="index_split_101.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_97" playOrder="97">
+        <navLabel>
+          <text>What Interviewers Look For</text>
+        </navLabel>
+        <content src="index_split_102.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_98" playOrder="98">
+        <navLabel>
+          <text>Useful Frameworks</text>
+        </navLabel>
+        <content src="index_split_103.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_99" playOrder="99">
+        <navLabel>
+          <text>Product Metrics</text>
+        </navLabel>
+        <content src="index_split_104.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_100" playOrder="100">
+        <navLabel>
+          <text>Interview Questions</text>
+        </navLabel>
+        <content src="index_split_105.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_101" playOrder="101">
+      <navLabel>
+        <text>16. Coding Questions</text>
+      </navLabel>
+      <content src="index_split_106.html"/>
+      <navPoint class="chapter" id="num_102" playOrder="102">
+        <navLabel>
+          <text>Who Needs To Code</text>
+        </navLabel>
+        <content src="index_split_107.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_103" playOrder="103">
+        <navLabel>
+          <text>What You Need To Know</text>
+        </navLabel>
+        <content src="index_split_108.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_104" playOrder="104">
+        <navLabel>
+          <text>How You Are Evaluated</text>
+        </navLabel>
+        <content src="index_split_109.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_105" playOrder="105">
+        <navLabel>
+          <text>How To Approach</text>
+        </navLabel>
+        <content src="index_split_110.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_106" playOrder="106">
+        <navLabel>
+          <text>Developing an Algorithm</text>
+        </navLabel>
+        <content src="index_split_111.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_107" playOrder="107">
+        <navLabel>
+          <text>Additional Questions</text>
+        </navLabel>
+        <content src="index_split_112.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_108" playOrder="108">
+        <navLabel>
+          <text>Solutions</text>
+        </navLabel>
+        <content src="index_split_113.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_109" playOrder="109">
+      <navLabel>
+        <text>17. Appendix</text>
+      </navLabel>
+      <content src="index_split_114.html"/>
+      <navPoint class="chapter" id="num_110" playOrder="110">
+        <navLabel>
+          <text>Ian McAllister: Top 1% PMs vs. Top 10% PMs</text>
+        </navLabel>
+        <content src="index_split_115.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_111" playOrder="111">
+        <navLabel>
+          <text>Adam Nash: Be a Great Product Leader</text>
+        </navLabel>
+        <content src="index_split_116.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_112" playOrder="112">
+        <navLabel>
+          <text>Sachin Rekhi: The Inputs to a Great Product Roadmap</text>
+        </navLabel>
+        <content src="index_split_117.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_113" playOrder="113">
+        <navLabel>
+          <text>Ken Norton: How to Hire a Product Manager</text>
+        </navLabel>
+        <content src="index_split_118.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_114" playOrder="114">
+        <navLabel>
+          <text>Amazon Leadership Principles</text>
+        </navLabel>
+        <content src="index_split_119.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_115" playOrder="115">
+      <navLabel>
+        <text>18. Acknowledgements</text>
+      </navLabel>
+      <content src="index_split_120.html"/>
+      <navPoint class="chapter" id="num_116" playOrder="116">
+        <navLabel>
+          <text>Gayle Laakmann McDowell</text>
+        </navLabel>
+        <content src="index_split_121.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_117" playOrder="117">
+        <navLabel>
+          <text>Jackie Bavaro</text>
+        </navLabel>
+        <content src="index_split_123.html"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,807 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="08754d5f-e494-4016-8ba9-e05ba7f8c88b" name="dtb:uid"/>
+    <meta content="4" name="dtb:depth"/>
+    <meta content="calibre (3.4.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Decode and Conquer: Answers to Product Management Interviews</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="num_1" playOrder="1">
+      <navLabel>
+        <text>Cover Page</text>
+      </navLabel>
+      <content src="index_split_000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_2" playOrder="2">
+      <navLabel>
+        <text>Title Page</text>
+      </navLabel>
+      <content src="index_split_001.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_3" playOrder="3">
+      <navLabel>
+        <text>Copyright Page</text>
+      </navLabel>
+      <content src="index_split_002.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_4" playOrder="4">
+      <navLabel>
+        <text>Table of Contents</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_5" playOrder="5">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="index_split_004.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_6" playOrder="6">
+      <navLabel>
+        <text>Chapter 1 Critiquing Design</text>
+      </navLabel>
+      <content src="index_split_006.html"/>
+      <navPoint class="chapter" id="num_7" playOrder="7">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_007.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_8" playOrder="8">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_008.html"/>
+        <navPoint class="chapter" id="num_9" playOrder="9">
+          <navLabel>
+            <text>How do you like LinkedIn’s endorse feature?</text>
+          </navLabel>
+          <content src="index_split_008.html#filepos25840"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_10" playOrder="10">
+          <navLabel>
+            <text>Tell me about a product you like and use frequently. Why do you like it?</text>
+          </navLabel>
+          <content src="index_split_008.html#filepos32088"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_11" playOrder="11">
+          <navLabel>
+            <text>Tell me about a product that was designed poorly.</text>
+          </navLabel>
+          <content src="index_split_009.html"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_12" playOrder="12">
+      <navLabel>
+        <text>Chapter 2 Designing a Desktop Application</text>
+      </navLabel>
+      <content src="index_split_010.html"/>
+      <navPoint class="chapter" id="num_13" playOrder="13">
+        <navLabel>
+          <text>What is the CIRCLES Method™?</text>
+        </navLabel>
+        <content src="index_split_011.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_14" playOrder="14">
+        <navLabel>
+          <text>Tip on using the CIRCLES Method™</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_15" playOrder="15">
+        <navLabel>
+          <text>Practice Question</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_16" playOrder="16">
+        <navLabel>
+          <text>Answer</text>
+        </navLabel>
+        <content src="index_split_015.html"/>
+        <navPoint class="chapter" id="num_17" playOrder="17">
+          <navLabel>
+            <text>How would you improve Microsoft PowerPoint?</text>
+          </navLabel>
+          <content src="index_split_015.html#filepos62942"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_18" playOrder="18">
+      <navLabel>
+        <text>Chapter 3 Designing a Webpage or Website</text>
+      </navLabel>
+      <content src="index_split_016.html"/>
+      <navPoint class="chapter" id="num_19" playOrder="19">
+        <navLabel>
+          <text>Tip: Interview Visually</text>
+        </navLabel>
+        <content src="index_split_018.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_20" playOrder="20">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_019.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_21" playOrder="21">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_020.html"/>
+        <navPoint class="chapter" id="num_22" playOrder="22">
+          <navLabel>
+            <text>How will you improve LinkedIn’s home page?</text>
+          </navLabel>
+          <content src="index_split_020.html#filepos71633"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_23" playOrder="23">
+          <navLabel>
+            <text>How would you improve LinkedIn’s signup process?</text>
+          </navLabel>
+          <content src="index_split_020.html#filepos80338"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_24" playOrder="24">
+          <navLabel>
+            <text>How would you improve image search?</text>
+          </navLabel>
+          <content src="index_split_020.html#filepos87244"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_25" playOrder="25">
+          <navLabel>
+            <text>How would you improve restaurant search?</text>
+          </navLabel>
+          <content src="index_split_020.html#filepos91445"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_26" playOrder="26">
+          <navLabel>
+            <text>How would you improve Google Maps?</text>
+          </navLabel>
+          <content src="index_split_020.html#filepos99248"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_27" playOrder="27">
+          <navLabel>
+            <text>You are the product manager for Google+. What killer feature would you build?</text>
+          </navLabel>
+          <content src="index_split_020.html#filepos103704"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_28" playOrder="28">
+          <navLabel>
+            <text>How would you improve Google’s Chrome browser?</text>
+          </navLabel>
+          <content src="index_split_020.html#filepos112142"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_29" playOrder="29">
+      <navLabel>
+        <text>Chapter 4 Designing a Mobile App</text>
+      </navLabel>
+      <content src="index_split_021.html"/>
+      <navPoint class="chapter" id="num_30" playOrder="30">
+        <navLabel>
+          <text>Tip: Memorize Design Best Practices</text>
+        </navLabel>
+        <content src="index_split_022.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_31" playOrder="31">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_023.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_32" playOrder="32">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_024.html"/>
+        <navPoint class="chapter" id="num_33" playOrder="33">
+          <navLabel>
+            <text>Google shut down a location sharing service called Google Latitude on August 2013. How would you redesign and re-launch a location-sharing app?</text>
+          </navLabel>
+          <content src="index_split_024.html#filepos118784"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_34" playOrder="34">
+          <navLabel>
+            <text>Design a new iPad app for Google Spreadsheet.</text>
+          </navLabel>
+          <content src="index_split_024.html#filepos124043"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_35" playOrder="35">
+          <navLabel>
+            <text>How would you improve the LinkedIn mobile app?</text>
+          </navLabel>
+          <content src="index_split_024.html#filepos131806"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_36" playOrder="36">
+      <navLabel>
+        <text>Chapter 5 Designing a Consumer Product</text>
+      </navLabel>
+      <content src="index_split_025.html"/>
+      <navPoint class="chapter" id="num_37" playOrder="37">
+        <navLabel>
+          <text>Tip: Don’t Blindly Follow Frameworks</text>
+        </navLabel>
+        <content src="index_split_026.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_38" playOrder="38">
+        <navLabel>
+          <text>Practice Question</text>
+        </navLabel>
+        <content src="index_split_027.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_39" playOrder="39">
+        <navLabel>
+          <text>Answer</text>
+        </navLabel>
+        <content src="index_split_028.html"/>
+        <navPoint class="chapter" id="num_40" playOrder="40">
+          <navLabel>
+            <text>Re-design a garage door opener.</text>
+          </navLabel>
+          <content src="index_split_028.html#filepos139182"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_41" playOrder="41">
+      <navLabel>
+        <text>Chapter 6 Designing a Service or Other Product</text>
+      </navLabel>
+      <content src="index_split_029.html"/>
+      <navPoint class="chapter" id="num_42" playOrder="42">
+        <navLabel>
+          <text>Tip: Ask the Five Whys to Understand Unarticulated Problems</text>
+        </navLabel>
+        <content src="index_split_030.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_43" playOrder="43">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_031.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_44" playOrder="44">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_032.html"/>
+        <navPoint class="chapter" id="num_45" playOrder="45">
+          <navLabel>
+            <text>Assume you are the new product manager in our Amazon Prime business and are in charge of feature development. What data would you look at to develop new features? What new features would they be?</text>
+          </navLabel>
+          <content src="index_split_032.html#filepos146584"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_46" playOrder="46">
+          <navLabel>
+            <text>The billboard industry is under monetized. How can Google create a new product or offering to address this?</text>
+          </navLabel>
+          <content src="index_split_032.html#filepos154645"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_47" playOrder="47">
+      <navLabel>
+        <text>Chapter 7 Getting Technical</text>
+      </navLabel>
+      <content src="index_split_033.html"/>
+      <navPoint class="chapter" id="num_48" playOrder="48">
+        <navLabel>
+          <text>How to Approach a Technical Interview Question</text>
+        </navLabel>
+        <content src="index_split_034.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_49" playOrder="49">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_035.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_50" playOrder="50">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_036.html"/>
+        <navPoint class="chapter" id="num_51" playOrder="51">
+          <navLabel>
+            <text>Brainstorm as many algorithms as possible for recommending Twitter followers.</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos165921"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_52" playOrder="52">
+          <navLabel>
+            <text>Explain recursion.</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos171837"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_53" playOrder="53">
+          <navLabel>
+            <text>Explain object-oriented programming to your grandmother.</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos175082"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_54" playOrder="54">
+          <navLabel>
+            <text>How would you reduce Gmail’s storage size?</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos178006"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_55" playOrder="55">
+          <navLabel>
+            <text>How would you design a blogging application?</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos182896"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_56" playOrder="56">
+          <navLabel>
+            <text>You’re part of the Google Search web spam team. How would you detect duplicate websites?</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos186831"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_57" playOrder="57">
+          <navLabel>
+            <text>Write an algorithm that detects meeting conflicts.</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos190424"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_58" playOrder="58">
+          <navLabel>
+            <text>Design an elevator control system.</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos192406"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_59" playOrder="59">
+          <navLabel>
+            <text>There’s a server bottleneck. How would you solve it?</text>
+          </navLabel>
+          <content src="index_split_036.html#filepos196282"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_60" playOrder="60">
+      <navLabel>
+        <text>Chapter 8 Getting Analytical: Estimation</text>
+      </navLabel>
+      <content src="index_split_037.html"/>
+      <navPoint class="chapter" id="num_61" playOrder="61">
+        <navLabel>
+          <text>Top Down Estimation Method</text>
+        </navLabel>
+        <content src="index_split_038.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_62" playOrder="62">
+        <navLabel>
+          <text>Bottom Up Estimation Method</text>
+        </navLabel>
+        <content src="index_split_039.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_63" playOrder="63">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_040.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_64" playOrder="64">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_041.html"/>
+        <navPoint class="chapter" id="num_65" playOrder="65">
+          <navLabel>
+            <text>Estimate McDonald’s revenue.</text>
+          </navLabel>
+          <content src="index_split_041.html#filepos203484"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_66" playOrder="66">
+          <navLabel>
+            <text>How many queries per second does Gmail get?</text>
+          </navLabel>
+          <content src="index_split_041.html#filepos207770"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_67" playOrder="67">
+          <navLabel>
+            <text>How many iPhones are sold in the US each year?</text>
+          </navLabel>
+          <content src="index_split_041.html#filepos210639"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_68" playOrder="68">
+          <navLabel>
+            <text>Estimate how much it costs to run Flickr for a 20GB user.</text>
+          </navLabel>
+          <content src="index_split_041.html#filepos213260"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_69" playOrder="69">
+          <navLabel>
+            <text>How many elevators do you need for a 50-story building?</text>
+          </navLabel>
+          <content src="index_split_041.html#filepos216404"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_70" playOrder="70">
+      <navLabel>
+        <text>Chapter 9 Getting Analytical: Pricing</text>
+      </navLabel>
+      <content src="index_split_042.html"/>
+      <navPoint class="chapter" id="num_71" playOrder="71">
+        <navLabel>
+          <text>How to Approach a Pricing Problem</text>
+        </navLabel>
+        <content src="index_split_043.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_72" playOrder="72">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_044.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_73" playOrder="73">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_045.html"/>
+        <navPoint class="chapter" id="num_74" playOrder="74">
+          <navLabel>
+            <text>How would you price the Kindle Fire HD?</text>
+          </navLabel>
+          <content src="index_split_045.html#filepos223076"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_75" playOrder="75">
+          <navLabel>
+            <text>Assume you are the new product manager in our Amazon Prime business and are deciding pricing. The vice president would like to lower the price from $79.99 per year to $69.99 per year. Making your own assumptions, develop the financial projections for this decision.</text>
+          </navLabel>
+          <content src="index_split_045.html#filepos228510"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_76" playOrder="76">
+      <navLabel>
+        <text>Chapter 10 Getting Analytical: Metrics</text>
+      </navLabel>
+      <content src="index_split_046.html"/>
+      <navPoint class="chapter" id="num_77" playOrder="77">
+        <navLabel>
+          <text>How to Approach Metrics Questions</text>
+        </navLabel>
+        <content src="index_split_047.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_78" playOrder="78">
+        <navLabel>
+          <text>What are the AARM Metrics™?</text>
+        </navLabel>
+        <content src="index_split_048.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_79" playOrder="79">
+        <navLabel>
+          <text>What are the Three Loops™?</text>
+        </navLabel>
+        <content src="index_split_049.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_80" playOrder="80">
+        <navLabel>
+          <text>Tip: Making Decisions from A/B Test Results</text>
+        </navLabel>
+        <content src="index_split_050.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_81" playOrder="81">
+        <navLabel>
+          <text>Practice Question</text>
+        </navLabel>
+        <content src="index_split_051.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_82" playOrder="82">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_052.html"/>
+        <navPoint class="chapter" id="num_83" playOrder="83">
+          <navLabel>
+            <text>What metrics will you look at to evaluate success of a product?</text>
+          </navLabel>
+          <content src="index_split_052.html#filepos238767"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_84" playOrder="84">
+          <navLabel>
+            <text>Suggest a killer feature to improve LinkedIn? And what metrics would you track to determine success?</text>
+          </navLabel>
+          <content src="index_split_052.html#filepos246212"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_85" playOrder="85">
+          <navLabel>
+            <text>What feature would you build to improve Google+? And what metrics would you track to determine success?</text>
+          </navLabel>
+          <content src="index_split_052.html#filepos251496"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_86" playOrder="86">
+      <navLabel>
+        <text>Chapter 11 Strategizing: Trade-offs</text>
+      </navLabel>
+      <content src="index_split_053.html"/>
+      <navPoint class="chapter" id="num_87" playOrder="87">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_054.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_88" playOrder="88">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_055.html"/>
+        <navPoint class="chapter" id="num_89" playOrder="89">
+          <navLabel>
+            <text>Amazon launched display advertisements on its web page, and it was a highly controversial decision within the company. Pick either the pro or con side of the argument and explain your position for or against including ads on the site.</text>
+          </navLabel>
+          <content src="index_split_055.html#filepos261568"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_90" playOrder="90">
+          <navLabel>
+            <text>Now tell me why display advertising is a bad decision.</text>
+          </navLabel>
+          <content src="index_split_055.html#filepos264194"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_91" playOrder="91">
+      <navLabel>
+        <text>Chapter 12 Strategizing: New Market entry</text>
+      </navLabel>
+      <content src="index_split_056.html"/>
+      <navPoint class="chapter" id="num_92" playOrder="92">
+        <navLabel>
+          <text>How to Approach Strategy Questions on New Market Entry</text>
+        </navLabel>
+        <content src="index_split_056.html#filepos266078"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_93" playOrder="93">
+        <navLabel>
+          <text>New Market Entry Checklist</text>
+        </navLabel>
+        <content src="index_split_057.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_94" playOrder="94">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_058.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_95" playOrder="95">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_059.html"/>
+        <navPoint class="chapter" id="num_96" playOrder="96">
+          <navLabel>
+            <text>Start a new category, division, or international market for Amazon. Which one did you choose and why?</text>
+          </navLabel>
+          <content src="index_split_059.html#filepos268855"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_97" playOrder="97">
+          <navLabel>
+            <text>You have a choice between selling a new oven or an oven mitt. Which one do you choose and why?</text>
+          </navLabel>
+          <content src="index_split_059.html#filepos273148"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_98" playOrder="98">
+          <navLabel>
+            <text>An aspiring Amazon product manager proposes to Jeff Bezos that Amazon should sell groceries from neighborhood markets. What are the pros and cons of this idea?</text>
+          </navLabel>
+          <content src="index_split_059.html#filepos287611"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_99" playOrder="99">
+      <navLabel>
+        <text>Chapter 13 Strategizing: CEO-level Issues</text>
+      </navLabel>
+      <content src="index_split_061.html"/>
+      <navPoint class="chapter" id="num_100" playOrder="100">
+        <navLabel>
+          <text>How to Approach CEO-level Strategy Questions</text>
+        </navLabel>
+        <content src="index_split_061.html#filepos292595"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_101" playOrder="101">
+        <navLabel>
+          <text>Practice Questions</text>
+        </navLabel>
+        <content src="index_split_062.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_102" playOrder="102">
+        <navLabel>
+          <text>Answers</text>
+        </navLabel>
+        <content src="index_split_063.html"/>
+        <navPoint class="chapter" id="num_103" playOrder="103">
+          <navLabel>
+            <text>You’re Larry Page. The head of corporate development tells you that Quora is in play, and both Microsoft and Facebook are bidding for it. Should Google participate in the discussions? Why?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos295026"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_104" playOrder="104">
+          <navLabel>
+            <text>You are the CEO of the Yellow Cab taxi service. How do you respond to Uber?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos297250"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_105" playOrder="105">
+          <navLabel>
+            <text>If you were Google’s CEO, would you be concerned about Microsoft?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos305316"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_106" playOrder="106">
+          <navLabel>
+            <text>How does Google make money, and what are the biggest threats?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos307607"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_107" playOrder="107">
+          <navLabel>
+            <text>How does LinkedIn make money, and what are the biggest threats?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos312908"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_108" playOrder="108">
+          <navLabel>
+            <text>Google launched a new program: Google Trusted Stores. Why is Google Trusted Stores strategically important for the company?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos318746"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_109" playOrder="109">
+          <navLabel>
+            <text>Should Amazon launch a smartphone?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos327274"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_110" playOrder="110">
+          <navLabel>
+            <text>Choose a company that you believe provides a world-class customer experience. What do they do well?</text>
+          </navLabel>
+          <content src="index_split_063.html#filepos330046"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_111" playOrder="111">
+      <navLabel>
+        <text>Chapter 14 Creating Vision</text>
+      </navLabel>
+      <content src="index_split_064.html"/>
+      <navPoint class="chapter" id="num_112" playOrder="112">
+        <navLabel>
+          <text>How to Approach Vision Questions</text>
+        </navLabel>
+        <content src="index_split_065.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_113" playOrder="113">
+        <navLabel>
+          <text>Practice Question</text>
+        </navLabel>
+        <content src="index_split_066.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_114" playOrder="114">
+        <navLabel>
+          <text>Answer</text>
+        </navLabel>
+        <content src="index_split_067.html"/>
+        <navPoint class="chapter" id="num_115" playOrder="115">
+          <navLabel>
+            <text>Choose one of these verticals. Where do you think it’ll be in ten years?</text>
+          </navLabel>
+          <content src="index_split_067.html#filepos338735"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_116" playOrder="116">
+          <navLabel>
+            <text>What do you think LinkedIn can do on the iPhone that is truly groundbreaking?</text>
+          </navLabel>
+          <content src="index_split_067.html#filepos343744"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_117" playOrder="117">
+      <navLabel>
+        <text>Chapter 15 Passing the Stress Test</text>
+      </navLabel>
+      <content src="index_split_068.html"/>
+      <navPoint class="chapter" id="num_118" playOrder="118">
+        <navLabel>
+          <text>How to Approach the Stress Test</text>
+        </navLabel>
+        <content src="index_split_069.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_119" playOrder="119">
+        <navLabel>
+          <text>Practice Question</text>
+        </navLabel>
+        <content src="index_split_070.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_120" playOrder="120">
+        <navLabel>
+          <text>Answer</text>
+        </navLabel>
+        <content src="index_split_071.html"/>
+        <navPoint class="chapter" id="num_121" playOrder="121">
+          <navLabel>
+            <text>Look at this diagram. Where would you place yourself, and why?</text>
+          </navLabel>
+          <content src="index_split_071.html#filepos355299"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_122" playOrder="122">
+      <navLabel>
+        <text>Chapter 16 Winning the Behavioral Interview</text>
+      </navLabel>
+      <content src="index_split_072.html"/>
+      <navPoint class="chapter" id="num_123" playOrder="123">
+        <navLabel>
+          <text>Common Behavioral Interview Questions at the PM Interview</text>
+        </navLabel>
+        <content src="index_split_073.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_124" playOrder="124">
+        <navLabel>
+          <text>Why Behavioral Interviews Are Becoming More Popular</text>
+        </navLabel>
+        <content src="index_split_074.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_125" playOrder="125">
+        <navLabel>
+          <text>What Interviewers Are Looking For</text>
+        </navLabel>
+        <content src="index_split_075.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_126" playOrder="126">
+        <navLabel>
+          <text>How to Approach a Behavioral Interview Question</text>
+        </navLabel>
+        <content src="index_split_076.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_127" playOrder="127">
+        <navLabel>
+          <text>What is the DIGS method™?</text>
+        </navLabel>
+        <content src="index_split_077.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_128" playOrder="128">
+        <navLabel>
+          <text>Practice Question</text>
+        </navLabel>
+        <content src="index_split_078.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_129" playOrder="129">
+        <navLabel>
+          <text>Answer</text>
+        </navLabel>
+        <content src="index_split_079.html"/>
+        <navPoint class="chapter" id="num_130" playOrder="130">
+          <navLabel>
+            <text>Tell me a time when you influenced engineering to build a particular feature.</text>
+          </navLabel>
+          <content src="index_split_079.html#filepos379303"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_131" playOrder="131">
+      <navLabel>
+        <text>Acknowledgments</text>
+      </navLabel>
+      <content src="index_split_080.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_132" playOrder="132">
+      <navLabel>
+        <text>Additional Readings</text>
+      </navLabel>
+      <content src="index_split_081.html"/>
+    </navPoint>
+  </navMap>
+</ncx>
