@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <title>ch018.xhtml</title>
+  <link rel="stylesheet" type="text/css" href="../styles/stylesheet1.css" />
+</head>
+<body epub:type="bodymatter">
+<section id="glossary" class="level1 Chapter-Heading" data-number="17">
+<h1 class="Chapter-Heading" data-number="17">Glossary</h1>
+<p>So how do you build a website? Just ask your average tech blog, and it’ll tell you: open a GitHub repo; build out a backend in Python or Ruby on Rails; serve up some HTML, CSS, and JavaScript; build some RESTful APIs; tweak the UI/UX; and ship an MVP on AWS. Oh, and get a CDN while you’re at it.</p>
+<p>Huh?</p>
+<p>The world of software has a mind-boggling amount of jargon and buzzwords. But here, we’re going to break down some of the most common terms so you can talk like a techie without feeling like you need a foreign language class.</p>
+<section id="programming-languages" class="level2" data-number="17.1">
+<h2 data-number="17.1">Programming languages</h2>
+<p>All software is written using code, much like food is made according to a recipe. And just like you can write recipes in English, Bengali, or Turkish, you can write software in programming languages like Ruby, Python, or C. Each programming language has its own strengths and weaknesses, and each one is used in particular situations. Here’s a glimpse into some of the most popular languages.</p>
+<p>Assembly</p>
+<blockquote>
+<p>Computers only think in 1’s and 0’s, and assembly language is just a slightly prettier version of 1’s and 0’s. Programmers rarely write in assembly language, since it’s too much effort; they’ll usually write in a “higher-level language” that computers convert into assembly and then run. (Every other language in this section is a higher-level, or more “abstract,” language.) It’s like driving a car: instead of trying to directly set the speed of each wheel, you just use the steering wheel and pedals. This is far easier, and besides, you’d probably have no idea how to set the wheel speeds just right.</p>
+</blockquote>
+<p>C/C++</p>
+<blockquote>
+<p>Some of the oldest programming languages, and still among the most popular. They run very fast but are more difficult to write, so developers trying to get maximum performance (like those writing graphics-heavy games, physics simulators, web servers, or operating systems) tend to use C and C++.</p>
+</blockquote>
+<p>C# (C-Sharp)</p>
+<blockquote>
+<p>A language built by Microsoft, often used to write desktop apps. Similar to Java.</p>
+</blockquote>
+<p>CSS</p>
+<blockquote>
+<p>A web development language that works with HTML, used to make websites look pretty. CSS lets you change a webpage’s colors, fonts, background, and so on. It also lets you specify where the various buttons, headers, images, etc. on a webpage should go.</p>
+</blockquote>
+<p>Go</p>
+<blockquote>
+<p>An up-and-coming language designed by Google, often used to build web servers.</p>
+</blockquote>
+<p>HTML</p>
+<blockquote>
+<p>The language used to write webpages. You can create links, images, headers, buttons, and every other element on a webpage using HTML. Each of these elements is called a “tag.” For instance, a tag called &lt;img&gt; represents an image.</p>
+</blockquote>
+<p>Java</p>
+<blockquote>
+<p>One of the world’s most popular languages, Java is used to write Android apps, web servers, and desktop apps. It’s famous for its “write once, run anywhere” tagline — the same Java app can instantly run on all kinds of devices.<a href="#fn1" class="footnote-ref" id="fnref1" epub:type="noteref">1</a></p>
+</blockquote>
+<p>JavaScript</p>
+<blockquote>
+<p>The language used to make webpages interactive. Every web app you use, from Facebook Messenger to Spotify to Google Maps, uses JavaScript. Nowadays, developers also use JavaScript to build web servers and desktop apps. <em>Also known as ECMAScript or ES.</em></p>
+</blockquote>
+<p>MATLAB</p>
+<blockquote>
+<p>A specialized, commercial language that’s often used in engineering, science, and mathematical modeling. It’s used more for research than building software.</p>
+</blockquote>
+<p>Objective-C</p>
+<blockquote>
+<p>A language formerly used to write iPhone, iPad, and Mac apps; nowadays, people tend to develop in Swift.</p>
+</blockquote>
+<p>PHP</p>
+<blockquote>
+<p>A language used to write web servers. It’s fallen out of favor among developers in recent years, but Facebook is still written using a custom “dialect” of PHP.<a href="#fn2" class="footnote-ref" id="fnref2" epub:type="noteref">2</a></p>
+</blockquote>
+<p>Python</p>
+<blockquote>
+<p>A popular, easy-to-learn language that’s common in introductory computer science courses. It’s widely used for data science and writing web servers.</p>
+</blockquote>
+<p>R</p>
+<blockquote>
+<p>A data analysis language, which lets you graph, summarize, and interpret huge amounts of data.</p>
+</blockquote>
+<p>Ruby</p>
+<blockquote>
+<p>A language often used for building web apps through the popular web-server software Ruby on Rails.</p>
+</blockquote>
+<p>SQL</p>
+<blockquote>
+<p>Structured Query Language: a language for working with databases. Like Excel, it lets you work with tables, rows, and columns. You can run “queries” to filter, sort, combine, and analyze the data.</p>
+</blockquote>
+<p>Swift</p>
+<blockquote>
+<p>Apple’s language used for writing iPhone, iPad, and Mac apps. Replaced Objective-C.</p>
+</blockquote>
+<p>TypeScript</p>
+<blockquote>
+<p>Microsoft’s expanded version of JavaScript, which adds extra features to make building large apps easier. Browsers can’t run TypeScript directly, so you use a tool to “transcompile” or “transpile” it to JavaScript first.</p>
+</blockquote>
+</section>
+<section id="data" class="level2" data-number="17.2">
+<h2 data-number="17.2">Data</h2>
+<p>We humans like storing information in Excel files or Word documents. Computers, however, prefer storing data in simple text files. Here are a few popular ways to store data in a “machine-readable” format.</p>
+<p>CSV</p>
+<blockquote>
+<p>Comma-separated values: a way to store data in lightweight tables, similar to an Excel file but much simpler. These files have the “.csv” ending.</p>
+</blockquote>
+<p>JSON</p>
+<blockquote>
+<p>A popular data storage format often used by web apps. It’s more free-form than CSV, allowing data objects that are nested inside <em>other</em> objects. For instance, a “person” object could contain “name” and “age” data, as well as a “pet” object (which has its own “name” and “age.”)</p>
+</blockquote>
+<p>XML</p>
+<blockquote>
+<p>Another text-based data storage format. Like HTML, it stores and organizes data using tags, and like JSON, it allows nesting.</p>
+</blockquote>
+</section>
+<section id="software-development" class="level2" data-number="17.3">
+<h2 data-number="17.3">Software development</h2>
+<p>To talk like a software developer, you need to know these common terms and buzzwords. Let’s break them down.</p>
+<p>A/B tests</p>
+<blockquote>
+<p>Running experiments to decide which features to put into a product, usually a web-based one. You show some users one variation of a feature, and other users a different variation. For instance, Amazon could show half its users a red “buy now” button and the other half a blue button. Then they’d look at various metrics, like the number of sales or number of clicks, to decide which variation is better, and they’d roll out the winning variation to all users. Product managers and developers love A/B testing, since it helps them scientifically determine how to improve their software.</p>
+</blockquote>
+<p>Agile</p>
+<blockquote>
+<p>A software development paradigm that emphasizes short, alternating bursts of writing software and getting feedback from users. For example, instead of taking months or years to release one huge final product, an Agile team would prioritize quickly releasing a “minimum viable product,” or a simple prototype. Then the team would get feedback from users to “iterate on” and improve the prototype, repeating this process many times until it is happy with the result.</p>
+</blockquote>
+<p>Angular</p>
+<blockquote>
+<p>Google’s web development framework for building web apps. Several popular websites, like Tesla, Nasdaq, and The Weather Channel, use Angular.<a href="#fn3" class="footnote-ref" id="fnref3" epub:type="noteref">3</a></p>
+</blockquote>
+<p>Backend</p>
+<blockquote>
+<p>The “behind-the-scenes” part of an app or website that users don’t see. The backend stores data, keeps track of users and their passwords, and prepares the webpages that are eventually shown to the user. An analogy: in a restaurant, the cooks in the kitchen are the “backend,” since they prepare the food that customers enjoy, even if the customers never see them.</p>
+</blockquote>
+<p>Beta</p>
+<blockquote>
+<p>A preliminary version of software, often released to testers to get user feedback before the final product launches.</p>
+</blockquote>
+<p>Big data</p>
+<blockquote>
+<p>Working with huge amounts of data to extract interesting insights. There’s no specific definition of how big counts as “big”, but if a dataset is too huge to fit on a single normal-sized computer, there’s a good chance that it counts as “big.”<a href="#fn4" class="footnote-ref" id="fnref4" epub:type="noteref">4</a></p>
+</blockquote>
+<p>Blockchain</p>
+<blockquote>
+<p>The technology behind Bitcoin, blockchain allows for decentralized transactions. Imagine you could hail an Uber without having to use the Uber app or send someone a message without a company like Facebook or your cell phone provider getting in between. With blockchain, everyone shares a record of every past interaction, so you don’t need a central authority. With Bitcoin, every user has a list of every past sale, so no one person or company “owns” Bitcoin. This also protects against fraud, since everyone knows if one person is trying to pull something shady.</p>
+</blockquote>
+<p>Bootstrap</p>
+<blockquote>
+<p>A popular toolkit for designing websites, Bootstrap is basically a giant CSS file that contains nicely-designed layouts, fonts, and colors for buttons, headings, and other pieces of webpages. Many websites use Bootstrap as a starting point for their styling; it’s a very powerful website template.</p>
+</blockquote>
+<p>Caching</p>
+<blockquote>
+<p>Storing information in a particular place on a computer so you can access it more quickly. It’s like storing your favorite pizza place’s phone number in your contacts so you don’t have to Google it every time — it makes recalling the information faster.</p>
+</blockquote>
+<p>Cookie</p>
+<blockquote>
+<p>Small notes that websites store on your browser to remember information about you. For instance, an e-commerce site could store your cart, preferred language, or username in cookies. Cookies also enable targeted advertising: websites can pass around your location and other personal information via cookies to figure out what you like and hence what ads to show you.</p>
+</blockquote>
+<p>Database</p>
+<blockquote>
+<p>A giant table used to store information; like a superpowered Excel file. For instance, Facebook might store information about all its users in a database, with a separate row for each user and columns for name, birthday, hometown, etc.</p>
+</blockquote>
+<p>Docker</p>
+<blockquote>
+<p>A way for developers to package up everything an app needs to run in a “container,” which anyone can run on any supported machine. It’s convenient because you don’t have to worry about having the right computer configuration; the same container will run the exact same way everywhere. Docker is much more efficient than the alternative, which is to boot up a whole new operating system to run each app.</p>
+</blockquote>
+<p>Flat design</p>
+<blockquote>
+<p>A minimalistic design trend, where you remove unnecessary shiny colors, shadows, animations, and other details, reducing the app to simple colors, geometric shapes, and grids. A few examples are Microsoft’s Metro UI (the tiled design used in Windows 8 and 10)<a href="#fn5" class="footnote-ref" id="fnref5" epub:type="noteref">5</a> and Apple’s flattening of iOS since version 7.<a href="#fn6" class="footnote-ref" id="fnref6" epub:type="noteref">6</a></p>
+</blockquote>
+<p>Frontend</p>
+<blockquote>
+<p>The user-facing part of a website or app. The frontend includes all the buttons, pages, and pictures that users interact with. It takes information from the user, sends it to the backend, and updates what the user sees once the backend responds. As an analogy, the waiters in a restaurant are the “frontend.” Waiters take diners’ requests to the cooks (the backend) and serve diners the completed food.</p>
+</blockquote>
+<p>GitHub</p>
+<blockquote>
+<p>A website that hosts millions of open-source software projects. Anyone can see and build on others’ code here. Code on GitHub is organized into repositories, or “repos.” People can “fork” these repos to make their own versions of the code, and developers can suggest changes to repos using “pull requests.”</p>
+</blockquote>
+<p>Hackathon</p>
+<blockquote>
+<p>A coding competition where developers team up to build cool, creative software in short sprints, usually from 12 to 72 hours. Hackathons often feature high-tech prizes, tech company recruiters, free swag like t-shirts and stickers, and late-night food.</p>
+</blockquote>
+<p>Hadoop</p>
+<blockquote>
+<p>A free “big data” software package for storing and analyzing huge amounts of data — we’re talking terabytes and petabytes.</p>
+</blockquote>
+<p>jQuery</p>
+<blockquote>
+<p>One of the most famous web development libraries, jQuery is a JavaScript tool that makes interactive websites much easier to build.</p>
+</blockquote>
+<p>Library</p>
+<blockquote>
+<p>A reusable chunk of code that one developer publishes online for other developers to use. For instance, D3 is a famous library that lets JavaScript developers make interactive graphs, charts, and maps with just a few lines of code. <em>Also known as package or module.</em></p>
+</blockquote>
+<p>Linux</p>
+<blockquote>
+<p>A free, open-source family of operating systems; alternatives to Windows and macOS. Many of the world’s biggest supercomputers, as well as most web servers, run Linux. Android is built on Linux, too.</p>
+</blockquote>
+<p>Material design</p>
+<blockquote>
+<p>Google’s design framework used for Android and many Google apps. It features bright colors, square “cards” of information, and sliding animations. It’s similar to flat design, but it has some shadows, gradients, and 3D elements that flat design wouldn’t have.<a href="#fn7" class="footnote-ref" id="fnref7" epub:type="noteref">7</a></p>
+</blockquote>
+<p>Mockup</p>
+<blockquote>
+<p>After wireframing and prototyping, designers make mockups, which are high-quality drawings that specify exactly which fonts, colors, pictures, spacing, etc. the developers making the app should use. Mockups help designers ensure every detail is perfect and get feedback before the app is actually coded. As UXPin says, “Wireframes are the skeleton. Prototypes demonstrate the behavior. Mockups are the skin.”<a href="#fn8" class="footnote-ref" id="fnref8" epub:type="noteref">8</a></p>
+</blockquote>
+<p>Node.js</p>
+<blockquote>
+<p>A JavaScript framework for building the backend of web apps.</p>
+</blockquote>
+<p>Open-source</p>
+<blockquote>
+<p>A philosophy for building software where anyone can see, copy, and improve the code behind an app. (It’s as if a restaurant let you see the recipes behind its dishes and suggest new ones.) Many popular apps and platforms are open source, like Linux, Android, Firefox, and WordPress.<a href="#fn9" class="footnote-ref" id="fnref9" epub:type="noteref">9</a> Many programming languages and software development tools are also open-source.<a href="#fn10" class="footnote-ref" id="fnref10" epub:type="noteref">10</a></p>
+</blockquote>
+<p>Persona</p>
+<blockquote>
+<p>Example people that designers create to summarize the types of users in their market. Personas have names, backstories, and personalities.<a href="#fn11" class="footnote-ref" id="fnref11" epub:type="noteref">11</a> For example, LinkedIn’s personas could be Sanjana the Student, Ricky the Recruiter, or Jackie the Job-Hunter.</p>
+</blockquote>
+<p>Prototype</p>
+<blockquote>
+<p>An early version of an app or website that lets app makers test their ideas with users. Prototypes can be as complex as clickable websites or as simple as stacks of sticky notes.</p>
+</blockquote>
+<p>React</p>
+<blockquote>
+<p>Facebook’s web development framework for building web apps. Websites like Facebook, Instagram, Spotify, The New York Times, Twitter, and many others use React.<a href="#fn12" class="footnote-ref" id="fnref12" epub:type="noteref">12</a></p>
+</blockquote>
+<p>Responsive web design</p>
+<blockquote>
+<p>Making websites work well on all screen sizes — phones, tablets, laptops, etc. For instance, the New York Times might show several columns of text on bigger screens (and the print paper), but just one column on smaller screens.</p>
+</blockquote>
+<p>Ruby on Rails</p>
+<blockquote>
+<p>A framework for building web apps using Ruby. Airbnb, Twitch, and Square are all built with Ruby on Rails.<a href="#fn13" class="footnote-ref" id="fnref13" epub:type="noteref">13</a> <em>Also known as RoR or Rails.</em></p>
+</blockquote>
+<p>Scrum</p>
+<blockquote>
+<p>An offshoot of the Agile method, where software development teams release new features every few weeks, organizing their work into “sprints.” They often have daily 15-minute “stand-up” meetings so everyone knows what everyone else is doing and so vital information gets shared across the whole team.</p>
+</blockquote>
+<p>Server</p>
+<blockquote>
+<p>Computers that power websites and many apps. Servers tend not to have screens, touchpads, microphones, or other gadgets. (Most don’t even have keyboards and must be programmed remotely!) Instead, they’re used solely for their computational might and gargantuan hard drives.</p>
+</blockquote>
+<p>Stack</p>
+<blockquote>
+<p>The suite of technologies that an app or website is built with. This includes the app’s choice of frontend tools, backend tools, and database. As an analogy, a car’s “stack” could include a particular kind of upholstery, engine, tires, and headlights, among other things.</p>
+</blockquote>
+<p>Terminal</p>
+<blockquote>
+<p>A text-based interface available on computers; developers use the terminal to build software. Even if you’re not writing code, the terminal is handy for complex customization, and a few apps can only be run from the terminal, not from the point-and-click interface we’re used to. <em>Also known as command line, shell, or Bash.</em></p>
+</blockquote>
+<p>Unix</p>
+<blockquote>
+<p>A family of operating systems including Linux and macOS.</p>
+</blockquote>
+<p>Wireframe</p>
+<blockquote>
+<p>A simple way to draw the “skeleton” of an app or website,<a href="#fn14" class="footnote-ref" id="fnref14" epub:type="noteref">14</a> like how you might make an outline before writing an essay. Wireframes are made of just lines on paper: buttons and images become boxes, sidebars become rectangles, text becomes squiggly lines, and so on. Wireframes help figure out where page elements should go before anything gets coded.<a href="#fn15" class="footnote-ref" id="fnref15" epub:type="noteref">15</a></p>
+</blockquote>
+</section>
+<section id="technologys-alphabet-soup" class="level2" data-number="17.4">
+<h2 data-number="17.4">Technology’s alphabet soup</h2>
+<p>Acronyms might just be the most frustrating part of software jargon. Here are a couple of the most common ones.</p>
+<p>AJAX</p>
+<blockquote>
+<p>A method for one website to access information from another using an API. Uses JavaScript.</p>
+</blockquote>
+<p>API</p>
+<blockquote>
+<p>Application Programming Interface: A way for one app to get information from another app, or make another app do something. For instance, Twitter has an API that lets another app post Tweets on someone’s behalf, and ESPN has an API that lets you grab the latest sports scores.</p>
+</blockquote>
+<p>AWS</p>
+<blockquote>
+<p>Amazon Web Services: a platform that lets you store data or run apps in the cloud.</p>
+</blockquote>
+<p>CDN</p>
+<blockquote>
+<p>Content Delivery Network: a way for websites to serve images, CSS files, and other “static” assets faster by using a separate dedicated website. These dedicated CDN websites are specialized for holding files instead of running code, and they have many servers scattered around the world, so anyone can get the files much faster than normal.</p>
+</blockquote>
+<p>CPU</p>
+<blockquote>
+<p>Central Processing Unit: the “brain” of a computer or phone, which runs the operating system and apps.</p>
+</blockquote>
+<p>FTP</p>
+<blockquote>
+<p>A protocol for sending files to and from web servers.</p>
+</blockquote>
+<p>GPU</p>
+<blockquote>
+<p>Graphics Processing Unit: a special part of a computer optimized for drawing graphics. If you ever hear the term “hardware-accelerated animation,” that uses the GPU.</p>
+</blockquote>
+<p>HTTP</p>
+<blockquote>
+<p>HyperText Transfer Protocol: a protocol used to view webpages on the internet. By “protocol,” we mean a set of rules for how information should be transferred.</p>
+</blockquote>
+<p>HTTPS</p>
+<blockquote>
+<p>HyperText Transfer Protocol Secure: an encrypted version of HTTP, which is used for secure online communications like banking, payments, email, and logging into websites.</p>
+</blockquote>
+<p>IaaS</p>
+<blockquote>
+<p>Infrastructure-as-a-Service: tools that let you rent out another company’s server space to run your app. One example is Amazon Web Services.<a href="#fn16" class="footnote-ref" id="fnref16" epub:type="noteref">16</a></p>
+</blockquote>
+<p>IDE</p>
+<blockquote>
+<p>Integrated Development Environment: a specialized app that makes it easy for developers to build particular kinds of software. Eclipse, for instance, is an IDE for Java and Android. It’s like how chefs have their own specialized kitchens with particular tools and ingredients.</p>
+</blockquote>
+<p>I/O</p>
+<blockquote>
+<p>Input/Output: the process of reading and writing files. It’s become almost synonymous with tech, to the point where many startups use the “.io” domain ending.</p>
+</blockquote>
+<p>IP</p>
+<blockquote>
+<p>Internet Protocol: a protocol for moving “packets” of information from one computer to another over the internet. Works closely with TCP. HTTP is built on top of TCP and IP.<a href="#fn17" class="footnote-ref" id="fnref17" epub:type="noteref">17</a></p>
+</blockquote>
+<p>MVC</p>
+<blockquote>
+<p>Model-View-Controller: A way of organizing code, which often builds on Object-Oriented Programming. Many web or app development frameworks use MVC.</p>
+</blockquote>
+<p>MVP</p>
+<blockquote>
+<p>Minimum Viable Product: in Agile, an early-stage prototype used for early testing. For instance, consider the MVP of the online shoe seller Zappos. The founders took photos of shoes at local stores and posted them on a website — and whenever someone “purchased” a shoe, the founders would buy the shoe from the store and mail it to them.<a href="#fn18" class="footnote-ref" id="fnref18" epub:type="noteref">18</a> An MVP is just a simple, early version of an app to see if people like the idea.</p>
+</blockquote>
+<p>NLP</p>
+<blockquote>
+<p>Natural Language Processing: a form of artificial intelligence that deals with understanding human languages.</p>
+</blockquote>
+<p>NoSQL</p>
+<blockquote>
+<p>A way of constructing databases, an alternative to (you guessed it) SQL. NoSQL emphasizes more free-form interaction with data rather than just working with rows and columns, which SQL does.</p>
+</blockquote>
+<p>OOP</p>
+<blockquote>
+<p>Object Oriented Programming: a way of structuring code so it’s easier to understand, reuse, and build on. You represent everything as an object, from interface elements like <em>Button</em> or <em>Picture</em> to concepts like <em>Customer</em> or <em>Dog</em>. For instance, Snapchat could have objects like <em>User</em>, <em>Snap</em>, <em>Group</em>, <em>Sticker</em>, <em>Story</em>, or <em>CameraButton</em>. Each object has its own associated information and actions; for instance, a <em>Dog</em> could know its name and know how to bark.</p>
+</blockquote>
+<p>PaaS</p>
+<blockquote>
+<p>Platform-as-a-Service: tools that run an app for you; you just need to send them your code.<a href="#fn19" class="footnote-ref" id="fnref19" epub:type="noteref">19</a> Between IaaS and SaaS in terms of complexity.</p>
+</blockquote>
+<p>RAM</p>
+<blockquote>
+<p>Random-Access Memory: a computer’s “short-term” memory, which apps use to store temporary information like which browser tabs you have open. The more RAM your device has, generally, the faster it is.</p>
+</blockquote>
+<p>REST</p>
+<blockquote>
+<p>A popular type of API. APIs of this type are called RESTful.</p>
+</blockquote>
+<p>ROM</p>
+<blockquote>
+<p>Read-Only Memory: information that’s burned onto hardware and usually can’t be changed. Computers store the code needed to start the computer in ROM. <em>Also known as firmware.</em></p>
+</blockquote>
+<p>SaaS</p>
+<blockquote>
+<p>Software-as-a-Service: software that’s delivered over the internet, meaning you’ll often use it in your web browser. Google Docs is a classic example. You’ll often need to pay for SaaS apps on a monthly or yearly basis instead of paying to download the app upfront.</p>
+</blockquote>
+<p>SDK</p>
+<blockquote>
+<p>Software Development Kit: a pack of tools that help developers build apps for a particular platform, such as Android or Google Maps.</p>
+</blockquote>
+<p>SEO</p>
+<blockquote>
+<p>Search Engine Optimization: changing your website so it shows up higher in Google search results. One example is including the right keywords in your page’s title or headings.</p>
+</blockquote>
+<p>SHA</p>
+<blockquote>
+<p>A popular cryptography algorithm used for encoding and decoding secure communications. There are multiple versions of SHA; as of the time of writing, the most modern one is SHA-3.<a href="#fn20" class="footnote-ref" id="fnref20" epub:type="noteref">20</a></p>
+</blockquote>
+<p>TCP</p>
+<blockquote>
+<p>Transmission Control Protocol: a protocol for breaking information into smaller chunks, so you can send it over the internet more easily.</p>
+</blockquote>
+<p>TLD</p>
+<blockquote>
+<p>A domain name ending, such as .com, .org, or .gov. Each country has its own TLD, called a “ccTLD”: France has .fr, Mexico has .mx, India has .in, and so on.</p>
+</blockquote>
+<p>TLS</p>
+<blockquote>
+<p>Transport Layer Security: a method of encrypting information sent over the internet so hackers can’t snoop on communications. Used in HTTPS.</p>
+</blockquote>
+<p>UI</p>
+<blockquote>
+<p>User Interface: a type of design focusing on making apps and websites look good. Deals with colors, fonts, layout, etc. Often paired with UX.</p>
+</blockquote>
+<p>URL</p>
+<blockquote>
+<p>Uniform Resource Locator: A webpage’s address, such as “https://maps.google.com” or “https://en.wikipedia.org/wiki/Llama”.</p>
+</blockquote>
+<p>UX</p>
+<blockquote>
+<p>User Experience: a type of design focusing on making apps and websites easy to use. Deals with how to arrange parts of a website and webpage. Often paired with UI.</p>
+</blockquote>
+</section>
+<section id="business-side" class="level2" data-number="17.5">
+<h2 data-number="17.5">Business side</h2>
+<p>Not to be outdone by the software developers, tech companies’ businesspeople — think marketers and strategists — have their own favorite jargon.</p>
+<p>B2B</p>
+<blockquote>
+<p>Business-to-business: companies that normally sell to other businesses instead of to average people like you or us. Some famous B2B tech companies are IBM, which sells cloud computing services to businesses, and Accenture, which provides technical consulting.<a href="#fn21" class="footnote-ref" id="fnref21" epub:type="noteref">21</a></p>
+</blockquote>
+<p>B2C</p>
+<blockquote>
+<p>Business-to-consumer: companies that sell to consumers; in other words, you could buy their stuff from stores or websites. For instance, Fitbit, Nike, and Ford are B2C. Some companies could be both B2B and B2C. For instance, Coca-Cola sells soda to shoppers but also to universities, hotels, and restaurants.<a href="#fn22" class="footnote-ref" id="fnref22" epub:type="noteref">22</a> And Microsoft sells Office to both consumers and large businesses.</p>
+</blockquote>
+<p>Bounce rate</p>
+<blockquote>
+<p>How often visitors to your app or website leave without doing anything meaningful, such as clicking a link. A high bounce rate might suggest that visitors aren’t interested in what the website has to offer.</p>
+</blockquote>
+<p>Call-to-action (CTA)</p>
+<blockquote>
+<p>A button or link that prompts visitors to take some action, like “Join our mailing list” or “Register for our conference.”<a href="#fn23" class="footnote-ref" id="fnref23" epub:type="noteref">23</a></p>
+</blockquote>
+<p>Churn rate</p>
+<blockquote>
+<p>The percent of users that a company loses over a particular timespan. For instance, if 1,000 people signed up for Office 365 but only 750 renewed their subscription the next year, the churn rate would be 25%.</p>
+</blockquote>
+<p>Cost-Per-Click (CPC)</p>
+<blockquote>
+<p>A common type of internet ad, such as the ones seen on Google, that charge advertisers a small fee every time someone clicks on their ads. Also known as Pay-Per-Click (PPC).</p>
+</blockquote>
+<p>Cost-Per-Mille (CPM)</p>
+<blockquote>
+<p>A type of internet ad. Advertisers pay a flat fee each time 1000 people view the ad on a website, such as in Google search results. Also known as Pay-Per-Impression (PPI).</p>
+</blockquote>
+<p>Click-through rate (CTR)</p>
+<blockquote>
+<p>The number of people who clicked on an ad divided by the number of people who saw it and had the option to click on it. In other words, this is the likelihood that an average person would click on the ad. It’s a way to measure how successful an ad was.</p>
+</blockquote>
+<p>Conversion</p>
+<blockquote>
+<p>Whenever a user does something that the business wants; the precise action can depend on the company’s goals. Conversions could include joining the mailing list, signing up for an account, or buying an item.</p>
+</blockquote>
+<p>Customer Relationship Management (CRM)</p>
+<blockquote>
+<p>Software that a company uses to track its relationships with customers and business partners. Companies can track emails, meeting notes, and other data with CRM software.<a href="#fn24" class="footnote-ref" id="fnref24" epub:type="noteref">24</a></p>
+</blockquote>
+<p>Funnel</p>
+<blockquote>
+<p>A metaphor for how the pool of potential customers shrinks before they make a particular “conversion,” like buying a product. For instance, suppose an e-commerce website gets 1,000 visitors, but only 500 search for something, 100 put something in their cart, and 50 make a purchase.</p>
+</blockquote>
+<p>Key Performance Indicator (KPI)</p>
+<blockquote>
+<p>A metric that companies use for tracking success of products, teams, or employees. For instance, YouTube’s KPIs could include number of users, number of videos, or number of video watches.</p>
+</blockquote>
+<p>Landing page</p>
+<blockquote>
+<p>A small webpage targeted at a particular demographic; it’ll often offer visitors something useful like an e-book or mailing list in exchange for their contact information. In marketing-speak, it’s a targeted way to acquire “leads.”<a href="#fn25" class="footnote-ref" id="fnref25" epub:type="noteref">25</a></p>
+</blockquote>
+<p>Lead</p>
+<blockquote>
+<p>Someone who’s shown interest in using a service or buying a product. Marketers try to turn strangers into leads and leads into customers, a process called “inbound marketing.”<a href="#fn26" class="footnote-ref" id="fnref26" epub:type="noteref">26</a></p>
+</blockquote>
+<p>Lifetime value (LTV)</p>
+<blockquote>
+<p>How much money a customer will bring you, directly or indirectly, over the duration of your relationship with them. For instance, if a college bookstore thinks that students will spend $500 a year on textbooks over 4 years of school, each student’s lifetime value would be $2,000. Generally, companies will only try to acquire a customer if their lifetime value is higher than the cost of turning them into a customer (known as customer acquisition cost, or CAC).<a href="#fn27" class="footnote-ref" id="fnref27" epub:type="noteref">27</a></p>
+</blockquote>
+<p>Market penetration</p>
+<blockquote>
+<p>How much of a target market a product or industry actually reaches. For instance, there are about 30 million teenagers in the US,<a href="#fn28" class="footnote-ref" id="fnref28" epub:type="noteref">28</a> and if a teen-focused social network had 6 million teenaged users, it’d have 20% penetration of the teenager market.</p>
+</blockquote>
+<p>Market segmentation</p>
+<blockquote>
+<p>Breaking down a huge, diverse market into smaller, more specific ones. For instance, a company could segment its market by gender, location, interests (also known as “psychographics”), and income (part of so-called “behavioral” segmentation).<a href="#fn29" class="footnote-ref" id="fnref29" epub:type="noteref">29</a></p>
+</blockquote>
+<p>Net Promoter Score (NPS)</p>
+<blockquote>
+<p>A metric that measures customer satisfaction. Customers are asked to rate a product or service on a scale from 0 (they hate it) to 10 (they love it).<a href="#fn30" class="footnote-ref" id="fnref30" epub:type="noteref">30</a></p>
+</blockquote>
+<p>Return on Investment (ROI)</p>
+<blockquote>
+<p>The ratio of a project’s profit to its cost.<a href="#fn31" class="footnote-ref" id="fnref31" epub:type="noteref">31</a> For instance, if you spent $2,000 on an ad campaign and sold $2,600 of extra software as a result, your ROI would be 30%. ROI is just a way to measure “bang for your buck.”</p>
+</blockquote>
+<p>Small- and medium-sized businesses (SMBs)</p>
+<blockquote>
+<p>Generally, businesses with under 1,000 employees.<a href="#fn32" class="footnote-ref" id="fnref32" epub:type="noteref">32</a></p>
+</blockquote>
+<p>Value proposition</p>
+<blockquote>
+<p>A short statement that explains why consumers would find a product useful. For instance, in 2015 the e-book website Scribd used the value proposition “Read like you own every book in the world.”<a href="#fn33" class="footnote-ref" id="fnref33" epub:type="noteref">33</a></p>
+</blockquote>
+<p>Year-over-year (YoY)</p>
+<blockquote>
+<p>The change in a metric between a given point and a year earlier. This is useful when there are seasonal variations in the metric. For instance, if educational software sales are always low in summer, it doesn’t make sense to compare this June’s sales to this March’s. Instead, you’d compare to last June’s.</p>
+</blockquote>
+</section>
+<section id="roles-at-tech-companies" class="level2" data-number="17.6">
+<h2 data-number="17.6">Roles at tech companies</h2>
+<p>Tech companies hire “normal” kinds of professionals, like marketers, CEOs, and HR representatives. But software is made differently than most physical goods, so tech companies have special kinds of roles. Here’s a quick glimpse inside the roles in the software industry.</p>
+<p>Backend engineer</p>
+<blockquote>
+<p>Software engineers that handle databases and web servers. For instance, Facebook’s backend engineers write the code that lets Facebook’s supercomputers store billions of photos and handle billions of daily visitors. <em>See also software engineer</em>.</p>
+</blockquote>
+<p>Data scientist</p>
+<blockquote>
+<p>Data scientists analyze the company’s data (on customers, sales, usage, etc.) to inform the company’s business strategy and products.</p>
+</blockquote>
+<p>Designer</p>
+<blockquote>
+<p>Designers make apps and websites beautiful and functional, and they also design stuff like logos, colors, and branding. There are many kinds of designers: UI, UX, visual, motion, and so on.</p>
+</blockquote>
+<p>Frontend engineer</p>
+<blockquote>
+<p>Software engineers who build the customer-facing apps and websites. For instance, Facebook’s frontend engineers make the Facebook website and apps look good and work well. <em>See also software engineer.</em></p>
+</blockquote>
+<p>Product Manager (PM)</p>
+<blockquote>
+<p>PMs sit at the intersection of business, design, and engineers. Based on what the customers and business need, PMs decide what products (apps, websites, or hardware) to make and what features the products need to have, then work with engineers to build and launch the products. Think of them as the conductors of the orchestra: they help all the various parts work together to make a great piece of music (or software, in this case).</p>
+</blockquote>
+<p>Product Marketing Manager (PMM)</p>
+<blockquote>
+<p>A slightly more marketing-focused version of Product Managers, they’re more focused on launching and marketing products instead of building them.</p>
+</blockquote>
+<p>Quality Assurance engineers (QA)</p>
+<blockquote>
+<p>These engineers rigorously test software and hardware to hunt down bugs and ensure the software is robust.</p>
+</blockquote>
+<p>Software engineer</p>
+<blockquote>
+<p>People who write code and build out software. <em>Also known as SWE, software developer, or dev.</em></p>
+</blockquote>
+</section>
+</section>
+<section class="footnotes" epub:type="footnotes">
+<hr />
+<ol>
+<li id="fn1" epub:type="footnote"><p><a href="https://www.computerweekly.com/feature/Write-once-run-anywhere">https://www.computerweekly.com/feature/Write-once-run-anywhere</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" epub:type="footnote"><p><a href="https://www.facebook.com/notes/facebook-engineering/hiphop-for-php-move-fast/280583813919/">https://www.facebook.com/notes/facebook-engineering/hiphop-for-php-move-fast/280583813919/</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" epub:type="footnote"><p><a href="https://www.madewithangular.com/">https://www.madewithangular.com/</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" epub:type="footnote"><p><a href="https://www.quora.com/How-much-data-is-Big-Data-Is-there-classification-for-various-levels-of-Big-Data-by-amount-of-data-processed-or-other-constraints-like-for-example-throughput-What%E2%80%99s-the-minimum-data-size-which-still-qualifies-as-a-Big-Data%E2%80%9D">https://www.quora.com/How-much-data-is-Big-Data-Is-there-classification-for-various-levels-of-Big-Data-by-amount-of-data-processed-or-other-constraints-like-for-example-throughput-What%E2%80%99s-the-minimum-data-size-which-still-qualifies-as-a-Big-Data%E2%80%9D</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" epub:type="footnote"><p><a href="http://smashinghub.com/flat-design-vs-metro-ui-trends-examples.htm">http://smashinghub.com/flat-design-vs-metro-ui-trends-examples.htm</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" epub:type="footnote"><p><a href="https://webdesign.tutsplus.com/articles/flat-design-ios-7-skeuomorphism-and-all-that--webdesign-14335">https://webdesign.tutsplus.com/articles/flat-design-ios-7-skeuomorphism-and-all-that--webdesign-14335</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" epub:type="footnote"><p><a href="http://www.techrepublic.com/article/google-material-design-the-smart-persons-guide/">http://www.techrepublic.com/article/google-material-design-the-smart-persons-guide/</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" epub:type="footnote"><p><a href="https://www.uxpin.com/studio/blog/what-is-a-mockup-the-final-layer-of-ui-design/">https://www.uxpin.com/studio/blog/what-is-a-mockup-the-final-layer-of-ui-design/</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" epub:type="footnote"><p><a href="http://royal.pingdom.com/2009/05/29/the-8-most-successful-open-source-products-ever/">http://royal.pingdom.com/2009/05/29/the-8-most-successful-open-source-products-ever/</a><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" epub:type="footnote"><p><a href="http://tweakyourbiz.com/technology/2015/09/18/open-source-programming-languages-basic-overview/">http://tweakyourbiz.com/technology/2015/09/18/open-source-programming-languages-basic-overview/</a><a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" epub:type="footnote"><p><a href="https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/">https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/</a><a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12" epub:type="footnote"><p><a href="https://github.com/facebook/react/wiki/sites-using-react">https://github.com/facebook/react/wiki/sites-using-react</a><a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13" epub:type="footnote"><p><a href="http://rubyonrails.org/">http://rubyonrails.org/</a><a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14" epub:type="footnote"><p><a href="https://www.uxpin.com/studio/blog/what-is-a-mockup-the-final-layer-of-ui-design/">https://www.uxpin.com/studio/blog/what-is-a-mockup-the-final-layer-of-ui-design/</a><a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15" epub:type="footnote"><p><a href="https://speckyboy.com/web-mobile-wireframe-sketch-examples/">https://speckyboy.com/web-mobile-wireframe-sketch-examples/</a><a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16" epub:type="footnote"><p><a href="https://apprenda.com/library/paas/iaas-paas-saas-explained-compared/">https://apprenda.com/library/paas/iaas-paas-saas-explained-compared/</a><a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17" epub:type="footnote"><p><a href="https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol">https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol</a><a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18" epub:type="footnote"><p><a href="https://www.quora.com/What-are-the-best-examples-of-Minimum-Viable-Product-MVP-released-by-a-Lean-Startup-in-any-industry-Including-both-successful-attempts-and-promising-attempts-that-eventually-failed">https://www.quora.com/What-are-the-best-examples-of-Minimum-Viable-Product-MVP-released-by-a-Lean-Startup-in-any-industry-Including-both-successful-attempts-and-promising-attempts-that-eventually-failed</a><a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19" epub:type="footnote"><p><a href="https://www.networkworld.com/article/2182527/virtualization/virtualization-iaas-vs-paas-vs-saas.html">https://www.networkworld.com/article/2182527/virtualization/virtualization-iaas-vs-paas-vs-saas.html</a><a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20" epub:type="footnote"><p><a href="https://en.wikipedia.org/wiki/SHA-3">https://en.wikipedia.org/wiki/SHA-3</a><a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21" epub:type="footnote"><p><a href="https://www.b2bmarketing.net/en-gb/resources/news/top-20-most-valuable-b2b-brands-world-revealed">https://www.b2bmarketing.net/en-gb/resources/news/top-20-most-valuable-b2b-brands-world-revealed</a><a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22" epub:type="footnote"><p><a href="https://www.digitalcommerce360.com/2016/05/27/how-coca-cola-refreshes-b2b-customers-live-chat/">https://www.digitalcommerce360.com/2016/05/27/how-coca-cola-refreshes-b2b-customers-live-chat/</a><a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23" epub:type="footnote"><p><a href="https://blog.hubspot.com/marketing/what-is-call-to-action-faqs-ht">https://blog.hubspot.com/marketing/what-is-call-to-action-faqs-ht</a><a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24" epub:type="footnote"><p><a href="https://www.salesforce.com/blog/2013/01/what-is-crm-your-business-nerve-center.html">https://www.salesforce.com/blog/2013/01/what-is-crm-your-business-nerve-center.html</a><a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25" epub:type="footnote"><p><a href="https://blog.hubspot.com/marketing/inbound-marketing-glossary-list">https://blog.hubspot.com/marketing/inbound-marketing-glossary-list</a><a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26" epub:type="footnote"><p><a href="https://www.hubspot.com/inbound-marketing">https://www.hubspot.com/inbound-marketing</a><a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27" epub:type="footnote"><p><a href="https://www.entrepreneur.com/article/224153">https://www.entrepreneur.com/article/224153</a><a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28" epub:type="footnote"><p><a href="https://www.washingtonpost.com/news/the-fix/wp/2015/04/04/teenagers-have-never-been-a-smaller-portion-of-our-population/">https://www.washingtonpost.com/news/the-fix/wp/2015/04/04/teenagers-have-never-been-a-smaller-portion-of-our-population/</a><a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29" epub:type="footnote"><p><a href="http://smallbusiness.chron.com/examples-market-segmentation-14403.html">http://smallbusiness.chron.com/examples-market-segmentation-14403.html</a><a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30" epub:type="footnote"><p><a href="https://blog.hubspot.com/marketing/inbound-marketing-glossary-list">https://blog.hubspot.com/marketing/inbound-marketing-glossary-list</a><a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31" epub:type="footnote"><p><a href="http://www.investopedia.com/terms/r/returnoninvestment.asp">http://www.investopedia.com/terms/r/returnoninvestment.asp</a><a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32" epub:type="footnote"><p><a href="http://fortune.com/2013/09/19/50-best-small-and-medium-size-companies-to-work-for/">http://fortune.com/2013/09/19/50-best-small-and-medium-size-companies-to-work-for/</a><a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33" epub:type="footnote"><p><a href="https://www.lean-labs.com/blog/25-companies-who-absoluteluy-nailed-their-unique-value-proposition">https://www.lean-labs.com/blog/25-companies-who-absoluteluy-nailed-their-unique-value-proposition</a><a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>

@@ -1,0 +1,439 @@
+@font-face
+{ 
+	font-family: "Charis";
+	src: url(../fonts/CharisSILR.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILB.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILI.ttf);
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Charis";
+	src: url(../fonts/CharisSILBI.ttf);
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face
+{ 
+	font-family: "AGaramondPro-Bold";
+	src: url(../fonts/AGaramondPro-Bold.otf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{ 
+	font-family: "AGaramondPro-Italic";
+	src: url(../fonts/AGaramondPro-Italic.otf);
+	font-style: Italic;
+	font-weight: normal;
+}
+@font-face
+{ 
+	font-family: "AGaramondPro-Regular";
+	src: url(../fonts/AGaramondPro-Regular.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{ 
+	font-family: "AvenirLTStd-Book";
+	src: url(../fonts/AvenirLTStd-Book.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{ 
+	font-family: "AvenirLTStd-Heavy";
+	src: url(../fonts/AvenirLTStd-Heavy.otf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{ 
+	font-family: "AvenirLTStd-MediumOblique";
+	src: url(../fonts/AvenirLTStd-MediumOblique.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{ 
+	font-family: "Gotham-Bold";
+	src: url(../fonts/Gotham-Bold.otf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{ 
+	font-family: "Gotham-Book";
+	src: url(../fonts/Gotham-Book.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+body
+{
+	font-family: "AGaramondPro-Regular";
+	margin-top: .1em;
+	margin-right: 2.2em;
+	text-align: justify;
+}
+.Avenir-MediumOblique
+{ 
+	font-family: "AvenirLTStd-MediumOblique";
+	src: url(../fonts/AvenirLTStd-MediumOblique.otf);
+}
+.AvenirLTStd-Book
+{ 
+	font-family: "AvenirLTStd-Book";
+	src: url(../fonts/AvenirLTStd-Book.otf);
+}
+.AvenirLTStd-Heavy
+{ 
+	font-family: "AvenirLTStd-Heavy";
+	src: url(../fonts/AvenirLTStd-Heavy.otf);
+}
+.big
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 0.9em;
+}
+.blockquote1
+{
+	margin-top: 1em;
+	margin-bottom: .1em;
+	margin-left: 1.5em;
+	margin-right: 3em;
+}
+.blockquote2
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	margin-left: 1.5em;
+	margin-right: 3em;
+	text-indent: 1.2em;
+}
+.bulletlist
+{
+	margin-top: .2em;
+	margin-bottom: .2em;
+	margin-left: 2em;
+	text-indent: -.7em;
+	margin-right: 0.5em;
+}
+.bulletlista
+{
+	margin-top: 1em;
+	margin-bottom: .2em;
+	margin-left: 2em;
+	text-indent: -.7em;
+	margin-right: 0.5em;
+}
+.center
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	text-indent: 0.1em;
+	text-align: center;
+}
+.centera
+{
+	margin-top: 2em;
+	margin-bottom: .1em;
+	text-indent: 0.1em;
+	text-align: center;
+}
+.centerf
+{
+	margin-top: 3em;
+	margin-bottom: .1em;
+	text-indent: 0.1em;
+	text-align: center;
+	font-size: 1.3em;
+}
+.centerh
+{
+	margin-top: 1em;
+	margin-bottom: .1em;
+	text-indent: 0.1em;
+	text-align: center;
+	font-size: 1.2em;
+}
+.centern
+{
+	margin-top: .8em;
+	margin-bottom: 1em;
+	text-indent: 0.1em;
+	text-align: center;
+}
+.color
+{
+	color: #A7A9AC;
+}
+.Gotham-Bold
+{ 
+	font-family: "Gotham-Bold";
+	src: url(../fonts/Gotham Bold.otf);
+}
+.Gotham-Book
+{ 
+	font-family: "Gotham-Book";
+	src: url(../fonts/Gotham Book.otf);
+}
+.h2
+{
+	font-size: x-large;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	text-align: left;
+}
+.h3
+{
+	font-size: large;
+	margin-top: 1em;
+	margin-bottom: .5em;
+	text-align: left;
+}
+.image
+{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+.imagefp
+{
+	margin: 0em;
+	height: 98%;
+	text-align: center;
+}
+.images1
+{
+	margin-top: 5.5em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+.indent
+{
+	margin-top: 0.01em;
+	margin-bottom: 0.01em;
+	text-indent: 1.2em;
+}
+.indent1
+{
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	text-indent: 1.2em;
+}
+.indentf
+{
+	margin-top: 0.01em;
+	margin-bottom: 0.01em;
+	margin-left: 1em;
+	margin-right: 0.1em;
+	text-indent: 1.2em;
+}
+.indenthanging
+{
+	margin-top: .3em;
+	margin-bottom: .3em;
+	margin-left: 2.1em;
+	text-indent: -1em;
+	margin-right: 0.5em;
+}
+.noindent
+{
+	margin-top: .5em;
+	margin-bottom: 0.01em;
+	text-indent: 0.01em;
+}
+.noindent1a
+{
+	margin-top: 1em;
+	margin-bottom: 0.01em;
+	margin-left: 2em;
+	margin-right: 0.1em;
+}
+.noindent2
+{
+	margin-top: 1em;
+	margin-bottom: 0.01em;
+	text-indent: 0.01em;
+	margin-right: 0.1em;
+}
+.noindentd
+{
+	margin-top: 1em;
+	margin-bottom: .1em;
+	margin-left: 2em;
+	margin-right: 0.1em;
+	font-size: .8em;
+}
+.noindentda
+{
+	margin-top: 1em;
+	margin-bottom: .1em;
+	margin-left: 2em;
+	margin-right: 0.1em;
+}
+.noindentf
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	margin-left: 1em;
+	margin-right: 0.1em;
+}
+.noindentfm
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	text-indent: 0.01em;
+	margin-right: 0.1em;
+}
+.noindentm
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	margin-left: 2em;
+	margin-right: 0.1em;
+}
+.noindentm1
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	margin-left: 3em;
+	margin-right: 0.1em;
+}
+.noindents1
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: .1em;
+	margin-right: 0.1em;
+}
+.note
+{
+	margin-top: .5em;
+	margin-bottom: 0.01em;
+	margin-left: 2em;
+	text-indent: -1em;
+	margin-right: 0.5em;
+}
+.note1
+{
+	margin-top: .5em;
+	margin-bottom: 0.01em;
+	margin-left: 2em;
+	text-indent: -1.5em;
+	margin-right: 0.5em;
+}
+.nounder
+{
+	text-decoration: none;
+}
+.numberlist
+{
+	margin-top: 1em;
+	margin-bottom: .1em;
+	margin-left: 2em;
+	text-indent: -1em;
+	margin-right: 0.5em;
+}
+.numberlista
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	margin-left: 2em;
+	text-indent: -1em;
+	margin-right: 0.5em;
+}
+.numberlistc
+{
+	margin-top: 1em;
+	margin-bottom: .2em;
+	margin-left: 2.5em;
+	text-indent: -2em;
+	margin-right: 0.5em;
+}
+.paraspaceabove
+{
+	margin-top: 2em;
+	margin-bottom: 0.01em;
+	text-indent: 0.01em;
+}
+.right
+{
+	margin-top: .1em;
+	margin-bottom: .1em;
+	text-align: right;
+	margin-left: 0.1em;
+	margin-right: 3em;
+}
+.sidebarb
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+	background-color: #363636;
+	color: white;
+}
+.smallcaps
+{
+	font-size: .8em;
+}
+.weblink
+{
+	color: blue;
+}
+div.promo
+{
+	margin: 1em;
+	
+	text-align: center;
+}
+.promo1
+{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 1em;
+}
+.promo2 
+{
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.4em;
+	margin: 1em;
+}
+.imgcenter 
+{
+	text-align: center;
+	margin: 1em;
+}
+span.nounder1
+{
+	text-decoration: underline;
+        color: black;
+}
+span.c-tx-sup
+{
+   vertical-align : text-top;
+   font-size : 0.54em;
+}
+em
+{ 
+	font-family: "AGaramondPro-Italic";
+}

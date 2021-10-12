@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<head>
+<meta name="dtb:uid" content="9781451629163"/>
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:totalPageCount" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle>
+<text>How to Win Friends and Influence People in the Digital Age</text>
+</docTitle>
+<navMap>
+<navPoint id="icover" playOrder="1">
+<navLabel>
+<text>Cover</text>
+</navLabel>
+<content src="xhtml/cover.html"/>
+</navPoint>
+<navPoint id="idescription" playOrder="2">
+<navLabel>
+<text>Description</text>
+</navLabel>
+<content src="xhtml/description.html"/>
+</navPoint>
+<navPoint id="ibackcover" playOrder="3">
+<navLabel>
+<text>Back Cover</text>
+</navLabel>
+<content src="xhtml/backcover.html"/>
+</navPoint>
+<navPoint id="ch00_fm03" playOrder="4">
+<navLabel>
+<text>Title Page</text>
+</navLabel>
+<content src="xhtml/ch00_fm03.html#ch00_fm03"/>
+</navPoint>
+<navPoint id="ch00_fm04" playOrder="5">
+<navLabel>
+<text>Copyright Page</text>
+</navLabel>
+<content src="xhtml/ch00_fm04.html#ch00_fm04"/>
+</navPoint>
+<navPoint id="ch00_fm05" playOrder="6">
+<navLabel>
+<text>Contents</text>
+</navLabel>
+<content src="xhtml/ch00_fm05.html#ch00_fm05"/>
+</navPoint>
+<navPoint id="ich00_fm06" playOrder="7">
+<navLabel>
+<text>Why Carnegie&#8217;s Advice Still Matters</text>
+</navLabel>
+<content src="xhtml/ch00_fm06.html#ch00_fm06"/>
+</navPoint>
+<navPoint id="ipart01" playOrder="8">
+<navLabel>
+<text>Part One: Essentials of Engagement</text>
+</navLabel>
+<content src="xhtml/part01.html#part01"/>
+<navPoint id="ipart01_ch01" playOrder="9">
+<navLabel>
+<text>Chapter 1: Bury Your Boomerangs</text>
+</navLabel>
+<content src="xhtml/part01_ch01.html#part01_ch01"/>
+</navPoint>
+<navPoint id="ipart01_ch02" playOrder="10">
+<navLabel>
+<text>Chapter 2: Affirm What&#8217;s Good</text>
+</navLabel>
+<content src="xhtml/part01_ch02.html#part01_ch02"/>
+</navPoint>
+<navPoint id="ipart01_ch03" playOrder="11">
+<navLabel>
+<text>Chapter 3: Connect with Core Desires</text>
+</navLabel>
+<content src="xhtml/part01_ch03.html#part01_ch03"/>
+</navPoint>
+</navPoint>
+<navPoint id="ipart02" playOrder="12">
+<navLabel>
+<text>Part Two: Six Ways to Make a Lasting Impression</text>
+</navLabel>
+<content src="xhtml/part02.html#part02"/>
+<navPoint id="ipart02_ch01" playOrder="13">
+<navLabel>
+<text>Chapter 1: Take Interest in Others&#8217; Interests</text>
+</navLabel>
+<content src="xhtml/part02_ch01.html#part02_ch01"/>
+</navPoint>
+<navPoint id="ipart02_ch02" playOrder="14">
+<navLabel>
+<text>Chapter 2: Smile</text>
+</navLabel>
+<content src="xhtml/part02_ch02.html#part02_ch02"/>
+</navPoint>
+<navPoint id="ipart02_ch03" playOrder="15">
+<navLabel>
+<text>Chapter 3: Reign with Names</text>
+</navLabel>
+<content src="xhtml/part02_ch03.html#part02_ch03"/>
+</navPoint>
+<navPoint id="ipart02_ch04" playOrder="16">
+<navLabel>
+<text>Chapter 4: Listen Longer</text>
+</navLabel>
+<content src="xhtml/part02_ch04.html#part02_ch04"/>
+</navPoint>
+<navPoint id="ipart02_ch05" playOrder="17">
+<navLabel>
+<text>Chapter 5: Discuss What Matters to Them</text>
+</navLabel>
+<content src="xhtml/part02_ch05.html#part02_ch05"/>
+</navPoint>
+<navPoint id="ipart02_ch06" playOrder="18">
+<navLabel>
+<text>Chapter 6: Leave Others a Little Better</text>
+</navLabel>
+<content src="xhtml/part02_ch06.html#part02_ch06"/>
+</navPoint>
+</navPoint>
+<navPoint id="ipart03" playOrder="19">
+<navLabel>
+<text>Part Three: How to Merit and Maintain Others&#8217; Trust</text>
+</navLabel>
+<content src="xhtml/part03.html#part03"/>
+<navPoint id="ipart03_ch01" playOrder="20">
+<navLabel>
+<text>Chapter 1: Avoid Arguments</text>
+</navLabel>
+<content src="xhtml/part03_ch01.html#part03_ch01"/>
+</navPoint>
+<navPoint id="ipart03_ch02" playOrder="21">
+<navLabel>
+<text>Chapter 2: Never Say, &#8220;You&#8217;re Wrong&#8221;</text>
+</navLabel>
+<content src="xhtml/part03_ch02.html#part03_ch02"/>
+</navPoint>
+<navPoint id="ipart03_ch03" playOrder="22">
+<navLabel>
+<text>Chapter 3: Admit Faults Quickly and Emphatically</text>
+</navLabel>
+<content src="xhtml/part03_ch03.html#part03_ch03"/>
+</navPoint>
+<navPoint id="ipart03_ch04" playOrder="23">
+<navLabel>
+<text>Chapter 4: Begin in a Friendly Way</text>
+</navLabel>
+<content src="xhtml/part03_ch04.html#part03_ch04"/>
+</navPoint>
+<navPoint id="ipart03_ch05" playOrder="24">
+<navLabel>
+<text>Chapter 5: Access Affinity</text>
+</navLabel>
+<content src="xhtml/part03_ch05.html#part03_ch05"/>
+</navPoint>
+<navPoint id="ipart03_ch06" playOrder="25">
+<navLabel>
+<text>Chapter 6: Surrender the Credit</text>
+</navLabel>
+<content src="xhtml/part03_ch06.html#part03_ch06"/>
+</navPoint>
+<navPoint id="ipart03_ch07" playOrder="26">
+<navLabel>
+<text>Chapter 7: Engage with Empathy</text>
+</navLabel>
+<content src="xhtml/part03_ch07.html#part03_ch07"/>
+</navPoint>
+<navPoint id="ipart03_ch08" playOrder="27">
+<navLabel>
+<text>Chapter 8: Appeal to Noble Motives</text>
+</navLabel>
+<content src="xhtml/part03_ch08.html#part03_ch08"/>
+</navPoint>
+<navPoint id="ipart03_ch09" playOrder="28">
+<navLabel>
+<text>Chapter 9: Share Your Journey</text>
+</navLabel>
+<content src="xhtml/part03_ch09.html#part03_ch09"/>
+</navPoint>
+<navPoint id="ipart03_ch10" playOrder="29">
+<navLabel>
+<text>Chapter 10: Throw Down a Challenge</text>
+</navLabel>
+<content src="xhtml/part03_ch10.html#part03_ch10"/>
+</navPoint>
+</navPoint>
+<navPoint id="ipart04" playOrder="30">
+<navLabel>
+<text>Part Four: How to Lead Change Without Resistance or Resentment</text>
+</navLabel>
+<content src="xhtml/part04.html#part04"/>
+<navPoint id="ipart04_ch01" playOrder="31">
+<navLabel>
+<text>Chapter 1: Begin on a Positive Note</text>
+</navLabel>
+<content src="xhtml/part04_ch01.html#part04_ch01"/>
+</navPoint>
+<navPoint id="ipart04_ch02" playOrder="32">
+<navLabel>
+<text>Chapter 2: Acknowledge Your Baggage</text>
+</navLabel>
+<content src="xhtml/part04_ch02.html#part04_ch02"/>
+</navPoint>
+<navPoint id="ipart04_ch03" playOrder="33">
+<navLabel>
+<text>Chapter 3: Call Out Mistakes Quietly</text>
+</navLabel>
+<content src="xhtml/part04_ch03.html#part04_ch03"/>
+</navPoint>
+<navPoint id="ipart04_ch04" playOrder="34">
+<navLabel>
+<text>Chapter 4: Ask Questions Instead of Giving Direct Orders</text>
+</navLabel>
+<content src="xhtml/part04_ch04.html#part04_ch04"/>
+</navPoint>
+<navPoint id="ipart04_ch05" playOrder="35">
+<navLabel>
+<text>Chapter 5: Mitigate Fault</text>
+</navLabel>
+<content src="xhtml/part04_ch05.html#part04_ch05"/>
+</navPoint>
+<navPoint id="ipart04_ch06" playOrder="36">
+<navLabel>
+<text>Chapter 6: Magnify Improvement</text>
+</navLabel>
+<content src="xhtml/part04_ch06.html#part04_ch06"/>
+</navPoint>
+<navPoint id="ipart04_ch07" playOrder="37">
+<navLabel>
+<text>Chapter 7: Give Others a Fine Reputation to Live Up To</text>
+</navLabel>
+<content src="xhtml/part04_ch07.html#part04_ch07"/>
+</navPoint>
+<navPoint id="ipart04_ch08" playOrder="38">
+<navLabel>
+<text>Chapter 8: Stay Connected on Common Ground</text>
+</navLabel>
+<content src="xhtml/part04_ch08.html#part04_ch08"/>
+</navPoint>
+</navPoint>
+<navPoint id="ipart04_ch09" playOrder="39">
+<navLabel>
+<text>Notes</text>
+</navLabel>
+<content src="xhtml/part04_ch09.html#part04_ch09"/>
+</navPoint>
+</navMap>
+</ncx>

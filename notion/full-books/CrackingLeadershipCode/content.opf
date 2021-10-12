@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0" >
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>Cracking the Leadership Code</dc:title>
+<dc:creator opf:file-as="Alain Hunkins" opf:role="aut">Alain Hunkins</dc:creator>
+<dc:description>&lt;span&gt;&lt;p&gt;&lt;b&gt;Become the effective, proactive leader you aspire to be with this practical tool kit for leading people and organizations&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Yes, you can learn the skills to effectively lead people, organizations, and employees. With the right motivation and knowledge, you can be a leader who knows what it takes to succeed. Throughout his extensive experience in training leaders, author Alain Hunkins discovered that many leaders shared a common trait. They were mainly focused on what they were doing but not so focused on how they were doing it, especially when it came to working with other people. By strengthening their leadership capabilities, they could become trusted leaders within their organization, improve employee communications, and build bridges across hierarchies. &lt;i&gt;Cracking the Leadership Code&lt;/i&gt; shares the valuable principles and practices that Hunkins developed and refined during the 20+ years he’s worked with leaders.&lt;/p&gt;&lt;p&gt;When you crack the code, you’ll have a new operating model for organizational leadership that will help your teams thrive in a 21st century economy.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Discover the brain science behind leading people&lt;/li&gt;&lt;li&gt;Get inspired by real life leadership stories&lt;/li&gt;&lt;li&gt;Use a practical leadership tool kit to become a better leader&lt;/li&gt;&lt;li&gt;Learn how to communicate, influence, and persuade others, more effectively than ever before&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;With this book as a resource, you’ll have a new perspective, a new framework, and new tools at your disposal, readily available to guide your leadership. You’ll learn to establish proactive, leader-follower relationships. To do this, you’ll use the interconnected elements of Connection, Communication, and Collaboration.&lt;/p&gt;&lt;p&gt;When you learn from the author’s insightful experiences working with organizations around the world, you can accelerate your leadership development and become the leader you’ve always aspired to be.&lt;/p&gt;&lt;/span&gt;</dc:description>
+<dc:publisher>Wiley</dc:publisher>
+<dc:rights>Copyright © 2020 by John Wiley &amp; Sons</dc:rights>
+<dc:language>en-US</dc:language>
+<dc:date>2020-03-24</dc:date>
+<dc:identifier id="bookid">9781119675549</dc:identifier>
+<meta name="cover" content="Images/cover.jpg"/>
+</metadata>
+<manifest>
+<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+<item id="navigation" href="navigation.xhtml" media-type="application/xhtml+xml" />
+<item id="f01" href="f01.xhtml" media-type="application/xhtml+xml" />
+<item id="f02" href="f02.xhtml" media-type="application/xhtml+xml" />
+<item id="f03" href="f03.xhtml" media-type="application/xhtml+xml" />
+<item id="f04" href="f04.xhtml" media-type="application/xhtml+xml" />
+<item id="f05" href="f05.xhtml" media-type="application/xhtml+xml" />
+<item id="p01" href="p01.xhtml" media-type="application/xhtml+xml" />
+<item id="c01" href="c01.xhtml" media-type="application/xhtml+xml" />
+<item id="c02" href="c02.xhtml" media-type="application/xhtml+xml" />
+<item id="c03" href="c03.xhtml" media-type="application/xhtml+xml" />
+<item id="p02" href="p02.xhtml" media-type="application/xhtml+xml" />
+<item id="c04" href="c04.xhtml" media-type="application/xhtml+xml" />
+<item id="c05" href="c05.xhtml" media-type="application/xhtml+xml" />
+<item id="c06" href="c06.xhtml" media-type="application/xhtml+xml" />
+<item id="p03" href="p03.xhtml" media-type="application/xhtml+xml" />
+<item id="c07" href="c07.xhtml" media-type="application/xhtml+xml" />
+<item id="c08" href="c08.xhtml" media-type="application/xhtml+xml" />
+<item id="p04" href="p04.xhtml" media-type="application/xhtml+xml" />
+<item id="c09" href="c09.xhtml" media-type="application/xhtml+xml" />
+<item id="c10" href="c10.xhtml" media-type="application/xhtml+xml" />
+<item id="c11" href="c11.xhtml" media-type="application/xhtml+xml" />
+<item id="c12" href="c12.xhtml" media-type="application/xhtml+xml" />
+<item id="c13" href="c13.xhtml" media-type="application/xhtml+xml" />
+<item id="b01" href="b01.xhtml" media-type="application/xhtml+xml" />
+<item id="b02" href="b02.xhtml" media-type="application/xhtml+xml" />
+<item id="b03" href="b03.xhtml" media-type="application/xhtml+xml" />
+<item id="b04" href="b04.xhtml" media-type="application/xhtml+xml" />
+<item id="b05" href="b05.xhtml" media-type="application/xhtml+xml" />
+<item id="b06" href="b06.xhtml" media-type="application/xhtml+xml" />
+<item id="eula" href="eula.xhtml" media-type="application/xhtml+xml" />
+<item id="img_c12f001" href="Images/c12f001.png" media-type="image/png" />
+<item id="img_c11f001" href="Images/c11f001.png" media-type="image/png" />
+<item id="img_c06f001" href="Images/c06f001.png" media-type="image/png" />
+<item id="img_c07f001" href="Images/c07f001.png" media-type="image/png" />
+<item id="img_c06f002" href="Images/c06f002.png" media-type="image/png" />
+<item id="img_c08f001" href="Images/c08f001.png" media-type="image/png" />
+<item id="img_c08f003" href="Images/c08f003.png" media-type="image/png" />
+<item id="img_c05f001" href="Images/c05f001.png" media-type="image/png" />
+<item id="img_logo" href="Images/logo.jpg" media-type="image/jpeg" />
+<item id="img_c01f001" href="Images/c01f001.png" media-type="image/png" />
+<item id="img_c08f002" href="Images/c08f002.png" media-type="image/png" />
+<item id="img_c01-math-0001" href="Images/c01-math-0001.png" media-type="image/png" />
+<item id="img_cover" href="Images/cover.jpg" media-type="image/jpeg" />
+<item id="img_c10f001" href="Images/c10f001.png" media-type="image/png" />
+<item id="img_c11f002" href="Images/c11f002.png" media-type="image/png" />
+<item id="img_c14f001" href="Images/c14f001.png" media-type="image/png" />
+<item id="img_c10uf001" href="Images/c10uf001.png" media-type="image/png" />
+<item id="style_00" href="Styles/Style00.css" media-type="text/css" />
+<item id="style_01" href="Styles/Style01.css" media-type="text/css" />
+<item id="style_02" href="Styles/Style02.css" media-type="text/css" />
+</manifest>
+<spine toc="ncx">
+<itemref idref="cover"/>
+<itemref idref="navigation"/>
+<itemref idref="f01"/>
+<itemref idref="f02"/>
+<itemref idref="f03"/>
+<itemref idref="f04"/>
+<itemref idref="f05"/>
+<itemref idref="p01"/>
+<itemref idref="c01"/>
+<itemref idref="c02"/>
+<itemref idref="c03"/>
+<itemref idref="p02"/>
+<itemref idref="c04"/>
+<itemref idref="c05"/>
+<itemref idref="c06"/>
+<itemref idref="p03"/>
+<itemref idref="c07"/>
+<itemref idref="c08"/>
+<itemref idref="p04"/>
+<itemref idref="c09"/>
+<itemref idref="c10"/>
+<itemref idref="c11"/>
+<itemref idref="c12"/>
+<itemref idref="c13"/>
+<itemref idref="b01"/>
+<itemref idref="b02"/>
+<itemref idref="b03"/>
+<itemref idref="b04"/>
+<itemref idref="b05"/>
+<itemref idref="b06"/>
+<itemref idref="eula"/></spine>
+<guide><reference href="cover.xhtml" title="Cover" type="cover" /></guide>
+</package>
