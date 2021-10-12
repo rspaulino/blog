@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+   <head>
+      <meta name="dtb:uid" content="bookid"/>
+      <meta name="dtb:depth" content="0"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+   <docTitle>
+      <text>UnKnown</text>
+   </docTitle>
+   <navMap>
+     <navPoint id="id1" playOrder="1">
+       <navLabel>
+         <text>Table of Contents</text>
+       </navLabel>
+       <content src="text00000.html#tocStart"/>
+     </navPoint>
+     <navPoint id="id2" playOrder="2">
+       <navLabel>
+         <text>Part A: Foreword by Marissa Mayer</text>
+       </navLabel>
+       <content src="text00001.html#_idContainer007"/>
+     <navPoint id="id3" playOrder="3">
+       <navLabel>
+         <text>Chapter 0: Foreword by Marissa Mayer</text>
+       </navLabel>
+       <content src="text00002.html#EBook_-_A.1_-_Foreword"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id4" playOrder="4">
+       <navLabel>
+         <text>Part B: The Product Manager Role</text>
+       </navLabel>
+       <content src="text00003.html#_idContainer013"/>
+     <navPoint id="id5" playOrder="5">
+       <navLabel>
+         <text>Chapter 1: Getting Started</text>
+       </navLabel>
+       <content src="text00004.html#_idContainer015"/>
+     </navPoint>
+     <navPoint id="id6" playOrder="6">
+       <navLabel>
+         <text>Chapter 2: The Product Manager Role</text>
+       </navLabel>
+       <content src="text00005.html#_idContainer020"/>
+     </navPoint>
+     <navPoint id="id7" playOrder="7">
+       <navLabel>
+         <text>Chapter 3: The First 90 Days</text>
+       </navLabel>
+       <content src="text00006.html#_idContainer027"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id8" playOrder="8">
+       <navLabel>
+         <text>Part C: Product Skills</text>
+       </navLabel>
+       <content src="text00007.html#_idContainer031"/>
+     <navPoint id="id9" playOrder="9">
+       <navLabel>
+         <text>Introduction to Product Skills</text>
+       </navLabel>
+       <content src="text00008.html#_idContainer034"/>
+     </navPoint>
+     <navPoint id="id10" playOrder="10">
+       <navLabel>
+         <text>Chapter 4: User Insight</text>
+       </navLabel>
+       <content src="text00009.html#EBook_-_C.1_-_User_Insight"/>
+     </navPoint>
+     <navPoint id="id11" playOrder="11">
+       <navLabel>
+         <text>Chapter 5: Data Insight</text>
+       </navLabel>
+       <content src="text00010.html#EBook_-_C.2_-_Data_Insight"/>
+     </navPoint>
+     <navPoint id="id12" playOrder="12">
+       <navLabel>
+         <text>Chapter 6: Analytical Problem Solving</text>
+       </navLabel>
+       <content src="text00011.html#_idContainer053"/>
+     </navPoint>
+     <navPoint id="id13" playOrder="13">
+       <navLabel>
+         <text>Chapter 7: Product and Design Skills</text>
+       </navLabel>
+       <content src="text00012.html#_idContainer058"/>
+     </navPoint>
+     <navPoint id="id14" playOrder="14">
+       <navLabel>
+         <text>Chapter 8: Technical Skills</text>
+       </navLabel>
+       <content src="text00013.html#_idContainer065"/>
+     </navPoint>
+     <navPoint id="id15" playOrder="15">
+       <navLabel>
+         <text>Chapter 9: Writing Product Documentation</text>
+       </navLabel>
+       <content src="text00014.html#_idContainer071"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id16" playOrder="16">
+       <navLabel>
+         <text>Part D: Execution Skills</text>
+       </navLabel>
+       <content src="text00015.html#_idContainer075"/>
+     <navPoint id="id17" playOrder="17">
+       <navLabel>
+         <text>Introduction to Execution Skills</text>
+       </navLabel>
+       <content src="text00016.html#_idContainer078"/>
+     </navPoint>
+     <navPoint id="id18" playOrder="18">
+       <navLabel>
+         <text>Chapter 10: Project Management</text>
+       </navLabel>
+       <content src="text00017.html#_idContainer079"/>
+     </navPoint>
+     <navPoint id="id19" playOrder="19">
+       <navLabel>
+         <text>Chapter 11: Scoping and Incremental Development</text>
+       </navLabel>
+       <content src="text00018.html#_idContainer086"/>
+     </navPoint>
+     <navPoint id="id20" playOrder="20">
+       <navLabel>
+         <text>Chapter 12: Product Launches</text>
+       </navLabel>
+       <content src="text00019.html#_idContainer093"/>
+     </navPoint>
+     <navPoint id="id21" playOrder="21">
+       <navLabel>
+         <text>Chapter 13: Get Things Done</text>
+       </navLabel>
+       <content src="text00020.html#_idContainer098"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id22" playOrder="22">
+       <navLabel>
+         <text>Part E: Strategic Skills</text>
+       </navLabel>
+       <content src="text00021.html#_idContainer106"/>
+     <navPoint id="id23" playOrder="23">
+       <navLabel>
+         <text>Introduction to Strategic Skills</text>
+       </navLabel>
+       <content src="text00022.html#_idContainer109"/>
+     </navPoint>
+     <navPoint id="id24" playOrder="24">
+       <navLabel>
+         <text>Chapter 14: Product Strategy Overview</text>
+       </navLabel>
+       <content src="text00023.html#_idContainer110"/>
+     </navPoint>
+     <navPoint id="id25" playOrder="25">
+       <navLabel>
+         <text>Chapter 15: Vision</text>
+       </navLabel>
+       <content src="text00024.html#EBook_-_E.2_-_Vision"/>
+     </navPoint>
+     <navPoint id="id26" playOrder="26">
+       <navLabel>
+         <text>Chapter 16: Strategic Framework</text>
+       </navLabel>
+       <content src="text00025.html#_idContainer120"/>
+     </navPoint>
+     <navPoint id="id27" playOrder="27">
+       <navLabel>
+         <text>Chapter 17: Roadmapping and Prioritization</text>
+       </navLabel>
+       <content src="text00026.html#_idContainer126"/>
+     </navPoint>
+     <navPoint id="id28" playOrder="28">
+       <navLabel>
+         <text>Chapter 18: Team Goals</text>
+       </navLabel>
+       <content src="text00027.html#EBook_-_E.5_-_Team_Goals"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id29" playOrder="29">
+       <navLabel>
+         <text>Part F: Leadership Skills</text>
+       </navLabel>
+       <content src="text00028.html#_idContainer138"/>
+     <navPoint id="id30" playOrder="30">
+       <navLabel>
+         <text>Introduction to Leadership Skills</text>
+       </navLabel>
+       <content src="text00029.html#_idContainer141"/>
+     </navPoint>
+     <navPoint id="id31" playOrder="31">
+       <navLabel>
+         <text>Chapter 19: Personal Mindset</text>
+       </navLabel>
+       <content src="text00030.html#_idContainer142"/>
+     </navPoint>
+     <navPoint id="id32" playOrder="32">
+       <navLabel>
+         <text>Chapter 20: Collaboration</text>
+       </navLabel>
+       <content src="text00031.html#EBook_-_F.2_-_Collaboration"/>
+     </navPoint>
+     <navPoint id="id33" playOrder="33">
+       <navLabel>
+         <text>Chapter 21: Influencing without Authority</text>
+       </navLabel>
+       <content src="text00032.html#_idContainer152"/>
+     </navPoint>
+     <navPoint id="id34" playOrder="34">
+       <navLabel>
+         <text>Chapter 22: Communication</text>
+       </navLabel>
+       <content src="text00033.html#EBook_-_F.4_-_Communication"/>
+     </navPoint>
+     <navPoint id="id35" playOrder="35">
+       <navLabel>
+         <text>Chapter 23: Motivation and Inspiration</text>
+       </navLabel>
+       <content src="text00034.html#_idContainer163"/>
+     </navPoint>
+     <navPoint id="id36" playOrder="36">
+       <navLabel>
+         <text>Chapter 24: Ownership Mentality</text>
+       </navLabel>
+       <content src="text00035.html#_idContainer168"/>
+     </navPoint>
+     <navPoint id="id37" playOrder="37">
+       <navLabel>
+         <text>Chapter 25: Mentoring</text>
+       </navLabel>
+       <content src="text00036.html#EBook_-_F.7_-_Mentoring"/>
+     </navPoint>
+     <navPoint id="id38" playOrder="38">
+       <navLabel>
+         <text>Chapter 26: Working with Other Departments</text>
+       </navLabel>
+       <content src="text00037.html#_idContainer177"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id39" playOrder="39">
+       <navLabel>
+         <text>Part G: People Management Skills</text>
+       </navLabel>
+       <content src="text00038.html#_idContainer182"/>
+     <navPoint id="id40" playOrder="40">
+       <navLabel>
+         <text>Introduction to People Management Skills</text>
+       </navLabel>
+       <content src="text00039.html#_idContainer185"/>
+     </navPoint>
+     <navPoint id="id41" playOrder="41">
+       <navLabel>
+         <text>Chapter 27: Becoming a People Manager</text>
+       </navLabel>
+       <content src="text00040.html#_idContainer186"/>
+     </navPoint>
+     <navPoint id="id42" playOrder="42">
+       <navLabel>
+         <text>Chapter 28: New Leadership Skills</text>
+       </navLabel>
+       <content src="text00041.html#_idContainer191"/>
+     </navPoint>
+     <navPoint id="id43" playOrder="43">
+       <navLabel>
+         <text>Chapter 29: Coaching and Development</text>
+       </navLabel>
+       <content src="text00042.html#_idContainer197"/>
+     </navPoint>
+     <navPoint id="id44" playOrder="44">
+       <navLabel>
+         <text>Chapter 30: Building a Team</text>
+       </navLabel>
+       <content src="text00043.html#_idContainer202"/>
+     </navPoint>
+     <navPoint id="id45" playOrder="45">
+       <navLabel>
+         <text>Chapter 31: Organizational Excellence</text>
+       </navLabel>
+       <content src="text00044.html#_idContainer208"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id46" playOrder="46">
+       <navLabel>
+         <text>Part H: Careers</text>
+       </navLabel>
+       <content src="text00045.html#_idContainer213"/>
+     <navPoint id="id47" playOrder="47">
+       <navLabel>
+         <text>Introduction to Careers</text>
+       </navLabel>
+       <content src="text00046.html#_idContainer215"/>
+     </navPoint>
+     <navPoint id="id48" playOrder="48">
+       <navLabel>
+         <text>Chapter 32: The Career Ladders</text>
+       </navLabel>
+       <content src="text00047.html#_idContainer216"/>
+     </navPoint>
+     <navPoint id="id49" playOrder="49">
+       <navLabel>
+         <text>Chapter 33: Career Goals</text>
+       </navLabel>
+       <content src="text00048.html#EBook_-_H.2_-_Career_Goals"/>
+     </navPoint>
+     <navPoint id="id50" playOrder="50">
+       <navLabel>
+         <text>Chapter 34: Skills for Career Growth</text>
+       </navLabel>
+       <content src="text00049.html#_idContainer230"/>
+     </navPoint>
+     <navPoint id="id51" playOrder="51">
+       <navLabel>
+         <text>Chapter 35: Extended Learning</text>
+       </navLabel>
+       <content src="text00050.html#_idContainer237"/>
+     </navPoint>
+     <navPoint id="id52" playOrder="52">
+       <navLabel>
+         <text>Chapter 36: Beyond PM</text>
+       </navLabel>
+       <content src="text00051.html#EBook_-_H.5_-_Beyond_PM"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id53" playOrder="53">
+       <navLabel>
+         <text>Part I: Product Leader Q&amp;A</text>
+       </navLabel>
+       <content src="text00052.html#_idContainer245"/>
+     <navPoint id="id54" playOrder="54">
+       <navLabel>
+         <text>Introduction to Product Leader Q&amp;A</text>
+       </navLabel>
+       <content src="text00053.html#_idContainer247"/>
+     </navPoint>
+     <navPoint id="id55" playOrder="55">
+       <navLabel>
+         <text>Chapter 37: Dylan Casey</text>
+       </navLabel>
+       <content src="text00054.html#EBook_-_I.1_-_Dylan_Casey"/>
+     </navPoint>
+     <navPoint id="id56" playOrder="56">
+       <navLabel>
+         <text>Chapter 38: Brian Ellin</text>
+       </navLabel>
+       <content src="text00055.html#EBook_-_I.2_-_Brian_Ellin"/>
+     </navPoint>
+     <navPoint id="id57" playOrder="57">
+       <navLabel>
+         <text>Chapter 39: Osi Imeokparia</text>
+       </navLabel>
+       <content src="text00056.html#_idContainer258"/>
+     </navPoint>
+     <navPoint id="id58" playOrder="58">
+       <navLabel>
+         <text>Chapter 40: Bangaly Kaba</text>
+       </navLabel>
+       <content src="text00057.html#EBook_-_I.4_-_Bangaly_Kaba"/>
+     </navPoint>
+     <navPoint id="id59" playOrder="59">
+       <navLabel>
+         <text>Chapter 41: Sara Mauskopf</text>
+       </navLabel>
+       <content src="text00058.html#_idContainer269"/>
+     </navPoint>
+     <navPoint id="id60" playOrder="60">
+       <navLabel>
+         <text>Chapter 42: Ken Norton</text>
+       </navLabel>
+       <content src="text00059.html#EBook_-_I.6_-_Ken_Norton"/>
+     </navPoint>
+     <navPoint id="id61" playOrder="61">
+       <navLabel>
+         <text>Chapter 43: Anuj Rathi</text>
+       </navLabel>
+       <content src="text00060.html#EBook_-_I.7_-_Anuj_Rathi"/>
+     </navPoint>
+     <navPoint id="id62" playOrder="62">
+       <navLabel>
+         <text>Chapter 44: Sachin Rekhi</text>
+       </navLabel>
+       <content src="text00061.html#EBook_-_I.8_-_Sachin_Rekhi"/>
+     </navPoint>
+     <navPoint id="id63" playOrder="63">
+       <navLabel>
+         <text>Chapter 45: Teresa Torres</text>
+       </navLabel>
+       <content src="text00062.html#_idContainer291"/>
+     </navPoint>
+     <navPoint id="id64" playOrder="64">
+       <navLabel>
+         <text>Chapter 46: Oji Udezue</text>
+       </navLabel>
+       <content src="text00063.html#EBook_-_I.10_-_Oji_Udezue"/>
+     </navPoint>
+     <navPoint id="id65" playOrder="65">
+       <navLabel>
+         <text>Chapter 47: April Underwood</text>
+       </navLabel>
+       <content src="text00064.html#_idContainer301"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id66" playOrder="66">
+       <navLabel>
+         <text>Part J: Additional Reading</text>
+       </navLabel>
+       <content src="text00065.html#_idContainer306"/>
+     <navPoint id="id67" playOrder="67">
+       <navLabel>
+         <text>Introduction to Additional Reading</text>
+       </navLabel>
+       <content src="text00066.html#_idContainer308"/>
+     </navPoint>
+     <navPoint id="id68" playOrder="68">
+       <navLabel>
+         <text>Chapter 48: Types of PM Roles</text>
+       </navLabel>
+       <content src="text00067.html#_idContainer309"/>
+     </navPoint>
+     <navPoint id="id69" playOrder="69">
+       <navLabel>
+         <text>Chapter 49: Landing a Product Manager Role</text>
+       </navLabel>
+       <content src="text00068.html#_idContainer314"/>
+     </navPoint>
+     <navPoint id="id70" playOrder="70">
+       <navLabel>
+         <text>Chapter 50: Networking for Introverts</text>
+       </navLabel>
+       <content src="text00069.html#_idContainer319"/>
+     </navPoint>
+     <navPoint id="id71" playOrder="71">
+       <navLabel>
+         <text>Chapter 51: The Paradox of Autonomy and Recognition</text>
+       </navLabel>
+       <content src="text00070.html#_idContainer327"/>
+     </navPoint>
+     <navPoint id="id72" playOrder="72">
+       <navLabel>
+         <text>Chapter 52: 10 Rules for Negotiating a Job Offer</text>
+       </navLabel>
+       <content src="text00071.html#_idContainer334"/>
+     </navPoint>
+     </navPoint>
+     <navPoint id="id73" playOrder="73">
+       <navLabel>
+         <text>Part K: Appendix</text>
+       </navLabel>
+       <content src="text00072.html#_idContainer341"/>
+     <navPoint id="id74" playOrder="74">
+       <navLabel>
+         <text>Chapter 53: Key Phrases to Learn</text>
+       </navLabel>
+       <content src="text00073.html#_idContainer343"/>
+     </navPoint>
+     <navPoint id="id75" playOrder="75">
+       <navLabel>
+         <text>Chapter 54: TLAs and Other Acronyms</text>
+       </navLabel>
+       <content src="text00074.html#_idContainer347"/>
+     </navPoint>
+     <navPoint id="id76" playOrder="76">
+       <navLabel>
+         <text>Chapter 55: Acknowledgements</text>
+       </navLabel>
+       <content src="text00075.html#_idContainer351"/>
+     </navPoint>
+     <navPoint id="id77" playOrder="77">
+       <navLabel>
+         <text>Chapter 56: Index</text>
+       </navLabel>
+       <content src="text00076.html#EBook_-_K.5_-_Index"/>
+     </navPoint>
+     </navPoint>
+   </navMap>
+</ncx>

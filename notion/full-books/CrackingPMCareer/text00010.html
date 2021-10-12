@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>EBook_-_C.2_-_Data_Insight</title>
+<link href="flow0001.css" rel="stylesheet" type="text/css" />
+<link href="flow0010.css" rel="stylesheet" type="text/css" />
+<link href="flow0003.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="EBook_-_C.2_-_Data_Insight" xml:lang="en-US" lang="en-US"><img src="Image00011.gif" class="chapter_icon" />
+<div id="_idContainer041" class="Basic-Text-Frame">
+<p class="Headings_Chapter-Number">Chapter 5</p>
+</div>
+<div id="_idContainer042" class="Basic-Text-Frame">
+<h1 id="_idParaDest-9" class="Headings_Chapter-Title"><a id="_idTextAnchor112"></a>
+ Data Insight</h1>
+</div>
+<div id="_idContainer043" class="Basic-Text-Frame">
+<p class="TOC-To-Include_TOC-Chapter-Name"><a id="_idTextAnchor113"></a>
+ Data Insight</p>
+</div>
+<div id="_idContainer051" class="_idGenObjectStyleOverride-1">
+<p class="First-Paragraph---Main-Book">
+<span class="AllCaps-Bold _idGenCharOverride-1">Undoubtedly, conversations with</span>
+ users are incredibly valuable. They offer a depth of insight into their experiences and motivations; not just <span class="CharOverride-1">what</span>
+ they do, but <span class="CharOverride-1">why</span>
+ .</p>
+<p class="Basic-Paragraph">There&apos;s a catch, though—in fact, many catches.</p>
+<p class="Basic-Paragraph">Qualitative (descriptive) data from user research only samples from a few people. Usually, those people are only a rough approximation of your true user base: they speak your language, live near you, and have free time in the middle of the day to participate in research. There&apos;s often a huge gap between what people <span class="CharOverride-1">say</span>
+ they will do or how they behave when they&apos;re being watched, and what they <span class="CharOverride-1">actually</span>
+ do.</p>
+<p class="Basic-Paragraph">This is where <span class="CharOverride-1">quantitative (numerical) data</span>
+ comes into play. As a PM, you need to use quantitative data and metrics to learn what people actually do, identify new opportunities, and measure success.</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor114" style=";color:black;"></a>
+ Responsibilities</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor115"></a>
+ Learn your company&apos;s key success metrics</p>
+<p class="Basic-Paragraph">What does success mean to you? That&apos;s an interesting question for an individual—but it&apos;s also an interesting question for a company. And, as it turns out, companies (and teams) might define it in somewhat different ways.</p>
+<p class="Basic-Paragraph">When you&apos;re new to a team—whether junior or senior—you need to learn the relevant metrics. How does your company measure success? What about your product? What does good usage look like?</p>
+<p class="Basic-Paragraph">Ideally, your company has prioritized those metrics so you know which are the most strategically important. For some companies, the most important thing is user growth. For others, it&apos;s retention, revenue, time spent on the site, or winning customers in key industries.</p>
+<p class="Basic-Paragraph">Your company should have a dashboard that can show you the metrics over time. If it doesn&apos;t, please work with your team to create one! It&apos;s awfully hard to optimize metrics if you can&apos;t easily understand what they are. (See <a href="text00010.html#_idTextAnchor117">&quot;Create a dashboard for your team&quot; in Chapter 5</a>
+ )</p>
+<p class="Basic-Paragraph">Consider what product work has moved those metrics. If you&apos;re new, it can be useful to discuss this with your team. What past changes have driven these metrics, positively or negatively? If answering this question is challenging, that can be a red flag that the team hasn&apos;t been paying much attention to metrics.</p>
+<p class="Basic-Paragraph">Think also about how your team&apos;s work and metrics connect to the company&apos;s metrics, and make sure your team understands that connection. For example, if you&apos;re working on the spam detection tool of an email system, your team might be optimizing around false negatives and positives, while the larger product is optimizing around user retention. What is the relationship between these? Will improving one improve the other?</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor116"></a>
+ Learn how to pull data for yourself</p>
+<p class="Basic-Paragraph">Speed of cycles is critical in <a id="_idIndexMarker077"></a>
+ data analysis. You need to have a hypothesis, test it, form a <span class="CharOverride-1">new</span>
+ hypothesis, then test that one as well, and keep iterating. If you need to wait for someone else to send you the data, it can take the process from 15 minutes to several days. That is why it&apos;s so important to learn how to pull your own data..</p>
+<p class="Basic-Paragraph">
+<span class="CharOverride-1">How</span>
+ you do this will depend on the company. Some companies have customizable dashboards, and each PM can create their own. That&apos;s great! But at other companies, you&apos;ll just use <a id="_idIndexMarker078"></a>
+ SQL. That&apos;s okay too.</p>
+<p class="Basic-Paragraph">In fact, even if you have access to a customizable dashboard, you might still find SQL very handy. It gives you more granular control in data analysis, and ultimately saves you a lot of time. Don&apos;t be intimidated if you have no technical background either; spend a day or two learning it, and you can learn the rest as you go.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor117"></a>
+ <a id="_idTextAnchor118"></a>
+ Create a <a id="_idIndexMarker079"></a>
+ dashboard for your team</p>
+<p class="Basic-Paragraph">Every product should have a dashboard, accessible to PMs and non-PMs. If you&apos;re designing this from scratch, or just revising it, here are some important things to keep in mind:</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Show the Success Metrics:</span>
+ Include graphs that show the most important success metrics for your product. These are often hard-to-move metrics, such as retention. You might not see these move with any particular launch, but you can observe the trends over time.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Look for the Precursors:</span>
+ What drives the success metrics? For example, if a core success metric is time spent online, but that&apos;s driven by the number of users and the posts per users, you&apos;ll want to track those too. These will give you an early warning if a product change is particularly good or bad.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Show</span>
+ <span class="CharOverride-3">How</span>
+ <span class="CharOverride-2">People Are Using It:</span>
+ Sometimes teams lose track of how people are actually using the product, and what is most important to people. Include metrics that help illuminate how people are actually using the product, such as the relative usage of various features. Even if these don&apos;t move often, they&apos;ll help you and your team stay grounded in the reality of how your product is being used. This can serve as a steady reminder to work on the parts of your product that will have the highest impact.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Reduce Noise:</span>
+ Consider <a id="_idIndexMarker080"></a>
+ slicing or filtering metrics in ways that reduce variance and noise. For example, you might look at the number of users who comment, rather than the raw number of comments. If there&apos;s a high variance in the number and quality of new users you get each day (for example, because of press articles or being featured in an app store), you can set most of your graphs to filter out users who haven&apos;t passed a quality bar. This could be the people who finished setup, or who have used the app on at least three different days.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Normalize Metrics:</span>
+ Consider normalizing metrics by dividing by the number of active users to get charts where the lines are horizontal unless there&apos;s a real behavior change. For example, the number of comments each day will be going up if your user base is growing, and it&apos;s difficult to tell by just looking at the graph whether or not people are commenting more. If you look at the number of comments divided by the number of active users, you&apos;ll be able to quickly see if people are commenting more.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Account for</span>
+ <span class="CharOverride-2"><a id="_idIndexMarker081"></a>
+</span>
+ <span class="CharOverride-2">Seasonality:</span>
+ Some products are used more during certain times of the week or year. If you don&apos;t account for this, it can be difficult to understand if a downward or upward trend is meaningful. One simple way to account for this is to overlay a dashed line from one year ago (or a week ago) to quickly spot seasonality bumps and dips.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Show 7 Day Averages:</span>
+ Some products are inherently &quot;spikey&quot;, where they might have momentary peaks in usage due to a popular post or some other event. To get a better handle on the trends, it can be useful to view a 7 (or 14, 28, etc) day average. This is also another way to adjust for products where usage is affected by the day of the week.</li>
+</ul>
+<p class="Headings_Heading-2"><a id="_idTextAnchor119"></a>
+ Review your team&apos;s metrics regularly</p>
+<p class="Basic-Paragraph">Your product&apos;s metrics should be reviewed on a regular basis. This helps you quickly identify any surprises in the metrics and promptly fix any issues. Some of the key questions to ask are:</p>
+<p class="Text-Left">Have the graphs for any metrics increased or decreased relative to their prior trend? If so, investigate to find out what caused the change.</p>
+<p class="Text-Left">Can you see the impact of any recent product or marketing changes in the metrics?</p>
+<p class="Text-Left">Have any metrics crossed a threshold that&apos;s worth celebrating?<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-001-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00010.html#endnote-001">1</a>
+</span>
+</span>
+</p>
+<p class="Text-Left">Are there any interesting long-term trends? Pay special attention to metrics that support or refute the product strategy.</p>
+<p class="Basic-Paragraph">Some teams find it helpful to set up a rotation system for reviewing the metrics. Each week, designate someone to review the metrics and follow up on any surprising changes. This ensures that people across your team are familiar with the metrics, and that the review actually gets done.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor120"></a>
+ Explore the data <span class="Chili-Pepper">⚡</span>
+</p>
+<p class="Basic-Paragraph">In the same way that you might run exploratory <a id="_idIndexMarker082"></a>
+ user research to discover new insights, you can explore the data your product gathers to discover new opportunities. Data can often be used in creative ways—but to do this, you need to understand what data is out there. Here&apos;s an example.</p>
+<p class="Basic-Paragraph">Once, at Google, my team wanted to use the user&apos;s IP address to relevant local results for searches like &quot;pizza restaurants.&quot; My hunch was that this IP address location was accurate enough. But how could I prove it? We were reluctant to run an experiment immediately, since it wouldn&apos;t really tell us how predictive IP addresses were of a user&apos;s location. A lot of &quot;bad location&quot; guesses could be jarring to users.</p>
+<p class="BODY_Sidebar-Heading" style=";color:black;"><a id="_idTextAnchor121" style=";color:black;"></a>
+ Pause for a moment and consider this scenario for yourself.</p>
+<p class="BODY_Sidebar" style=";color:black;">Imagine you work at Google. How do you prove that IP addresses match people&apos;s locations, when you don&apos;t actually know people&apos;s locations?</p>
+<p class="BODY_Sidebar" style=";color:black;">There are likely many answers, but here&apos;s how I tackled it.</p>
+<p class="BODY_Sidebar" style=";color:black;">First, I realized that a subset of users had, at some point, typed in a zip code (presumably their own) while searching for weather forecasts or movie times. I could confirm that their IP address&apos;s location roughly matched the zip code. So far, so good.</p>
+<p class="BODY_Sidebar" style=";color:black;">But IP addresses could still be miles away from their location, even if it&apos;s the right zip code. How do we determine if the IP address is <span class="CharOverride-1" style=";color:black;">better</span>
+ than the zip code? Again, imagine you&apos;re at Google tackling this same problem. What data might be helpful to you?</p>
+<p class="BODY_Sidebar" style=";color:black;">I realized that those same users <span class="CharOverride-1" style=";color:black;">also</span>
+ periodically searched for specific restaurants or stores. So the question was: when they searched for specific places, was it more likely to match the zip code or the IP address?</p>
+<p class="BODY_Sidebar" style=";color:black;">It turned out that the IP address was much better than the zip code, which means that it was likely quite accurate. I now had the confidence to start an experiment, knowing that we would rarely be wrong about their location. The experiment proved successful, and we launched this change.</p>
+<p class="BODY_Sidebar" style=";color:black;">All of this was only possible because I knew what data existed.</p>
+<p class="Basic-Paragraph">Get curious and explore the different types of data available at your company. This might be the Google Analytics dashboards, raw user logs, NPS reports, search logs—anything you have access to. Start with any questions you can think of, whether they&apos;re directly related to your projects or just something you&apos;re curious about. Look for anything surprising, and then try to dig in to find out what it means or what caused it. If you find interesting insights, make sure to share them with other people.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor122"></a>
+ Shape your company&apos;s key success metrics <span class="Chili-Pepper">⚡⚡</span>
+</p>
+<p class="Basic-Paragraph">Metrics aren&apos;t set in stone. As you advance in your career, you may need to help the whole company focus on the metrics that matter the most. If it looks like people are chasing the wrong metrics or confused about which should be the top priority, it&apos;s a sign that you can step up to help.</p>
+<p class="Basic-Paragraph">To shape the company&apos;s success metrics, you want to lead a cross-functional, collaborative process; it&apos;s important to get broad <a id="_idIndexMarker083"></a>
+ buy-in. Identify all the problems you see with the current success metrics, and invite people in roles across the company to share any problems they see, or any worries they have, with changing the metrics.</p>
+<p class="Basic-Paragraph">The frameworks at the end of this chapter provide some guidelines on how to choose good metrics.</p>
+<p class="Basic-Paragraph">See also: <a href="text00010.html#_idTextAnchor129">&quot;Good metrics versus vanity metrics&quot; in Chapter 5</a>
+ , <a href="text00010.html#_idTextAnchor131">&quot;Pirate Metrics&quot; in Chapter 5</a>
+</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor123"></a>
+ P&amp;L Responsibility <span class="Chili-Pepper">⚡⚡</span>
+</p>
+<p class="Basic-Paragraph">At some companies, the most senior PMs become responsible for their business unit&apos;s <a id="_idIndexMarker084"></a>
+ profits and losses (P&amp;L). This means they have an extra layer of accountability that includes not only the product team, but the business teams such as sales and marketing as well. They&apos;re responsible not just for shipping excellent products, but also for ensuring that those products bring in enough <a id="_idIndexMarker085"></a>
+ revenue without generating too much cost.</p>
+<p class="Basic-Paragraph">When you have P&amp;L responsibility, you&apos;ll work with someone from finance on a team budget. The budget covers the plans and targets for the year, usually on a quarterly or monthly basis. It will include costs such as how many people you&apos;re expecting to hire in each role, and how much you&apos;ll spend on advertising or other expenses. It also includes revenue that you&apos;ll <a id="_idIndexMarker086"></a>
+ forecast based on past revenue, seasonality, sales headcount, marketing, and product launches.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-002-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00010.html#endnote-002">2</a>
+</span>
+</span>
+</p>
+<p class="Basic-Paragraph">It might seem impossible to get the forecast right, but luckily you don&apos;t have to. Ely Lerner, who ran a P&amp;L at Yelp, shared his perspective:</p>
+<p class="BODY_Quote">You probably never are going to forecast correctly, so the tip is to always be a step ahead of realizing when the plan is wrong. That gives you more time to correct it, and more time to communicate it. You&apos;ll want to have a conservative financial plan you share with Wall Street and a more aggressive internal target you rally your teams to try to stretch and go hit.</p>
+<p class="Basic-Paragraph">When you come up with your budget, especially at a public company, you&apos;ll need a narrative about why you&apos;re investing the way you are. For example, your strategy might be to maximize profit, or it could be to spend more in order to grow your market share. Either approach could work, but you&apos;ll need to convince investors that you&apos;re making the right choice.</p>
+<p class="Basic-Paragraph">Forecasting is important because the plans you set and your ability to hit them can directly impact the stock price, which in turn affects compensation and can even increase the risk of the activist investors taking control of the company.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-003-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00010.html#endnote-003">3</a>
+</span>
+</span>
+</p>
+<p class="Basic-Paragraph">Each month or week, you&apos;ll report on the forecasts and analyze the drivers. If revenue is down or costs are up, you&apos;ll want to dig in to make sure you understand exactly why. Over time, you&apos;ll build up dashboards and models that help you quickly hone in on what part of the funnel is falling behind.</p>
+<p class="Basic-Paragraph">Driver analysis might seem like a lot of work, but as Sachin Rekhi, who ran a P&amp;L at LinkedIn, shared, it can really improve your product intuition and make you a better PM:</p>
+<p class="BODY_Quote">Now when you create initiatives, you&apos;re thinking about which driver the initiative is going to boost, and by how much. Of course, you are never accurate, but at the end of the quarter you would look at what you actually did and build your intuition for what features and changes in the product actually had some meaningful metric output.</p>
+<p class="Basic-Paragraph">If things aren&apos;t on track, you&apos;ll then work with teams to see what levers you can pull to get things back on track. You might shift budget from long-term bets to short-term drivers like advertising. You might have engineers build tooling that makes sales people more productive.</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor124" style=";color:black;"></a>
+ Growth Practices</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor125"></a>
+ Use <a id="_idIndexMarker087"></a>
+ benchmarks to make sense of data</p>
+<p class="Basic-Paragraph">Early in my career, the expectation that PMs would have memorized a variety of metrics about their product scared me. I couldn&apos;t understand why I would need to be able to recite information like how many users our product had, or what the growth rate was from memory. It reminded me of struggling to memorize important dates in history class. Sometimes it made me wonder if I was really cut out to be a PM.</p>
+<p class="Basic-Paragraph">My breakthrough was learning to use benchmarks to add context and make data meaningful. Benchmarks are points of reference, either industry standards or internal references based on past launches.</p>
+<p class="Basic-Paragraph">For example, venture capital firms have <a id="_idIndexMarker088"></a>
+ revenue and growth benchmarks in place that they use to determine if a product is doing well. These can be helpful for self-assessing how your product is doing.</p>
+<p class="Basic-Paragraph">While you&apos;re reviewing the data, find a reference point so you will know how to interpret the numbers you&apos;re looking at.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor126"></a>
+ Build your data intuition</p>
+<p class="Basic-Paragraph">Over time, you&apos;ll get better at spotting signals in noisy data. While it might look like magic, spotting signals is simply based upon recognizing patterns you&apos;ve encountered in the past.</p>
+<p class="Basic-Paragraph">You can speed up the process of building up your intuition by observing other people analyzing data and identifying patterns. Sit in on experiment analysis meetings, or read past experiment write-ups. Try to turn the numbers and facts into a story that makes sense.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor127"></a>
+ Run better experiments <span class="Chili-Pepper">⚡</span>
+</p>
+<p class="Basic-Paragraph">Experiments can be useful, but that doesn&apos;t mean you should test every idea or solve every argument with an experiment. It&apos;s okay—even good—if some experiments fail. But experiments take time, and if too many are failing, you probably aren&apos;t using your team&apos;s time wisely.</p>
+<p class="Basic-Paragraph">Nundu Janakiram, Director of Product in Rider Experience at Uber, shared the importance of improving the success rate of your experiments:</p>
+<p class="BODY_Quote">Good product managers learn from failure...but great product managers also fail less.</p>
+<p class="BODY_Quote">Insightful <a id="_idIndexMarker089"></a>
+ user research allows you to be right more often. When you have a deep understanding of your customers&apos; relationship to your product, you&apos;ll be able to run experiments more efficiently.</p>
+<p class="BODY_Quote">Experiments can have a lot of hidden costs, and over-experimentation can stall decision-making and drag down your forward momentum. Avoid trying to resolve every internal debate with &quot;Why don&apos;t we just test it?&quot;</p>
+<p class="BODY_Quote">Focus your experimentation energy on answering the most important questions that would allow you to move confidently forward in the product development process. Great PMs fail less because they are efficient with their learning; over time, these PMs will develop a more intuitive understanding of their product, and require fewer experiments to get successful results.</p>
+<p class="Basic-Paragraph">If one of your experiments fails, take the time to reflect on how you could have caught the problems earlier. Was the experiment well-designed and executed properly? Could you have validated the idea with a prototype before running a test?</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor128" style=";color:black;"></a>
+ Concepts and Frameworks</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor129"></a>
+ <a id="_idTextAnchor130"></a>
+ Good metrics versus <a id="_idIndexMarker090"></a>
+ vanity metrics</p>
+<p class="Basic-Paragraph">Good metrics give you real, actionable insight on how well your product is doing, and whether it&apos;s improving or not. Bad metrics are misleading and may be nothing more than &quot;vanity metrics&quot;—metrics that feel good but don&apos;t really matter for your company&apos;s success.</p>
+<p class="Basic-Paragraph">For instance, consider metrics like &quot;total registered users&quot; or &quot;daily pageviews.&quot; At first glance, these metrics appear potentially useful. We probably <span class="CharOverride-1">do</span>
+ care about how many users we have, and how much traffic we&apos;re getting.</p>
+<p class="Basic-Paragraph">But are they actionable? When they increase, do they mean that the product has become more successful? (Think about this for a moment yourself, with the respect to metrics of &quot;total registered users&quot; and &quot;daily pageviews.&quot;)</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Total number of users:</span>
+ This increases with time. It literally cannot decrease. So, surely, its increase does not mean that the product has become more successful.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Daily pageviews:</span>
+ This <span class="CharOverride-1">can</span>
+ be meaningful, but it can also be arbitrarily inflated by just breaking up an article into multiple pages.</li>
+</ul>
+<p class="Basic-Paragraph">These metrics are vanity metrics because they can go up even when things are going badly. They don&apos;t necessarily help a team understand which changes are helping or hurting the business.</p>
+<p class="BODY_Emphasis">Good <a id="_idIndexMarker091"></a>
+ metrics are those that are correlated with strategic, long-term success. They represent the product working the way customers and the business want it to work. Good metrics are specific enough to be actionable.</p>
+<p class="Basic-Paragraph">They are often cohorted (grouped) by week or month (like week one <a id="_idIndexMarker092"></a>
+ retention) and frequently are per-customer metrics (like average revenue per user, or ARPU). When these metrics improve, you can be more confident that they represent an actual improvement.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor131"></a>
+ <a id="_idTextAnchor132"></a>
+ Pirate Metrics</p>
+<p class="Basic-Paragraph">One of the most memorable sets of good metrics is what Dave McClure calls &quot;<a id="_idIndexMarker093"></a>
+ Pirate Metrics&quot; because they have the fun acronym AARRR.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-004-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00010.html#endnote-004">4</a>
+</span>
+</span>
+ These customer life cycle metrics are called &quot;funnel metrics,&quot; a metaphor of a leaky funnel that drips water. The idea is that you begin by putting a lot of customers at the top, start losing some at each step, and the ones who make it to the bottom without &quot;leaking out&quot; generate actual revenue.</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1"><a id="_idIndexMarker094"></a>
+ <span class="CharOverride-2">Acquisition</span>
+ : New users coming to your product, such as monthly sign-ups or downloads.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Activation</span>
+ : Happy or successful users, represented by a product-specific metric. For example, Facebook might track &quot;adding at least seven friends.&quot; SurveyMonkey might track &quot;sending a survey that gets at least five responses.&quot; Typically, you&apos;ll review monthly metrics of what percentage of newly acquired users hits this &quot;activation&quot; stage.</li>
+<li class="Basic-Paragraph ParaOverride-1"><a id="_idIndexMarker095"></a>
+ <span class="CharOverride-2">Retention</span>
+ : Users who come back to your product, tracked as metrics like daily active users (DAUs), monthly active users (MAUs), or the ratio of DAUs/MAUs. You can also look at usage metrics such as how many minutes users watched videos on YouTube.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Referral</span>
+ : Recommending the product to other users, such as invites sent. Many companies also track the <a id="_idIndexMarker096"></a>
+ Net Promoter Score (NPS), calculated from responses to the survey question, &quot;How likely are you to recommend this product?&quot; This question can serve as a proxy for word-of-mouth recommendations.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Revenue</span>
+ : Generating revenue; for example, subscription fees, purchasing a product or generating ad revenue. It&apos;s important to track the <a id="_idIndexMarker097"></a>
+ lifetime value (LTV) of a customer so you can compare that to the <a id="_idIndexMarker098"></a>
+ cost of acquiring a customer (CAC). The rule of thumb is that LTV:CAC should be at least 3:1. When a paying customer cancels a subscription, that is called &quot;<a id="_idIndexMarker099"></a>
+ churn.&quot;</li>
+</ul>
+<p class="Basic-Paragraph">Observe that these metrics are tightly coupled with the <a href="text00009.html#_idTextAnchor087">Customer Journey (Chapter 4)</a>
+ . Metrics along these lines are appropriate for a wide variety of products, but they may need to be tweaked slightly to be more relevant for your business.</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor133" style=";color:black;"></a>
+ <a id="_idIndexMarker100" style=";color:black;"></a>
+ A/B Testing and Statistics</p>
+<p class="Basic-Paragraph">A/B testing, also known as &quot;split testing&quot; or an &quot;online experiment,&quot; is a live experiment conducted on your user base. A random sample of users sees one version, called a &quot;variant,&quot; and the others see another variant. Then you compare to see which variant did better at achieving your goals, such as increasing clickthrough or conversion. Once the test is over, the variant that did better is usually ramped up to 100% of users.</p>
+<p class="Basic-Paragraph">By testing two random samples of users at the same time, you can be sure that any differences between the groups is due to the product change you made. If you instead launched a change to all users and tried to compare this month&apos;s dashboard to last month&apos;s dashboard, you wouldn&apos;t know what changes came from external factors like <a id="_idIndexMarker101"></a>
+ seasonality or a competitor&apos;s ad campaign.</p>
+<p class="Basic-Paragraph">Some A/B tests compare two alternatives against each other, such as whether a button should be blue or green. Others compare the way things are today (the control) against a change (the treatment), such as adding a search box to the top of the page.</p>
+<p class="BODY_Emphasis">A/B testing is incredibly useful because it gives you real information on what people actually do, rather than what they say they do. It paints a much more accurate picture of the real impact of your launches.</p>
+<p class="Basic-Paragraph">Small changes, like what words you put on the signup button, can have a huge impact on important metrics like signups. On the other hand, A/B testing extends the project timeline and can confuse and frustrate users if they notice they&apos;re seeing different versions of the product. A/B testing should not be used indiscriminately—use it for changes in high-traffic, sensitive parts of the product that would have primarily short-term effects.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-005-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00010.html#endnote-005">5</a>
+</span>
+</span>
+</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor134"></a>
+ What you need to know about statistics</p>
+<p class="Basic-Paragraph">The principle behind A/B testing is simple enough. Try two different things. Pick the better one. Easy!</p>
+<p class="Basic-Paragraph">The more complicated question is: How long do you run the experiment for? When can you be confident that Option 2 is <span class="CharOverride-1">actually</span>
+ better than Option 1? This is where an understanding of statistics comes in handy.</p>
+<p class="Basic-Paragraph">Imagine that you&apos;re trying to determine if a coin is &quot;fair,&quot; that is, if it has an equal likelihood of heads and tails. After twenty flips, you get 60% heads. Is the coin unfair? Hard to say. If you flip 1000 times, however, and you get 60% heads, you can conclude that the coin is probably unfair.</p>
+<p class="Basic-Paragraph">The longer we run the experiment, the more our <a id="_idIndexMarker102"></a>
+ confidence in the result will increase. However, there is a trade-off. Experiments are time consuming, so we don&apos;t want to run them longer than necessary.</p>
+<p class="Basic-Paragraph">This is the same with running A/B tests. We need to run variants &quot;A&quot; and &quot;B&quot; long enough that we can be confident that in our answer, but not so long that we never make a decision and can&apos;t move forward and try other things.</p>
+<p class="Basic-Paragraph">So, how long should we run the experiment? How many people should see the &quot;A&quot; and &quot;B&quot; variants before we can make a decision? We want to run the experiment until we have &quot;statistical significance&quot; for your <a id="_idIndexMarker103"></a>
+ success metric, which means until it&apos;s <span class="CharOverride-1">unlikely</span>
+ that the difference in the metrics is due to random chance.</p>
+<p class="Basic-Paragraph">To figure out statistical significance, you have a choice of two calculations: the <a id="_idIndexMarker104"></a>
+ <a id="_idIndexMarker105"></a>
+ confidence interval or the <a id="_idIndexMarker106"></a>
+ p-value. Both of these calculations will give the same answer of whether a result is statistically significant, but the confidence interval gives you extra information about the range of possible values.</p>
+<p class="Headings_Heading-3"><a id="_idTextAnchor135"></a>
+ <a id="_idIndexMarker107"></a>
+ Confidence interval</p>
+<p class="Basic-Paragraph">Suppose we wanted to estimate the average height of students at a school. The more children we measure, the closer our calculation will be to the actual average. Suppose we measure 50 students at random and report that the 95% confidence interval (the standard confidence interval used by most companies) is 48 inches to 52 inches. This roughly means that there&apos;s a 95% chance that the actual average height—if we were to measure every single student—is between 48 inches and 52 inches.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-006-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00010.html#endnote-006">6</a>
+</span>
+</span>
+ However, there&apos;s still a 5% chance we&apos;re wrong, and the average height is higher or lower than this range.</p>
+<p class="Basic-Paragraph">Of course, product managers usually don&apos;t work with heights. They change parts of applications and ask, &quot;Did it help or hurt? How much?&quot;</p>
+<p class="Basic-Paragraph">If your experiment shows a 95% confidence interval for signups of 10% to 12%, this means that there&apos;s a 95% chance variant B increased signups between 10% and 12%. That&apos;s a win! If instead, it showed variant B signups at -12% to -10%, that would be a loss.</p>
+<p class="Basic-Paragraph">Often, our confidence intervals span negative and positive numbers, such as -4% to 3%. What does it mean when a confidence interval includes zero? It means that we don&apos;t know whether this change increased or decreased the metric. Because the confidence interval covers zero, the change could be negative—up to a 4% loss—or positive—up to a 3% gain.</p>
+<p class="Basic-Paragraph">If you have reasons outside of the data to believe that your change is a good one (for example, customers in your beta group love it), then you might decide that you&apos;re okay with a loss of up to 4%, and decide to launch the change.</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-1" src="Image00012.jpg" alt="" />
+</p>
+<p class="Basic-Paragraph">
+<span class="CharOverride-1">The top confidence interval could be a win, a loss, or neutral. As the experiment gathers more data, the confidence interval shrinks, and we can see the experiment is likely a 1-2% win.</span>
+</p>
+<p class="Basic-Paragraph">The longer you run the experiment, the more the confidence interval will shrink (that is, our range has shrunk, and we have <span class="CharOverride-1">more</span>
+ clarity on the expected impact). If later it shows 1% to 2%, that means there&apos;s a 95% chance your experiment improved the metric between one and two percent. You could call that a win.</p>
+<p class="Headings_Heading-3"><a id="_idTextAnchor136"></a>
+ <a id="_idIndexMarker108"></a>
+ P-values</p>
+<p class="Basic-Paragraph">The other calculation you might hear about is the p-value, which is the <a id="_idIndexMarker109"></a>
+ probability of seeing these experiment results if your metric wasn&apos;t a win (i.e., if the metric was a loss or neutral). Most companies use 0.05 (5%) as the cut-off, which is equivalent to a 95% confidence interval.</p>
+<p class="Basic-Paragraph">The p-value and confidence interval are directly related. If the p-value is below 0.05, the lower end of the 95% confidence interval is above zero. Most PMs would prefer to see a confidence interval because it gives more information on the best and worst-case scenarios.</p>
+<p class="Headings_Heading-3"><a id="_idTextAnchor137"></a>
+ Beware of <a id="_idIndexMarker110"></a>
+ p-hacking</p>
+<p class="Basic-Paragraph">Using that 5% cut-off can get us into some trouble, if we&apos;re not careful.</p>
+<p class="Basic-Paragraph">Suppose we are A/B testing an app redesign and we find that, with 95% confidence, usage of the chat feature increased. That&apos;s almost certainly meaningful, right?</p>
+<p class="Basic-Paragraph">Well, yes and no. If we have 95% confidence that the impact was &quot;real&quot;, there is still a 5% chance that the impact was just random—that is, uncorrelated with the redesign.</p>
+<p class="Basic-Paragraph">Now imagine that we examine the data to look at the potential impact on <span class="CharOverride-1">dozens</span>
+ of features—chat, user profiles, search, groups, events, exporting, and so on. If we tolerate a 5% chance of being wrong, odds are pretty good that <span class="CharOverride-1">one</span>
+ , out of dozens of features, will show an impact at the 95% confidence level.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-007-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00010.html#endnote-007">7</a>
+</span>
+</span>
+</p>
+<p class="Basic-Paragraph">This is what&apos;s known as p-hacking. It&apos;s fishing through data to find impacts or correlations. If you fish for long enough, you&apos;ll probably find something—just by randomness.</p>
+<p class="Basic-Paragraph">What&apos;s the fix? Being more methodical.</p>
+<p class="Basic-Paragraph">First, decide what you&apos;re measuring in advance—register those &quot;variables&quot;—and don&apos;t look for too many possible impacts.</p>
+<p class="Basic-Paragraph">Second, if you <span class="CharOverride-1">do</span>
+ find an impact outside of what you registered, toss the data. That doesn&apos;t mean you have to <span class="CharOverride-1">ignore</span>
+ what you saw. Just toss it. Re-run the experiment from scratch, measuring that thing. If it still holds up, you should be good (probably!).</p>
+<p class="Headings_Heading-4"><a id="_idTextAnchor138"></a>
+ P-Hacking, via xkcd</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-2" src="Image00013.jpg" alt="" />
+</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-3" src="Image00014.jpg" alt="" />
+ <img class="_idGenObjectAttribute-3" src="Image00015.jpg" alt="" />
+</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-4" src="Image00016.jpg" alt="" />
+</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-4" src="Image00017.jpg" alt="" />
+</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-5" src="Image00018.jpg" alt="" />
+</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor139"></a>
+ Statistics and experiments</p>
+<p class="Basic-Paragraph">Now that you understand the statistics, what does that mean for running experiments?</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">Run experiments longer for greater precision about the impact. If you&apos;re looking to be able to detect, say, a 1% improvement, you&apos;ll probably need to run a pretty long experiment. A 50% improvement would show up more quickly. Work with your data scientist to determine if you can feasibly detect the level of change you&apos;re looking for.</li>
+<li class="Basic-Paragraph ParaOverride-1">Ignore metric changes that aren&apos;t statistically significant, especially if you did not pre-register them. There will always be metrics that look like they&apos;ve improved or declined just based on random chance.</li>
+<li class="Basic-Paragraph ParaOverride-1">The more experiments you run, or the more metrics you look at, the higher the odds that you&apos;ll see an anomalous result; a metric that looks like a statistically significant win or a loss but is actually neutral. This means you shouldn&apos;t run a lot of random experiments just to see what works; you&apos;ll lose the ability to confidently know which things worked.</li>
+<li class="Basic-Paragraph ParaOverride-1">Local metrics, like clicks on the button, move more easily than key success metrics, like <a id="_idIndexMarker111"></a>
+ retention. Design your experiments so you can learn something valuable even when key success metrics are neutral.</li>
+</ul>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor140" style=";color:black;"></a>
+ Key Takeaways</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">A product&apos;s key success metrics are manifestations of its strategy</span>
+ : Some products prioritize gaining market share while others aim for profitability. Successful usage for some products is once a month, while for others, it&apos;s multiple times a day. Make sure the metrics you care about match up with your intended strategy.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Use data to complement user insights:</span>
+ <a id="_idIndexMarker112"></a>
+ <a id="_idIndexMarker113"></a>
+ User research gives you a rich and detailed perspective, but it can miss real-world problems that happen infrequently or when people are distracted. Metrics and user data are excellent tools for learning how people actually behave in the real world.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Get hands-on with data:</span>
+ Make sure your product has logging set up so you can gather data on how people use it, and then look at the data regularly. Explore the data to find product opportunities. Ask questions and follow your curiosity.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Use, but don&apos;t overuse experiments:</span>
+ Experiments are great for detecting large expected changes, but you can&apos;t just throw hundreds of ideas into experiments and hope to spot a win. When you run too many random experiments, the chance of false positives goes up a lot.</li>
+</ul>
+</div>
+<div id="_idContainer052" class="Basic-Text-Frame"><hr/>
+<p class="END-NOTES_EndNote">
+<span id="endnote-001">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00010.html#endnote-001-backlink">1</a>
+ .	The threshold itself might not be meaningful, but it helps team morale to celebrate milestones.</span>
+</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-002">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00010.html#endnote-002-backlink">2</a>
+ .	Seasonality is an important part of modeling. For example, many industries experience a decrease in the growth rate during the summer or a big dip during holidays. You&apos;ll want to compare your metrics to a baseline from the year before so you don&apos;t confuse seasonality for a metrics change that&apos;s more under your control.</span>
+</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-003">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00010.html#endnote-003-backlink">3</a>
+ .	Activist investors are outsiders who buy a significant stake in a company in order to influence how the company is run. They pressure the company to make changes that they think will increase the stock price.</span>
+</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-004">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00010.html#endnote-004-backlink">4</a>
+ .	For more information, see <a href="https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version">https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version</a>
+</span>
+ .</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-005">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00010.html#endnote-005-backlink">5</a>
+ .	Onboarding and monetization flows are great for A/B testing because of how sensitive they are and how quickly you can learn if they work. Changes that aim to improve retention or brand sentiment are hard to measure with an A/B test.</span>
+</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-006">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00010.html#endnote-006-backlink">6</a>
+ .	Technically speaking, it means that 95% of confidence intervals constructed with the same number of samples would contain the true value. The rough definition is a lot easier to use in practical settings.</span>
+</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-007">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00010.html#endnote-007-backlink">7</a>
+ .	If this is still confusing, think about rolling a 20-sided die, labeled 1 to 20. I predict you&apos;ll get a 13. Pretty cool if I get it correct, right? But if I repeat this dozens of times, and get it right once or twice, it becomes distinctly less impressive.</span>
+</p>
+</div>
+</body>
+</html>

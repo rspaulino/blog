@@ -1,0 +1,196 @@
+p.Banners_Author-Names {
+	color:#d9d9d9;
+	
+	font-size:1.333em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:0.625;
+	margin-bottom:11px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Banners_Dedication {
+	
+	
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Banners_Title-Page-Subheading {
+	color:#d9d9d9;
+	
+	font-size:0.917em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:0.909;
+	margin-bottom:11px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Endorsement---Author {
+	
+	
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Endorsement---Blurb {
+	
+	
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:10px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:10px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+span.Heighlight-Bold {
+	font-style:normal;
+	font-weight:bold;
+}
+p.ParaOverride-1 {
+	margin-bottom:9px;
+	text-align:center;
+}
+span.CharOverride-1 {
+	
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	
+	font-size:1.667em;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-3 {
+	
+	font-size:1.272em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-4 {
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:normal;
+	text-transform:none;
+}
+span.CharOverride-6 {
+	
+	font-size:1.167em;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:normal;
+	text-transform:none;
+}
+span.CharOverride-7 {
+	
+	font-size:0.667em;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight:normal;
+	text-transform:none;
+}
+span.CharOverride-8 {
+	
+	font-size:1.167em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-9 {
+	
+	font-size:0.833em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-10 {
+	
+	font-size:0.833em;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-11 {
+	
+	font-size:1.333em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+li._idGenParaOverride-1 {
+	font-size:1em;
+}
+span._idGenCharOverride-1 {
+	
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
+div._idGenObjectLayout-1 {
+	text-align:center;
+}

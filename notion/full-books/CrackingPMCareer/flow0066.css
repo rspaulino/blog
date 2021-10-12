@@ -1,0 +1,99 @@
+table.TLA-Table {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:none;
+	border-width:0px;
+	margin-bottom:-4px;
+	margin-top:4px;
+}
+td.TLA-Table {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:top;
+}
+tr.TLA-Table {
+	page-break-after:auto;
+	page-break-before:auto;
+}
+td.Cell-TLA {
+	border-bottom-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:0px;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:2px;
+	vertical-align:bottom;
+}
+td.Cell-TLA-Definition {
+	border-bottom-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:0px;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:2px;
+	vertical-align:top;
+}
+td.Cell-TLA-Header {
+	background-color:#aaaaab;
+	border-bottom-color:#aaaaab;
+	border-bottom-width:0px;
+	border-left-color:#aaaaab;
+	border-left-width:0px;
+	border-right-color:#aaaaab;
+	border-right-width:0px;
+	border-top-color:#aaaaab;
+	border-top-width:0px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	vertical-align:bottom;
+}
+span.CharOverride-1 {
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-2 {
+	font-size:0.917em;
+}
+td._idGenCellOverride-1 {
+	border-bottom-color:#aaaaab;
+	border-bottom-style:solid;
+	border-bottom-width:0px;
+	border-left-color:#aaaaab;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#aaaaab;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#aaaaab;
+	border-top-style:solid;
+	border-top-width:0px;
+}
+td._idGenCellOverride-2 {
+	border-top-color:#aaaaab;
+	border-top-style:solid;
+	border-top-width:0px;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}

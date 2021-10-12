@@ -1,0 +1,42 @@
+li.ParaOverride-1 {
+	list-style-position:outside;
+	list-style-type:disc;
+	margin-left:18px;
+	text-indent:0px;
+}
+li.ParaOverride-2 {
+	list-style-position:outside;
+	list-style-type:decimal;
+	margin-left:18px;
+	text-indent:0px;
+}
+span.CharOverride-1 {
+	
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-3 {
+	
+}
+span._idGenCharOverride-1 {
+	
+}
+span._idGenCharOverride-2 {
+	font-size:58%;
+}
+img._idGenObjectAttribute-1 {
+	height:243px;
+	width:390px;
+}
+img._idGenObjectAttribute-2 {
+	height:271px;
+	width:396px;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}

@@ -1,0 +1,17 @@
+li.ParaOverride-1 {
+	list-style-position:outside;
+	list-style-type:disc;
+	margin-left:18px;
+	text-indent:0px;
+}
+span.CharOverride-1 {
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span._idGenCharOverride-1 {
+	
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}

@@ -1,0 +1,65 @@
+td.CellOverride-1 {
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	border-top-style:none;
+}
+td.CellOverride-2 {
+	border-bottom-width:1px;
+	border-left-style:none;
+	border-right-style:none;
+	border-top-style:none;
+}
+td.CellOverride-3 {
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-width:1px;
+	border-top-style:none;
+}
+td.CellOverride-4 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+}
+li.ParaOverride-1 {
+	list-style-position:outside;
+	list-style-type:disc;
+	margin-left:18px;
+	text-indent:0px;
+}
+span.CharOverride-1 {
+	
+}
+span.CharOverride-2 {
+	
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-3 {
+	
+}
+span.CharOverride-4 {
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span._idGenCharOverride-1 {
+	
+}
+span._idGenCharOverride-2 {
+	font-size:58%;
+}
+img._idGenObjectAttribute-1 {
+	height:393px;
+	width:394px;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}

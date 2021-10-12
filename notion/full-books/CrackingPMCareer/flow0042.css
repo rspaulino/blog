@@ -1,0 +1,88 @@
+table.TableOverride-1 {
+	border-collapse:collapse;
+	border-color:#ffffff;
+	border-width:2px;
+}
+td.CellOverride-1 {
+	background-color:#d9d9d9;
+	border-bottom-color:#ffffff;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-width:2px;
+}
+td.CellOverride-2 {
+	background-color:#f3f3f3;
+	border-bottom-color:#ffffff;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-width:2px;
+}
+li.ParaOverride-1 {
+	list-style-position:outside;
+	list-style-type:disc;
+	margin-left:18px;
+	text-indent:0px;
+}
+span.CharOverride-1 {
+	
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-3 {
+	
+	font-size:58%;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-4 {
+	
+	font-style:italic;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	font-size:0.857em;
+}
+span.CharOverride-6 {
+	
+	font-size:58%;
+	font-style:normal;
+	font-weight:bold;
+}
+span._idGenCharOverride-1 {
+	
+}
+span._idGenCharOverride-2 {
+	font-size:58%;
+}
+img._idGenObjectAttribute-1 {
+	height:242px;
+	width:394px;
+}
+img._idGenObjectAttribute-2 {
+	height:247px;
+	width:393px;
+}
+img._idGenObjectAttribute-3 {
+	height:138px;
+	width:393px;
+}
+img._idGenObjectAttribute-4 {
+	height:205px;
+	width:392px;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}

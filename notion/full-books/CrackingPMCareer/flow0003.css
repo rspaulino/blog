@@ -1,0 +1,264 @@
+p.Basic-Paragraph {
+  font-size: 1em; 
+}
+
+p.BODY_Quote {
+	padding-left:1em;
+	padding-right:1em;
+  font-size: 1em; 
+}
+
+p.BODY_Sidebar {
+	padding-bottom:.6em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:.6em;
+	margin: 0px;
+  font-size: 1em; 
+}
+
+.BODY_Sidebar + .BODY_Sidebar {
+  padding-top: 0em;
+}
+
+.BODY_Sidebar-Heading + .BODY_Sidebar {
+  padding-top: 0em;
+  font-size: 1em; 
+}
+
+.BODY_Quote + .BODY_Quote {
+  padding-top: 0em; 
+  font-size: 1em; 
+}
+
+p.BODY_Sidebar-Heading {
+	padding-bottom:,6em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:.6em;
+	margin: 0px;
+  font-size: 1em; 
+}
+
+p.BODY_Intro-Bio-First-Paragraph {
+	padding-bottom:,6em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:.6em;
+	margin: 0px;
+	
+  font-size: 1em; 
+}
+
+p.BODY_Intro-Bio {
+	padding-bottom:,6em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:.6em;
+	margin: 0px;
+	
+  font-size: 1em; 
+}
+
+
+p.BODY_Emphasis {
+	padding-bottom:.6em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:.6em;
+	border: 1px;
+	border-style: dotted;
+  font-size: 1em; 
+}
+
+.TOC-To-Include_TOC-Chapter-Name {
+  visibility: hidden;
+}
+
+.TOC-To-Include_TOC-Part-Name {
+    visibility: hidden;
+}
+
+.TOC-To-Include_TOC-Hidden {
+    visibility: hidden;
+}
+
+img.bolt {
+	height: .75em;
+	width: .75em;
+}
+
+p.Banners_Title-Page-Heading {
+  
+  font-size: 1.667em;
+}
+
+li.Bullets-Left {
+	font-size: 1em;
+}
+
+.BookTitleBlob {
+  text-align: center; 
+}
+
+p.BODY_Emphasis {
+	font-size: 1em;
+}
+
+p.BookTitle1 {
+  font-size: 3em; 
+	
+	
+}
+
+p.BookTitle2 {
+  
+	font-size:2em;
+	font-style:italic;
+	font-weight:normal;
+}
+
+p.BookSubtitle {
+	
+  text-transform: uppercase;
+}
+
+p.OtherBookTitle {
+  font-size: 2em; 
+	
+	
+  font-variant: small-caps;
+  margin-top: 1.2em;
+}
+
+p.OtherBookSubtitle {
+  
+  font-size: 1em; 
+	
+  text-transform: uppercase;
+}
+
+p.BookAuthors {
+  margin-top: 3em;
+  font-weight: bold;
+  font-size: 1em; 
+	
+  text-transform: uppercase;
+}
+
+.otherBooks {
+  text-align: center; 
+}
+
+img.chapter_icon {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+p.Endorsement---Author {
+    margin-bottom: 2em;
+}
+
+p.copyright_title {
+  font-size: 1em;
+  margin-bottom: 1em;
+  font-weight: bold; 
+}
+
+p.copyright {
+  margin-bottom: 1em;
+  font-size: .8em 
+}
+
+img._idGenObjectAttribute-1 {
+	width:100%;
+	height: auto;
+}
+img._idGenObjectAttribute-2 {
+	width:100%;
+	height: auto;
+}
+img._idGenObjectAttribute-3 {
+	width:100%;
+	height: auto;
+}
+img._idGenObjectAttribute-4 {
+	width:100%;
+	height: auto;
+}
+img._idGenObjectAttribute-5 {
+	width:100%;
+	height: auto;
+}
+
+p.Headings_Chapter-Number {
+  font-size: 1em;
+}
+
+h1.Headings_Chapter-Title {
+  margin-top: .5em;
+  font-size: 2em;
+}
+
+p.Headings_Heading-1 {
+	font-size: 1.5em;
+}
+
+p.Headings_Heading-2 {
+	font-size: 1.5em;
+}
+
+p.Headings_Heading-3 {
+	font-size: 1.5em;
+}
+
+p.Headings_Heading-4 {
+	font-size: 1.167em;
+}
+
+p.BODY_Sidebar-Heading {
+	background-color:#eeeeee;
+}
+
+p.BODY_Sidebar {
+	background-color:#eeeeee;
+}
+
+p.Headings_Heading-1 {
+  	background-color:#dddddd;
+  	border-top: 1px #000000 solid;
+  	border-bottom: 1px #000000 solid;
+  padding: 6px; 
+  	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:1em;
+}
+
+div.SidebarAndBullets {
+	background-color:#eeeeee;
+	margin: 0px;
+}
+
+li.BODY_Sidebar-Bullets {
+	background-color:#eeeeee;
+}
+
+p.BODY_Quote-Level-2 {
+  margin-left: 100px; 
+}
+
+p.Index-Level-2 {
+  margin-left: 50px; 
+	font-style:italic;
+}
+
+p.Basic-Paragraph, li.Basic-Paragraph, p.BODY_Quote, p.BODY_Quote-Level-2 {
+	line-height:1.2;
+	margin-top: .6em;
+	margin-bottom: .6em;
+  font-size: 1em; 
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>EBook_-_D.2_-_Scoping_and_Incremental_Development</title>
+<link href="flow0001.css" rel="stylesheet" type="text/css" />
+<link href="flow0017.css" rel="stylesheet" type="text/css" />
+<link href="flow0003.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="EBook_-_D.2_-_Scoping_and_Incremental_Development" xml:lang="en-US" lang="en-US"><img src="Image00030.gif" class="chapter_icon" />
+<div id="_idContainer086" class="Basic-Text-Frame">
+<p class="Headings_Chapter-Number">Chapter 11</p>
+</div>
+<div id="_idContainer087" class="Basic-Text-Frame">
+<h1 id="_idParaDest-20" class="Headings_Chapter-Title"><a id="_idTextAnchor300"></a>
+ Scoping and Incremental Development</h1>
+</div>
+<div id="_idContainer088" class="Basic-Text-Frame">
+<p class="TOC-To-Include_TOC-Chapter-Name"><a id="_idTextAnchor301"></a>
+ Scoping and Incremental Development</p>
+</div>
+<div id="_idContainer091" class="_idGenObjectStyleOverride-1">
+<p class="First-Paragraph---Main-Book">
+<span class="AllCaps-Bold _idGenCharOverride-1">When I started</span>
+ as a PM, I wanted my products to be <a id="_idIndexMarker273"></a>
+ perfect. I researched the customer problems and came up with a long list of features and details that would cover every need. My idealism quickly hit reality when I learned that I had exactly forty days of developer time to fill. It would take more than one hundred days to build everything on my list!</p>
+<p class="Basic-Paragraph">This was my introduction to scoping: the careful process of deciding what to include and exclude. Saying &quot;yes&quot; to one feature meant saying &quot;no&quot; to another. Should I include the work to show the count of comments on each blog post, or invest that time to make it easier to upload images? Did wiki pages need to be customizable, or could we cut a corner and use that time to improve page load times?</p>
+<p class="BODY_Emphasis">These decisions felt difficult, but I later learned that I had it easy. The time was fixed; I only needed to decide how to fill it.</p>
+<p class="Basic-Paragraph">In my next role, I not only had to choose what work to include or exclude, but also how long to spend on the project before shipping. Without the firm guideline of forty days, I let my teams chip away towards <a id="_idIndexMarker274"></a>
+ perfection and tell me when they wanted to launch. Some of the projects shipped quickly, but one had been in progress for several quarters.</p>
+<p class="Basic-Paragraph">I had let engineers set the pace, and they were moving at a fine speed—or so I thought. I didn&apos;t realize at first that our prolonged development life cycle was a problem. In fact, it was only at my performance review that I realized that I needed this project to, well, <span class="CharOverride-1">launch</span>
+ .</p>
+<p class="Basic-Paragraph">In retrospect it makes sense; if the team wasn&apos;t shipping the work, it wasn&apos;t contributing any value. Once my team and I framed the question of what would it take to launch next quarter, we easily came up with a new approach and launched it quickly. Fixing the date made the new solution almost obvious.</p>
+<p class="Basic-Paragraph">This isn&apos;t to say that our approach—set a date, and then pick what you can launch—is the right approach in other scenarios. When I joined Asana, the product had been in development for years but not yet launched publicly. Launching immediately would be a mistake though, as a good launch would–or could—generate a surge in demand. The quality of our product on launch day mattered a lot more than whether it launched a month or two later.</p>
+<p class="Basic-Paragraph">We still needed to launch soon, but we would first prioritize the things that would damage our reputation if we got them wrong. We decided to fix up the visual design and build a mobile app. We knew people would have a lot of feature requests, but if people used the product enough to have requests, that would be a good problem to have.</p>
+<p class="BODY_Emphasis">There are many different ways to slice up your releases, and some of them are much better than others. The best approaches allow you to learn and course-correct as you go, eventually landing on a product that fully solves end-to-end user needs. Doing this well can shave months off of your project timeline. Even more importantly, it can mean the difference between a product that users love and one that they won&apos;t use.</p>
+<p class="Basic-Paragraph">As a PM, you&apos;re responsible for scoping—determining the scope of what&apos;s included and excluded in a release. You need to decide which ideas should be tested first. You need to build up your judgment around which work can be skipped and which work is crucial. You need to convince your team to change plans based on what you learn from early releases.</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor302" style=";color:black;"></a>
+ Concepts and Frameworks</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor303"></a>
+ <a id="_idIndexMarker275"></a>
+ Incremental Development</p>
+<p class="Basic-Paragraph">Incremental development is the approach of breaking a giant launch into multiple releases, and using what you learn from each release to guide the next. Instead of working for three years on a product and finding out on launch day whether people like it, you can show your work to customers much more frequently and learn the most critical feedback early.</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-1" src="Image00031.jpg" alt="" />
+</p>
+<p class="Basic-Paragraph">One of the most famous examples that illustrates this is Henrik Kniberg&apos;s skateboard metaphor:<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-001-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00018.html#endnote-001">1</a>
+</span>
+</span>
+</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">In the first example, the team split the work up into multiple releases, but the early releases of a tire and partial car weren&apos;t usable. The increments didn&apos;t deliver any customer value, and they didn&apos;t help the team learn.</li>
+<li class="Basic-Paragraph ParaOverride-1">In the second example, the team delivers something functional with each release. The first release of a skateboard doesn&apos;t satisfy the customer, but the team can start getting useful information about what customers value. The next versions start to deliver customer value and give the team valuable information about what customers like and what planned functionality they don&apos;t actually need. In the end, instead of building the plain car they&apos;d expected, they build a convertible that customers love.</li>
+</ul>
+<p class="Basic-Paragraph">Many product ideas do not deliver customer or business value in the first incarnation. In <span class="CharOverride-1">Inspired</span>
+ , Marty Cagan says &quot;half of our ideas are just not going to work.&quot; Even the best PMs have a lot of ideas that don&apos;t end up having the impact they had hoped for. The difference is that great PMs validate their ideas early on so that they can discard bad ideas quickly and spend more time building things that will actually work.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor304"></a>
+ Minimum Viable Product (MVP)</p>
+<p class="Basic-Paragraph">The definition of a minimum viable product from Eric Ries&apos;s book, <a id="_idIndexMarker276"></a>
+ <span class="CharOverride-1">The Lean Startup,</span>
+ is: that version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-002-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00018.html#endnote-002">2</a>
+</span>
+</span>
+</p>
+<p class="Basic-Paragraph">MVPs can be early working prototypes of a product, but they don&apos;t have to be. You can set up an AdWords campaign or a button in your product that goes to a &quot;coming soon&quot; landing page to measure interest. You can fake the backend by having humans manually do the work.</p>
+<p class="Headings_Heading-3"><a id="_idTextAnchor305"></a>
+ Common mistakes with MVPs</p>
+<p class="Basic-Paragraph">When the concept of MVPs was introduced, it immediately took off. Unfortunately, the idea also spawned a lot of backlash from instances where MVPs were used incorrectly.</p>
+<p class="Headings_Heading-4"><a id="_idTextAnchor306"></a>
+ Low quality experiments: <a id="_idIndexMarker277"></a>
+ Burnt Pizza MVP</p>
+<p class="Basic-Paragraph">Des Traynor, co-founder of Intercom, shares the thought experiment of a team trying to learn if there&apos;s a market for pizza. To test it cheaply, they use a crummy pizza oven and the pizza comes out burned. If no one buys it, does that prove there&apos;s no market for pizza? No! It just proves there&apos;s no market for burnt pizza.</p>
+<p class="Basic-Paragraph">The same problem applies when teams add a new feature in a cheap way that slows down the product performance: they&apos;ve only learned that users like fast products, nothing about the new feature.</p>
+<p class="Basic-Paragraph">Make sure your MVP is high enough quality and complete enough to meet your learning goals.</p>
+<p class="Headings_Heading-4"><a id="_idTextAnchor307"></a>
+ Leaving the product in an unpolished or unsustainable state</p>
+<p class="Basic-Paragraph">Some teams <a id="_idIndexMarker278"></a>
+ scope a <a id="_idIndexMarker279"></a>
+ <a id="_idIndexMarker280"></a>
+ lean MVP for learning, but then don&apos;t invest the extra work to make it a sellable and sustainable product. That&apos;s a quick way to frustrate your cross-functional partners.</p>
+<p class="Basic-Paragraph">For example, Google&apos;s short-lived Inbox product showed that consumers loved the new UI, but they couldn&apos;t migrate Gmail enterprise customers over without rebuilding many of Gmail&apos;s advanced features. As a result, it wasn&apos;t a sellable and sustainable product. They decided to scrap the product and integrate some of the UI into Gmail, rather than maintaining two code bases. If the team had focused on sustainability from the beginning, they might have chosen an approach that built on top of Gmail&apos;s functionality.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor308"></a>
+ Time and Value</p>
+<p class="Basic-Paragraph">Product improvements don&apos;t deliver value until they&apos;re shipped.</p>
+<p class="Basic-Paragraph">Let&apos;s say you&apos;ve built a new product that will save people hours of tedious work every day. Before launch, when you&apos;re building and iterating on it, it&apos;s saving people zero hours.</p>
+<p class="Basic-Paragraph">Of course, the time you spend building and iterating on your products makes them better.</p>
+<p class="Basic-Paragraph">You can think of the decision about when to launch with a diagram like this:</p>
+<p class="Text-Center"><img class="_idGenObjectAttribute-2" src="Image00032.jpg" alt="" />
+</p>
+<p class="Basic-Paragraph">If you release at milestones 1 and 2, users get the value of area A + area B. If you wait until milestone 2, you only deliver the value of area B. The larger area A is, the more it&apos;s worth considering an early launch. If the product at milestone 1 delivers a lot of value already, or if there will be a long time before milestone 2, it&apos;s often better to launch early and iterate.</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor309" style=";color:black;"></a>
+ Responsibilities</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor310"></a>
+ Break work into incremental launches and validate early</p>
+<p class="Basic-Paragraph">As a PM, you want to get the scope of your releases just right. If you bundle too many features together, people need to wait longer to use the great thing you&apos;ve built. If you leave out important functionality, your launch can be unsuccessful and you might learn the wrong lesson about the overall viability of the idea.</p>
+<p class="Basic-Paragraph">Here are some different approaches for splitting a product into multiple releases:</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">By risk tolerance and friendliness</span>
+ : Start by releasing to users who can tolerate the most bugs, missing functionality, and UI hurdles so you can start getting feedback before all the polish is added. For example, you could split the releases into team <a id="_idIndexMarker281"></a>
+ dogfooding, internal dogfooding, friendly customers beta program, experimenting on new users, experimenting on all users, and full launch. You could wait to build functionality such as onboarding and premium upsells until you start experiments on new users.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">By complexity of need</span>
+ : Start with the users who have the simplest needs, and build your way towards the more complex needs. For example, people who don&apos;t use a competitor&apos;s tool, then people who are comparison shopping, and finally people currently using a competitor. The first launch would just include the basics, but later releases could add functionality that advanced users need.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">By customizability</span>
+ : Start with fixed options that will meet a subset of use cases, and then add customization options. For example, a pre-generated report followed by a customizable report.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">By customer type or use case</span>
+ : List which requirements you need for each, then look for a list that&apos;s short and mostly a subset of things you need for your higher priority use case. Start with the shortest such list you can find. For example, you might build a product that&apos;s good for amateurs and then later expand it to work for professionals.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">By length of</span>
+ <span class="CharOverride-2"><a id="_idIndexMarker282"></a>
+</span>
+ <span class="CharOverride-2">engagement</span>
+ : Start by building things people need in the first week, and then build things that are needed later on if the usage is high enough. For example, you might delay building summary emails or <a id="_idIndexMarker283"></a>
+ churn states until after the first launch.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">By cost</span>
+ : Look at the list of cost estimates and drill into anything that&apos;s particularly expensive. Check if there&apos;s an alternate slice that avoids the expensive work, especially in the early versions. For example, you might use a simple heuristic rather than a machine learning algorithm, or start with an existing component rather than a customized one.</li>
+</ul>
+<p class="Basic-Paragraph">One thing you should <span class="CharOverride-1">not</span>
+ do is <span class="CharOverride-2">cut out polish</span>
+ .</p>
+<p class="BODY_Emphasis">A quick way to create discord with your designer is to try to scope out polish or leave it for a later release. Polish and delight are important for a user&apos;s first impression. Leaving out polish will result in a lower quality product. It&apos;s better to handle one use case well than many use cases poorly.</p>
+<p class="Basic-Paragraph">It&apos;s fine to have an open discussion with your designer about how much polish is valuable, but don&apos;t pull a bait-and-switch by saying you&apos;ll include polish and then cutting it when the timeline gets tight.</p>
+<p class="Headings_Heading-3"><a id="_idTextAnchor311"></a>
+ Don&apos;t scope too small</p>
+<p class="Basic-Paragraph">While it&apos;s important to keep the development cost of a release low and launch early to validate customer needs, those costs need to be balanced against the potential gains. Scoping too small can cause its own set of problems. Sometimes an extra few days or weeks of work makes all the difference in terms of usability, customer delight, and the success of the product. Sometimes it&apos;s much less expensive to build the full set of features while engineers are familiar with the code than it would be to have someone build the features a year later.</p>
+<p class="Basic-Paragraph">Instead of having a hard and fast rule to only include the work that is absolutely required for launch, take a look at the longer list of &quot;nice to have&quot; work with your design and engineering team, and evaluate the cost, the benefit, the risk of not including it at launch, and whether the cost changes if you decide to build it later. If you&apos;ve designed your project schedule with appropriate buffer time, you might decide to add in a few extra &quot;delighters&quot; that make customers happy and increase your chances of success.</p>
+<p class="BODY_Sidebar-Heading" style=";color:black;"><a id="_idTextAnchor312" style=";color:black;"></a>
+ A Problem with Scoping</p>
+<p class="BODY_Sidebar" style=";color:black;">Noa Ganot saw the cost of scoping too small when working on which database versions her enterprise product would support. At first the product supported only the most popular versions with the idea that they could quickly add more support whenever a customer needed it.</p>
+<p class="BODY_Sidebar" style=";color:black;">Unfortunately, that meant that the sales team needed to ask each customer about their configuration instead of being able to confidently say that all configurations were supported. While this was acceptable early on, at some point this was no longer good enough. Some customers didn&apos;t even know which database version they had. By listening to the sales team, Ganot learned about the trouble this gap caused. She realized that this was a situation where scoping larger than the immediate customer need (supporting every database version, even those that hadn&apos;t been requested yet) would be worth the investment. Her team made the change and she saw the results in improved sales conversion.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor313"></a>
+ Drive team alignment around <a id="_idIndexMarker284"></a>
+ lean MVPs <span class="Chili-Pepper">⚡</span>
+</p>
+<p class="Basic-Paragraph">If your team isn&apos;t currently bought into the idea of <a id="_idIndexMarker285"></a>
+ lean MVPs, you can work with them to introduce the idea. It often requires some learning, listening, and trust to convince a team to start with smaller scoped releases, or to build throwaway code for the purpose of testing.</p>
+<p class="Basic-Paragraph">Depending on your team&apos;s concerns, there are a few ways to address them.</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Concern that the code might be left in a half-done state:</span>
+ Find ways to commit to finishing up the code. Depending on your organization, this might be done by the <a id="_idIndexMarker286"></a>
+ OKRs you set, the way you communicate what &quot;done&quot; looks like, the launch dates you share, or what percentage of your users you roll out changes to. It&apos;s a good idea to start a list early of what additional work needs to be completed before the team can move onto something new.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Concern that leadership might pull people off projects after the MVP is done:</span>
+ If leadership at your company has a history of pulling people off projects too soon, you might need to first work with those leaders to convince them the value of MVP development. Come to an agreement to keep your team until the work is either in a stable productionized state, or removed altogether.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Concern that they&apos;re wasting time building throwaway work:</span>
+ Get them used to MVPs with no-code or very-low-code MVPs. You can also draw out a few possible options to show how the throwaway work is likely to save them time in many scenarios.</li>
+</ul>
+<p class="Basic-Paragraph">If the team agrees to lean MVPs in theory, but pushes for unnecessary scope creep, that could be a sign that you haven&apos;t been clear enough about what you&apos;re trying to learn from the MVP. Get crystal clear on your hypothesis and what risks you&apos;re trying to mitigate with the MVP. It might help to draw out a decision tree, so the team can see when the extra scope they want could be added.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor314"></a>
+ Invest in systems that support incremental development <span class="Chili-Pepper">⚡⚡</span>
+</p>
+<p class="Basic-Paragraph">Incremental development works best when you have the infrastructure and components to create quick prototypes and cheap early versions. If every small idea you want to test requires the creation of many new components, data migrations, and heavy design reviews, it will be hard to convince your team to build prototypes and MVPs.</p>
+<p class="Basic-Paragraph">If design is the bottleneck, invest in a design system and reusable components. From the process side, you may want to institute &quot;fast track&quot; rules. For example, you could create a rule that any A/B test that uses all pre-existing components can skip design review or require a lower level of approval.</p>
+<p class="Basic-Paragraph">On the engineering side, there may be data model improvements or framework investments that will support the types of experimentation you&apos;d like to do. Partner with the engineering team to see what it would take to make quick tests possible.</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor315" style=";color:black;"></a>
+ Growth Practices</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor316"></a>
+ Accept that you don&apos;t know exactly what to build</p>
+<p class="Basic-Paragraph">Bicycle helmets are a good idea, right? If you hit your head during a bike fall, helmets reduce your risk of a fatality by at least 50%. So, other than perhaps messing up your hair, how could a helmet possibly backfire?</p>
+<p class="Basic-Paragraph">It turns out that the real world is a bit more complicated. When people wear a helmet, behavior changes. They bike a little faster, or perhaps in worse weather, or on a busier road, or take that turn a little more sharply. The cars around them, also, might not give them quite as much space.</p>
+<p class="Basic-Paragraph">They might also decide they&apos;d rather drive than lug a helmet with them to their meeting—and thus there are more cars, fewer bikes, more pollution, less exercise, less understanding of <span class="CharOverride-1">how</span>
+ to handle bikes on the road, and so on. In fact, when Australia instituted a helmet law, the main effect was a notable decrease in cycling.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-003-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00018.html#endnote-003">3</a>
+</span>
+</span>
+ Whoops.</p>
+<p class="BODY_Sidebar-Heading" style=";color:black;"><a id="_idTextAnchor317" style=";color:black;"></a>
+ So you&apos;re saying helmets are bad?!?</p>
+<p class="BODY_Sidebar" style=";color:black;">No! We&apos;re not arguing against helmets. Not at all. A helmet likely saved the life—or at least the functioning brain—of my husband a few years ago.<span class="EndNote _idGenCharOverride-2">
+<span id="endnote-004-backlink">
+<a class="_idEndnoteLink _idGenColorInherit" href="text00018.html#endnote-004">4</a>
+</span>
+</span>
+</p>
+<p class="BODY_Sidebar" style=";color:black;">However, it&apos;s nonetheless the case that what makes sense in isolation doesn&apos;t always translate perfectly to the real world. People are complicated, and so is the real world.</p>
+<p class="Basic-Paragraph">What does this mean for product development? It means that you need to have the humility to believe that ideas that seem great at first might not be great in practice. You need to treat your ideas as hypotheses.</p>
+<p class="BODY_Emphasis">It&apos;s tempting to believe that you know exactly what customers need, especially if you&apos;ve done a good job at the initial product discovery. But, people and products are complicated. The kind of feedback you get in the controlled setting of user research doesn&apos;t always match up to how people use (or don&apos;t use) your product in the real world.</p>
+<p class="Basic-Paragraph">We saw this one time at Asana during the development of custom fields. We had done extensive user research and had a list of must-have features. Yet one request popped up over and over again during our beta releases: color-coded fields. Early user research missed this because it wasn&apos;t the sort of thing users knew they needed until they really experienced the feature. Fortunately, this was quick to add; we did so and had a successful launch.</p>
+<p class="Basic-Paragraph">When you break your product into smaller launches, you get feedback earlier, which leads to more successful products.</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor318"></a>
+ Use your judgment to optimize for the right time frame <span class="Chili-Pepper">⚡</span>
+</p>
+<p class="Basic-Paragraph">It doesn&apos;t always make sense to start with an MVP or scope the work as small as possible.</p>
+<p class="Basic-Paragraph">For example, it can be less expensive to make changes while you&apos;re working on a part of the code than months down the road. While the work is still active, you have full context on it; months later, you might need to refresh your understanding or get your development environment set up again. Incremental launches also create some overhead, so sometimes it&apos;s better not to split the work up as far as it will go. Additionally, sometimes increasing a project&apos;s length by 5 or 10% isn&apos;t that big of a deal.</p>
+<p class="Basic-Paragraph">As you advance in your career, you should break away from rigid rules on what should make it into a release. Instead, develop frameworks for when adding a bit more polish or functionality is justified. Consider the following:</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">The cost of the work, in terms of how much time it adds to the project, what percentage of the overall time it is, and how it affects your milestones. If the cost is tiny and you&apos;ll still hit your deadline, the work might be worth considering.</li>
+<li class="Basic-Paragraph ParaOverride-1">The customer and business benefit of the work. If the benefit is huge, especially if it might have a big influence on the success of the project, it&apos;s worth considering.</li>
+<li class="Basic-Paragraph ParaOverride-1">The team morale benefit of the work. If someone on the team feels very strongly about the work and it&apos;s cheap enough, it might make sense to do it.</li>
+<li class="Basic-Paragraph ParaOverride-1">The timeframe you want to optimize for (probably six months or a year). It&apos;s risky to slow down work right now for benefits that won&apos;t pay off for 18 months.</li>
+<li class="Basic-Paragraph ParaOverride-1">The likelihood that the hypothesis will be validated. If there&apos;s a high chance the launch is a success, then by including the extra work you were just getting a head start. But if the whole project is thrown away, then you will have wasted more work than necessary.</li>
+</ul>
+<p class="Headings_Heading-2"><a id="_idTextAnchor319"></a>
+ Refine and simplify your hypotheses <span class="Chili-Pepper">⚡</span>
+</p>
+<p class="Basic-Paragraph">One of the things that gets in the way of tight scoping is when multiple problems and questions are tangled up together. The competing problems pull against each other so it&apos;s hard to feel confident in cutting anything. When you untangle the problems and figure out which one is key, you unlock the ability to do effective tight scoping.</p>
+<p class="BODY_Sidebar-Heading" style=";color:black;"><a id="_idTextAnchor320" style=";color:black;"></a>
+ Hypothesis Refinement</p>
+<p class="BODY_Sidebar" style=";color:black;">When Sam Goertler was a PM at Asana, she was put in charge of the problem &quot;customers say the product isn&apos;t easy enough to use.&quot; She worked with her team to refine that ambiguous and hard-to-action problem into the hypothesis, &quot;if we maximize clarity for the project management use case, new user growth will increase.&quot; She then refined it to the tagline &quot;Maximize Clarity,&quot; which made it easy for everyone to remember, apply, and share.</p>
+<p class="BODY_Sidebar" style=";color:black;">This refinement helped guide the team through many tough calls, such as design changes that optimized for project management over other use cases. Soon, all the team members were answering each other&apos;s questions with, &quot;Which option maximizes clarity?&quot;</p>
+<p class="Headings_Heading-2"><a id="_idTextAnchor321"></a>
+ Encourage MVP thinking and push back against <a id="_idIndexMarker287"></a>
+ perfectionism in your org <span class="Chili-Pepper">⚡⚡</span>
+</p>
+<p class="Basic-Paragraph">Most people don&apos;t see perfectionism as a real problem—so much so that it&apos;s seen as a joke or humblebrag to say that your greatest weakness is being a perfectionist.</p>
+<p class="Basic-Paragraph">On most product teams, however, perfectionism is a real problem. This obviously doesn&apos;t apply to mission-critical software like rocket launches or healthcare devices, but for most products, it&apos;s much better to launch with some gaps or bugs than to over-invest in the work.</p>
+<p class="Basic-Paragraph">Spending too much time on the work has many problems:</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">Development time has a real cost—everyone&apos;s salaries. If you&apos;re at a startup, this eats into your runway and decreases the chances that the company will be successful.</li>
+<li class="Basic-Paragraph ParaOverride-1">There&apos;s an opportunity cost to delaying a launch. Customers aren&apos;t getting value or paying for the value until you release the work.</li>
+<li class="Basic-Paragraph ParaOverride-1">If you&apos;re not getting feedback from real customers, you&apos;re probably perfecting the wrong things. You might be tweaking the alignment on a UI that needs to be revamped entirely, or fixing a bug that few users will hit.</li>
+</ul>
+<p class="Basic-Paragraph">As a leader, it&apos;s your responsibility to make it safe to fail. Celebrate lessons learned. Praise tight scoping. Don&apos;t let people shame each other for making smart scoping choices. Protect the iteration time after an MVP launch so the team has time to use what they&apos;ve learned. Ensure the team&apos;s goals or <a id="_idIndexMarker288"></a>
+ OKRs support incremental development. Point out where people could have spent <span class="CharOverride-1">less</span>
+ time on their work.</p>
+<p class="Headings_Heading-1" style=";color:black;"><a id="_idTextAnchor322" style=";color:black;"></a>
+ Key Takeaways</p>
+<ul>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Ship and learn as early as possible</span>
+ : You&apos;re probably wrong about some of your product assumptions, so don&apos;t build too much into your first release. Start with the smallest valuable subset of the product and give it to real people (perhaps in a beta program) so you can get real feedback. That feedback can stop you from building unnecessary features and guide you towards the work that will really drive the product&apos;s success. Plus, the sooner you ship, the sooner customers and the business can start benefiting.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Don&apos;t ship something too small or low quality</span>
+ : While scoping is important, it can go too far. Don&apos;t ship a <a id="_idIndexMarker289"></a>
+ burnt pizza and declare no one likes pizza. It&apos;s usually better to cut functionality or use cases than to cut polish.</li>
+<li class="Basic-Paragraph ParaOverride-1">
+<span class="CharOverride-2">Scoping well takes humility and bravery</span>
+ : You need to be humble enough to believe that real customer feedback will improve your product. You need to be brave enough to release a product that you know isn&apos;t <a id="_idIndexMarker290"></a>
+ perfect. It might be emotionally easier to hold the launch until you&apos;ve built and polished every feature, but you&apos;ll usually create better outcomes if you launch incrementally.</li>
+</ul>
+</div>
+<div id="_idContainer092" class="Basic-Text-Frame"><hr/>
+<p class="END-NOTES_EndNote">
+<span id="endnote-001">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00018.html#endnote-001-backlink">1</a>
+ .	Henrik elaborates on this at <a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp</a>
+</span>
+ .</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-002">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00018.html#endnote-002-backlink">2</a>
+ .	Read more about minimum viable products at <a href="http://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html">http://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html</a>
+</span>
+ .</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-003">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00018.html#endnote-003-backlink">3</a>
+ .	From the book Risk by John Adams, 1995</span>
+</p>
+<p class="END-NOTES_EndNote">
+<span id="endnote-004">
+<a class="_idEndnoteAnchor _idGenColorInherit" href="text00018.html#endnote-004-backlink">4</a>
+ .	Or, perhaps, if my husband weren&apos;t wearing a helmet, he wouldn&apos;t have been biking so quickly around a corner—and he never would have broken those bones and his helmet.</span>
+</p>
+</div>
+</body>
+</html>

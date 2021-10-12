@@ -1,0 +1,54 @@
+table.TableOverride-1 {
+	border-collapse:collapse;
+	border-color:#ffffff;
+	border-width:2px;
+}
+td.CellOverride-1 {
+	background-color:#cccccc;
+	border-bottom-color:#ffffff;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-width:2px;
+}
+td.CellOverride-2 {
+	background-color:#f3f3f3;
+	border-bottom-color:#ffffff;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-width:2px;
+}
+td.CellOverride-3 {
+	background-color:#d9d9d9;
+	border-bottom-color:#ffffff;
+	border-bottom-width:2px;
+	border-left-color:#ffffff;
+	border-left-width:2px;
+	border-right-color:#ffffff;
+	border-right-width:2px;
+	border-top-color:#ffffff;
+	border-top-width:2px;
+}
+span.CharOverride-1 {
+	
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-2 {
+	
+	font-style:italic;
+	font-weight:normal;
+}
+span._idGenCharOverride-1 {
+	
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
