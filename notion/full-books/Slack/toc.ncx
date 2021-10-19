@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta name="dtb:uid" content="f8d862dc-a016-4596-a9e2-4f5208c96a2e"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:generator" content="calibre (5.28.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="index_split_000.html"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2" class="chapter">
+      <navLabel>
+        <text>Other Books by this Author</text>
+      </navLabel>
+      <content src="index_split_001.html"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3" class="chapter">
+      <navLabel>
+        <text>Title Page</text>
+      </navLabel>
+      <content src="index_split_002.html"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4" class="chapter">
+      <navLabel>
+        <text>Copyright</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5" class="chapter">
+      <navLabel>
+        <text>Dedication</text>
+      </navLabel>
+      <content src="index_split_004.html"/>
+    </navPoint>
+    <navPoint id="num_6" playOrder="6" class="chapter">
+      <navLabel>
+        <text>Acknowledgments</text>
+      </navLabel>
+      <content src="index_split_005.html"/>
+    </navPoint>
+    <navPoint id="num_7" playOrder="7" class="chapter">
+      <navLabel>
+        <text>Prelude</text>
+      </navLabel>
+      <content src="index_split_007.html"/>
+    </navPoint>
+    <navPoint id="num_8" playOrder="8" class="chapter">
+      <navLabel>
+        <text>Part One: SLACK</text>
+      </navLabel>
+      <content src="index_split_012.html"/>
+      <navPoint id="num_9" playOrder="9" class="chapter">
+        <navLabel>
+          <text>1. Madmen in the Halls</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+      </navPoint>
+      <navPoint id="num_10" playOrder="10" class="chapter">
+        <navLabel>
+          <text>2. Busyness</text>
+        </navLabel>
+        <content src="index_split_017.html"/>
+      </navPoint>
+      <navPoint id="num_11" playOrder="11" class="chapter">
+        <navLabel>
+          <text>3. The Myth of Fungible Resource</text>
+        </navLabel>
+        <content src="index_split_020.html"/>
+      </navPoint>
+      <navPoint id="num_12" playOrder="12" class="chapter">
+        <navLabel>
+          <text>4. When “Hurry Up” Really Means “Slow Down”</text>
+        </navLabel>
+        <content src="index_split_027.html"/>
+      </navPoint>
+      <navPoint id="num_13" playOrder="13" class="chapter">
+        <navLabel>
+          <text>5. Managing Eve</text>
+        </navLabel>
+        <content src="index_split_030.html"/>
+      </navPoint>
+      <navPoint id="num_14" playOrder="14" class="chapter">
+        <navLabel>
+          <text>6. Business Instead of Busyness</text>
+        </navLabel>
+        <content src="index_split_036.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_15" playOrder="15" class="chapter">
+      <navLabel>
+        <text>Part Two: LOST, BUT MAKING GOOD TIME</text>
+      </navLabel>
+      <content src="index_split_045.html"/>
+      <navPoint id="num_16" playOrder="16" class="chapter">
+        <navLabel>
+          <text>7. The Cost of Pressure</text>
+        </navLabel>
+        <content src="index_split_046.html"/>
+      </navPoint>
+      <navPoint id="num_17" playOrder="17" class="chapter">
+        <navLabel>
+          <text>8. Aggressive Schedules</text>
+        </navLabel>
+        <content src="index_split_051.html"/>
+      </navPoint>
+      <navPoint id="num_18" playOrder="18" class="chapter">
+        <navLabel>
+          <text>9. Overtime</text>
+        </navLabel>
+        <content src="index_split_055.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_19" playOrder="19" class="chapter">
+      <navLabel>
+        <text>10. A Little Sleight of Hand in the Accounting Department</text>
+      </navLabel>
+      <content src="index_split_064.html"/>
+    </navPoint>
+    <navPoint id="num_20" playOrder="20" class="chapter">
+      <navLabel>
+        <text>11. Power Sweeper</text>
+      </navLabel>
+      <content src="index_split_068.html"/>
+    </navPoint>
+    <navPoint id="num_21" playOrder="21" class="chapter">
+      <navLabel>
+        <text>12. The Second Law of Bad Management</text>
+      </navLabel>
+      <content src="index_split_072.html"/>
+    </navPoint>
+    <navPoint id="num_22" playOrder="22" class="chapter">
+      <navLabel>
+        <text>13. Culture of Fear</text>
+      </navLabel>
+      <content src="index_split_077.html"/>
+    </navPoint>
+    <navPoint id="num_23" playOrder="23" class="chapter">
+      <navLabel>
+        <text>14. Litigation</text>
+      </navLabel>
+      <content src="index_split_081.html"/>
+    </navPoint>
+    <navPoint id="num_24" playOrder="24" class="chapter">
+      <navLabel>
+        <text>15. Process Obsession</text>
+      </navLabel>
+      <content src="index_split_087.html"/>
+    </navPoint>
+    <navPoint id="num_25" playOrder="25" class="chapter">
+      <navLabel>
+        <text>16. Quality</text>
+      </navLabel>
+      <content src="index_split_093.html"/>
+    </navPoint>
+    <navPoint id="num_26" playOrder="26" class="chapter">
+      <navLabel>
+        <text>17. Efficient and/or Effective</text>
+      </navLabel>
+      <content src="index_split_099.html"/>
+    </navPoint>
+    <navPoint id="num_27" playOrder="27" class="chapter">
+      <navLabel>
+        <text>18. Management by Objectives</text>
+      </navLabel>
+      <content src="index_split_102.html"/>
+    </navPoint>
+    <navPoint id="num_28" playOrder="28" class="chapter">
+      <navLabel>
+        <text>Part Three: CHANGE AND GROWTH</text>
+      </navLabel>
+      <content src="index_split_107.html"/>
+    </navPoint>
+    <navPoint id="num_29" playOrder="29" class="chapter">
+      <navLabel>
+        <text>19. Vision</text>
+      </navLabel>
+      <content src="index_split_108.html"/>
+    </navPoint>
+    <navPoint id="num_30" playOrder="30" class="chapter">
+      <navLabel>
+        <text>20. Leadership and “Leadership”</text>
+      </navLabel>
+      <content src="index_split_111.html"/>
+    </navPoint>
+    <navPoint id="num_31" playOrder="31" class="chapter">
+      <navLabel>
+        <text>21. Dilbert Reconsidered</text>
+      </navLabel>
+      <content src="index_split_115.html"/>
+    </navPoint>
+    <navPoint id="num_32" playOrder="32" class="chapter">
+      <navLabel>
+        <text>22. Fear and Safety</text>
+      </navLabel>
+      <content src="index_split_119.html"/>
+    </navPoint>
+    <navPoint id="num_33" playOrder="33" class="chapter">
+      <navLabel>
+        <text>23. Trust and Trustworthiness</text>
+      </navLabel>
+      <content src="index_split_123.html"/>
+    </navPoint>
+    <navPoint id="num_34" playOrder="34" class="chapter">
+      <navLabel>
+        <text>24. Timing of Change</text>
+      </navLabel>
+      <content src="index_split_127.html"/>
+    </navPoint>
+    <navPoint id="num_35" playOrder="35" class="chapter">
+      <navLabel>
+        <text>25. What Middle Management Is There For</text>
+      </navLabel>
+      <content src="index_split_130.html"/>
+    </navPoint>
+    <navPoint id="num_36" playOrder="36" class="chapter">
+      <navLabel>
+        <text>26. Where Learning Happens</text>
+      </navLabel>
+      <content src="index_split_136.html"/>
+    </navPoint>
+    <navPoint id="num_37" playOrder="37" class="chapter">
+      <navLabel>
+        <text>27. Danger in the White Space</text>
+      </navLabel>
+      <content src="index_split_144.html"/>
+    </navPoint>
+    <navPoint id="num_38" playOrder="38" class="chapter">
+      <navLabel>
+        <text>28. Change Management</text>
+      </navLabel>
+      <content src="index_split_151.html"/>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39" class="chapter">
+      <navLabel>
+        <text>Part Four: RISK AND RISK MANAGEMENT</text>
+      </navLabel>
+      <content src="index_split_155.html"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40" class="chapter">
+      <navLabel>
+        <text>29. Uncommon Sense</text>
+      </navLabel>
+      <content src="index_split_156.html"/>
+    </navPoint>
+    <navPoint id="num_41" playOrder="41" class="chapter">
+      <navLabel>
+        <text>30. Risk Management: The Minimal Prescription</text>
+      </navLabel>
+      <content src="index_split_161.html"/>
+    </navPoint>
+    <navPoint id="num_42" playOrder="42" class="chapter">
+      <navLabel>
+        <text>31. Working at Breakneck Speed</text>
+      </navLabel>
+      <content src="index_split_166.html"/>
+    </navPoint>
+    <navPoint id="num_43" playOrder="43" class="chapter">
+      <navLabel>
+        <text>32. Learning to Live with Risk</text>
+      </navLabel>
+      <content src="index_split_169.html"/>
+    </navPoint>
+    <navPoint id="num_44" playOrder="44" class="chapter">
+      <navLabel>
+        <text>AFTERWORD</text>
+      </navLabel>
+      <content src="index_split_172.html"/>
+    </navPoint>
+    <navPoint id="num_45" playOrder="45" class="chapter">
+      <navLabel>
+        <text>33. The Needle in the Haystack</text>
+      </navLabel>
+      <content src="index_split_173.html"/>
+    </navPoint>
+  </navMap>
+</ncx>
