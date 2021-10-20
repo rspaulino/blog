@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>part0017</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+<div id="page_104" class="s6B">
+<a href="part0003.xhtml#a2XA">PART III</a>
+</div>
+<div class="s6D">
+<a href="part0003.xhtml#a2XA">Noise in Predictive Judgments</a>
+</div>
+<div class="s4M">
+<span class="s2WY">M</span>
+any judgments are predictions, and since verifiable predictions can be evaluated, we can learn a lot about noise and bias by studying them. In this part of the book, we focus on predictive judgments.</div>
+<div class="s4P">
+<a href="part0018.xhtml">Chapter 9</a>
+ compares the accuracy of predictions made by professionals, by machines, and by simple rules. You will not be surprised by our conclusion that the professionals come third in this competition. In <a href="part0019.xhtml">chapter 10</a>
+, we explore the reasons for this outcome and show that noise is a major factor in the inferiority of human judgment.</div>
+<div class="s4P">To reach these conclusions, we must evaluate the quality of predictions, and to do that, we need a measure of predictive accuracy, a way to answer this question: How closely do the predictions <span class="s2WT-0">co-vary</span>
+ with the outcomes? If the HR department routinely rates the potential of new hires, for example, we can wait a few years to find out how employees perform and see how closely ratings of potential co-vary with evaluations of performance. Predictions are accurate to the extent that the employees whose potential was rated high when they were hired also earn high evaluations for their work.</div>
+<div class="s4P">A measure that captures this intuition is the <span class="s2WT-0">percent concordant (PC),</span>
+ which answers a more specific question: Suppose you take a pair of employees at random. What is the probability that the one who scored higher on an evaluation of potential also performs better on the job? If the accuracy of the early ratings were perfect, the PC would be 100%: the ranking of two employees by potential would be a perfect prediction of their eventual ranking by performance. If the predictions were entirely useless, concordance would occur by chance only, and the “higher-potential” employee <span id="page_105"></span>
+would be just as likely as not to perform better: PC would be 50%. We will discuss this example, which has been studied extensively, in <a href="part0018.xhtml">chapter 9</a>
+. For a simpler example, PC for foot length and height in adult men is 71%. If you look at two people, first at their head and then at their feet, there is a 71% chance that the taller of the two also has the larger feet.</div>
+<div class="s4P">PC is an immediately intuitive measure of covariation, which is a large advantage, but it is not the standard measure that social scientists use. The standard measure is the <span class="s2WT-0">correlation coefficient</span>
+ (<span class="s2WT-0">r</span>
+), which varies between 0 and 1 when two variables are positively related. In the preceding example, the correlation between height and foot size is about .60.</div>
+<div class="s4P">There are many ways to think about the correlation coefficient. Here is one that is intuitive enough: the correlation between two variables is their percentage of shared determinants. Imagine, for instance, that some trait is entirely genetically determined. We would expect to find a .50 correlation on that trait between siblings, who have 50% of their genes in common, and a .25 correlation between first cousins, who have 25% of their genes in common. We can also read the .60 correlation between height and foot size as suggesting that 60% of the causal factors that determine height also determine shoe size.</div>
+<div class="s4P">The two measures of covariation we have described are directly related to each other. <a href="part0017.xhtml#a2Z7">Table 1</a>
+ presents the PC for various values of the correlation coefficient. In the rest of this book, we always present the two measures together when we discuss the performance of humans and models.</div>
+<div class="sRD">
+<div id="a2Z7">
+<span class="s2WV-0">Table 1:</span>
+ <span class="s2WT-0">Correlation coefficient and percentage concordant (PC)</span>
+</div>
+</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+ .00</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 50%</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+ .10</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 53%</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+ .20</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 56%</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+ .30</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 60%</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+<span id="page_106"></span>
+ .40</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 63%</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+ .60</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 71%</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+ .80</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 79%</div>
+<div class="sRF">
+<span class="s2WU">Correlation coefficient</span>
+<span class="s2WV-0">:</span>
+ 1.00</div>
+<div class="sY">
+<span class="s2WU">Percentage concordant (PC)</span>
+<span class="s2WV-0">:</span>
+ 100%</div>
+<div class="sS0">In <a href="part0020.xhtml">chapter 11</a>
+, we discuss an important limit on predictive accuracy: the fact that most judgments are made in a state of what we call <span class="s2WT-0">objective ignorance,</span>
+ because many things on which the future depends can simply not be known. Strikingly, we manage, most of the time, to remain oblivious to this limitation and make predictions with confidence (or, indeed, overconfidence). Finally, in <a href="part0021.xhtml">chapter 12</a>
+, we show that objective ignorance affects not just our ability to predict events but even our capacity to understand them—an important part of the answer to the puzzle of why noise tends to be invisible.</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>part0046</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+<div id="page_360" class="s6B">
+<a href="part0003.xhtml#a2YF">APPENDIX C</a>
+</div>
+<div class="s6T">
+<a href="part0003.xhtml#a2YF">Correcting Predictions</a>
+</div>
+<div class="s4M">
+<span class="s2Z4">M</span>
+<span class="s2WT-0">atching predictions</span>
+ are errors caused by our reliance on the intuitive matching process (see <a href="part0024.xhtml">chapter 14</a>
+). We make matching predictions when we rely on the information we have to make a forecast and behave as if this information were perfectly (or very highly) predictive of the outcome.</div>
+<div class="s4P">Recall the example of Julie, who could “read fluently when she was four years old.” The question was, what is her GPA? If you predicted 3.8 for Julie’s college GPA, you intuitively judged that the four-year-old Julie was in the top 10% of her age group by reading age (although not in the top 3–5%). You then, implicitly, assumed that Julie would also rank somewhere around the 90th percentile of her class in terms of GPA. This corresponds to a GPA of 3.7 or 3.8—hence the popularity of these answers.</div>
+<div class="s4P">What makes this reasoning statistically incorrect is that it grossly overstates the diagnostic value of the information available about Julie. A precocious four-year-old does not always become an academic overachiever (and, fortunately, a child who initially struggles with reading will not languish at the bottom of the class forever).</div>
+<div class="s4P">More often than not, in fact, outstanding performance will become less outstanding. Conversely, very poor performance will improve. It is easy to imagine social, psychological, or even political reasons for this observation, but reasons are not required. The phenomenon is purely statistical. Extreme observations in one direction or the other will tend to become less extreme, simply because past performance is not perfectly correlated with future performance. This tendency is called <span class="s2WT-0">regression to the mean</span>
+ (hence the technical term <span class="s2WT-0">nonregressive</span>
+ for matching predictions, which <span id="page_361"></span>
+fail to take it into account).</div>
+<div class="s4P">To put it quantitatively, the judgment you made about Julie would be correct if reading age were a perfect predictor of GPA, that is, if there were a correlation of 1 between the two factors. That is obviously not the case.</div>
+<div class="s4P">There is a statistical way to make a judgment that is likely to be more accurate. It is nonintuitive and difficult to find, even for people with some statistical training. Here is the procedure. <a href="part0046.xhtml#a2ZB">Figure 19</a>
+ illustrates it with Julie’s example.</div>
+<div class="sE6">
+<div class="sK">
+<div class="sH-0"><img src="rsrc31Z.jpg" alt="" id="a2ZB" class="sH-1" />
+</div>
+<div class="sE3">F<span class="s2WW">IGURE 19:</span>
+ <span class="s2WT-0">Adjusting an intuitive prediction for regression to the mean</span>
+</div>
+</div>
+</div>
+<div class="s2AP">
+<span class="class-5">1. Make your intuitive guess.</span>
+</div>
+<div class="s4P">Your intuition about Julie, or about any case about which you have information, is not worthless. Your fast, system 1 thinking easily places the information you have onto the scale of your prediction and produces a GPA score for Julie. This guess is the prediction you would make if the information you have were perfectly predictive. Write it down.</div>
+<div class="s2AP">
+<span class="class-5">2. Look for the mean.</span>
+</div>
+<div class="s4P">Now, step back and forget what you know about Julie for a moment. What would you say about Julie’s GPA <span class="s2WT-0">if you knew absolutely nothing about her</span>
+? The answer, of course, is straightforward: in the absence of any information, your best guess of Julie’s GPA would have to be the mean GPA in her graduating class—probably somewhere around 3.2.</div>
+<div class="s4P">Looking at Julie this way is an application of the broader principle we have discussed above, the <span class="s2WT-0">outside view</span>
+. When we take the outside view, we think of the case we are considering as an instance of a class, and we think about that class in statistical terms. <span id="page_362"></span>
+Recall, for instance, how taking the outside view about the Gambardi problem leads us to ask what the base rate of success is for a new CEO (see <a href="part0012.xhtml">chapter 4</a>
+).</div>
+<div class="s2AP">
+<span class="class-5">3. Estimate the diagnostic value of the information you have.</span>
+</div>
+<div class="s4P">This is the difficult step, where you need to ask yourself, “What is the predictive value of the information I have?” The reason this question matters should be clear by now. If all you knew about Julie was her shoe size, you would correctly give this information zero weight and stick to the mean GPA prediction. If, on the other hand, you had the list of grades Julie has obtained in every subject, this information would be perfectly predictive of her GPA (which is their average). There are many shades of gray between these two extremes. If you had data about Julie’s exceptional intellectual achievements in high school, this information would be much more diagnostic than her reading age, but less than her college grades.</div>
+<div class="s4P">Your task here is to quantify the diagnostic value of the data you have, expressed as a correlation with the outcome you are predicting. Except in rare cases, this number will have to be a back-of-the-envelope estimate.</div>
+<div class="s4P">To make a sensible estimate, remember some of the examples we listed in <a href="part0021.xhtml">chapter 12</a>
+. In the social sciences, correlations of more than .50 are very rare. Many correlations that we recognize as meaningful are in the .20 range. In Julie’s case, a correlation of .20 is probably an upper bound.</div>
+<div class="s2AP">
+<span class="class-5">4. Adjust from the outside view in the direction of your intuitive guess, to an extent that reflects the diagnostic value of the information you have.</span>
+</div>
+<div class="s4P">The final step is a simple arithmetic combination of the three numbers you have now produced: you must adjust from the mean, in the direction of your intuitive guess, in proportion to the correlation you have estimated.</div>
+<div class="s4P">This step simply extends the observation we have just made: if the correlation were 0, you would stick to the mean; if it were 1, you would disregard the mean and happily make a matching prediction. In Julie’s case, then, the best prediction you can make of GPA is one that lies no more than 20% of the way from the mean of <span id="page_363"></span>
+the class in the direction of the intuitive estimate that her reading age suggested to you. This computation leads you to a prediction of about 3.3.</div>
+<div class="s4P">We have used Julie’s example, but this method can be applied just as easily to many of the judgment problems we have discussed in this book. Consider, for instance, a vice president of sales who is hiring a new salesperson and has just had an interview with an absolutely outstanding candidate. Based on this strong impression, the executive estimates that the candidate should book sales of $1 million in the first year on the job—twice the mean amount achieved by new hires during their first year on the job. How could the vice president make this estimate regressive? The calculation depends on the diagnostic value of the interview. How well does a recruiting interview predict on-the-job success in this case? Based on the evidence we have reviewed, a correlation of .40 is a very generous estimate. Accordingly, a regressive estimate of the new hire’s first-year sales would be, at most, $500K + ($1 million − $500K) ×.40 = $700K.</div>
+<div class="s4P">This process, again, is not at all intuitive. Notably, as the examples illustrate, corrected predictions will always be more conservative than intuitive ones: they will never be as extreme as intuitive predictions, but instead closer, often <span class="s2WT-0">much</span>
+ closer, to the mean. If you correct your predictions, you will never bet that the tennis champion who has won ten Grand Slam titles will win another ten. Neither will you foresee that a highly successful start-up worth $1 billion will become a behemoth worth several hundred times that. Corrected predictions do not take bets on outliers.</div>
+<div class="s4P">This means that, in hindsight, corrected predictions will inevitably result in some highly visible failures. However, prediction is not done in hindsight. You should remember that outliers are, by definition, extremely rare. The opposite error is much more frequent: when we predict that outliers will remain outliers, they generally don’t, because of regression to the mean. That is why, whenever the aim is to maximize accuracy (i.e., minimize MSE), corrected predictions are superior to intuitive, matching predictions.</div>
+</body>
+</html>

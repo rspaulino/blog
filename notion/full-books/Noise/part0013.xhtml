@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>part0013</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+<div id="page_55" class="s6B">
+<a href="part0003.xhtml#a2XN">CHAPTER 5</a>
+</div>
+<div class="s6T">
+<a href="part0003.xhtml#a2XN">Measuring Error</a>
+</div>
+<div class="s4M">
+<span class="s2WY">I</span>
+t is obvious that a consistent bias can produce costly errors. If a scale adds a constant amount to your weight, if an enthusiastic manager routinely predicts that projects will take half the time they end up taking, or if a timid executive is unduly pessimistic about future sales year after year, the result will be numerous serious mistakes.</div>
+<div class="s4P">We have now seen that noise can produce costly errors as well. If a manager most often predicts that projects will take half the time they ultimately take, and occasionally predicts they will take twice their actual time, it is unhelpful to say that the manager is “on average” right. The different errors add up; they do not cancel out.</div>
+<div class="s4P">An important question, therefore, is how, and how much, bias and noise contribute to error. This chapter aims to answer that question. Its basic message is straightforward: in professional judgments of all kinds, whenever accuracy is the goal, <span class="s2WT-0">bias and noise play the same role in the calculation of overall error</span>
+. In some cases, the larger contributor will be bias; in other cases it will be noise (and these cases are more common than one might expect). But in every case, a reduction of noise has the same impact on overall error as does a reduction of bias by the same amount. For that reason, the measurement and reduction of noise should have the same high priority as the measurement and reduction of bias.</div>
+<div class="s4P">This conclusion rests on a particular approach to the measurement of error, which has a long history and is generally accepted in science and in statistics. In this chapter, we provide an introductory overview of that history and a sketch of the underlying reasoning.</div>
+<div id="page_56" class="s7D">Should GoodSell Reduce Noise?</div>
+<div class="s4M">Begin by imagining a large retail company named GoodSell, which employs many sales forecasters. Their job is to predict GoodSell’s market share in various regions. Perhaps after reading a book on the topic of noise, Amy Simkin, head of the forecasting department at GoodSell, has conducted a noise audit. All forecasters produced independent estimates of the market share in the same region.</div>
+<div class="s4P">
+<a href="part0013.xhtml#a2XV">Figure 3</a>
+ shows the (implausibly smooth) results of the noise audit. Amy can see that the forecasts were distributed in the familiar bell-shaped curve, also known as the normal or Gaussian distribution. The most frequent forecast, represented by the peak of the bell curve, is 44%. Amy can also see that the forecasting system of the company is quite noisy: the forecasts, which would be identical if all were accurate, vary over a considerable range.</div>
+<div class="sE6">
+<div class="sK">
+<div class="sH-0"><img src="rsrc31B.jpg" alt="" id="a2XV" class="sH-1" />
+</div>
+<div class="sE3">F<span class="s2WW">IGURE 3:</span>
+ <span class="s2WT-0">Distribution of GoodSell’s market share forecasts for one region</span>
+</div>
+</div>
+</div>
+<div class="s4P">We can attach a number to the amount of noise in GoodSell’s forecasting system. Just as we did when you used your stopwatch to measure laps, we can compute the <span class="s2WT-0">standard deviation</span>
+ of the forecasts. As its name indicates, the standard deviation represents a typical distance from the mean. In this example, it is 10 percentage points. As is true for every normal distribution, about two-thirds of the forecasts are contained within one standard deviation on either side of the mean—in this example, between a 34% and a 54% market share. Amy now has an estimate of the amount of system noise in the forecasts of market share. (A better noise audit would use several <span id="page_57"></span>
+forecasting problems for a more robust estimate, but one is enough for our purpose here.)</div>
+<div class="s4P">As was the case with the executives of the real insurance company of <a href="part0009.xhtml">chapter 2</a>
+, Amy is shocked by the results and wants to take action. The unacceptable amount of noise indicates that the forecasters are not disciplined in implementing the procedures they are expected to follow. Amy asks for authority to hire a noise consultant to achieve more uniformity and discipline in her forecasters’ work. Unfortunately, she does not get approval. Her boss’s reply seems sensible enough: how, he asks, could we reduce errors when we don’t know if our forecasts are right or wrong? Surely, he says, if there is a large average error in the forecasts (i.e., a large bias), addressing it should be the priority. Before undertaking anything to improve its forecasts, he concludes, GoodSell must wait and find out if they are correct.</div>
+<div class="s4P">One year after the original noise audit, the outcome that the forecasters were trying to predict is known. Market share in the target region turned out to be 34%. Now we also know each forecaster’s error, which is simply the difference between the forecast and the outcome. The error is 0 for a forecast of 34%, it is 10% for the mean forecast of 44%, and it is −10% for a lowball forecast of 24%.</div>
+<div class="s4P">
+<a href="part0013.xhtml#a2XW">Figure 4</a>
+ shows the distribution of errors. It is the same as the distribution of forecasts in <a href="part0013.xhtml#a2XV">figure 3</a>
+, but the true value (34%) has been subtracted from each forecast. The shape of the distribution has not changed, and the standard deviation (our measure of noise) is still 10%.</div>
+<div class="sE6">
+<div class="sK">
+<div class="sH-0"><img src="rsrc31C.jpg" alt="" id="a2XW" class="sH-1" />
+</div>
+<div class="sE3">F<span class="s2WW">IGURE 4:</span>
+ <span class="s2WT-0">Distribution of errors in GoodSell’s <span id="page_58"></span>
+forecasts for one region</span>
+</div>
+</div>
+</div>
+<div class="s4P">The difference between <a href="part0013.xhtml#a2XV">figures 3</a>
+ and <a href="part0013.xhtml#a2XW">4</a>
+ is analogous to the difference between a pattern of shots seen from the back and the front of the target in <a href="part0006.xhtml#a2WZ">figures 1</a>
+ and <a href="part0006.xhtml#page_10">2</a>
+ (see the introduction). Knowing the position of the target was not necessary to observe noise in shooting; similarly, knowing the true outcome adds nothing at all to what was already known about noise in forecasting.</div>
+<div class="s4P">Amy Simkin and her boss now know something they did not know earlier: the amount of bias in the forecasts. Bias is simply the average of errors, which in this case is also 10%. Bias and noise, therefore, happen to be numerically identical in this set of data. (To be clear, this equality of noise and bias is by no means a general rule, but a case in which bias and noise are equal makes it easier to understand their roles.) We can see that most forecasters had made an optimistic error—that is, they overestimated the market share that would be achieved: most of them erred on the right-hand side of the zero-error vertical bar. (In fact, using the properties of the normal distribution, we know that is the case for 84% of the forecasts.)</div>
+<div class="s4P">As Amy’s boss notes with barely concealed satisfaction, he was right. There was a lot of bias in the forecasts! And indeed, it is now evident that reducing bias would be a good thing. But, Amy still wonders, would it have been a good idea a year ago—and would it be a good idea now—to reduce noise, too? How would the value of such an improvement compare with the value of reducing bias?</div>
+<div class="s7D">Mean Squares</div>
+<div class="s4M">To answer Amy’s question, we need a “scoring rule” for errors, a way to weight and combine individual errors into a single measure of overall error. Fortunately, such a tool exists. It is the <span class="s2WT-0">method of least squares,</span>
+ invented in 1795 by Carl Friedrich Gauss, a famous mathematical prodigy born in 1777, who began a career of major discoveries in his teens.</div>
+<div class="s4P">Gauss proposed a rule for scoring the contribution of individual errors to overall error. His measure of overall error—called <span class="s2WT-0">mean squared error</span>
+ (MSE)—is the average of the squares of the individual errors of measurement.</div>
+<div id="page_59" class="s4P">Gauss’s detailed arguments for his approach to the measurement of overall error are far beyond the scope of this book, and his solution is not immediately obvious. Why use the squares of errors? The idea seems arbitrary, even bizarre. Yet, as you will see, it builds on an intuition that you almost certainly share.</div>
+<div class="s4P">To see why, let us turn to what appears to be a completely different problem but turns out to be the same one. Imagine that you are given a ruler and asked to measure the length of a line to the nearest millimeter. You are allowed to make five measurements. They are represented by the downward-pointing triangles on the line in <a href="part0013.xhtml#a2Z6">figure 5</a>
+.</div>
+<div class="sE6">
+<div class="sK">
+<div class="sH-0"><img src="rsrc31D.jpg" alt="" id="a2Z6" class="sH-1" />
+</div>
+<div class="sE3">F<span class="s2WW">IGURE 5:</span>
+ <span class="s2WT-0">Five measurements of the same length</span>
+</div>
+</div>
+</div>
+<div class="s4P">As you can see, the five measurements are all between 971 and 980 millimeters. What is your best estimate of the true length of the line? There are two obvious contenders. One possibility is the median number, the measurement that sits between the two shorter measurements and the two longer ones. It is 973 millimeters. The other possibility is the arithmetic mean, known in common parlance as the average, which in this example is 975 millimeters and shown here as an upward-pointing arrow. Your intuition probably favors the mean, and your intuition is correct. The mean contains more information; it is affected by the size of the numbers, while the median is affected only by their order.</div>
+<div class="s4P">There is a tight link between this problem of estimation, about which you have a clear intuition, and the problem of overall error measurement that concerns us here. They are, in fact, two sides of the same coin. That is because the best estimate is one that minimizes the overall error of the available measurements. Accordingly, if your intuition about the mean being the best estimate is correct, the formula you use to measure overall error should be one that yields the arithmetic mean as the value for which error is minimized.</div>
+<div class="s4P">MSE has that property—and it is the only definition of overall error that has it. In <a href="part0013.xhtml#a2ZF">figure 6</a>
+, we have computed the value of MSE in <span id="page_60"></span>
+the set of five measurements for ten possible integer values of the line’s true length. For instance, if the true value was 971, the errors in the five measurements would be 0, 1, 2, 8, and 9. The squares of these errors add up to 150, and their mean is 30. This is a large number, reflecting the fact that some measurements are far from the true value. You can see that MSE decreases as we get closer to 975—the mean—and increases again beyond that point. The mean is our best estimate because it is the value that minimizes overall error.</div>
+<div class="sE6">
+<div class="sK">
+<div class="sH-0"><img src="rsrc31E.jpg" alt="" id="a2ZF" class="sH-1" />
+</div>
+<div class="sE3">F<span class="s2WW">IGURE 6:</span>
+ <span class="s2WT-0">Mean squared error (MSE) for ten possible values of the true length</span>
+</div>
+</div>
+</div>
+<div class="s4P">You can also see that the overall error increases rapidly when your estimate diverges from the mean. When your estimate increases by just 3 millimeters, from 976 to 979, for instance, MSE doubles. This is a key feature of MSE: squaring gives large errors a far greater weight than it gives small ones.</div>
+<div class="s4P">You now see why Gauss’s formula to measure overall error is called mean squared error and why his approach to estimation is called the least squares method. The squaring of errors is its central idea, and no other formula would be compatible with your intuition that the mean is the best estimate.</div>
+<div class="s4P">The advantages of Gauss’s approach were quickly recognized by other mathematicians. Among his many feats, Gauss used MSE (and other mathematical innovations) to solve a puzzle that had defeated the best astronomers of Europe: the rediscovery of Ceres, an asteroid that had been traced only briefly before it disappeared into the glare of the sun in 1801. The astronomers had been trying to <span id="page_61"></span>
+estimate Ceres’s trajectory, but the way they accounted for the measurement error of their telescopes was wrong, and the planet did not reappear anywhere near the location their results suggested. Gauss redid their calculations, using the least squares method. When the astronomers trained their telescopes to the spot that he had indicated, they found Ceres!</div>
+<div class="s4P">Scientists in diverse disciplines were quick to adopt the least squares method. Over two centuries later, it remains the standard way to evaluate errors wherever achieving accuracy is the goal. The weighting of errors by their square is central to statistics. In the vast majority of applications across all scientific disciplines, MSE rules. As we are about to see, the approach has surprising implications.</div>
+<div class="s7D">The Error Equations</div>
+<div class="s4M">The role of bias and noise in error is easily summarized in two expressions that we will call <span class="s2WT-0">the error equations.</span>
+ The first of these equations decomposes the error in a single measurement into the two components with which you are now familiar: bias—the average error—and a residual “noisy error.” The noisy error is positive when the error is larger than the bias, negative when it is smaller. The average of noisy errors is zero. Nothing new in the first error equation.</div>
+<div class="sFF">Error in a single measurement = Bias + Noisy Error</div>
+<div class="s4P">The second error equation is a decomposition of MSE, the measure of overall error we have now introduced. Using some simple algebra, MSE can be shown to be equal to the sum of the squares of bias and noise. (Recall that noise is the standard deviation of measurements, which is identical to the standard deviation of noisy errors.) Therefore:</div>
+<div class="sFJ">
+<span class="s2WV-0">Overall Error (MSE) = Bias</span>
+<span class="s2YT-0">2</span>
+ <span class="s2WV-0">+ Noise</span>
+<span class="s2YT-0">2</span>
+</div>
+<div class="s4P">The form of this equation—a sum of two squares—may remind you of a high-school favorite, the Pythagorean theorem. As you might remember, in a right triangle, the sum of the squares of the two shorter sides equals the square of the longest one. This <span id="page_62"></span>
+suggests a simple visualization of the error equation, in which MSE, Bias<span class="s2XG-2">2</span>
+, and Noise<span class="s2XG-2">2</span>
+ are the areas of three squares on the sides of a right triangle. <a href="part0013.xhtml#a2Z2">Figure 7</a>
+ shows how MSE (the area of the darker square) equals the sum of the areas of the other two squares. In the left panel, there is more noise than bias; in the right panel, more bias than noise. But MSE is the same, and the error equation holds in both cases.</div>
+<div class="sE6">
+<div class="sK">
+<div class="sH-0"><img src="rsrc31F.jpg" alt="" id="a2Z2" class="sH-1" />
+</div>
+<div class="sE3">F<span class="s2WW">IGURE 7:</span>
+ <span class="s2WT-0">Two decompositions of MSE</span>
+</div>
+</div>
+</div>
+<div class="s4P">As the mathematical expression and its visual representation both suggest, bias and noise play identical roles in the error equation. They are independent of each other and equally weighted in the determination of overall error. (Note that we will use a similar decomposition into a sum of squares when we analyze the components of noise in later chapters.)</div>
+<div class="s4P">The error equation provides an answer to the practical question that Amy raised: how will reductions in either noise or bias by the same amount affect overall error? The answer is straightforward: bias and noise are interchangeable in the error equation, and the decrease in overall error will be the same, regardless of which of the two is reduced. In <a href="part0013.xhtml#a2XW">figure 4</a>
+, in which bias and noise happen to be equal (both are 10%), their contributions to overall error are equal.</div>
+<div class="s4P">The error equation also provides unequivocal support for Amy Simkin’s initial impulse to try to reduce noise. Whenever you observe noise, you should work to reduce it! The equation shows that Amy’s boss was wrong when he suggested that GoodSell wait to measure the bias in its forecasts and only then decide what to do. In terms of overall error, noise and bias are independent: the benefit of reducing noise is the same, regardless of the amount of bias.</div>
+<div class="s4P">This notion is highly counterintuitive but crucial. To illustrate it, <a href="part0013.xhtml#a2ZA">figure 8</a>
+ shows the effect of reducing bias and noise by <span id="page_63"></span>
+the same amount. To help you appreciate what has been accomplished in both panels, the original distribution of errors (from <a href="part0013.xhtml#a2XW">figure 4</a>
+) is represented by a broken line.</div>
+<div class="sG5">
+<div class="sK">
+<div class="sH-0"><img src="rsrc31G.jpg" alt="" id="a2ZA" class="sH-1" />
+</div>
+<div class="sG2">F<span class="s2WW">IGURE 8:</span>
+ <span class="s2WT-0">Distribution of errors with bias reduced by half vs. noise reduced by half</span>
+</div>
+</div>
+</div>
+<div class="s4P">In panel A, we assume that Amy’s boss decided to do things his way: he found out what the bias was, then somehow managed to reduce it by half (perhaps by providing feedback to the overoptimistic forecasters). Nothing was done about noise. The improvement is visible: the whole distribution of forecasts has shifted closer to the true value.</div>
+<div class="s4P">In panel B, we show what would have happened if Amy had won the argument. Bias is unchanged, but noise is reduced by half. The paradox here is that noise reduction seems to have made things worse. The forecasts are now more concentrated (less noisy) but not more accurate (not less biased). Whereas 84% of forecasts were on one side of the true value, almost all (98%) now err in the direction of overshooting the true value. Noise reduction seems to have made the forecasts more precisely wrong—hardly the sort of improvement for which Amy hoped!</div>
+<div class="s4P">Despite appearances, however, overall error has been reduced just as much in panel B as in panel A. The illusion of deterioration in panel B arises from an erroneous intuition about bias. The relevant measure of bias is not the imbalance of positive and negative errors. It is average error, which is the distance between the peak of the bell curve and the true value. In panel B, this average error has not changed from the original situation—it is still high, at 10%, but not worse. True, the presence of bias is now more striking, because it accounts for a larger proportion of overall error (80% rather than 50%). But that is because noise has been reduced. Conversely, in panel A, bias has been reduced, but noise has not. The <span id="page_64"></span>
+net result is that MSE is the same in both panels: reducing noise or reducing bias by the same amount has the same effect on MSE.</div>
+<div class="s4P">As this example illustrates, MSE conflicts with common intuitions about the scoring of predictive judgments. To minimize MSE, you must concentrate on avoiding large errors. If you measure length, for example, the effect of reducing an error from 11cm to 10cm is 21 times as large as the effect of going from an error of 1cm to a perfect hit. Unfortunately, people’s intuitions in this regard are almost the mirror image of what they should be: people are very keen to get perfect hits and highly sensitive to small errors, but they hardly care at all about the difference between two large errors. Even if you sincerely believe that your goal is to make accurate judgments, your emotional reaction to results may be incompatible with the achievement of accuracy as science defines it.</div>
+<div class="s4P">Of course, the best solution here would be to reduce both noise and bias. Since bias and noise are independent, there is no reason to choose between Amy Simkin and her boss. In that regard, if GoodSell decides to reduce noise, the fact that noise reduction makes bias more visible—indeed, impossible to miss—may turn out to be a blessing. Achieving noise reduction will ensure that bias reduction is next on the company’s agenda.</div>
+<div class="s4P">Admittedly, reducing noise would be less of a priority if bias were much larger than noise. But the GoodSell example offers another lesson worth highlighting. In this simplified model, we have assumed that noise and bias are equal. Given the form of the error equation, their contributions to total error are equal, too: bias accounts for 50% of overall error, and so does noise. Yet, as we have noted, 84% of the forecasters err in the same direction. It takes a bias this large (six out of seven people making mistakes in the same direction!) to have as much effect as noise has. We should not be surprised, therefore, to find situations in which there is more noise than bias.</div>
+<div class="s4P">We illustrated the application of the error equation to a single case, one particular region of GoodSell’s territory. Of course, it is always desirable to carry out a noise audit on multiple cases at once. Nothing changes. The error equation is applied to the separate cases; and an overall equation is obtained by taking the averages of MSE, bias squared and noise squared over the cases. It would have been better for Amy Simkin to obtain multiple forecasts for several <span id="page_65"></span>
+regions, either from the same or from different forecasters. Averaging results would give her a more accurate picture of bias and noise in the forecasting system of GoodSell.</div>
+<div class="s7D">The Cost of Noise</div>
+<div class="s4M">The error equation is the intellectual foundation of this book. It provides the rationale for the goal of reducing system noise in predictive judgments, a goal that is in principle as important as the reduction of statistical bias. (We should emphasize that statistical bias is not a synonym for social discrimination; it is simply the average error in a set of judgments.)</div>
+<div class="s4P">The error equation and the conclusions we have drawn from it depend on the use of MSE as the measure of overall error. The rule is appropriate for purely predictive judgments, including forecasts and estimates, all of which aim to approach a true value with maximum accuracy (the least bias) and precision (the least noise).</div>
+<div class="s4P">The error equation does not apply to evaluative judgments, however, because the concept of error, which depends on the existence of a true value, is far more difficult to apply. Furthermore, even if errors could be specified, their costs would rarely be symmetrical and would be unlikely to be precisely proportional to their square.</div>
+<div class="s4P">For a company that makes elevators, for example, the consequences of errors in estimating the maximum load of an elevator are obviously asymmetrical: underestimation is costly, but overestimation could be catastrophic. Squared error is similarly irrelevant to the decision of when to leave home to catch a train. For that decision, the consequences of being either one minute late or five minutes late are the same. And when the insurance company of <a href="part0009.xhtml">chapter 2</a>
+ prices policies or estimates the value of claims, errors in both directions are costly, but there is no reason to assume that their costs are equivalent.</div>
+<div class="s4P">These examples highlight the need to specify the roles of predictive and evaluative judgments in decisions. A widely accepted maxim of good decision making is that you should not mix your values and your facts. Good decision making must be based on objective and accurate predictive judgments that are completely <span id="page_66"></span>
+unaffected by hopes and fears, or by preferences and values. For the elevator company, the first step would be a neutral calculation of the maximum technical load of the elevator under different engineering solutions. Safety becomes a dominant consideration only in the second step, when an evaluative judgment determines the choice of an acceptable safety margin to set the maximum capacity. (To be sure, that choice will also greatly depend on factual judgments involving, for example, the costs and benefits of that safety margin.) Similarly, the first step in deciding when to leave for the station should be an objective determination of the probabilities of different travel times. The respective costs of missing your train and of wasting time at the station become relevant only in your choice of the risk you are willing to accept.</div>
+<div class="s4P">The same logic applies to much more consequential decisions. A military commander must weigh many considerations when deciding whether to launch an offensive, but much of the intelligence on which the leader relies is a matter of predictive judgment. A government responding to a health crisis, such as a pandemic, must weigh the pros and cons of various options, but no evaluation is possible without accurate predictions about the likely consequences of each option (including the decision to do nothing).</div>
+<div class="s4P">In all these examples, the final decisions require evaluative judgments. The decision makers must consider multiple options and apply their values to make the optimal choice. But the decisions depend on underlying predictions, which should be value-neutral. Their goal is accuracy—hitting as close as possible to the bull’s-eye—and MSE is the appropriate measure of error. Predictive judgments will be improved by procedures that reduce noise, as long as they do not increase bias to a larger extent.</div>
+<div class="s84">Speaking of the Error Equation</div>
+<div class="s86">
+<span class="class-2">“Oddly, reducing bias and noise by the same amount has the same effect on accuracy.”</span>
+</div>
+<div class="s88">
+<span class="class-2">“Reducing noise in predictive judgment is always useful, regardless of what you know about bias.”</span>
+</div>
+<div class="s88">
+<span class="class-2">“When judgments are split 84 to 16 between those that are above and below the true value, there is a large bias—that’s when bias and noise are equal.”</span>
+</div>
+<div id="page_67" class="s8A">
+<span class="class-2">“Predictive judgments are involved in every decision, and accuracy should be their only goal. Keep your values and your facts separate.”</span>
+</div>
+</body>
+</html>

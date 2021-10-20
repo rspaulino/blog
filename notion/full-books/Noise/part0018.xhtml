@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>part0018</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+<div id="page_107" class="s6B">
+<a href="part0003.xhtml#page_4">CHAPTER 9</a>
+</div>
+<div class="s6T">
+<a href="part0003.xhtml#page_4">Judgments and Models</a>
+</div>
+<div class="s4M">
+<span class="s2WY">M</span>
+any people are interested in forecasting people’s future performance on the job—their own and that of others. The forecasting of performance is therefore a useful example of predictive professional judgment. Consider, for instance, two executives in a large company. Monica and Nathalie were assessed by a specialized consulting firm when they were hired and received ratings on a 1-to-10 scale for leadership, communication, interpersonal skills, job-related technical skills, and motivation for the next position (<a href="part0018.xhtml#a2XZ">table 2</a>
+). Your task is to predict their performance evaluations two years after they were hired, also using a 1-to-10 scale.</div>
+<div class="sRD">
+<div id="a2XZ">
+<span class="s2WV-0">Table 2:</span>
+ <span class="s2WT-0">Two candidates for an executive position</span>
+</div>
+</div>
+<div class="sSC">Monica</div>
+<div class="sY">
+<span class="s2WU">Leadership</span>
+<span class="s2WV-0">:</span>
+ 4</div>
+<div class="sY">
+<span class="s2WU">Communication</span>
+<span class="s2WV-0">:</span>
+ 6</div>
+<div class="sY">
+<span class="s2WU">Interpersonal skills</span>
+<span class="s2WV-0">:</span>
+ 4</div>
+<div class="sY">
+<span class="s2WU">Technical skills</span>
+<span class="s2WV-0">:</span>
+ 8</div>
+<div class="sY">
+<span class="s2WU">Motivation</span>
+<span class="s2WV-0">:</span>
+ 8</div>
+<div class="sSK">Your prediction</div>
+<div class="sSC">Nathalie</div>
+<div class="sY">
+<span class="s2WU">Leadership</span>
+<span class="s2WV-0">:</span>
+ 8</div>
+<div class="sY">
+<span class="s2WU">Communication</span>
+<span class="s2WV-0">:</span>
+ 10</div>
+<div class="sY">
+<span class="s2WU">Interpersonal skills</span>
+<span class="s2WV-0">:</span>
+ 6</div>
+<div class="sY">
+<span class="s2WU">Technical skills</span>
+<span class="s2WV-0">:</span>
+ 7</div>
+<div class="sY">
+<span class="s2WU">Motivation</span>
+<span class="s2WV-0">:</span>
+ 6</div>
+<div class="sSK">Your prediction</div>
+<div id="page_108" class="sS0">Most people, when faced with this type of problem, simply eyeball each line and produce a quick judgment, sometimes after mentally computing the average of the scores. If you just did that, you probably concluded that Nathalie was the stronger candidate and that the difference between her and Monica was 1 or 2 points.</div>
+<div class="s7D">Judgment or Formula?</div>
+<div class="s4M">The informal approach you took to this problem is known as <span class="s2WT-0">clinical judgment</span>
+. You consider the information, perhaps engage in a quick computation, consult your intuition, and come up with a judgment. In fact, clinical judgment is the process that we have described simply as judgment in this book.</div>
+<div class="s4P">Now suppose that you performed the prediction task as a participant in an experiment. Monica and Nathalie were drawn from a database of several hundred managers who were hired some years ago, and who received ratings on five separate dimensions. You used these ratings to predict the managers’ success on the job. Evaluations of their performance in their new roles are now available. How closely would these evaluations align with your clinical judgments of their potential?</div>
+<div class="s4P">This example is loosely based on an actual study of performance prediction. If you had been a participant in that study, you would probably not be pleased with its results. Doctoral-level psychologists, employed by an international consulting firm to make such predictions, achieved a correlation of .15 with performance evaluations (PC = 55%). In other words, when they rated one candidate as stronger than another—as you did with Monica and Nathalie—the probability that their favored candidate would end up with a higher performance rating was 55%, barely better than chance. To say the least, that is not an impressive result.</div>
+<div class="s4P">Perhaps you think that accuracy was poor because the ratings you were shown were useless for prediction. So we must ask, how much useful predictive information do the candidates’ ratings actually contain? How can they be combined into a predictive score that will have the highest possible correlation with performance?</div>
+<div class="s4P">A standard statistical method answers these questions. In the present study, it yields an optimal correlation of .32 (PC = 60%), far <span id="page_109"></span>
+from impressive but substantially higher than what clinical predictions achieved.</div>
+<div class="s4P">This technique, called <span class="s2WT-0">multiple regression,</span>
+ produces a predictive score that is a weighted average of the predictors. It finds the optimal set of weights, chosen to maximize the correlation between the composite prediction and the target variable. The optimal weights minimize the MSE (mean squared error) of the predictions—a prime example of the dominant role of the least squares principle in statistics. As you might expect, the predictor that is most closely correlated with the target variable gets a large weight, and useless predictors get a weight of zero. Weights could also be negative: the candidate’s number of unpaid traffic tickets would probably get a negative weight as a predictor of managerial success.</div>
+<div class="s4P">The use of multiple regression is an example of <span class="s2WT-0">mechanical prediction.</span>
+ There are many kinds of mechanical prediction, ranging from simple rules (“hire anyone who completed high school”) to sophisticated artificial intelligence models. But linear regression models are the most common (they have been called “the workhorse of judgment and decision-making research”). To minimize jargon, we will refer to linear models as <span class="s2WT-0">simple models.</span>
+</div>
+<div class="s4P">The study that we illustrated with Monica and Nathalie was one of many comparisons of clinical and mechanical predictions, which all share a simple structure:</div>
+<div class="sJT"><img src="rsrc31K.jpg" alt="" class="sJS" />
+ <span class="class-2">A set of</span>
+ <span class="s2WT-3">predictor variables</span>
+ <span class="class-2">(in our example, the ratings of candidates) are used to predict a</span>
+ <span class="s2WT-3">target outcome</span>
+ <span class="class-2">(the job evaluations of the same people);</span>
+</div>
+<div class="sT9"><img src="rsrc31K.jpg" alt="" class="sJS" />
+ <span class="class-2">Human judges make</span>
+ <span class="s2WT-3">clinical predictions;</span>
+</div>
+<div class="sT9"><img src="rsrc31K.jpg" alt="" class="sJS" />
+ <span class="class-2">A rule (such as multiple regression) uses the same predictors to produce</span>
+ <span class="s2WT-3">mechanical predictions</span>
+ <span class="class-2">of the same outcomes;</span>
+</div>
+<div class="sT9"><img src="rsrc31K.jpg" alt="" class="sJS" />
+ <span class="class-2">The overall accuracy of clinical and mechanical predictions is compared.</span>
+</div>
+<div class="s7D">Meehl: The Optimal Model Beats You</div>
+<div class="s4M">When people are introduced to clinical and mechanical prediction, <span id="page_110"></span>
+they want to know how the two compare. How good is human judgment, relative to a formula?</div>
+<div class="s4P">The question had been asked before, but it attracted much attention only in 1954, when Paul Meehl, a professor of psychology at the University of Minnesota, published a book titled <span class="s2WT-0">Clinical Versus Statistical Prediction: A Theoretical Analysis and a Review of the Evidence</span>
+. Meehl reviewed twenty studies in which a clinical judgment was pitted against a mechanical prediction for such outcomes as academic success and psychiatric prognosis. He reached the strong conclusion that simple mechanical rules were generally superior to human judgment. Meehl discovered that clinicians and other professionals are distressingly weak in what they often see as their unique strength: the ability to integrate information.</div>
+<div class="s4P">To appreciate how surprising this finding is, and how it relates to noise, you have to understand how a simple mechanical prediction model works. Its defining characteristic is that the same rule is applied to all the cases. Each predictor has a weight, and that weight does not vary from one case to the next. You might think that this severe constraint puts models at a great disadvantage relative to human judges. In our example, perhaps you thought that Monica’s combination of motivation and technical skills would be an important asset and would offset her limitations in other areas. And perhaps you also thought that Nathalie’s weaknesses in these two areas would not be a serious issue, given her other strengths. Implicitly, you imagined different routes to success for the two women. These plausible clinical speculations effectively assign different weights to the same predictors in the two cases—a subtlety that is out of the reach of a simple model.</div>
+<div class="s4P">Another constraint of the simple model is that an increase of 1 unit in a predictor always produces the same effect (and half the effect of an increase of 2 units). Clinical intuition often violates this rule. If, for instance, you were impressed by Nathalie’s perfect 10 on communication skills and decided this score was worth a boost in your prediction, you did something that a simple model will not do. In a weighted-average formula, the difference between a score of 10 and a score of 9 must be the same as the difference between a 7 and a 6. Clinical judgment does not obey that rule. Instead, it reflects the common intuition that the same difference can be inconsequential in <span id="page_111"></span>
+one context and critical in another. You may want to check, but we suspect that no simple model could account exactly for your judgments about Monica and Nathalie.</div>
+<div class="s4P">The study we used for these cases was a clear example of Meehl’s pattern. As we noted, clinical predictions achieved a .15 correlation (PC = 55%) with job performance, but mechanical prediction achieved a correlation of .32 (PC = 60%). Think about the confidence that you experienced in the relative merits of the cases of Monica and Nathalie. Meehl’s results strongly suggest that any satisfaction you felt with the quality of your judgment was an illusion: the <span class="s2WT-0">illusion of validity.</span>
+</div>
+<div class="s4P">The illusion of validity is found wherever predictive judgments are made, because of a common failure to distinguish between two stages of the prediction task: evaluating cases on the evidence available and predicting actual outcomes. You can often be quite confident in your assessment of which of two candidates <span class="s2WT-0">looks</span>
+ better, but guessing which of them will actually <span class="s2WT-0">be</span>
+ better is an altogether different kettle of fish. It is safe to assert, for instance, that Nathalie looks like a stronger candidate than Monica, but it is not at all safe to assert that Nathalie will be a more successful executive than Monica. The reason is straightforward: you know most of what you need to know to assess the two cases, but gazing into the future is deeply uncertain.</div>
+<div class="s4P">Unfortunately, the difference gets blurred in our thinking. If you find yourself confused by the distinction between cases and predictions, you are in excellent company: Everybody finds that distinction confusing. If you are as confident in your predictions as you are in your evaluation of cases, however, you are a victim of the illusion of validity.</div>
+<div class="s4P">Clinicians are not immune to the illusion of validity. You can surely imagine the response of clinical psychologists to Meehl’s finding that trivial formulas, consistently applied, outdo clinical judgment. The reaction combined shock, disbelief, and contempt for the shallow research that pretended to study the marvels of clinical intuition. The reaction is easy to understand: Meehl’s pattern contradicts the subjective experience of judgment, and most of us will trust our experience over a scholar’s claim.</div>
+<div class="s4P">Meehl himself was ambivalent about his findings. Because his name is associated with the superiority of statistics over clinical <span id="page_112"></span>
+judgment, we might imagine him as a relentless critic of human insight, or as the godfather of quants, as we would say today. But that would be a caricature. Meehl, in addition to his academic career, was a practicing psychoanalyst. A picture of Freud hung in his office. He was a polymath who taught classes not just in psychology but also in philosophy and law and who wrote about metaphysics, religion, political science, and even parapsychology. (He insisted that “there is something to telepathy.”) None of these characteristics fits the stereotype of a hard-nosed numbers guy. Meehl had no ill will toward clinicians—far from it. But as he put it, the evidence for the advantage of the mechanical approach to combining inputs was “massive and consistent.”</div>
+<div class="s4P">“Massive and consistent” is a fair description. A 2000 review of 136 studies confirmed unambiguously that mechanical aggregation outperforms clinical judgment. The research surveyed in the article covered a wide variety of topics, including diagnosis of jaundice, fitness for military service, and marital satisfaction. Mechanical prediction was more accurate in 63 of the studies, a statistical tie was declared for another 65, and clinical prediction won the contest in 8 cases. These results understate the advantages of mechanical prediction, which is also faster and cheaper than clinical judgment. Moreover, human judges actually had an unfair advantage in many of these studies, because they had access to “private” information that was not supplied to the computer model. The findings support a blunt conclusion: <span class="s2WT-0">simple models beat humans.</span>
+</div>
+<div class="s7D">Goldberg: The Model of You Beats You</div>
+<div class="s4M">Meehl’s finding raises important questions. Why, exactly, is the formula superior? What does the formula do better? In fact, a better question would be to ask what humans do worse. The answer is that people are inferior to statistical models in many ways. One of their critical weaknesses is that they are noisy.</div>
+<div class="s4P">To support this conclusion, we turn to a different stream of research on simple models, which began in the small city of Eugene, Oregon. Paul Hoffman was a wealthy and visionary psychologist who was impatient with academia. He founded a research institute where <span id="page_113"></span>
+he collected under one roof a few extraordinarily effective researchers, who turned Eugene into a world-famous center for the study of human judgment.</div>
+<div class="s4P">One of these researchers was Lewis Goldberg, who is best known for his leading role in the development of the Big Five model of personality. In the late 1960s, following earlier work by Hoffman, Goldberg studied statistical models that describe the judgments of an individual.</div>
+<div class="s4P">It is just as easy to build such a model of a judge as it is to build a model of reality. The same predictors are used. In our initial example, the predictors are the five ratings of a manager’s performance. And the same tool, multiple regression, is used. The only difference is the target variable. Instead of predicting a set of real outcomes, the formula is applied to predict a set of judgments—for instance, <span class="s2WT-0">your</span>
+ judgments of Monica, Nathalie, and other managers.</div>
+<div class="s4P">The idea of modeling your judgments as a weighted average may seem altogether bizarre, because this is not how you form your opinions. When you thought clinically about Monica and Nathalie, you didn’t apply the same rule to both cases. Indeed, you did not apply any rule at all. The model of the judge is not a realistic description of how a judge actually judges.</div>
+<div class="s4P">However, even if you do not actually compute a linear formula, you might still make your judgments <span class="s2WT-0">as if</span>
+ you did. Expert billiard players act as if they have solved the complex equations that describe the mechanics of a particular shot, even if they are doing nothing of the kind. Similarly, you could be generating predictions as if you used a simple formula—even if what you actually do is vastly more complex. An as-if model that predicts what people will do with reasonable accuracy is useful, even when it is obviously wrong as a description of the process. This is the case for simple models of judgment. A comprehensive review of studies of judgment found that, in 237 studies, the average correlation between the model of the judge and the judge’s clinical judgments was .80 (PC = 79%). While far from perfect, this correlation is high enough to support an as-if theory.</div>
+<div class="s4P">The question that drove Goldberg’s research was how well a simple model of the judge would predict real outcomes. Since the model is a crude approximation of the judge, we could sensibly <span id="page_114"></span>
+assume that it cannot perform as well. How much accuracy is lost when the model replaces the judge?</div>
+<div class="s4P">The answer may surprise you. Predictions did not lose accuracy when the model generated predictions. They improved. In most cases, the model out-predicted the professional on which it was based. The ersatz was better than the original product.</div>
+<div class="s4P">This conclusion has been confirmed by studies in many fields. An early replication of Goldberg’s work involved the forecasting of graduate school success. The researchers asked ninety-eight participants to predict the GPAs of ninety students from ten cues. On the basis of these predictions, the researchers built a linear model of each participant’s judgments and compared how accurately the participants and the models of the participants predicted GPA. For every one of the ninety-eight participants, the model did better than the participant did! Decades later, a review of fifty years of research concluded that models of judges consistently outperformed the judges they modeled.</div>
+<div class="s4P">We do not know if the participants in these studies received personal feedback on their performance. But you can surely imagine your own dismay if someone told you that a crude model of your judgments—almost a caricature—was actually more accurate than you were. For most of us, the activity of judgment is complex, rich, and interesting precisely because it does not fit simple rules. We feel best about ourselves and about our ability to make judgments when we invent and apply complex rules or have an insight that makes an individual case different from others—in short, when we make judgments that are not reducible to a plain operation of weighted averaging. The model-of-the-judge studies reinforce Meehl’s conclusion that the subtlety is largely wasted. Complexity and richness do not generally lead to more accurate predictions.</div>
+<div class="s4P">Why is that so? To understand Goldberg’s finding, we need to understand what accounts for the differences between you and the model of you. What causes the discrepancies between your actual judgments and the output of a simple model that predicts them?</div>
+<div class="s4P">A statistical model of your judgments cannot possibly add anything to the information they contain. All the model can do is subtract and simplify. In particular, the simple model of your judgments will not represent any complex rules that you consistently follow. If you think that the difference between 10 and 9 <span id="page_115"></span>
+on a rating of communications skill is more significant than the difference between 7 and 6, or that a well-rounded candidate who scores a solid 7 on all dimensions is preferable to one who achieves the same average with clear strengths and marked weaknesses, the model of you will not reproduce your complex rules—even if you apply them with flawless consistency.</div>
+<div class="s4P">Failing to reproduce your subtle rules will result in a loss of accuracy when your subtlety is valid. Suppose, for instance, that you must predict success at a difficult task from two inputs, skill and motivation. A weighted average is not a good formula, because no amount of motivation is sufficient to overcome a severe skill deficit, and vice versa. If you use a more complex combination of the two inputs, your predictive accuracy will be enhanced and will be higher than that achieved by a model that fails to capture this subtlety. On the other hand, complex rules will often give you only the illusion of validity and in fact harm the quality of your judgments. Some subtleties are valid, but many are not.</div>
+<div class="s4P">In addition, a simple model of you will not represent the pattern noise in your judgments. It cannot replicate the positive and negative errors that arise from arbitrary reactions you may have to a particular case. Neither will the model capture the influences of the momentary context and of your mental state when you make a particular judgment. Most likely, these noisy errors of judgment are not systematically correlated with anything, which means that for most purposes, they can be considered random.</div>
+<div class="s4P">The effect of removing noise from your judgments will always be an improvement of your predictive accuracy. For example, suppose that the correlation between your forecasts and an outcome is .50 (PC = 67%), but 50% of the variance of your judgments consists of noise. If your judgments could be made noise-free—as a model of you would be—their correlation with the same outcome would jump to .71 (PC = 75%). Reducing noise mechanically increases the validity of predictive judgment.</div>
+<div class="s4P">In short, replacing you with a model of you does two things: it eliminates your subtlety, and it eliminates your pattern noise. The robust finding that the model of the judge is more valid than the judge conveys an important message: the gains from subtle rules in human judgment—when they exist—are generally not sufficient to compensate for the detrimental effects of noise. You may believe <span id="page_116"></span>
+that you are subtler, more insightful, and more nuanced than the linear caricature of your thinking. But in fact, you are mostly noisier.</div>
+<div class="s4P">Why do complex rules of prediction harm accuracy, despite the strong feeling we have that they draw on valid insights? For one thing, many of the complex rules that people invent are not likely to be generally true. But there is another problem: even when the complex rules are valid in principle, they inevitably apply under conditions that are rarely observed. For example, suppose you have concluded that exceptionally original candidates are worth hiring, even when their scores on other dimensions are mediocre. The problem is that exceptionally original candidates are, by definition, exceptionally rare. Since an evaluation of originality is likely to be unreliable, many high scores on that metric are flukes, and truly original talent often remains undetected. The performance evaluations that could confirm that “originals” end up as superstars are also imperfect. Errors of measurement at both ends inevitably attenuate the validity of predictions—and rare events are particularly likely to be missed. The advantages of true subtlety are quickly drowned in measurement error.</div>
+<div class="s4P">A study by Martin Yu and Nathan Kuncel reported a more radical version of Goldberg’s demonstration. This study (which was the basis for the example of Monica and Nathalie) used data from an international consulting firm that employed experts to assess 847 candidates for executive positions, in three separate samples. The experts scored the results on seven distinct assessment dimensions and used their clinical judgment to assign an overall predictive score to each, with rather unimpressive results.</div>
+<div class="s4P">Yu and Kuncel decided to compare judges not to the best simple model of themselves but to a <span class="s2WT-0">random</span>
+ linear model. They generated ten thousand sets of random weights for the seven predictors, and applied the ten thousand random formulas to predict job performance.</div>
+<div class="s4P">Their striking finding was that <span class="s2WT-0">any</span>
+ linear model, when applied consistently to all cases, was likely to outdo human judges in predicting an outcome from the same information. In one of the three samples, 77% of the ten thousand randomly weighted linear models did better than the human experts. In the other two samples, 100% of the random models outperformed the humans. Or, to put it bluntly, it proved almost impossible in that study to generate a <span id="page_117"></span>
+simple model that did worse than the experts did.</div>
+<div class="s4P">The conclusion from this research is stronger than the one we took away from Goldberg’s work on the model of the judge—and indeed it is an extreme example. In this setting, human judges performed very poorly in absolute terms, which helps explain why even unimpressive linear models outdid them. Of course, we should not conclude that any model beats any human. Still, the fact that mechanical adherence to a simple rule (Yu and Kuncel call it “mindless consistency”) could significantly improve judgment in a difficult problem illustrates the massive effect of noise on the validity of clinical predictions.</div>
+<div class="s4P">This quick tour has shown how noise impairs clinical judgment. In predictive judgments, human experts are easily outperformed by simple formulas—models of reality, models of a judge, or even randomly generated models. This finding argues in favor of using noise-free methods: rules and algorithms, which are the topic of the next chapter.</div>
+<div class="s84">Speaking of Judgments and Models</div>
+<div class="s86">
+<span class="class-2">“People believe they capture complexity and add subtlety when they make judgments. But the complexity and the subtlety are mostly wasted—usually they do not add to the accuracy of simple models.”</span>
+</div>
+<div class="s88">
+<span class="class-2">“More than sixty years after the publication of Paul Meehl’s book, the idea that mechanical prediction is superior to people is still shocking.”</span>
+</div>
+<div class="s8A">
+<span class="class-2">“There is so much noise in judgment that a noise-free model of a judge achieves more accurate predictions than the actual judge does.”</span>
+</div>
+</body>
+</html>
